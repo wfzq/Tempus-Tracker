@@ -14,7 +14,7 @@
     margin-bottom: 10px;
 }
 
-.difficulty-slider {
+.difficulty-slider, .bonus-slider {
     display: flex;
     justify-content: space-between;
 }

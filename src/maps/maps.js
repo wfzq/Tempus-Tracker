@@ -41,6 +41,11 @@ function loadAllMaps() {
             }
             else authorsList[author.name] = 1;
         });
+        // Get most bonuses
+        let mapBonuses = map.zone_counts.bonus;
+        if (mapBonuses != undefined) {
+            mostBonuses = mapBonuses > mostBonuses ? mapBonuses : mostBonuses; 
+        }
         addMapElement(map);
     });
 }

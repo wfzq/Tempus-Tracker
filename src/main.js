@@ -1,5 +1,6 @@
 var detailedMapsList = {};
 var authorsList = {};
+var mostBonuses = 0;
 // Elements
 const searchInput = document.getElementById('search-input');
 const searchResults = document.getElementById('search-results');
@@ -16,6 +17,7 @@ function filterMaps() {
     const dSlider = document.getElementById('toggle-d-slider');
 
     filteredMapsList = filteredMapsList.filter(map => {
+        // Filter by difficulty
         let isSInRange = undefined;
         if (sSlider.classList.contains('button-on')) {
             const sDifficulty = map.tier_info['3'];
@@ -33,6 +35,18 @@ function filterMaps() {
             return isSInRange;
         }
         else return isDInRange;
+    });
+
+    // Filter by Bonus-count
+    const minB = parseInt(document.querySelector('.min-range-b').value);
+    const maxB = parseInt(document.querySelector('.max-range-b').value);
+    const bSlider = document.getElementById('toggle-b-slider');
+    filteredMapsList = filteredMapsList.filter(map => {
+        const mapBonuses = map.zone_counts.bonus === undefined ? 0 : map.zone_counts.bonus;
+        if (bSlider.classList.contains('button-on')){
+            return mapBonuses >= minB && mapBonuses <= maxB;
+        } 
+        else return true;
     });
 
     // Filter by linearity
@@ -66,6 +80,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     detailedMapsList = await API_detailedMapsList();
     loadAllMaps();
     sortByAuthor_populate(authorsList);
+    sortByBonus_populate(mostBonuses);
 });
 
 // Seach Box Input
