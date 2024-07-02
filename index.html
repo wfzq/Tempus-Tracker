@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="src/main.css">
+    <link rel="stylesheet" type="text/css" href="src/filter/filter.css">
+    <link rel="stylesheet" type="text/css" href="src/maps/maps.css">
+    <link rel="stylesheet" type="text/css" href="src/search/search.css">
+    <link rel="stylesheet" type="text/css" href="src/main.css">
+    <script defer src="src/API/detailedMapsList.js"></script>
+    <script defer src="src/API/tempus-api.js"></script>
+    <script defer src="src/filter/filter.js"></script>
+    <script defer src="src/maps/maps.js"></script>
+    <script defer src="src/search/search.js"></script>
+    <script defer src="src/main.js"></script>
+
+    <title>Tempus Tracker</title>
+</head>
+
+<body>
+    <main>
+        <div id="search-container">
+            <input placeholder="Enter Username..." type="text" id="search-input">
+            <ul id="search-results"></ul>
+        </div>
+
+        <div id="filters-container">
+            <div id="filtery-by">
+                <h3>Filter :</h3>
+                <!--S/D Buttons and Sliders-->
+                <div class="difficulty-slider">
+                    <button id="toggle-s-slider" class="button-on" onclick="toggle_difficultySlider(this)">S</button>
+                    <div class="range-input">
+                        <input type="range" class="min-range-s" min="0" max="6" value="0" step="1"
+                            onchange="filterMaps()">
+                        <input type="range" class="max-range-s" min="0" max="6" value="6" step="1"
+                            onchange="filterMaps()">
+                    </div>
+                </div>
+
+                <div class="difficulty-slider">
+                    <button id="toggle-d-slider" class="button-on" onclick="toggle_difficultySlider(this)">D</button>
+                    <div class="range-input">
+                        <input type="range" class="min-range-d" min="0" max="6" value="0" step="1"
+                            onchange="filterMaps()">
+                        <input type="range" class="max-range-d" min="0" max="6" value="10" step="1"
+                            onchange="filterMaps()">
+                    </div>
+                </div>
+
+                <!--Course/Linear-->
+                <div id="map-type-toggle">
+                    <button id="toggle-linear" class="button-on" onclick="toggleMapFilter(this)">Linear</button>
+                    <button id="toggle-course" class="button-on" onclick="toggleMapFilter(this)">Course</button>
+                </div>
+
+                <!--Filter by Author-->
+                <label for="author-select">Filter by Author:</label>
+                <select id="author-select" onchange="filterMaps()">
+                    <option value="__all__">All</option>
+                </select>
+            </div>
+            <div id="sort-by">
+                <h3>Sort :</h3>
+            </div>
+        </div>
+
+        <div id="maps-container"></div>
+    </main>
+</body>
+
+</html>

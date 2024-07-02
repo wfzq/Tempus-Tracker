@@ -1,0 +1,32 @@
+#filters-container {
+    position: fixed;
+    margin-left: 5px;
+    top: 50px;
+    left: 0;
+    width: 15%;
+    height: 85%;
+    background-color: #ffcccc;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#filters-container > div, button, label{
+    margin-bottom: 10px;
+}
+
+.difficulty-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-on {
+    background-color: rgb(200, 255, 200);
+    cursor: pointer;
+    border: none;
+}
+
+.button-off {
+    background-color: lightcoral;
+    border: none;
+    cursor: pointer;
+}
