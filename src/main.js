@@ -1,12 +1,26 @@
 var detailedMapsList = {};
+var filteredMapsList = {};
 var authorsList = {};
 var mostBonuses = 0;
 // Elements
 const searchInput = document.getElementById('search-input');
 const searchResults = document.getElementById('search-results');
 
+function sortMaps() {
+    const selectedFilter = document.getElementById('sort-select').value;
+    const key = 'id';
+    return filteredMapsList.sort((a, b) => {
+        if (selectedFilter === 'oldest') {
+            return a[key] - b[key];
+        } else if (selectedFilter === 'newest') {
+            return b[key] - a[key];
+        }
+        else return;
+    });
+}
+
 function filterMaps() {
-    let filteredMapsList = detailedMapsList;
+    filteredMapsList = detailedMapsList;
 
     // Filter by difficulty
     const minS = parseInt(document.querySelector('.min-range-s').value);
@@ -43,9 +57,9 @@ function filterMaps() {
     const bSlider = document.getElementById('toggle-b-slider');
     filteredMapsList = filteredMapsList.filter(map => {
         const mapBonuses = map.zone_counts.bonus === undefined ? 0 : map.zone_counts.bonus;
-        if (bSlider.classList.contains('button-on')){
+        if (bSlider.classList.contains('button-on')) {
             return mapBonuses >= minB && mapBonuses <= maxB;
-        } 
+        }
         else return true;
     });
 
@@ -71,7 +85,7 @@ function filterMaps() {
             return map.authors.some(author => author.name === selectedAuthor);
         });
     }
-
+    sortMaps();
     loadMapsList(filteredMapsList);
 }
 

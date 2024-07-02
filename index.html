@@ -70,6 +70,13 @@
             </div>
             <div id="sort-by">
                 <h3>Sort :</h3>
+                <!--Sort by Date-->
+                <label for="sort-select">Sort by:</label>
+                <select id="sort-select" onchange="filterMaps()">
+                    <option value="name">Name</option>
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                </select>
             </div>
         </div>
 
