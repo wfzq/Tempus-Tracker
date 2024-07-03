@@ -13,10 +13,12 @@ function addMapElement(mapInfo) {
     mapTier.textContent = `${mapInfo.tier_info['3']} / ${mapInfo.tier_info['4']}`;
     mapHeader.appendChild(mapTier);
 
-    var mapName = document.createElement("p");
-    mapName.className = `map-name`;
-    mapName.textContent = mapInfo.name;
-    mapHeader.appendChild(mapName);
+    var mapLink = document.createElement("a");
+    mapLink.className = 'map-name';
+    mapLink.textContent = mapInfo.name;
+    mapLink.href = `https://tempus2.xyz/maps/${mapInfo.name}`;
+    mapLink.target = "_blank";
+    mapHeader.appendChild(mapLink);
 
     var mapBonusContainer = document.createElement("div");
     mapBonusContainer.className = `map-bonus-header`;
@@ -44,7 +46,7 @@ function loadAllMaps() {
         // Get most bonuses
         let mapBonuses = map.zone_counts.bonus;
         if (mapBonuses != undefined) {
-            mostBonuses = mapBonuses > mostBonuses ? mapBonuses : mostBonuses; 
+            mostBonuses = mapBonuses > mostBonuses ? mapBonuses : mostBonuses;
         }
         addMapElement(map);
     });
