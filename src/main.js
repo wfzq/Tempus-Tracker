@@ -23,10 +23,10 @@ function filterMaps() {
     filteredMapsList = detailedMapsList;
 
     // Filter by difficulty
-    const minS = parseInt(document.querySelector('.min-range-s').value);
-    const maxS = parseInt(document.querySelector('.max-range-s').value);
-    const minD = parseInt(document.querySelector('.min-range-d').value);
-    const maxD = parseInt(document.querySelector('.max-range-d').value);
+    const minS = document.getElementById('min-range-s').value;
+    const maxS = document.getElementById('max-range-s').value;
+    const minD = document.getElementById('min-range-d').value;
+    const maxD = document.getElementById('max-range-d').value;
     const sSlider = document.getElementById('toggle-s-slider');
     const dSlider = document.getElementById('toggle-d-slider');
 
@@ -52,8 +52,8 @@ function filterMaps() {
     });
 
     // Filter by Bonus-count
-    const minB = parseInt(document.querySelector('.min-range-b').value);
-    const maxB = parseInt(document.querySelector('.max-range-b').value);
+    const minB = document.getElementById('min-range-b').value;
+    const maxB = document.getElementById('max-range-b').value;
     const bSlider = document.getElementById('toggle-b-slider');
     filteredMapsList = filteredMapsList.filter(map => {
         const mapBonuses = map.zone_counts.bonus === undefined ? 0 : map.zone_counts.bonus;

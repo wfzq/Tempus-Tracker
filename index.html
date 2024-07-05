@@ -20,67 +20,74 @@
 
 <body>
     <main>
-        <div id="search-container">
-            <input placeholder="Enter Username..." type="text" id="search-input">
+        <!-- <div id="search-container">
+            <input placeholder="Search..." type="text" id="search-input">
             <ul id="search-results"></ul>
-        </div>
+        </div> -->
+        <div id="main-container">
+            <div id="filters-container">
+                <div id="filtery-by">
+                    <h3>Filter :</h3>
+                    <div id="range-sliders">
+                        <div class="range-slider" id="range-slider-s">
+                            <button class="toggle-slider button-on" id="toggle-s-slider"
+                                onclick="toggle_difficultySlider(this)">S</button>
+                            <div class="range-input" id="range-input-s">
+                                <input type="range" class="min-range" id="min-range-s" min="0" max="6" value="0"
+                                    step="1" onchange="range_input(this)">
+                                <input type="range" class="max-range" id="max-range-s" min="0" max="6" value="6"
+                                    step="1" onchange="range_input(this)">
+                            </div>
+                        </div>
+                        <div class="range-slider" id="range-slider-d">
+                            <button class="toggle-slider button-on" id="toggle-d-slider"
+                                onclick="toggle_difficultySlider(this)">D</button>
+                            <div class="range-input" id="range-input-d">
+                                <input type="range" class="min-range" id="min-range-d" min="0" max="6" value="0"
+                                    step="1" onchange="range_input(this)">
+                                <input type="range" class="max-range" id="max-range-d" min="0" max="6" value="6"
+                                    step="1" onchange="range_input(this)">
+                            </div>
+                        </div>
 
-        <div id="filters-container">
-            <div id="filtery-by">
-                <h3>Filter :</h3>
-                <!--S/D Buttons and Sliders-->
-                <div class="difficulty-slider">
-                    <button id="toggle-s-slider" class="button-on" onclick="toggle_difficultySlider(this)">S</button>
-                    <div class="range-input">
-                        <input type="range" class="min-range-s" min="0" max="6" value="0" step="1"
-                            onchange="filterMaps()">
-                        <input type="range" class="max-range-s" min="0" max="6" value="6" step="1"
-                            onchange="filterMaps()">
+                        <!--Bonus slider-->
+                        <div class="range-slider" id="range-slider-b">
+                            <button class="toggle-slider button-on" id="toggle-b-slider"
+                                onclick="button_toggleAndFilter(this)">B</button>
+                            <div class="range-input" id="bonus-range">
+                                <!--Populate at runtime-->
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="difficulty-slider">
-                    <button id="toggle-d-slider" class="button-on" onclick="toggle_difficultySlider(this)">D</button>
-                    <div class="range-input">
-                        <input type="range" class="min-range-d" min="0" max="6" value="0" step="1"
-                            onchange="filterMaps()">
-                        <input type="range" class="max-range-d" min="0" max="6" value="10" step="1"
-                            onchange="filterMaps()">
+                    <!--Course/Linear-->
+                    <div id="map-type-toggle">
+                        <button id="toggle-linear" class="button-on" onclick="toggleMapFilter(this)">Linear</button>
+                        <button id="toggle-course" class="button-on" onclick="toggleMapFilter(this)">Course</button>
                     </div>
-                </div>
-                
-                <!--Bonus button and Slider-->
-                <div class="bonus-slider">
-                    <button id="toggle-b-slider" class="button-on" onclick="button_toggleAndFilter(this)">B</button>
-                    <div class="range-input" id="bonus-range">
-                    </div>
-                </div>
 
-                <!--Course/Linear-->
-                <div id="map-type-toggle">
-                    <button id="toggle-linear" class="button-on" onclick="toggleMapFilter(this)">Linear</button>
-                    <button id="toggle-course" class="button-on" onclick="toggleMapFilter(this)">Course</button>
+                    <!--Filter by Author-->
+                    <label for="author-select">Filter by Author:</label>
+                    <select id="author-select" onchange="filterMaps()">
+                        <option value="__all__">All</option>
+                    </select>
                 </div>
-
-                <!--Filter by Author-->
-                <label for="author-select">Filter by Author:</label>
-                <select id="author-select" onchange="filterMaps()">
-                    <option value="__all__">All</option>
-                </select>
+                <div id="sort-by">
+                    <h3>Sort :</h3>
+                    <!--Sort by Date-->
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select" onchange="filterMaps()">
+                        <option value="name">Name</option>
+                        <option value="newest">Newest First</option>
+                        <option value="oldest">Oldest First</option>
+                    </select>
+                </div>
             </div>
-            <div id="sort-by">
-                <h3>Sort :</h3>
-                <!--Sort by Date-->
-                <label for="sort-select">Sort by:</label>
-                <select id="sort-select" onchange="filterMaps()">
-                    <option value="name">Name</option>
-                    <option value="newest">Newest First</option>
-                    <option value="oldest">Oldest First</option>
-                </select>
+
+            <div id="maps-container">
+                <!--Populate at runtime-->
             </div>
         </div>
-
-        <div id="maps-container"></div>
     </main>
 </body>
 

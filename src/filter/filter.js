@@ -10,25 +10,31 @@ function sortByAuthor_populate(authors) {
 
 function sortByBonus_populate(mostBonuses) {
 	const sliderContainer = document.getElementById('bonus-range');
-	
+
 	const minRange = document.createElement('input');
-    minRange.type = 'range';
-    minRange.classList.add('min-range-b');
-    minRange.min = 0;
-    minRange.max = mostBonuses;
-    minRange.value = 0;
-    minRange.step = 1;
-    minRange.onchange = filterMaps;
+	minRange.type = 'range';
+	minRange.id = 'min-range-b'
+	minRange.classList.add('min-range');
+	minRange.min = 0;
+	minRange.max = mostBonuses;
+	minRange.value = 0;
+	minRange.step = 1;
+	minRange.onchange = function () {
+		range_input(this);
+	}
 	sliderContainer.appendChild(minRange);
 
 	const maxRange = document.createElement('input');
-    maxRange.type = 'range';
-    maxRange.classList.add('max-range-b');
-    maxRange.min = 0;
-    maxRange.max = mostBonuses;
-    maxRange.value = mostBonuses;
-    maxRange.step = 1;
-    maxRange.onchange = filterMaps;
+	maxRange.type = 'range';
+	maxRange.id = 'max-range-b'
+	maxRange.classList.add('max-range');
+	maxRange.min = 0;
+	maxRange.max = mostBonuses;
+	maxRange.value = mostBonuses;
+	maxRange.step = 1;
+	maxRange.onchange = function () {
+		range_input(this);
+	};
 	sliderContainer.appendChild(maxRange);
 }
 
@@ -67,5 +73,22 @@ function toggle_difficultySlider(button) {
 	const dSlider = document.getElementById('toggle-d-slider');
 	const otherButton = button == sSlider ? dSlider : sSlider;
 	button_clikedIsActive(button, otherButton);
+	filterMaps();
+}
+
+function range_input(slider) {
+	const rangeSlider = slider.closest('.range-input');
+	const minRange = rangeSlider.querySelector('.min-range');
+	const maxRange = rangeSlider.querySelector('.max-range');
+	const minValue = parseInt(minRange.value);
+	const maxValue = parseInt(maxRange.value);
+
+	if (minValue > maxValue) {
+		if (slider.classList.contains('min-range')) {
+			minRange.value = maxValue;
+		} else {
+			maxRange.value = minValue;
+		}
+	}
 	filterMaps();
 }
