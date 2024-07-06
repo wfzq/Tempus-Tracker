@@ -26,7 +26,7 @@
         </div> -->
         <div id="main-container">
             <div id="filters-container">
-                <div id="filtery-by">
+                <div id="filter-by">
                     <h3>Filter :</h3>
                     <div id="range-sliders">
                         <div class="range-slider" id="range-slider-s">
@@ -67,10 +67,12 @@
                     </div>
 
                     <!--Filter by Author-->
-                    <label for="author-select">Filter by Author:</label>
-                    <select id="author-select" onchange="filterMaps()">
-                        <option value="__all__">All</option>
-                    </select>
+                    <div id="filter-by-container">
+                        <label for="author-select">Filter by Author:</label>
+                        <select id="author-select" onchange="filterMaps()">
+                            <option value="__all__">All</option>
+                        </select>
+                    </div>
                 </div>
                 <div id="sort-by">
                     <h3>Sort :</h3>

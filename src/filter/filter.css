@@ -1,3 +1,13 @@
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+
 #filters-container {
     position: sticky;
     top: 0;
@@ -5,6 +15,7 @@
     background-color: rgb(201, 201, 201);
     padding: 10px;
     height: calc(100vh - 40px);
+    border: 1px solid grey;
 }
 
 .range-slider {
@@ -19,6 +30,7 @@
     width: 15px;
     height: 20px;
     margin-right: 5px;
+    border: 1px solid grey !important;
 }
 
 .range-input {
@@ -30,16 +42,16 @@
 }
 
 .range-input input {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: none;
-  pointer-events: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -65,4 +77,20 @@ input[type="range"]::-moz-range-thumb {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+#map-type-toggle {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    margin: 10px 4px 10px 4px;
+}
+
+#map-type-toggle>* {
+    border:1px solid grey;
+    flex-grow: 1
+}
+
+#filter-by-container {
+    margin: 10px 10px 10px 4px;
 }
