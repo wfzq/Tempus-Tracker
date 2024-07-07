@@ -60,6 +60,14 @@ function button_clikedIsActive(b_clicked, b2) {
 	else button_toggle(b_clicked);
 }
 
+function toggle_intended(button) {
+	/* const s = document.getElementById('toggle-soldier');
+	const d = document.getElementById('toggle-demoman');
+	const otherButton = button == s ? d : s; */
+	button_toggle(button);
+	filterMaps();
+}
+
 function toggleMapFilter(button) {
 	const linearButton = document.getElementById('toggle-linear');
 	const courseButton = document.getElementById('toggle-course');
@@ -69,11 +77,17 @@ function toggleMapFilter(button) {
 }
 
 function toggle_difficultySlider(button) {
-	const sSlider = document.getElementById('toggle-s-slider');
+	/* const sSlider = document.getElementById('toggle-s-slider');
 	const dSlider = document.getElementById('toggle-d-slider');
 	const otherButton = button == sSlider ? dSlider : sSlider;
-	button_clikedIsActive(button, otherButton);
+	button_clikedIsActive(button, otherButton); */
+	button_toggle(button);
 	filterMaps();
+}
+
+function display_results(mapsCount) {
+	const mapCount = document.getElementById('map-count');
+    mapCount.textContent = `Filtered Maps: ${Object.keys(mapsCount).length}`;
 }
 
 function range_input(slider) {

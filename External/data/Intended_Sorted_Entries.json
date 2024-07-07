@@ -277,7 +277,7 @@
   },
   {
     "name": "jump_autumn_rc3",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_avalanche",
@@ -309,7 +309,7 @@
   },
   {
     "name": "jump_b00n",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_babylon",
@@ -321,7 +321,7 @@
   },
   {
     "name": "jump_bait_a6",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_ballin_a3",
@@ -817,7 +817,7 @@
   },
   {
     "name": "jump_duality_tpn",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_duey_v2",
@@ -857,7 +857,7 @@
   },
   {
     "name": "jump_elite",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_elysium_fn",
@@ -913,7 +913,7 @@
   },
   {
     "name": "jump_excavation_final",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_exile_v3",
@@ -993,7 +993,7 @@
   },
   {
     "name": "jump_flood",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_flow_redo",
@@ -1241,7 +1241,7 @@
   },
   {
     "name": "jump_ideation_b5",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_if_rc2",
@@ -1249,7 +1249,7 @@
   },
   {
     "name": "jump_illuminum_tmps",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_illusion_final",
@@ -1781,7 +1781,7 @@
   },
   {
     "name": "jump_ohjeez_v2",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_omega",
@@ -2169,7 +2169,7 @@
   },
   {
     "name": "jump_rush",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_rush_h",
@@ -2437,7 +2437,7 @@
   },
   {
     "name": "jump_starwars_rc2",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_steak_a2",
@@ -2525,7 +2525,7 @@
   },
   {
     "name": "jump_swizzle_rc5",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_sylvan",
@@ -2541,7 +2541,7 @@
   },
   {
     "name": "jump_synth_a2",
-    "intended_class": "4"
+    "intended_class": "5"
   },
   {
     "name": "jump_tapdance_fix3",

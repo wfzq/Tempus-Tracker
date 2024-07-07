@@ -1,5 +1,5 @@
 h3 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
@@ -79,18 +79,26 @@ input[type="range"]::-moz-range-thumb {
     right: 0;
 }
 
-#map-type-toggle {
+#map-type-toggle, #map-intended-toggle {
     display: flex;
     align-items: center;
     gap: 1px;
     margin: 10px 4px 10px 4px;
 }
 
-#map-type-toggle>* {
-    border:1px solid grey;
-    flex-grow: 1
+#map-type-toggle>* , #map-intended-toggle>* {
+    border: 1px solid grey;
+    flex-grow: 1;
+    flex: 1;
 }
 
 #filter-by-container {
     margin: 10px 10px 10px 4px;
+}
+
+#map-count {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight:bolder;
+    text-align: center;   
 }

@@ -1,4 +1,4 @@
-var offline_detailedMapsList_merged = [
+const offline_detailedMapsList_merged = [
   {
     "name": "conc_concept",
     "intended_class": "4",
@@ -932,10 +932,6 @@ var offline_detailedMapsList_merged = [
       "soldier": null,
       "demoman": "8ilv4_I_JAc"
     }
-  },
-  {
-    "name": "jump_allstars",
-    "intended_class": "3"
   },
   {
     "name": "jump_allstars_fix",
@@ -2028,7 +2024,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_autumn_rc3",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 496,
     "zone_counts": {
       "checkpoint": 4,
@@ -2262,7 +2258,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_b00n",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 764,
     "zone_counts": {
       "checkpoint": 5,
@@ -2347,7 +2343,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_bait_a6",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 642,
     "zone_counts": {
       "checkpoint": 3,
@@ -6479,7 +6475,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_duality_tpn",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 403,
     "zone_counts": {
       "checkpoint": 3,
@@ -6750,7 +6746,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_elite",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 456,
     "zone_counts": {
       "checkpoint": 14,
@@ -7160,7 +7156,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_excavation_final",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 54,
     "zone_counts": {
       "bonus_end": 1,
@@ -7738,7 +7734,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_flood",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 658,
     "zone_counts": {
       "checkpoint": 3,
@@ -8584,10 +8580,6 @@ var offline_detailedMapsList_merged = [
       "soldier": "jhC95pS-1WE",
       "demoman": "Y-ll0XaGPwk"
     }
-  },
-  {
-    "name": "jump_gman_beta_4",
-    "intended_class": "4"
   },
   {
     "name": "jump_gr8_wite_final",
@@ -9512,7 +9504,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_ideation_b5",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 722,
     "zone_counts": {
       "checkpoint": 3,
@@ -9566,7 +9558,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_illuminum_tmps",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 717,
     "zone_counts": {
       "checkpoint": 4,
@@ -13488,7 +13480,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_ohjeez_v2",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 657,
     "zone_counts": {
       "checkpoint": 7,
@@ -14782,10 +14774,6 @@ var offline_detailedMapsList_merged = [
       "soldier": "dOOYBT-Csqo",
       "demoman": null
     }
-  },
-  {
-    "name": "jump_prostate_b3",
-    "intended_class": "4"
   },
   {
     "name": "jump_prostate_b4",
@@ -16246,7 +16234,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_rush",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 125,
     "zone_counts": {
       "checkpoint": 4,
@@ -18206,7 +18194,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_starwars_rc2",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 673,
     "zone_counts": {
       "checkpoint": 4,
@@ -18848,7 +18836,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_swizzle_rc5",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 635,
     "zone_counts": {
       "checkpoint": 3,
@@ -18965,7 +18953,7 @@ var offline_detailedMapsList_merged = [
   },
   {
     "name": "jump_synth_a2",
-    "intended_class": "4",
+    "intended_class": "5",
     "id": 143,
     "zone_counts": {
       "checkpoint": 3,
@@ -19770,10 +19758,6 @@ var offline_detailedMapsList_merged = [
       "soldier": "nJruYdvtupE",
       "demoman": null
     }
-  },
-  {
-    "name": "jump_treasure",
-    "intended_class": "4"
   },
   {
     "name": "jump_treasure_fix",

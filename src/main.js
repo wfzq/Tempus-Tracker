@@ -32,23 +32,18 @@ function filterMaps() {
 
     filteredMapsList = filteredMapsList.filter(map => {
         // Filter by difficulty
-        let isSInRange = undefined;
+        let isSInRange = true;
         if (sSlider.classList.contains('button-on')) {
             const sDifficulty = map.tier_info['3'];
             isSInRange = sDifficulty >= minS && sDifficulty <= maxS;
         }
-        let isDInRange = undefined;
+        let isDInRange = true;
         if (dSlider.classList.contains('button-on')) {
             const dDifficulty = map.tier_info['4'];
             isDInRange = dDifficulty >= minD && dDifficulty <= maxD;
         }
-        if (isSInRange && isDInRange !== undefined) {
-            return isSInRange && isDInRange;
-        }
-        else if (isSInRange !== undefined) {
-            return isSInRange;
-        }
-        else return isDInRange;
+
+        return isSInRange && isDInRange;
     });
 
     // Filter by Bonus-count
@@ -78,6 +73,21 @@ function filterMaps() {
         }
     });
 
+    // Filter by intended class
+    const s = document.getElementById('toggle-soldier').classList.contains('button-on');
+    const d = document.getElementById('toggle-demoman').classList.contains('button-on');
+    filteredMapsList = filteredMapsList.filter(map => {
+        if (s && d) {
+            return true;
+        } else if (s && !d) {
+            return map.intended_class == '3';
+        } else if (!s && d) {
+            return map.intended_class == '4';
+        } else {
+            return map.intended_class == '5';
+        }
+    });
+
     // Filter by author
     const selectedAuthor = document.getElementById('author-select').value;
     if (selectedAuthor != '__all__') {
@@ -85,14 +95,18 @@ function filterMaps() {
             return map.authors.some(author => author.name === selectedAuthor);
         });
     }
+    display_results(filteredMapsList);
     sortMaps();
     loadMapsList(filteredMapsList);
+    
 }
 
 // DOM Loaded
 document.addEventListener('DOMContentLoaded', async function () {
-    detailedMapsList = await API_detailedMapsList();
+    /* detailedMapsList = await API_detailedMapsList(); */
+    detailedMapsList = offline_detailedMapsList_merged;
     loadAllMaps();
+    display_results(detailedMapsList);
     sortByAuthor_populate(authorsList);
     sortByBonus_populate(mostBonuses);
 });
