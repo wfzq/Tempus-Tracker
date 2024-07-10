@@ -1,20 +1,22 @@
 #maps-container {
     flex: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns:  repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows:     repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
 }
 
 .map-list-item {
     position: relative;
-    height: 200px;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    align-items: top;
     text-align: center;
     background-color: gray;
 }
 
 .map-header {
-    position: absolute;
     height: 20%;
     width: 100%;
     display: flex;
@@ -36,6 +38,12 @@
 
 .map-rank {
     margin: 0;
+}
+
+.map-completions {
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: left;
 }
 
 .map-bonus-header {

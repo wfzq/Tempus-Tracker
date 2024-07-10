@@ -1,9 +1,11 @@
 function addMapElement(mapInfo) {
+    // Element
     var mapElement = document.createElement("div");
     mapElement.className = `map-list-item`;
     mapElement.id = mapInfo.name;
     document.getElementById("maps-container").appendChild(mapElement);
-
+    
+    // Header
     var mapHeader = document.createElement("div");
     mapHeader.className = `map-header`;
     mapElement.appendChild(mapHeader);
@@ -20,6 +22,17 @@ function addMapElement(mapInfo) {
     mapLink.target = "_blank";
     mapHeader.appendChild(mapLink);
 
+    // Main
+    var mapMain = document.createElement("div");
+    mapMain.className = 'map-main';
+    mapElement.appendChild(mapMain);
+
+    var mapCompletions = document.createElement('p');
+    mapCompletions.className = 'map-completions';
+    mapCompletions.textContent = `${mapInfo.completion_info['soldier']} / ${mapInfo.completion_info['demoman']}`;
+    mapMain.appendChild(mapCompletions);
+
+    // Bonuses/Footer
     var mapBonusContainer = document.createElement("div");
     mapBonusContainer.className = `map-bonus-header`;
     if (mapInfo.zone_counts.bonus !== undefined) {
@@ -34,7 +47,7 @@ function addMapElement(mapInfo) {
 
 function loadAllMaps() {
     document.getElementById("maps-container").innerHTML = '';
-
+    
     detailedMapsList.forEach(map => {
         // Add authors
         map.authors.forEach(author => {
@@ -52,7 +65,7 @@ function loadAllMaps() {
     });
 }
 
-function loadMapsList(mapsList) {
+function loadMapsFromList(mapsList) {
     document.getElementById("maps-container").innerHTML = '';
     mapsList.forEach(element => {
         addMapElement(element);

@@ -1,4 +1,4 @@
-function sortByAuthor_populate(authors) {
+function populate_sortByAuthor(authors) {
 	const select = document.getElementById('author-select');
 	for (const author in authors) {
 		const option = document.createElement('option');
@@ -8,7 +8,7 @@ function sortByAuthor_populate(authors) {
 	}
 }
 
-function sortByBonus_populate(mostBonuses) {
+function populate_sortByBonus(mostBonuses) {
 	const sliderContainer = document.getElementById('bonus-range');
 
 	const minRange = document.createElement('input');
@@ -53,43 +53,6 @@ function button_toggleAndFilter(button) {
 	filterMaps();
 }
 
-function button_clikedIsActive(b_clicked, b2) {
-	if (b_clicked.classList.contains('button-on')) {
-		button_toggle(b2);
-	}
-	else button_toggle(b_clicked);
-}
-
-function toggle_intended(button) {
-	/* const s = document.getElementById('toggle-soldier');
-	const d = document.getElementById('toggle-demoman');
-	const otherButton = button == s ? d : s; */
-	button_toggle(button);
-	filterMaps();
-}
-
-function toggleMapFilter(button) {
-	const linearButton = document.getElementById('toggle-linear');
-	const courseButton = document.getElementById('toggle-course');
-	const otherButton = button == linearButton ? courseButton : linearButton;
-	button_clikedIsActive(button, otherButton);
-	filterMaps();
-}
-
-function toggle_difficultySlider(button) {
-	/* const sSlider = document.getElementById('toggle-s-slider');
-	const dSlider = document.getElementById('toggle-d-slider');
-	const otherButton = button == sSlider ? dSlider : sSlider;
-	button_clikedIsActive(button, otherButton); */
-	button_toggle(button);
-	filterMaps();
-}
-
-function display_results(mapsCount) {
-	const mapCount = document.getElementById('map-count');
-    mapCount.textContent = `Filtered Maps: ${Object.keys(mapsCount).length}`;
-}
-
 function range_input(slider) {
 	const rangeSlider = slider.closest('.range-input');
 	const minRange = rangeSlider.querySelector('.min-range');
@@ -106,3 +69,23 @@ function range_input(slider) {
 	}
 	filterMaps();
 }
+
+function display_results(mapsCount) {
+	const mapCount = document.getElementById('map-count');
+    mapCount.textContent = `Filtered Maps: ${Object.keys(mapsCount).length}`;
+}
+
+/* function button_clikedIsActive(b_clicked, b2) {
+	if (b_clicked.classList.contains('button-on')) {
+		button_toggle(b2);
+	}
+	else button_toggle(b_clicked);
+}
+
+function toggle_MapFilter(button) {
+	const linearButton = document.getElementById('toggle-linear');
+	const courseButton = document.getElementById('toggle-course');
+	const otherButton = button == linearButton ? courseButton : linearButton;
+	button_clikedIsActive(button, otherButton);
+	filterMaps();
+} */

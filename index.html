@@ -8,8 +8,9 @@
     <link rel="stylesheet" type="text/css" href="src/maps/maps.css">
     <link rel="stylesheet" type="text/css" href="src/search/search.css">
     <link rel="stylesheet" type="text/css" href="src/main.css">
-    <script defer src="src/API/detailedMapsList_merged.js"></script>
+    <script defer src="src/data/detailedMapsList_merged.js"></script>
     <script defer src="src/API/tempus-api.js"></script>
+    <script defer src="src/filter/filter_logic.js"></script>
     <script defer src="src/filter/filter.js"></script>
     <script defer src="src/maps/maps.js"></script>
     <script defer src="src/search/search.js"></script>
@@ -20,10 +21,6 @@
 
 <body>
     <main>
-        <!-- <div id="search-container">
-            <input placeholder="Search..." type="text" id="search-input">
-            <ul id="search-results"></ul>
-        </div> -->
         <div id="main-container">
             <div id="filters-container">
                 <div id="filter-by">
@@ -31,7 +28,7 @@
                     <div id="range-sliders">
                         <div class="range-slider" id="range-slider-s">
                             <button class="toggle-slider button-on" id="toggle-s-slider"
-                                onclick="toggle_difficultySlider(this)">S</button>
+                                onclick="button_toggleAndFilter(this)">S</button>
                             <div class="range-input" id="range-input-s">
                                 <input type="range" class="min-range" id="min-range-s" min="0" max="6" value="0"
                                     step="1" onchange="range_input(this)">
@@ -41,7 +38,7 @@
                         </div>
                         <div class="range-slider" id="range-slider-d">
                             <button class="toggle-slider button-on" id="toggle-d-slider"
-                                onclick="toggle_difficultySlider(this)">D</button>
+                                onclick="button_toggleAndFilter(this)">D</button>
                             <div class="range-input" id="range-input-d">
                                 <input type="range" class="min-range" id="min-range-d" min="0" max="6" value="0"
                                     step="1" onchange="range_input(this)">
@@ -62,14 +59,14 @@
 
                     <!--Course/Linear-->
                     <div id="map-type-toggle">
-                        <button id="toggle-linear" class="button-on" onclick="toggleMapFilter(this)">Linear</button>
-                        <button id="toggle-course" class="button-on" onclick="toggleMapFilter(this)">Course</button>
+                        <button id="toggle-linear" class="button-on" onclick="button_toggleAndFilter(this)">Linear</button>
+                        <button id="toggle-course" class="button-on" onclick="button_toggleAndFilter(this)">Course</button>
                     </div>
                     
                     <!--Soldier/Demoman Intended-->
                     <div id="map-intended-toggle">
-                        <button id="toggle-soldier" class="button-on" onclick="toggle_intended(this)">Soldier</button>
-                        <button id="toggle-demoman" class="button-on" onclick="toggle_intended(this)">Demoman</button>
+                        <button id="toggle-soldier" class="button-on" onclick="button_toggleAndFilter(this)">Soldier</button>
+                        <button id="toggle-demoman" class="button-on" onclick="button_toggleAndFilter(this)">Demoman</button>
                     </div>
 
                     <!--Filter by Author-->
@@ -86,8 +83,14 @@
                     <label for="sort-select">Sort by:</label>
                     <select id="sort-select" onchange="filterMaps()">
                         <option value="name">Name</option>
-                        <option value="newest">Newest First</option>
-                        <option value="oldest">Oldest First</option>
+                        <option value="newest">Newest</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="completions_most_s">Soldier Completions (+)</option>
+                        <option value="completions_least_s">Soldier Completions (-)</option>
+                        <option value="completions_most_d">Demoman Completions (+)</option>
+                        <option value="completions_least_d">Demoman Completions (-)</option>
+                        <option value="completions_most_o">Combined Completions (+)</option>
+                        <option value="completions_least_o">Combined Completions (-)</option>
                     </select>
                 </div>
 
