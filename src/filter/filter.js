@@ -38,6 +38,16 @@ function populate_sortByBonus(mostBonuses) {
 	sliderContainer.appendChild(maxRange);
 }
 
+function populate_sortByAuthorCount(authors) {
+	const select = document.getElementById('author-amount-select');
+	for (const amount in authors) {
+		const option = document.createElement('option');
+		option.value = amount;
+		option.textContent = `${amount} (${authors[amount]})`;
+		select.appendChild(option);
+	}
+}
+
 function button_toggle(button) {
 	if (button.classList.contains('button-on')) {
 		button.classList.remove('button-on');

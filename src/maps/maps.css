@@ -1,8 +1,8 @@
 #maps-container {
     flex: 1;
     display: grid;
-    grid-template-columns:  repeat(auto-fill, minmax(400px, 1fr));
-    grid-template-rows:     repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
 }
 
@@ -40,10 +40,31 @@
     margin: 0;
 }
 
-.map-completions {
-    margin-top: 5px;
-    margin-left: 20px;
+.map-main {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: default;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.map-completions {}
+
+.map-authors {
+    font-size: 14px;
+    font-style: italic;
+    height: 20px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.map-authors::-webkit-scrollbar {
+    display: none;
 }
 
 .map-bonus-header {

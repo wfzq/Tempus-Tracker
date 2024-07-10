@@ -71,9 +71,14 @@
 
                     <!--Filter by Author-->
                     <div id="filter-by-container">
+                        <label for="author-amount-select">Authors:</label>
+                        <select id="author-amount-select" onchange="filterMaps()">
+                            <option value="__all__">Any</option>
+                        </select>
+                        
                         <label for="author-select">Filter by Author:</label>
                         <select id="author-select" onchange="filterMaps()">
-                            <option value="__all__">All</option>
+                            <option value="__all__">Any</option>
                         </select>
                     </div>
                 </div>

@@ -112,6 +112,16 @@ function filterBy_intended(mapsList) {
     });
 }
 
+function filterBy_authorCount(mapsList) {
+    const authorCount = document.getElementById('author-amount-select').value;
+    if (authorCount != '__all__') {
+        return mapsList.filter(map => {
+            return map.authors.length == authorCount;
+        });
+    }
+    return mapsList;
+}
+
 function filterBy_author(mapsList) {
     const selectedAuthor = document.getElementById('author-select').value;
     if (selectedAuthor != '__all__') {
@@ -128,6 +138,7 @@ function filterMaps() {
     filteredMapsList = filterBy_bonuses(filteredMapsList);
     filteredMapsList = filterBy_linearCourse(filteredMapsList);
     filteredMapsList = filterBy_intended(filteredMapsList);
+    filteredMapsList = filterBy_authorCount(filteredMapsList);
     filteredMapsList = filterBy_author(filteredMapsList);
 
     const selectedFilter = document.getElementById('sort-select').value;
@@ -147,8 +158,6 @@ function filterMaps() {
         default:
             break;
     }
-    filteredMapsList = sortBy_id(filteredMapsList);
-
 
     display_results(filteredMapsList);
     loadMapsFromList(filteredMapsList);

@@ -4,7 +4,7 @@ function addMapElement(mapInfo) {
     mapElement.className = `map-list-item`;
     mapElement.id = mapInfo.name;
     document.getElementById("maps-container").appendChild(mapElement);
-    
+
     // Header
     var mapHeader = document.createElement("div");
     mapHeader.className = `map-header`;
@@ -32,6 +32,15 @@ function addMapElement(mapInfo) {
     mapCompletions.textContent = `${mapInfo.completion_info['soldier']} / ${mapInfo.completion_info['demoman']}`;
     mapMain.appendChild(mapCompletions);
 
+    var mapAuthors = document.createElement('div');
+    mapAuthors.classList = 'map-authors';
+    let authorsCount = mapInfo.authors.length;
+    if (authorsCount > 4) {
+        mapAuthors.textContent = `${authorsCount} Authors: ${mapInfo.authors.map(author => author.name).join('  •  ')}`;
+    }
+    else mapAuthors.textContent = `${mapInfo.authors.map(author => author.name).join('  •  ')}`;
+    mapMain.appendChild(mapAuthors);
+
     // Bonuses/Footer
     var mapBonusContainer = document.createElement("div");
     mapBonusContainer.className = `map-bonus-header`;
@@ -45,16 +54,57 @@ function addMapElement(mapInfo) {
     mapElement.appendChild(mapBonusContainer);
 }
 
+function setAutoScrollonMaps() {
+    const mapMains = document.querySelectorAll('.map-main');
+
+    mapMains.forEach(mapMain => {
+        mapMain.addEventListener('mouseenter', function () {
+            autoScroll_authors(this);
+        });
+
+        mapMain.addEventListener('mouseleave', function () {
+            stopAutoScroll_authors(this);
+        });
+    });
+}
+
+function autoScroll_authors(mapMain) {
+    const scrollContainer = mapMain.querySelector('.map-authors');
+    let contentWidth = scrollContainer.scrollWidth;
+    let containerWidth = mapMain.clientWidth;
+    let scrollPosition = 0;
+
+    if (contentWidth > containerWidth) {
+        mapMain._scrollInterval = setInterval(() => {
+            scrollPosition += 1;
+            if (scrollPosition > (contentWidth - containerWidth)) {
+                scrollPosition = 0;
+            }
+            scrollContainer.style.transform = `translateX(-${scrollPosition}px)`;
+        }, 30);
+    }
+}
+
+function stopAutoScroll_authors(mapMain) {
+    clearInterval(mapMain._scrollInterval);
+    const scrollContainer = mapMain.querySelector('.map-authors');
+    scrollContainer.style.transform = 'translateX(0)';
+}
+
 function loadAllMaps() {
     document.getElementById("maps-container").innerHTML = '';
-    
+
     detailedMapsList.forEach(map => {
+        // Add map author count
+        if (mapauthorscount[map.authors.length]) {
+            mapauthorscount[map.authors.length]++;
+        } else mapauthorscount[map.authors.length] = 1;
+
         // Add authors
         map.authors.forEach(author => {
             if (authorsList[author.name]) {
                 authorsList[author.name]++;
-            }
-            else authorsList[author.name] = 1;
+            } else authorsList[author.name] = 1;
         });
         // Get most bonuses
         let mapBonuses = map.zone_counts.bonus;
@@ -63,6 +113,7 @@ function loadAllMaps() {
         }
         addMapElement(map);
     });
+    setAutoScrollonMaps();
 }
 
 function loadMapsFromList(mapsList) {
@@ -70,4 +121,5 @@ function loadMapsFromList(mapsList) {
     mapsList.forEach(element => {
         addMapElement(element);
     });
+    setAutoScrollonMaps();
 }

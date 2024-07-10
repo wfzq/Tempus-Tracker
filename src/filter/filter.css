@@ -86,19 +86,25 @@ input[type="range"]::-moz-range-thumb {
     margin: 10px 4px 10px 4px;
 }
 
-#map-type-toggle>* , #map-intended-toggle>* {
+#map-type-toggle>*, #map-intended-toggle>* {
     border: 1px solid grey;
     flex-grow: 1;
     flex: 1;
 }
 
 #filter-by-container {
+    display: flex;
+    flex-direction: column;
     margin: 10px 10px 10px 4px;
+}
+
+#filter-by-container>select {
+    margin-bottom: 10px;
 }
 
 #map-count {
     margin-top: 20px;
     font-size: 24px;
-    font-weight:bolder;
-    text-align: center;   
+    font-weight: bolder;
+    text-align: center;
 }
