@@ -27,7 +27,7 @@ function sortBy_completionInfo(mapsList, selectedFilter) {
                 return 0;
         }
     }
-    
+
     return mapsList.sort((a, b) => {
         const aCompletions = getCompletions(a, selectedFilter);
         const bCompletions = getCompletions(b, selectedFilter);
@@ -132,6 +132,98 @@ function filterBy_author(mapsList) {
     return mapsList;
 }
 
+function filterBy_completions_soldier(mapsList, min, max) {
+    const hasMin = Number.isNaN(min) ? 0 : 1;
+    const hasMax = Number.isNaN(max) ? 0 : 1;
+
+    return mapsList.filter(map => {
+        const sval = map.completion_info.soldier;
+
+        if (hasMin && hasMax) {
+            return (sval >= min && sval <= max);
+        } else if (hasMin && !hasMax) {
+            return sval >= min;
+        } else if (!hasMin && hasMax) {
+            return sval <= max;
+        } else {
+            return true;
+        }
+    });
+}
+function filterBy_completions_demoman(mapsList, min, max) {
+    const hasMin = Number.isNaN(min) ? 0 : 1;
+    const hasMax = Number.isNaN(max) ? 0 : 1;
+
+    return mapsList.filter(map => {
+        const dval = map.completion_info.demoman;
+
+        if (hasMin && hasMax) {
+            return (dval >= min && dval <= max);
+        } else if (hasMin && !hasMax) {
+            return dval >= min;
+        } else if (!hasMin && hasMax) {
+            return dval <= max;
+        } else {
+            return true;
+        }
+    });
+}
+
+function filterBy_completions_both(mapsList, min, max) {
+    const hasMin = Number.isNaN(min) ? 0 : 1;
+    const hasMax = Number.isNaN(max) ? 0 : 1;
+
+    return mapsList.filter(map => {
+        const sval = map.completion_info.soldier;
+        const dval = map.completion_info.demoman;
+
+        if (hasMin && hasMax) {
+            return (sval >= min && sval <= max) && (dval >= min && dval <= max);
+        } else if (hasMin && !hasMax) {
+            return sval >= min && dval >= min;
+        } else if (!hasMin && hasMax) {
+            return sval <= max && dval <= max;
+        } else {
+            return true;
+        }
+    });
+}
+function filterBy_completions_either(mapsList, min, max) {
+    const hasMin = Number.isNaN(min) ? 0 : 1;
+    const hasMax = Number.isNaN(max) ? 0 : 1;
+
+    return mapsList.filter(map => {
+        const sval = map.completion_info.soldier;
+        const dval = map.completion_info.demoman;
+
+        if (hasMin && hasMax) {
+            return (sval >= min && sval <= max) || (dval >= min && dval <= max);
+        } else if (hasMin && !hasMax) {
+            return sval >= min || dval >= min;
+        } else if (!hasMin && hasMax) {
+            return sval <= max || dval <= max;
+        } else {
+            return true;
+        }
+    });
+}
+
+function filterBy_completions(mapsList) {
+    const completionsClass = document.getElementById('completions-class-select').value;
+    const min = parseInt(document.getElementById('min-completions').value);
+    const max = parseInt(document.getElementById('max-completions').value);
+    switch (completionsClass) {
+        case "soldier":
+            return filterBy_completions_soldier(mapsList, min, max);
+        case "demoman":
+            return filterBy_completions_demoman(mapsList, min, max);
+        case "both":
+            return filterBy_completions_both(mapsList, min, max);
+        default:
+            return filterBy_completions_either(mapsList, min, max);
+    }
+}
+
 function filterMaps() {
     filteredMapsList = detailedMapsList;
     filteredMapsList = filterBy_difficulty(filteredMapsList);
@@ -140,6 +232,7 @@ function filterMaps() {
     filteredMapsList = filterBy_intended(filteredMapsList);
     filteredMapsList = filterBy_authorCount(filteredMapsList);
     filteredMapsList = filterBy_author(filteredMapsList);
+    filteredMapsList = filterBy_completions(filteredMapsList);
 
     const selectedFilter = document.getElementById('sort-select').value;
     switch (selectedFilter) {

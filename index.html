@@ -70,7 +70,7 @@
                     </div>
 
                     <!--Filter by Author-->
-                    <div id="filter-by-container">
+                    <div id="filter-by-author">
                         <label for="author-amount-select">Authors:</label>
                         <select id="author-amount-select" onchange="filterMaps()">
                             <option value="__all__">Any</option>
@@ -80,6 +80,23 @@
                         <select id="author-select" onchange="filterMaps()">
                             <option value="__all__">Any</option>
                         </select>
+                    </div>
+                    
+                    <div id="filter-by-completions">
+                        <h3>Filter by Completions:</h3>
+                        <!--Select Class-->
+                        <label for="completions-class-select">Class:</label>
+                        <select id="completions-class-select" onchange="filterMaps()">
+                            <option value="either">Either</option>
+                            <option value="both">Both</option>
+                            <option value="soldier">Soldier</option>
+                            <option value="demoman">Demoman</option>
+                        </select>
+                        <!--Min/Max-->
+                        <div id="minmax">
+                            <input type="number" id="min-completions" min="0" step="250" placeholder="min" onchange="filterMaps()">
+                            <input type="number" id="max-completions" min="0" step="250" placeholder="max" onchange="filterMaps()">
+                        </div>
                     </div>
                 </div>
                 <div id="sort-by">

@@ -92,14 +92,27 @@ input[type="range"]::-moz-range-thumb {
     flex: 1;
 }
 
-#filter-by-container {
+#filter-by-author {
     display: flex;
     flex-direction: column;
     margin: 10px 10px 10px 4px;
 }
 
-#filter-by-container>select {
+#filter-by-author>select {
     margin-bottom: 10px;
+}
+
+#filter-by-completions {}
+
+#minmax {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+input[type="number"] {
+    margin-right: 5px;
+    width: 60px;
 }
 
 #map-count {
