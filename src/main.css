@@ -7,9 +7,9 @@
 #main-container {
     background-color: #282b30;
     display: flex;
-    gap: 10px;
+    gap: 2%;
     padding: 10px;
-    padding-right: 10px;
+    padding-right: 2%;
 }
 
 .hidden {

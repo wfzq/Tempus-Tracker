@@ -1,19 +1,23 @@
 #maps-container {
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(226px, 1fr));
-    row-gap: 4px;
-    column-gap: 4px;
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
 .map-list-item {
-    background-image: url(../data/thumbnails/jump_beef480.jpg);
+    /* background-image: url(../data/thumbnails/jump_beef480.jpg); */
+    background: #00000050;
     background-size: cover;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: top;
     color: white;
+    min-height: 226px;
 }
 
 

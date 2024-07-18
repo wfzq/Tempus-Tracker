@@ -79,6 +79,8 @@ function range_input_update(slider) {
 	const rangeSlider = slider.closest('.slider-container');
 	let r1 = parseInt(rangeSlider.querySelector('.r1').value);
 	let r2 = parseInt(rangeSlider.querySelector('.r2').value);
+	let r1tip = rangeSlider.querySelector("#r1-tip");
+	let r2tip = rangeSlider.querySelector("#r2-tip");
 	const rangeMax = slider.getAttribute('max');
 	const range = rangeSlider.querySelector(".slider-progress");
 
@@ -88,8 +90,14 @@ function range_input_update(slider) {
 		r2 = t;
 	}
 
+	r1tip.textContent = r1;
+	r2tip.textContent = r2;
+
 	range.style.left = (r1 / rangeMax) * 100 + "%";
 	range.style.right = 100 - (r2 / rangeMax) * 100 + "%";
+
+	r1tip.style.left = (r1 / rangeMax) * 93 + "%";
+	r2tip.style.right = 93 - (r2 / rangeMax) * 93 + "%";
 }
 
 function display_results(mapsCount) {
