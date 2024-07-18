@@ -21,9 +21,9 @@ def merge_json(f1, f2, f_out):
     with open(f_out, 'w') as outfile:
         json.dump(merged_data, outfile, indent=2)
 
-# Example usage:
-json_file1 = 'External/data/Intended_Sorted_Entries.json'
-json_file2 = 'src/API/detailedMapsList.json'
-output_file = 'src/API/detailedMapsList_merged.js'
+# DEPRICATED
+json_file1 = ''
+json_file2 = ''
+output_file = ''
 
 merge_json(json_file1, json_file2, output_file)

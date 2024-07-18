@@ -1,39 +1,51 @@
 function populate_sortByAuthor(authors) {
 	const select = document.getElementById('author-select');
-	for (const author in authors) {
+
+	// Sort By Authors with most maps
+	const mapArray = Object.entries(authors);
+	const sortedArray = mapArray.sort((a, b) => b[1] - a[1]);
+	for (const [author, count] of sortedArray) {
+		const option = document.createElement('option');
+		option.value = author;
+		option.textContent = `${author} (${count})`;
+		select.appendChild(option);
+	}
+
+	// Sort by Author Names
+	/* for (const author in sortedArray) {
 		const option = document.createElement('option');
 		option.value = author;
 		option.textContent = `${author} (${authors[author]})`;
 		select.appendChild(option);
-	}
+	} */
 }
 
 function populate_sortByBonus(mostBonuses) {
-	const sliderContainer = document.getElementById('bonus-range');
+	const sliderContainer = document.getElementById('slider-container-b');
 
 	const minRange = document.createElement('input');
 	minRange.type = 'range';
-	minRange.id = 'min-range-b'
-	minRange.classList.add('min-range');
+	minRange.id = 'r1-b'
+	minRange.classList.add('r1');
 	minRange.min = 0;
 	minRange.max = mostBonuses;
 	minRange.value = 0;
 	minRange.step = 1;
-	minRange.onchange = function () {
-		range_input(this);
+	minRange.oncinput = function () {
+		range_input_update(this);
 	}
 	sliderContainer.appendChild(minRange);
 
 	const maxRange = document.createElement('input');
 	maxRange.type = 'range';
-	maxRange.id = 'max-range-b'
-	maxRange.classList.add('max-range');
+	maxRange.id = 'r2-b'
+	maxRange.classList.add('r2');
 	maxRange.min = 0;
 	maxRange.max = mostBonuses;
 	maxRange.value = mostBonuses;
 	maxRange.step = 1;
-	maxRange.onchange = function () {
-		range_input(this);
+	maxRange.oncinput = function () {
+		range_input_update(this);
 	};
 	sliderContainer.appendChild(maxRange);
 }
@@ -63,26 +75,26 @@ function button_toggleAndFilter(button) {
 	filterMaps();
 }
 
-function range_input(slider) {
-	const rangeSlider = slider.closest('.range-input');
-	const minRange = rangeSlider.querySelector('.min-range');
-	const maxRange = rangeSlider.querySelector('.max-range');
-	const minValue = parseInt(minRange.value);
-	const maxValue = parseInt(maxRange.value);
+function range_input_update(slider) {
+	const rangeSlider = slider.closest('.slider-container');
+	let r1 = parseInt(rangeSlider.querySelector('.r1').value);
+	let r2 = parseInt(rangeSlider.querySelector('.r2').value);
+	const rangeMax = slider.getAttribute('max');
+	const range = rangeSlider.querySelector(".slider-progress");
 
-	if (minValue > maxValue) {
-		if (slider.classList.contains('min-range')) {
-			minRange.value = maxValue;
-		} else {
-			maxRange.value = minValue;
-		}
+	if (r1 > r2) {
+		let t = r1;
+		r1 = r2;
+		r2 = t;
 	}
-	filterMaps();
+
+	range.style.left = (r1 / rangeMax) * 100 + "%";
+	range.style.right = 100 - (r2 / rangeMax) * 100 + "%";
 }
 
 function display_results(mapsCount) {
 	const mapCount = document.getElementById('map-count');
-    mapCount.textContent = `Filtered Maps: ${Object.keys(mapsCount).length}`;
+	mapCount.textContent = `${Object.keys(mapsCount).length}`;
 }
 
 /* function button_clikedIsActive(b_clicked, b2) {

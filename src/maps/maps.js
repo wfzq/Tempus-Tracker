@@ -1,57 +1,98 @@
 function addMapElement(mapInfo) {
     // Element
-    var mapElement = document.createElement("div");
+    let mapElement = document.createElement("div");
     mapElement.className = `map-list-item`;
     mapElement.id = mapInfo.name;
-    document.getElementById("maps-container").appendChild(mapElement);
+
+    // Header wrapper link
+    let headerLink = document.createElement("a");
+    headerLink.className = 'header-link'
+    headerLink.href = `https://tempus2.xyz/maps/${mapInfo.name}`;
+    headerLink.target = "_blank";
+    mapElement.appendChild(headerLink);
 
     // Header
-    var mapHeader = document.createElement("div");
+    let mapHeader = document.createElement("div");
     mapHeader.className = `map-header`;
-    mapElement.appendChild(mapHeader);
+    headerLink.appendChild(mapHeader);
 
-    var mapTier = document.createElement("p");
-    mapTier.className = `map-tier`;
-    mapTier.textContent = `${mapInfo.tier_info['3']} / ${mapInfo.tier_info['4']}`;
-    mapHeader.appendChild(mapTier);
-
-    var mapLink = document.createElement("a");
-    mapLink.className = 'map-name';
-    mapLink.textContent = mapInfo.name;
-    mapLink.href = `https://tempus2.xyz/maps/${mapInfo.name}`;
-    mapLink.target = "_blank";
-    mapHeader.appendChild(mapLink);
+    let mapName = document.createElement("p");
+    mapName.className = 'map-name';
+    mapName.textContent = mapInfo.name;
+    mapHeader.appendChild(mapName)
 
     // Main
-    var mapMain = document.createElement("div");
+    let mapMain = document.createElement("div");
     mapMain.className = 'map-main';
     mapElement.appendChild(mapMain);
 
-    var mapCompletions = document.createElement('p');
-    mapCompletions.className = 'map-completions';
-    mapCompletions.textContent = `${mapInfo.completion_info['soldier']} / ${mapInfo.completion_info['demoman']}`;
-    mapMain.appendChild(mapCompletions);
+    // Map Info 
+    let mapInfoContainer = document.createElement("div");
+    mapInfoContainer.className = 'map-info';
+    mapMain.appendChild(mapInfoContainer);
 
-    var mapAuthors = document.createElement('div');
+    // Soldier Map Info
+    let soldierContainer = document.createElement("div");
+    soldierContainer.className = 'map-soldier-container';
+    mapInfoContainer.appendChild(soldierContainer);
+
+    let soldierIcon = document.createElement("div");
+    soldierIcon.className = 'map-soldier-icon';
+    soldierContainer.appendChild(soldierIcon);
+
+    let soldierDifficulty = document.createElement("p");
+    soldierDifficulty.className = 'map-soldier-difficulty';
+    soldierDifficulty.textContent = mapInfo.tier_info['3'];
+    soldierContainer.appendChild(soldierDifficulty);
+
+    let soldierCompletions = document.createElement("p");
+    soldierCompletions.className = 'map-soldier-completions';
+    soldierCompletions.textContent = `( ${mapInfo.completion_info['soldier']} )`;
+    soldierContainer.appendChild(soldierCompletions);
+
+    // Demoman Map Info
+    let demomanContainer = document.createElement("div");
+    demomanContainer.className = 'map-demoman-container';
+    mapInfoContainer.appendChild(demomanContainer);
+
+    let demomanIcon = document.createElement("div");
+    demomanIcon.className = 'map-demoman-icon';
+    demomanContainer.appendChild(demomanIcon);
+
+    let demomanDifficulty = document.createElement("p");
+    demomanDifficulty.className = 'map-demoman-difficulty';
+    demomanDifficulty.textContent = mapInfo.tier_info['4'];;
+    demomanContainer.appendChild(demomanDifficulty);
+
+    let demomanCompletions = document.createElement("p");
+    demomanCompletions.className = 'map-demoman-completions';
+    demomanCompletions.textContent = `( ${mapInfo.completion_info['demoman']} )`;;
+    demomanContainer.appendChild(demomanCompletions);
+
+    // Bonuses
+    let bonusesContainer = document.createElement("div");
+    bonusesContainer.className = 'map-bonus-container';
+    mapInfoContainer.appendChild(bonusesContainer);
+
+    let bonusesIcon = document.createElement("div");
+    bonusesIcon.className = 'map-bonus-icon';
+    bonusesContainer.appendChild(bonusesIcon);
+
+    let bonusCount = document.createElement("p");
+    bonusCount.className = 'map-bonus-count';
+    bonusCount.textContent = mapInfo.zone_counts.bonus ?? 0;
+    bonusesContainer.appendChild(bonusCount);
+
+    // Authors
+    let mapAuthors = document.createElement('div');
     mapAuthors.classList = 'map-authors';
     let authorsCount = mapInfo.authors.length;
-    if (authorsCount > 4) {
-        mapAuthors.textContent = `${authorsCount} Authors: ${mapInfo.authors.map(author => author.name).join('  •  ')}`;
-    }
-    else mapAuthors.textContent = `${mapInfo.authors.map(author => author.name).join('  •  ')}`;
+    mapAuthors.textContent = authorsCount > 4 ?
+        `By ${authorsCount} Authors: ${mapInfo.authors.map(author => author.name).join('  •  ')}` :
+        `By ${mapInfo.authors.map(author => author.name).join('  •  ')}`;
     mapMain.appendChild(mapAuthors);
 
-    // Bonuses/Footer
-    var mapBonusContainer = document.createElement("div");
-    mapBonusContainer.className = `map-bonus-header`;
-    if (mapInfo.zone_counts.bonus !== undefined) {
-        for (let i = 0; i < mapInfo.zone_counts.bonus; i++) {
-            var mapBonus = document.createElement("div");
-            mapBonus.className = `bonus ${i + 1}`;  // Start from 1
-            mapBonusContainer.appendChild(mapBonus);
-        }
-    }
-    mapElement.appendChild(mapBonusContainer);
+    document.getElementById("maps-container").appendChild(mapElement);
 }
 
 function setAutoScrollonMaps() {
@@ -94,7 +135,7 @@ function stopAutoScroll_authors(mapMain) {
 function loadAllMaps() {
     document.getElementById("maps-container").innerHTML = '';
 
-    detailedMapsList.forEach(map => {
+    maps_json.forEach(map => {
         // Add map author count
         if (mapauthorscount[map.authors.length]) {
             mapauthorscount[map.authors.length]++;

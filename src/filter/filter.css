@@ -1,53 +1,69 @@
-h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
-    text-align: center;
-    border-radius: 10%;
-    margin-bottom: 15px;
+#filters-container {
+    min-width: 250px;
+    width: 10%;
+    position: sticky;
+    top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: calc(100vh - 20px);
+    background-color: #1e2124;
+    color: white;
+    border-radius: 5px;
+    user-select: none;
+    font-weight: bold;
+
+    h3 {
+        padding-bottom: 5px;
+        text-align: center;
+    }
 }
 
-#filters-container {
-    position: sticky;
-    top: 0;
-    border-radius: 5px;
-    background-color: rgb(201, 201, 201);
-    padding: 10px;
-    height: calc(100vh - 40px);
-    border: 1px solid grey;
+#bonus-p {
+    text-align: center;
+}
+
+#filter-by>* {
+    border-bottom: 1px solid #7289da50;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .range-slider {
-    position: relative;
     display: flex;
-    justify-content: left;
     align-items: center;
-    margin: 4px;
+    gap: 10px;
+    margin-bottom: 5px;
 }
 
-.toggle-slider {
-    width: 15px;
-    height: 20px;
-    margin-right: 5px;
-    border: 1px solid grey !important;
+.slider-container {
+    display: grid;
+    width: 100%;
+    align-items: center;
+
+    * {
+        grid-row: 1 / 1;
+        grid-column: 1 / 1;
+    }
 }
 
-.range-input {
+.slider-full {
     position: relative;
-    background-color: #757575;
-    width: 100%;
     height: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
+    background: #36393e;
 }
 
-.range-input input {
+.slider-progress {
+    left: 0%;
+    right: 0%;
     position: absolute;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    height: 5px;
+    border-radius: 5px;
+    background: #7289da;
+}
+
+input.r1, input.r2 {
+    position: relative;
     background: none;
     pointer-events: none;
     -webkit-appearance: none;
@@ -57,67 +73,105 @@ h3 {
 input[type="range"]::-webkit-slider-thumb {
     height: 15px;
     width: 15px;
-    border-radius: 50%;
-    background: #476291;
+
+    border-radius: 25%;
+    background: #7289da;
     pointer-events: auto;
     -webkit-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 input[type="range"]::-moz-range-thumb {
-    border-radius: 50%;
-    background: #17a2b8;
+    height: 15px;
+    width: 15px;
+
+    border-radius: 25%;
+    background: #7289da;
     pointer-events: auto;
     -moz-appearance: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
-.min-range, .max-range {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+button {
+    border-radius: 3px;
+}
+
+.toggle-slider {
+    width: 20px;
+    height: 20px;
 }
 
 #map-type-toggle, #map-intended-toggle {
     display: flex;
-    align-items: center;
-    gap: 1px;
-    margin: 10px 4px 10px 4px;
+    gap: 5px;
+
+    * {
+        flex: 1;
+    }
+
+    p {
+        padding-right: 10px;
+    }
 }
 
-#map-type-toggle>*, #map-intended-toggle>* {
-    border: 1px solid grey;
-    flex-grow: 1;
-    flex: 1;
+#map-type-toggle {
+    border: none;
+    padding-bottom: 0;
 }
 
 #filter-by-author {
+    div {
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+    }
+
+    #author-select-container {
+        padding-bottom: 10px;
+    }
+
+    * {
+        flex: 3;
+    }
+
+    #author-select, #author-amount-select {
+        flex: 6;
+        width: 100%;
+    }
+}
+
+#filter-by-completions-container {
+    p {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+}
+
+#filter-by-completions {
     display: flex;
-    flex-direction: column;
-    margin: 10px 10px 10px 4px;
+    gap: 5px;
+
+    * {
+        width: 100%;
+    }
+
+    input {
+        width: 50%;
+    }
 }
 
-#filter-by-author>select {
-    margin-bottom: 10px;
-}
-
-#filter-by-completions {}
-
-#minmax {
-    margin-top: 10px;
-    margin-bottom: 10px;
+#sort-select-container {
     display: flex;
-}
-
-input[type="number"] {
-    margin-right: 5px;
-    width: 60px;
+    gap: 10px;
+    border: none;
 }
 
 #map-count {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bolder;
+    margin-top: 10px;
     text-align: center;
+    font-size: 5rem;
+    color: #7289da;
+    border-radius: 2px;
+    border: 1px solid #7289da;
+    background-color: #36393e6b;
 }

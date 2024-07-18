@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="src/maps/maps.css">
     <link rel="stylesheet" type="text/css" href="src/search/search.css">
     <link rel="stylesheet" type="text/css" href="src/main.css">
-    <script defer src="src/data/detailedMapsList_merged.js"></script>
+    <script defer src="src/data/maps_db/maps_merged.js"></script>
     <script defer src="src/API/tempus-api.js"></script>
     <script defer src="src/filter/filter_logic.js"></script>
     <script defer src="src/filter/filter.js"></script>
@@ -24,98 +24,102 @@
         <div id="main-container">
             <div id="filters-container">
                 <div id="filter-by">
-                    <h3>Filter :</h3>
                     <div id="range-sliders">
+                        <h3>Difficulty Range</h3>
                         <div class="range-slider" id="range-slider-s">
-                            <button class="toggle-slider button-on" id="toggle-s-slider"
-                                onclick="button_toggleAndFilter(this)">S</button>
-                            <div class="range-input" id="range-input-s">
-                                <input type="range" class="min-range" id="min-range-s" min="0" max="6" value="0"
-                                    step="1" onchange="range_input(this)">
-                                <input type="range" class="max-range" id="max-range-s" min="0" max="6" value="6"
-                                    step="1" onchange="range_input(this)">
+                            <button class="toggle-slider button-on" id="toggle-s-slider">S</button>
+                            <div class="slider-container" id="slider-container-s">
+                                <div class="slider-full">
+                                    <div class="slider-progress"></div>
+                                </div>
+                                <input type="range" class="r1" id="r1-s" min="0" max="6" value="0" step="1">
+                                <input type="range" class="r2" id="r2-s" min="0" max="6" value="6" step="1">
                             </div>
                         </div>
                         <div class="range-slider" id="range-slider-d">
-                            <button class="toggle-slider button-on" id="toggle-d-slider"
-                                onclick="button_toggleAndFilter(this)">D</button>
-                            <div class="range-input" id="range-input-d">
-                                <input type="range" class="min-range" id="min-range-d" min="0" max="6" value="0"
-                                    step="1" onchange="range_input(this)">
-                                <input type="range" class="max-range" id="max-range-d" min="0" max="6" value="6"
-                                    step="1" onchange="range_input(this)">
+                            <button class="toggle-slider button-on" id="toggle-d-slider">D</button>
+                            <div class="slider-container" id="slider-container-d">
+                                <div class="slider-full">
+                                    <div class="slider-progress"></div>
+                                </div>
+                                <input type="range" class="r1" id="r1-d" min="0" max="6" value="0" step="1">
+                                <input type="range" class="r2" id="r2-d" min="0" max="6" value="6" step="1">
                             </div>
                         </div>
-
-                        <!--Bonus slider-->
+                        <p id="bonus-p">Bonus Range</p>
                         <div class="range-slider" id="range-slider-b">
-                            <button class="toggle-slider button-on" id="toggle-b-slider"
-                                onclick="button_toggleAndFilter(this)">B</button>
-                            <div class="range-input" id="bonus-range">
-                                <!--Populate at runtime-->
+                            <button class="toggle-slider button-on" id="toggle-b-slider">B</button>
+                            <div class="slider-container" id="slider-container-b">
+                                <div class="slider-full">
+                                    <div class="slider-progress"></div>
+                                </div>
+                                <!--Populate On Runtime-->
                             </div>
                         </div>
                     </div>
 
                     <!--Course/Linear-->
                     <div id="map-type-toggle">
-                        <button id="toggle-linear" class="button-on" onclick="button_toggleAndFilter(this)">Linear</button>
-                        <button id="toggle-course" class="button-on" onclick="button_toggleAndFilter(this)">Course</button>
+                        <p>Map Type</p>
+                        <button id="toggle-linear" class="button-on">Linear</button>
+                        <button id="toggle-course" class="button-on">Course</button>
                     </div>
-                    
+
                     <!--Soldier/Demoman Intended-->
                     <div id="map-intended-toggle">
-                        <button id="toggle-soldier" class="button-on" onclick="button_toggleAndFilter(this)">Soldier</button>
-                        <button id="toggle-demoman" class="button-on" onclick="button_toggleAndFilter(this)">Demoman</button>
+                        <p>Intended</p>
+                        <button id="toggle-soldier" class="button-on">Soldier</button>
+                        <button id="toggle-demoman" class="button-on">Demoman</button>
                     </div>
 
                     <!--Filter by Author-->
                     <div id="filter-by-author">
-                        <label for="author-amount-select">Authors:</label>
-                        <select id="author-amount-select" onchange="filterMaps()">
-                            <option value="__all__">Any</option>
-                        </select>
-                        
-                        <label for="author-select">Filter by Author:</label>
-                        <select id="author-select" onchange="filterMaps()">
-                            <option value="__all__">Any</option>
-                        </select>
-                    </div>
-                    
-                    <div id="filter-by-completions">
-                        <h3>Filter by Completions:</h3>
-                        <!--Select Class-->
-                        <label for="completions-class-select">Class:</label>
-                        <select id="completions-class-select" onchange="filterMaps()">
-                            <option value="either">Either</option>
-                            <option value="both">Both</option>
-                            <option value="soldier">Soldier</option>
-                            <option value="demoman">Demoman</option>
-                        </select>
-                        <!--Min/Max-->
-                        <div id="minmax">
-                            <input type="number" id="min-completions" min="0" step="250" placeholder="min" onchange="filterMaps()">
-                            <input type="number" id="max-completions" min="0" step="250" placeholder="max" onchange="filterMaps()">
+                        <div id="author-select-container">
+                            <label for="author-select">Author</label>
+                            <select id="author-select" onchange="filterMaps()">
+                                <option value="__all__">All Authors</option>
+                            </select>
+                        </div>
+                        <div id="author-amount-container">
+                            <label for="author-amount-select">Count</label>
+                            <select id="author-amount-select" onchange="filterMaps()">
+                                <option value="__all__">Any</option>
+                            </select>
                         </div>
                     </div>
-                </div>
-                <div id="sort-by">
-                    <h3>Sort :</h3>
+                    <div id="filter-by-completions-container">
+                        <p>Completions by Class</p>
+                        <div id="filter-by-completions">
+                            <!--Select Class-->
+                            <select id="completions-class-select" onchange="filterMaps()">
+                                <option value="either">Either</option>
+                                <option value="both">Both</option>
+                                <option value="soldier">Soldier</option>
+                                <option value="demoman">Demoman</option>
+                            </select>
+                            <!--Min/Max-->
+                            <input type="number" id="min-completions" min="0" step="250" placeholder="min"
+                                onchange="filterMaps()">
+                            <input type="number" id="max-completions" min="0" step="250" placeholder="max"
+                                onchange="filterMaps()">
+                        </div>
+                    </div>
                     <!--Sort by Date-->
-                    <label for="sort-select">Sort by:</label>
-                    <select id="sort-select" onchange="filterMaps()">
-                        <option value="name">Name</option>
-                        <option value="newest">Newest</option>
-                        <option value="oldest">Oldest</option>
-                        <option value="completions_most_s">Soldier Completions (+)</option>
-                        <option value="completions_least_s">Soldier Completions (-)</option>
-                        <option value="completions_most_d">Demoman Completions (+)</option>
-                        <option value="completions_least_d">Demoman Completions (-)</option>
-                        <option value="completions_most_o">Combined Completions (+)</option>
-                        <option value="completions_least_o">Combined Completions (-)</option>
-                    </select>
+                    <div id="sort-select-container">
+                        <label for="sort-select">Sort by</label>
+                        <select id="sort-select" onchange="filterMaps()">
+                            <option value="name">Name</option>
+                            <option value="newest">Newest</option>
+                            <option value="oldest">Oldest</option>
+                            <option value="completions_most_s">Soldier Completions (+)</option>
+                            <option value="completions_least_s">Soldier Completions (-)</option>
+                            <option value="completions_most_d">Demoman Completions (+)</option>
+                            <option value="completions_least_d">Demoman Completions (-)</option>
+                            <option value="completions_most_o">Combined Completions (+)</option>
+                            <option value="completions_least_o">Combined Completions (-)</option>
+                        </select>
+                    </div>
                 </div>
-
                 <div id="map-count"></div>
             </div>
 

@@ -43,23 +43,34 @@ function sortBy_completionInfo(mapsList, selectedFilter) {
 }
 
 function filterBy_difficulty(mapsList) {
-    const minS = document.getElementById('min-range-s').value;
-    const maxS = document.getElementById('max-range-s').value;
-    const minD = document.getElementById('min-range-d').value;
-    const maxD = document.getElementById('max-range-d').value;
-    const sSlider = document.getElementById('toggle-s-slider');
-    const dSlider = document.getElementById('toggle-d-slider');
+    let r1S = parseInt(document.getElementById('r1-s').value);
+    let r2S = parseInt(document.getElementById('r2-s').value);
+    let r1D = parseInt(document.getElementById('r1-d').value);
+    let r2D = parseInt(document.getElementById('r2-d').value);
+    const toggleS = document.getElementById('toggle-s-slider');
+    const toggleD = document.getElementById('toggle-d-slider');
+
+    if (r1S > r2S) {
+        let t = r1S;
+        r1S = r2S;
+        r2S = t;
+    }
+    if (r1D > r2D) {
+        let t = r1D;
+        r1D = r2D;
+        r2D = t;
+    }
 
     return mapsList.filter(map => {
         let isSInRange = true;
-        if (sSlider.classList.contains('button-on')) {
+        if (toggleS.classList.contains('button-on')) {
             const sDifficulty = map.tier_info['3'];
-            isSInRange = sDifficulty >= minS && sDifficulty <= maxS;
+            isSInRange = sDifficulty >= r1S && sDifficulty <= r2S;
         }
         let isDInRange = true;
-        if (dSlider.classList.contains('button-on')) {
+        if (toggleD.classList.contains('button-on')) {
             const dDifficulty = map.tier_info['4'];
-            isDInRange = dDifficulty >= minD && dDifficulty <= maxD;
+            isDInRange = dDifficulty >= r1D && dDifficulty <= r2D;
         }
 
         return isSInRange && isDInRange;
@@ -67,14 +78,20 @@ function filterBy_difficulty(mapsList) {
 }
 
 function filterBy_bonuses(mapsList) {
-    const minB = document.getElementById('min-range-b').value;
-    const maxB = document.getElementById('max-range-b').value;
+    let r1 = parseInt(document.getElementById('r1-b').value);
+    let r2 = parseInt(document.getElementById('r2-b').value);
     const bSlider = document.getElementById('toggle-b-slider');
+
+    if (r1 > r2) {
+        let t = r1;
+        r1 = r2;
+        r2 = t;
+    }
 
     return mapsList.filter(map => {
         const mapBonuses = map.zone_counts.bonus === undefined ? 0 : map.zone_counts.bonus;
         if (bSlider.classList.contains('button-on')) {
-            return mapBonuses >= minB && mapBonuses <= maxB;
+            return mapBonuses >= r1 && mapBonuses <= r2;
         }
         else return true;
     });
@@ -225,7 +242,7 @@ function filterBy_completions(mapsList) {
 }
 
 function filterMaps() {
-    filteredMapsList = detailedMapsList;
+    filteredMapsList = maps_json;
     filteredMapsList = filterBy_difficulty(filteredMapsList);
     filteredMapsList = filterBy_bonuses(filteredMapsList);
     filteredMapsList = filterBy_linearCourse(filteredMapsList);

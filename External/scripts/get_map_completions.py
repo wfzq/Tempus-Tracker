@@ -95,6 +95,6 @@ def main(input_file_path, output_file_path):
     names = read_names_from_json(input_file_path)
     process_batches_and_save(names, output_file_path)
 
-input_file_path = 'src/data/detailedMapsList_merged.json'
-output_file_path = 'src/data/detailedMapsList_merged.json'
+input_file_path = 'src/data/maps_db/maps_merged.json'
+output_file_path = 'src/data/maps_db/maps_merged.json'
 main(input_file_path, output_file_path)
