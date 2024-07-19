@@ -270,5 +270,5 @@ function filterMaps() {
     }
 
     display_results(filteredMapsList);
-    loadMapsFromList(filteredMapsList);
+    maps_showFromList(filteredMapsList);
 }

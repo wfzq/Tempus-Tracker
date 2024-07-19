@@ -5,7 +5,7 @@ var mostBonuses = 0;
 
 // DOM Loaded
 document.addEventListener('DOMContentLoaded', async function () {
-    loadAllMaps();
+    maps_loadAll();
     display_results(maps_json);
     populate_sortByAuthor(authorsList);
     populate_sortByAuthorCount(mapauthorscount);

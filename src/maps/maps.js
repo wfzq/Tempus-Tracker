@@ -132,7 +132,7 @@ function stopAutoScroll_authors(mapMain) {
     scrollContainer.style.transform = 'translateX(0)';
 }
 
-function loadAllMaps() {
+function maps_loadAll() {
     document.getElementById("maps-container").innerHTML = '';
 
     maps_json.forEach(map => {
@@ -157,10 +157,16 @@ function loadAllMaps() {
     setAutoScrollonMaps();
 }
 
-function loadMapsFromList(mapsList) {
-    document.getElementById("maps-container").innerHTML = '';
-    mapsList.forEach(element => {
-        addMapElement(element);
-    });
-    setAutoScrollonMaps();
+function maps_showFromList(mapsList) {
+    const container = document.getElementById("maps-container");
+    for (let i = 0; i < container.children.length; i++) {
+        const child = container.children[i];
+
+        if (mapsList.find(element => element.name == child.id)) {
+            child.classList.remove('hidden');
+        }
+        else {
+            child.classList.add('hidden');
+        }
+    }
 }
