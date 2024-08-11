@@ -170,3 +170,21 @@ function maps_showFromList(mapsList) {
         }
     }
 }
+
+function reorderMapElements(mapsList) {
+    const mapsContainer = document.querySelector('#maps-container');
+    const elements = mapsList.map(map => document.getElementById(map.name));
+    elements.forEach(element => mapsContainer.appendChild(element));
+}
+
+function map_getSoldierCompletions(map) {
+    return map['completion_info']?.soldier ?? 0;
+}
+
+function map_getDemomanCompletions(map) {
+    return map['completion_info']?.demoman ?? 0;
+}
+
+function map_getBothCompletions(map) {
+    return (map['completion_info']?.soldier ?? 0) + (map['completion_info']?.demoman ?? 0);
+}

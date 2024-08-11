@@ -1,121 +1,77 @@
-function populate_sortByAuthor(authors) {
-	const select = document.getElementById('author-select');
-
-	// Sort By Authors with most maps
-	const mapArray = Object.entries(authors);
-	const sortedArray = mapArray.sort((a, b) => b[1] - a[1]);
-	for (const [author, count] of sortedArray) {
-		const option = document.createElement('option');
-		option.value = author;
-		option.textContent = `${author} (${count})`;
-		select.appendChild(option);
-	}
-
-	// Sort by Author Names
-	/* for (const author in sortedArray) {
-		const option = document.createElement('option');
-		option.value = author;
-		option.textContent = `${author} (${authors[author]})`;
-		select.appendChild(option);
-	} */
+function filters_slider_toggle(button) {
+    filter_button_toggle(button);
+    
 }
 
-function populate_sortByBonus(mostBonuses) {
-	const sliderContainer = document.getElementById('slider-container-b');
+function filters_slider_range(classInt) {
 
-	const minRange = document.createElement('input');
-	minRange.type = 'range';
-	minRange.id = 'r1-b'
-	minRange.classList.add('r1');
-	minRange.min = 0;
-	minRange.max = mostBonuses;
-	minRange.value = 0;
-	minRange.step = 1;
-	minRange.oncinput = function () {
-		range_input_update(this);
-	}
-	sliderContainer.appendChild(minRange);
-
-	const maxRange = document.createElement('input');
-	maxRange.type = 'range';
-	maxRange.id = 'r2-b'
-	maxRange.classList.add('r2');
-	maxRange.min = 0;
-	maxRange.max = mostBonuses;
-	maxRange.value = mostBonuses;
-	maxRange.step = 1;
-	maxRange.oncinput = function () {
-		range_input_update(this);
-	};
-	sliderContainer.appendChild(maxRange);
 }
 
-function populate_sortByAuthorCount(authors) {
-	const select = document.getElementById('author-amount-select');
-	for (const amount in authors) {
-		const option = document.createElement('option');
-		option.value = amount;
-		option.textContent = `${amount} (${authors[amount]})`;
-		select.appendChild(option);
-	}
+function filters_button_type_linear(button) {
+
 }
 
-function button_toggle(button) {
-	if (button.classList.contains('button-on')) {
-		button.classList.remove('button-on');
-		button.classList.add('button-off');
-	} else {
-		button.classList.remove('button-off');
-		button.classList.add('button-on');
-	}
+function filters_button_type_course(button) {
+
 }
 
-function button_toggleAndFilter(button) {
-	button_toggle(button);
-	filterMaps();
+function filters_button_intended_soldier(button) {
+
 }
 
-function range_input_update(slider) {
-	const rangeSlider = slider.closest('.slider-container');
-	let r1 = parseInt(rangeSlider.querySelector('.r1').value);
-	let r2 = parseInt(rangeSlider.querySelector('.r2').value);
-	let r1tip = rangeSlider.querySelector("#r1-tip");
-	let r2tip = rangeSlider.querySelector("#r2-tip");
-	const rangeMax = slider.getAttribute('max');
-	const range = rangeSlider.querySelector(".slider-progress");
+function filters_button_intended_demoman(button) {
 
-	if (r1 > r2) {
-		let t = r1;
-		r1 = r2;
-		r2 = t;
-	}
-
-	r1tip.textContent = r1;
-	r2tip.textContent = r2;
-
-	range.style.left = (r1 / rangeMax) * 100 + "%";
-	range.style.right = 100 - (r2 / rangeMax) * 100 + "%";
-
-	r1tip.style.left = (r1 / rangeMax) * 93 + "%";
-	r2tip.style.right = 93 - (r2 / rangeMax) * 93 + "%";
 }
 
-function display_results(mapsCount) {
-	const mapCount = document.getElementById('map-count');
-	mapCount.textContent = `${Object.keys(mapsCount).length}`;
+function filters_combo_author(author) {
+
 }
 
-/* function button_clikedIsActive(b_clicked, b2) {
-	if (b_clicked.classList.contains('button-on')) {
-		button_toggle(b2);
-	}
-	else button_toggle(b_clicked);
+function filters_combo_author_count(count) {
+
 }
 
-function toggle_MapFilter(button) {
-	const linearButton = document.getElementById('toggle-linear');
-	const courseButton = document.getElementById('toggle-course');
-	const otherButton = button == linearButton ? courseButton : linearButton;
-	button_clikedIsActive(button, otherButton);
-	filterMaps();
-} */
+function filters_combo_completions_classes(type) {
+
+}
+
+function filters_input_completions_min(min) {
+
+}
+
+function filters_input_completions_max(max) {
+
+}
+
+function filters_combo_sort(filterValue) {
+    switch (filterValue) {
+        case 'oldest':
+            maps_filtered = sortBy_oldestId(maps_filtered);
+            break;
+        case 'newest':
+            maps_filtered = sortBy_newestId(maps_filtered);
+            break;
+        case 'completions_most_s':
+            maps_filtered = sortBy_mostCompletions(maps_filtered, map_getSoldierCompletions);
+            break;
+        case 'completions_least_s':
+            maps_filtered = sortBy_leastCompletions(maps_filtered, map_getSoldierCompletions);
+            break;
+        case 'completions_most_d':
+            maps_filtered = sortBy_mostCompletions(maps_filtered, map_getDemomanCompletions);
+            break;
+        case 'completions_least_d':
+            maps_filtered = sortBy_leastCompletions(maps_filtered, map_getDemomanCompletions);
+            break;
+        case 'completions_most_o':
+            maps_filtered = sortBy_mostCompletions(maps_filtered, map_getBothCompletions);
+            break;
+        case 'completions_least_o':
+            maps_filtered = sortBy_leastCompletions(maps_filtered, map_getBothCompletions);
+            break;
+        default:
+            maps_filtered = [...maps_json];
+            break;
+    }
+    reorderMapElements(maps_filtered);
+}

@@ -9,9 +9,10 @@
     <link rel="stylesheet" type="text/css" href="src/search/search.css">
     <link rel="stylesheet" type="text/css" href="src/main.css">
     <script defer src="src/data/maps_db/maps_merged.js"></script>
-    <script defer src="src/API/tempus-api.js"></script>
-    <script defer src="src/filter/filter_logic.js"></script>
+    <!-- <script defer src="src/API/tempus-api.js"></script> -->
     <script defer src="src/filter/filter.js"></script>
+    <script defer src="src/filter/filter_logic.js"></script>
+    <script defer src="src/filter/filter_util.js"></script>
     <script defer src="src/maps/maps.js"></script>
     <script defer src="src/search/search.js"></script>
     <script defer src="src/main.js"></script>
@@ -27,7 +28,8 @@
                     <div id="range-sliders">
                         <h3>Difficulty Range</h3>
                         <div class="range-slider" id="range-slider-s">
-                            <button class="toggle-slider button-on" id="toggle-s-slider">S</button>
+                            <button class="toggle-slider button-on" id="toggle-s-slider"
+                                onclick="filters_slider_toggle(this)">S</button>
                             <div class="slider-container" id="slider-container-s">
                                 <div class="slider-full">
                                     <div class="slider-progress"></div>
@@ -36,12 +38,15 @@
                                     <div class="range-tip" id="r1-tip">0</div>
                                     <div class="range-tip" id="r2-tip">6</div>
                                 </div>
-                                <input type="range" class="r1" id="r1-s" min="0" max="6" value="0" step="1">
-                                <input type="range" class="r2" id="r2-s" min="0" max="6" value="6" step="1">
+                                <input type="range" class="r1" id="r1-s" min="0" max="6" value="0" step="1"
+                                    onchange="filters_slider_range(3)">
+                                <input type="range" class="r2" id="r2-s" min="0" max="6" value="6" step="1"
+                                    onchange="filters_slider_range(3)">
                             </div>
                         </div>
                         <div class="range-slider" id="range-slider-d">
-                            <button class="toggle-slider button-on" id="toggle-d-slider">D</button>
+                            <button class="toggle-slider button-on" id="toggle-d-slider"
+                                onclick="filters_slider_toggle(this)">D</button>
                             <div class="slider-container" id="slider-container-d">
                                 <div class="slider-full">
                                     <div class="slider-progress"></div>
@@ -50,12 +55,15 @@
                                     <div class="range-tip" id="r1-tip">0</div>
                                     <div class="range-tip" id="r2-tip">6</div>
                                 </div>
-                                <input type="range" class="r1" id="r1-d" min="0" max="6" value="0" step="1">
-                                <input type="range" class="r2" id="r2-d" min="0" max="6" value="6" step="1">
+                                <input type="range" class="r1" id="r1-d" min="0" max="6" value="0" step="1"
+                                    onchange="filters_slider_range(4)">
+                                <input type="range" class="r2" id="r2-d" min="0" max="6" value="6" step="1"
+                                    onchange="filters_slider_range(4)">
                             </div>
                         </div>
                         <div class="range-slider" id="range-slider-b">
-                            <button class="toggle-slider button-on" id="toggle-b-slider">B</button>
+                            <button class="toggle-slider button-on" id="toggle-b-slider"
+                                onclick="filters_slider_toggle(this)">B</button>
                             <div class="slider-container" id="slider-container-b">
                                 <div class="slider-full">
                                     <div class="slider-progress"></div>
@@ -72,28 +80,32 @@
                     <!--Course/Linear-->
                     <div id="map-type-toggle">
                         <p>Map Type</p>
-                        <button id="toggle-linear" class="button-on">Linear</button>
-                        <button id="toggle-course" class="button-on">Course</button>
+                        <button id="toggle-linear" class="button-on"
+                            onclick="filters_button_type_linear(this)">Linear</button>
+                        <button id="toggle-course" class="button-on"
+                            onclick="filters_button_type_course(this)">Course</button>
                     </div>
 
                     <!--Soldier/Demoman Intended-->
                     <div id="map-intended-toggle">
                         <p>Intended</p>
-                        <button id="toggle-soldier" class="button-on">Soldier</button>
-                        <button id="toggle-demoman" class="button-on">Demoman</button>
+                        <button id="toggle-soldier" class="button-on"
+                            onclick="filters_button_intended_soldier(this)">Soldier</button>
+                        <button id="toggle-demoman" class="button-on"
+                            onclick="filters_button_intended_demoman(this)">Demoman</button>
                     </div>
 
                     <!--Filter by Author-->
                     <div id="filter-by-author">
                         <div id="author-select-container">
                             <label for="author-select">Author</label>
-                            <select id="author-select" onchange="filterMaps()">
+                            <select id="author-select" onchange="filters_combo_author(this.value)">
                                 <option value="__all__">All Authors</option>
                             </select>
                         </div>
                         <div id="author-amount-container">
                             <label for="author-amount-select">Count</label>
-                            <select id="author-amount-select" onchange="filterMaps()">
+                            <select id="author-amount-select" onchange="filters_combo_author_count(this.value)">
                                 <option value="__all__">Any</option>
                             </select>
                         </div>
@@ -102,7 +114,8 @@
                         <p>Completions by Class</p>
                         <div id="filter-by-completions">
                             <!--Select Class-->
-                            <select id="completions-class-select" onchange="filterMaps()">
+                            <select id="completions-class-select"
+                                onchange="filters_combo_completions_classes(this.value)">
                                 <option value="either">Either</option>
                                 <option value="both">Both</option>
                                 <option value="soldier">Soldier</option>
@@ -110,15 +123,15 @@
                             </select>
                             <!--Min/Max-->
                             <input type="number" id="min-completions" min="0" step="250" placeholder="min"
-                                onchange="filterMaps()">
+                                onchange="filters_input_completions_min(this.value)">
                             <input type="number" id="max-completions" min="0" step="250" placeholder="max"
-                                onchange="filterMaps()">
+                                onchange="filters_input_completions_max(this.value)">
                         </div>
                     </div>
-                    <!--Sort by Date-->
+                    <!--Sort by-->
                     <div id="sort-select-container">
                         <label for="sort-select">Sort by</label>
-                        <select id="sort-select" onchange="filterMaps()">
+                        <select id="sort-select" onchange="filters_combo_sort(this.value)">
                             <option value="name">Name</option>
                             <option value="newest">Newest</option>
                             <option value="oldest">Oldest</option>
