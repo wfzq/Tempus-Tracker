@@ -27,3 +27,8 @@
     background-color: #424549;
     box-shadow: inset 1px 1px 2px black;
 }
+
+.flash-red {
+    background-color: red !important;
+    transition: background-color 0.3s;
+}

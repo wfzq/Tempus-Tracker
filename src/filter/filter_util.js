@@ -87,7 +87,13 @@ function button_canToggle_linearCourse(button) {
         other = mapFilters.linear;
     }
 
-    if (current == 1 && other == 0) return false;
+    if (current == 1 && other == 0) {
+        button.classList.add('flash-red');
+        setTimeout(() => {
+            button.classList.remove('flash-red');
+        }, 125);
+        return false;
+    }
     else return true;
 }
 
