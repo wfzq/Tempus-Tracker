@@ -1,14 +1,13 @@
-const { getDefaultSettings } = require("http2");
-
 /* 
 
     Filter
 
 */
-function filterMapBy_difficultyRange(map, classChar) {
-    const min = mapFilters[classChar].min;
-    const max = mapFilters[classChar].max;
-    const difficulty = map.tier_info[classChar];
+function filterMapBy_difficultyRange(map, classInt) {
+    const sliderType = classInt == 3 ? "sliderS" : "sliderD";
+    const min = mapFilters[sliderType].min;
+    const max = mapFilters[sliderType].max;
+    const difficulty = map.tier_info[classInt];
 
     return difficulty >= min && difficulty <= max;
 }
@@ -16,7 +15,7 @@ function filterMapBy_difficultyRange(map, classChar) {
 function filterMapBy_bonusRange(map) {
     const min = mapFilters.sliderB.min;
     const max = mapFilters.sliderB.max;
-    const bonuses = map.zone_counts.bonus ? 0 : map.zone_counts.bonus;
+    const bonuses = map.zone_counts.bonus != undefined ? map.zone_counts.bonus : 0;
 
     return bonuses >= min && bonuses <= max;
 }
@@ -59,51 +58,89 @@ function filterMapBy_authorCount(map) {
 function filterMapBy_completions(map) {
     const min = mapFilters.completions.min;
     const max = mapFilters.completions.max;
-    const hasMin = !Number.isNaN(min);
-    const hasMax = !Number.isNaN(max);
     const type = mapFilters.completions.select;
 
-    if (hasMin || hasMax) {
-        const sval = map.completion_info.soldier;
-        const dval = map.completion_info.demoman;
+    const hasMin = !Number.isNaN(min);
+    const hasMax = !Number.isNaN(max);
 
-        switch (type) {
-            case "soldier":
-                return (
-                    (hasMin && hasMax && (sval >= min || sval <= max)) ||
-                    (hasMin && sval >= min) ||
-                    (hasMax && sval <= max)
-                );
-            case "demoman":
-                return (
-                    (hasMin && hasMax && (dval >= min && dval <= max)) ||
-                    (hasMin && dval >= min) ||
-                    (hasMax && dval <= max)
-                );
-            case "both":
-                return (
-                    (hasMin && hasMax && (sval >= min || sval <= max) && (dval >= min && dval <= max)) ||
-                    (hasMin && sval >= min && dval >= min) ||
-                    (hasMax && sval <= max && dval <= max)
-                );
-            default:
-                return (
-                    (hasMin && hasMax && ((sval >= min || sval <= max) || (dval >= min && dval <= max))) ||
-                    (hasMin && (sval >= min || dval >= min)) ||
-                    (hasMax && (sval <= max || dval <= max))
-                );
-        }
+    const sval = map.completion_info.soldier;
+    const dval = map.completion_info.demoman;
+
+    let result = false;
+    switch (type) {
+        case "soldier":
+            if (hasMin && hasMax) {
+                if (sval >= min && sval <= max) {
+                    result = true;
+                }
+            } else if (hasMin) {
+                if (sval >= min) {
+                    result = true;
+                }
+            } else if (hasMax) {
+                if (sval <= max) {
+                    result = true;
+                }
+            }
+            return result;
+
+        case "demoman":
+            if (hasMin && hasMax) {
+                if (dval >= min && dval <= max) {
+                    result = true;
+                }
+            } else if (hasMin) {
+                if (dval >= min) {
+                    result = true;
+                }
+            } else if (hasMax) {
+                if (dval <= max) {
+                    result = true;
+                }
+            }
+            return result;
+
+        case "both":
+            if (hasMin && hasMax) {
+                if ((sval >= min && sval <= max) && (dval >= min && dval <= max)) {
+                    result = true;
+                }
+            } else if (hasMin) {
+                if (sval >= min && dval >= min) {
+                    result = true;
+                }
+            } else if (hasMax) {
+                if (sval <= max && dval <= max) {
+                    result = true;
+                }
+            }
+            return result;
+
+        default:
+            if (hasMin && hasMax) {
+                if ((sval >= min && sval <= max) || (dval >= min && dval <= max)) {
+                    result = true;
+                }
+            } else if (hasMin) {
+                if (sval >= min || dval >= min) {
+                    result = true;
+                }
+            } else if (hasMax) {
+                if (sval <= max || dval <= max) {
+                    result = true;
+                }
+            }
+            return result;
     }
-    return true;
 }
 
 function reduceFilterFunctions(currentFilters) {
-    const defaultSettings = getDefaultSettings();
+    const defaultSettings = getDefaultFilters();
     /** Remove filter from list if:
      *  1) It's turned off
      *  2) It's value is default
      */
-    for (const key of currentFilters) {
+    for (const [key, fun] of currentFilters) {
         switch (key) {
             case 'S': /* Difficulty Soldier */
                 if (
@@ -173,8 +210,8 @@ function reduceFilterFunctions(currentFilters) {
 
             case 'CO': /* Completions */
                 if (
-                    mapFilters.completions.min === defaultSettings.completions.min &&
-                    mapFilters.completions.max === defaultSettings.completions.max
+                    isNaN(mapFilters.completions.min) &&
+                    isNaN(mapFilters.completions.max)
                 ) {
                     currentFilters.delete(key);
                 }
@@ -189,18 +226,18 @@ function reduceFilterFunctions(currentFilters) {
 }
 
 /** Functions Index:
- *  - SS - Slider Soldier
- *  - SD - Slider Demoman
- *  - SB - Slider Bonus
- *  - LC - Linear Course
- *  - IN - INtended
- *  - AN - Author Name
- *  - AC - Author Count
- *  - CO - COmpletions
+ *  - S  - [S]oldier
+ *  - D  - [D]emoman
+ *  - B  - [B]onus
+ *  - LC - [L]inear [C]ourse
+ *  - IN - [IN]tended
+ *  - AN - [A]uthor [N]ame
+ *  - AC - [A]uthor [C]ount
+ *  - CO - [CO]mpletions
  */
 function filterMaps(mapList, excludeFiltersByKey = []) {
     let filters = new Map([
-        // ORDER OF FUNCTIONS HERE MATTERS!!
+        // ORDER OF FUNCTIONS MATTERS!!
         ['S', (map) => filterMapBy_difficultyRange(map, '3')],
         ['D', (map) => filterMapBy_difficultyRange(map, '4')],
         ['B', (map) => filterMapBy_bonusRange(map)],
@@ -219,7 +256,13 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
 
     return mapList.filter(map => {
         const mapElement = document.getElementById(map.name);
-        const isVisible = activeFilters.every(filter => filter(map));
+        const isVisible = ((map) => {
+            for (let filter of filters.values()) {
+                if (!filter(map))
+                    return false;
+            }
+            return true;
+        })(map); // Pass current map into IIFE
 
         isVisible ?
             mapElement?.classList.remove('hidden') :
@@ -227,6 +270,7 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
         return isVisible;
     });
 }
+
 /* 
 
     Sort
