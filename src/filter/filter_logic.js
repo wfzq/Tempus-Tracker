@@ -77,7 +77,7 @@ function filterMapBy_completions(map) {
                 if (sval >= min) {
                     result = true;
                 }
-            } else if (hasMax) {
+            } else /* hasMax */ {
                 if (sval <= max) {
                     result = true;
                 }
@@ -93,7 +93,7 @@ function filterMapBy_completions(map) {
                 if (dval >= min) {
                     result = true;
                 }
-            } else if (hasMax) {
+            } else /* hasMax */ {
                 if (dval <= max) {
                     result = true;
                 }
@@ -109,7 +109,7 @@ function filterMapBy_completions(map) {
                 if (sval >= min && dval >= min) {
                     result = true;
                 }
-            } else if (hasMax) {
+            } else /* hasMax */ {
                 if (sval <= max && dval <= max) {
                     result = true;
                 }
@@ -125,7 +125,7 @@ function filterMapBy_completions(map) {
                 if (sval >= min || dval >= min) {
                     result = true;
                 }
-            } else if (hasMax) {
+            } else /* hasMax */ {
                 if (sval <= max || dval <= max) {
                     result = true;
                 }
