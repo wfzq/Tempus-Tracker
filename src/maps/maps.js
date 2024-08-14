@@ -1,13 +1,37 @@
-function addMapElement(mapInfo) {
+function addMapElement(map) {
     // Element
     let mapElement = document.createElement("div");
     mapElement.className = `map-list-item`;
-    mapElement.id = mapInfo.name;
+    mapElement.id = map.name;
+
+
+    /**
+     * 
+     * 
+     * TODO: 
+     * 
+     * Assign map thumbnail resolutions 
+     * from desired up as available!!!
+     * 
+     */
+    // Assign thumbnail, if available
+    let thumbnail_url = `src/data/thumbnails/${map.name}_480.jpg`;
+    let thumbnail = new Image();
+    thumbnail.src = thumbnail_url;
+    thumbnail.onload = () => {
+        // Image Loaded
+        mapElement.style.backgroundImage = `url('${thumbnail_url}')`;
+        mapElement.loading = "lazy";
+    }
+    thumbnail.onerror = () => {
+        // Image Not Found
+        mapElement.style.backgroundColor = `#00000050`;
+    }
 
     // Header wrapper link
     let headerLink = document.createElement("a");
     headerLink.className = 'header-link'
-    headerLink.href = `https://tempus2.xyz/maps/${mapInfo.name}`;
+    headerLink.href = `https://tempus2.xyz/maps/${map.name}`;
     headerLink.target = "_blank";
     mapElement.appendChild(headerLink);
 
@@ -18,7 +42,7 @@ function addMapElement(mapInfo) {
 
     let mapName = document.createElement("p");
     mapName.className = 'map-name';
-    mapName.textContent = mapInfo.name;
+    mapName.textContent = map.name;
     mapHeader.appendChild(mapName)
 
     // Main
@@ -38,16 +62,19 @@ function addMapElement(mapInfo) {
 
     let soldierIcon = document.createElement("div");
     soldierIcon.className = 'map-soldier-icon';
+    soldierIcon.style.backgroundImage = `url(src/data/ico/soldier.png)`;
+    soldierIcon.loading = "lazy";
+
     soldierContainer.appendChild(soldierIcon);
 
     let soldierDifficulty = document.createElement("p");
     soldierDifficulty.className = 'map-soldier-difficulty';
-    soldierDifficulty.textContent = mapInfo.tier_info['3'];
+    soldierDifficulty.textContent = map.tier_info['3'];
     soldierContainer.appendChild(soldierDifficulty);
 
     let soldierCompletions = document.createElement("p");
     soldierCompletions.className = 'map-soldier-completions';
-    soldierCompletions.textContent = `( ${mapInfo.completion_info['soldier']} )`;
+    soldierCompletions.textContent = `( ${map.completion_info['soldier']} )`;
     soldierContainer.appendChild(soldierCompletions);
 
     // Demoman Map Info
@@ -57,16 +84,18 @@ function addMapElement(mapInfo) {
 
     let demomanIcon = document.createElement("div");
     demomanIcon.className = 'map-demoman-icon';
+    demomanIcon.style.backgroundImage = `url(src/data/ico/demoman.png)`;
+    demomanIcon.loading = "lazy";
     demomanContainer.appendChild(demomanIcon);
 
     let demomanDifficulty = document.createElement("p");
     demomanDifficulty.className = 'map-demoman-difficulty';
-    demomanDifficulty.textContent = mapInfo.tier_info['4'];;
+    demomanDifficulty.textContent = map.tier_info['4'];;
     demomanContainer.appendChild(demomanDifficulty);
 
     let demomanCompletions = document.createElement("p");
     demomanCompletions.className = 'map-demoman-completions';
-    demomanCompletions.textContent = `( ${mapInfo.completion_info['demoman']} )`;;
+    demomanCompletions.textContent = `( ${map.completion_info['demoman']} )`;;
     demomanContainer.appendChild(demomanCompletions);
 
     // Bonuses
@@ -76,20 +105,22 @@ function addMapElement(mapInfo) {
 
     let bonusesIcon = document.createElement("div");
     bonusesIcon.className = 'map-bonus-icon';
+    bonusesIcon.style.backgroundImage = `url(src/data/ico/bonus_icon_colorful.png)`;
+    bonusesIcon.loading = "lazy";
     bonusesContainer.appendChild(bonusesIcon);
 
     let bonusCount = document.createElement("p");
     bonusCount.className = 'map-bonus-count';
-    bonusCount.textContent = mapInfo.zone_counts.bonus ?? 0;
+    bonusCount.textContent = map.zone_counts.bonus ?? 0;
     bonusesContainer.appendChild(bonusCount);
 
     // Authors
     let mapAuthors = document.createElement('div');
     mapAuthors.classList = 'map-authors';
-    let authorsCount = mapInfo.authors.length;
+    let authorsCount = map.authors.length;
     mapAuthors.textContent = authorsCount > 4 ?
-        `By ${authorsCount} Authors: ${mapInfo.authors.map(author => author.name).join('  •  ')}` :
-        `By ${mapInfo.authors.map(author => author.name).join('  •  ')}`;
+        `By ${authorsCount} Authors: ${map.authors.map(author => author.name).join('  •  ')}` :
+        `By ${map.authors.map(author => author.name).join('  •  ')}`;
     mapMain.appendChild(mapAuthors);
 
     document.getElementById("maps-container").appendChild(mapElement);

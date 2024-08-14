@@ -64,7 +64,7 @@
 }
 
 .map-soldier-icon {
-    background-image: url(../data/ico/soldier.png);
+    /* background-image: url(../data/ico/soldier.png); */
     background-size: cover;
     width: 28px;
     height: 28px;
@@ -86,7 +86,7 @@
 }
 
 .map-demoman-icon {
-    background-image: url(../data/ico/demoman.png);
+    /* background-image: url(../data/ico/demoman.png); */
     background-size: cover;
     width: 28px;
     height: 28px;
@@ -103,7 +103,7 @@
 }
 
 .map-bonus-icon {
-    background-image: url(../data/ico/bonus_icon_colorful.png);
+    /* background-image: url(../data/ico/bonus_icon_colorful.png); */
     background-size: cover;
     width: 28px;
     height: 28px;
