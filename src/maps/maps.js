@@ -15,7 +15,7 @@ function addMapElement(map) {
      * 
      */
     // Assign thumbnail, if available
-    let thumbnail_url = `src/data/thumbnails/${map.name}_480.jpg`;
+    let thumbnail_url = `src/data/thumbnails/${map.name}.jpg`;
     let thumbnail = new Image();
     thumbnail.src = thumbnail_url;
     thumbnail.onload = () => {
