@@ -226,14 +226,14 @@ function reduceFilterFunctions(currentFilters) {
 }
 
 /** Functions Index:
- *  - S  - [S]oldier
- *  - D  - [D]emoman
- *  - B  - [B]onus
- *  - LC - [L]inear [C]ourse
- *  - IN - [IN]tended
- *  - AN - [A]uthor [N]ame
- *  - AC - [A]uthor [C]ount
- *  - CO - [CO]mpletions
+ *  - S  - Soldier
+ *  - D  - Demoman
+ *  - B  - Bonus
+ *  - LC - Linear Course
+ *  - IN - INtended
+ *  - AN - Author Name
+ *  - AC - Author Count
+ *  - CO - COmpletions
  */
 function filterMaps(mapList, excludeFiltersByKey = []) {
     let filters = new Map([
@@ -262,7 +262,7 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
                     return false;
             }
             return true;
-        })(map); // Pass current map into IIFE
+        })(map); // Pass current map into I.I.F.E.
 
         isVisible ?
             mapElement?.classList.remove('hidden') :

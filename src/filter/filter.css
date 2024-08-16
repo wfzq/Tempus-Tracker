@@ -69,6 +69,7 @@ input.r1, input.r2 {
     position: relative;
     background: none;
     pointer-events: none;
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
 }

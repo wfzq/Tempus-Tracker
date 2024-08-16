@@ -31,7 +31,7 @@ function populate_sortByBonus(mostBonuses) {
     minRange.max = mostBonuses;
     minRange.value = 0;
     minRange.step = 1;
-    minRange.oncinput = function () {
+    minRange.oninput = function () {
         visual_rangeInput_update(this);
     }
     minRange.onchange = function () {
@@ -47,7 +47,7 @@ function populate_sortByBonus(mostBonuses) {
     maxRange.max = mostBonuses;
     maxRange.value = mostBonuses;
     maxRange.step = 1;
-    maxRange.oncinput = function () {
+    maxRange.oninput = function () {
         visual_rangeInput_update(this);
     };
     maxRange.onchange = function () {

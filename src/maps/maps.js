@@ -126,7 +126,7 @@ function addMapElement(map) {
     document.getElementById("maps-container").appendChild(mapElement);
 }
 
-function setAutoScrollonMaps() {
+function set_auto_scroll_authors_on_maps() {
     const mapMains = document.querySelectorAll('.map-main');
 
     mapMains.forEach(mapMain => {
@@ -168,9 +168,9 @@ function maps_loadAll() {
 
     maps_json.forEach(map => {
         // Add map author count
-        if (mapauthorscount[map.authors.length]) {
-            mapauthorscount[map.authors.length]++;
-        } else mapauthorscount[map.authors.length] = 1;
+        if (map_authors_count[map.authors.length]) {
+            map_authors_count[map.authors.length]++;
+        } else map_authors_count[map.authors.length] = 1;
 
         // Add authors
         map.authors.forEach(author => {
@@ -185,7 +185,7 @@ function maps_loadAll() {
         }
         addMapElement(map);
     });
-    setAutoScrollonMaps();
+    set_auto_scroll_authors_on_maps();
 }
 
 function maps_showFromList(mapsList) {

@@ -92,9 +92,9 @@
     height: 28px;
 }
 
-.map-demoman-difficulty {}
+/* .map-demoman-difficulty {} */
 
-.map-demoman-completions {}
+/* .map-demoman-completions {} */
 
 .map-bonus-container {
     display: flex;
@@ -109,7 +109,7 @@
     height: 28px;
 }
 
-.map-bonus-count {}
+/* .map-bonus-count {} */
 
 .map-authors {
     font-size: 12px;
