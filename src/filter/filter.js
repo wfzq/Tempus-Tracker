@@ -20,6 +20,14 @@ function filters_slider_toggle(button) {
     display_mapCount();
 }
 
+function filters_difficulty_mix(button) {
+    mapFilters.difficultyMix = !mapFilters.difficultyMix;
+    button.innerText = mapFilters.difficultyMix ? "and" : "or";
+    
+    maps_filtered = filterMaps(maps_json);
+    display_mapCount();
+}
+
 function filters_slider_range(classInt) {
     // Determine slider
     let slider;

@@ -8,6 +8,7 @@ var mapFilters = {};
 
 function getDefaultFilters() {
     return {
+        "difficultyMix": true,
         "sliderS": {
             "toggle": true,
             "min": MIN_TIER,
@@ -46,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     maps_loadAll();
     display_mapCount(maps_json);
     mapFilters = getDefaultFilters();
-    
+
     populate_sortByAuthor(authorsList);
     populate_sortByAuthorCount(map_authors_count);
     populate_sortByBonus(mostBonuses);

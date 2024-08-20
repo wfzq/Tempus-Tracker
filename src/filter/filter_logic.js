@@ -12,6 +12,10 @@ function filterMapBy_difficultyRange(map, classInt) {
     return difficulty >= min && difficulty <= max;
 }
 
+function filterMapBy_difficultyRangeOR(map) {
+    return filterMapBy_difficultyRange(map, 3) || filterMapBy_difficultyRange(map, 4);
+}
+
 function filterMapBy_bonusRange(map) {
     const min = mapFilters.sliderB.min;
     const max = mapFilters.sliderB.max;
@@ -226,9 +230,9 @@ function reduceFilterFunctions(currentFilters) {
 }
 
 /** Functions Index:
+ *  - B  - Bonus
  *  - S  - Soldier
  *  - D  - Demoman
- *  - B  - Bonus
  *  - LC - Linear Course
  *  - IN - INtended
  *  - AN - Author Name
@@ -238,14 +242,14 @@ function reduceFilterFunctions(currentFilters) {
 function filterMaps(mapList, excludeFiltersByKey = []) {
     let filters = new Map([
         // ORDER OF FUNCTIONS MATTERS!!
-        ['S', (map) => filterMapBy_difficultyRange(map, '3')],
-        ['D', (map) => filterMapBy_difficultyRange(map, '4')],
-        ['B', (map) => filterMapBy_bonusRange(map)],
-        ['LC', (map) => filterMapBy_linearCourse(map)],
         ['IN', (map) => filterMapBy_intended(map)],
-        ['AN', (map) => filterMapBy_authorName(map)],
+        ['LC', (map) => filterMapBy_linearCourse(map)],
         ['AC', (map) => filterMapBy_authorCount(map)],
-        ['CO', (map) => filterMapBy_completions(map)]
+        ['AN', (map) => filterMapBy_authorName(map)],
+        ['CO', (map) => filterMapBy_completions(map)],
+        ['B', (map) => filterMapBy_bonusRange(map)],
+        ['S', (map) => filterMapBy_difficultyRange(map, '3')],
+        ['D', (map) => filterMapBy_difficultyRange(map, '4')]
     ]);
 
     // Remove unused filters
@@ -253,6 +257,15 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
         filters.delete(key);
     });
     reduceFilterFunctions(filters);
+
+    /**
+     *  This code is hacky bullshit for running OR when applicable
+     */
+    if (!mapFilters.difficultyMix && filters.has('S') && filters.has('D')) {
+        filters.delete('S');
+        filters.delete('D');
+        filters.set('SD', (map) => filterMapBy_difficultyRangeOR(map));
+    }
 
     return mapList.filter(map => {
         const mapElement = document.getElementById(map.name);

@@ -33,6 +33,7 @@
                 <div id="filter-by">
                     <div id="range-sliders">
                         <h3>Difficulty Range</h3>
+
                         <div class="range-slider" id="range-slider-s">
                             <button class="toggle-slider button-on" id="toggle-s-slider"
                                 onclick="filters_slider_toggle(this)">S</button>
@@ -50,6 +51,9 @@
                                     onchange="filters_slider_range(3)">
                             </div>
                         </div>
+
+                        <button id="toggle-mix" onclick="filters_difficulty_mix(this)">and</button>
+
                         <div class="range-slider" id="range-slider-d">
                             <button class="toggle-slider button-on" id="toggle-d-slider"
                                 onclick="filters_slider_toggle(this)">D</button>
@@ -67,6 +71,7 @@
                                     onchange="filters_slider_range(4)">
                             </div>
                         </div>
+
                         <div class="range-slider" id="range-slider-b">
                             <button class="toggle-slider button-on" id="toggle-b-slider"
                                 onclick="filters_slider_toggle(this)">B</button>

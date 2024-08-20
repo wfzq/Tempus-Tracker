@@ -106,6 +106,21 @@ button {
     height: 40px;
 }
 
+#toggle-mix {
+    background: #1e2124;
+    color: #7289da;
+    position: absolute;
+    border-radius: 50px;
+    z-index: 999;
+    cursor: pointer;
+    border: 0;
+    top: 110px; /* HEIGHT TO TOP IS A MAGIC NUMBER!! */
+    height: 20px;
+    width: 33px;
+    font-size: 12px;
+    font-style: italic;
+}
+
 .range-tip-container {
     position: relative;
 }

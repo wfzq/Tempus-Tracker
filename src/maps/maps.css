@@ -98,7 +98,6 @@
 
 .map-bonus-container {
     display: flex;
-
     gap: 5px;
 }
 
@@ -119,7 +118,7 @@
     white-space: nowrap;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.2);
-    /* backdrop-filter: blur(5px); */
+    backdrop-filter: blur(7px);
     text-align: left;
 }
 
