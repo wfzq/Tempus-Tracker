@@ -31,7 +31,7 @@
     max-height: 50vh;
     overflow-y: auto;
     overflow-x: hidden;
-    z-index: 1;
+    z-index: 99;
     position: relative;
     background: #282b30;
     border-radius: 5px;

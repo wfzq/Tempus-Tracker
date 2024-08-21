@@ -111,7 +111,7 @@ button {
     color: #7289da;
     position: absolute;
     border-radius: 50px;
-    z-index: 999;
+    z-index: 9;
     cursor: pointer;
     border: 0;
     top: 110px; /* HEIGHT TO TOP IS A MAGIC NUMBER!! */
