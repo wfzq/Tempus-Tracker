@@ -147,8 +147,7 @@ function reduceFilterFunctions(currentFilters) {
     for (const [key, fun] of currentFilters) {
         switch (key) {
             case 'S': /* Difficulty Soldier */
-                if (
-                    mapFilters.sliderS.toggle === false ||
+                if (!mapFilters.sliderS.toggle ||
                     (
                         mapFilters.sliderS.min === defaultSettings.sliderS.min &&
                         mapFilters.sliderS.max === defaultSettings.sliderS.max
@@ -159,8 +158,7 @@ function reduceFilterFunctions(currentFilters) {
                 break;
 
             case 'D': /* Difficulty Demoman */
-                if (
-                    mapFilters.sliderD.toggle === false ||
+                if (!mapFilters.sliderD.toggle ||
                     (
                         mapFilters.sliderD.min === defaultSettings.sliderD.min &&
                         mapFilters.sliderD.max === defaultSettings.sliderD.max
@@ -171,8 +169,7 @@ function reduceFilterFunctions(currentFilters) {
                 break;
 
             case 'B': /* Bonus Range */
-                if (
-                    mapFilters.sliderB.toggle === false ||
+                if (!mapFilters.sliderB.toggle ||
                     (
                         mapFilters.sliderB.min === defaultSettings.sliderB.min &&
                         mapFilters.sliderB.max === defaultSettings.sliderB.max
@@ -261,10 +258,14 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
     /**
      *  This code is hacky bullshit for running OR when applicable
      */
-    if (!mapFilters.difficultyMix && filters.has('S') && filters.has('D')) {
+    if (!mapFilters.difficultyMix) {
+        if (filters.has('S') && filters.has('D'))
+            filters.set('SD', (map) => filterMapBy_difficultyRangeOR(map));
+
+        //  If only one is present then it will skip filtering difficulty all together
+        //  which is how OR searching should work.  
         filters.delete('S');
         filters.delete('D');
-        filters.set('SD', (map) => filterMapBy_difficultyRangeOR(map));
     }
 
     return mapList.filter(map => {
