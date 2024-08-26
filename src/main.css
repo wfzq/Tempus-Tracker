@@ -55,6 +55,7 @@ header {
 
 #tf-logo {
     z-index: 1;
+    opacity: .6;
     animation: spin 15s linear infinite;
     position: absolute;
     width: 150%;
