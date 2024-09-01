@@ -35,7 +35,93 @@
                     <div class="logo-text" id="by-amuria">By Amuria</div>
                 </div>
             </div>
-            <div id="alerts"></div>
+            <div id="alert">
+                <p id="message">
+                    Want to contribute thumbnails, help provide useful map information or have a question? Click here!
+                </p>
+                <div id="qa-content">
+                    <a id="discord-container" href="https://discord.gg/3UmVMYkagx" target="_blank">
+                        <p>Discord</p>
+                        <img id="discord-icon" src="src/data/ico/discord.png">
+                    </a>
+                    <p>
+                        What is this?
+                    </p>
+                    <p class="answer">
+                        A map browser, meant to help you decide what to play next or simply to check if the mapper you
+                        hate has ever made a good map (he hasn't).
+                        Because the tempus website wont even fucking let you sort by soldier and demo difficulty at the
+                        same time so good luck using anything else
+                    </p>
+                    <p>
+                        How can I get involved?
+                    </p>
+                    <p class="answer">
+                        Join the discord. I'm looking for quality thumbnails to fill in the missing maps as well as
+                        rats with far too much map knowledge. I hope to mark maps by techniques, such as wallshots or
+                        airpogo; have a map score showing how good a map is according to the community (so you
+                        know not to play shit like jump_cavern as soldier) as well
+                        as transition into a T10 system by using staple maps and averaging the opinion of the best
+                        jumpers.
+                    </p>
+                    <p>
+                        How can I contribute thumbnails?
+                    </p>
+                    <p class="answer">
+                        Join the discord and submit your work into the correct channel. There you will also find the
+                        requirements and a guide. Alternatively, if you're on the savvy end, you can submit a pull
+                        request on
+                        github directly as long as they conform to the aforementioned standards
+                    </p>
+                    <p class="answer-inner">
+                        Here are some examples of quality thumbnails:
+                        <a target="_blank" href="/src/data/thumbnails/jump_4dakids_final.jpg">4dakids</a>,
+                        <a target="_blank" href="/src/data/thumbnails/jump_beef.jpg">beef</a>,
+                        <a target="_blank" href="/src/data/thumbnails/jump_bouncerific_v2.jpg">bouncerific</a>
+                    </p>
+                    <p class="answer-inner">
+                        Here are some examples of dogshit thumbnails:
+                        <a href="/src/data/thumbnails/jump_BAQu_a2.jpg">BAQu</a>,
+                        <a href="/src/data/thumbnails/jump_allstars_fix.jpg">allstars</a>,
+                        <a href="/src/data/thumbnails/jump_auga_final.jpg">auga</a>
+                    </p>
+                    <p>
+                        How can I find out which maps are missing thumbnails?
+                    </p>
+                    <p class="answer">
+                        Press F12, go to the console and look at the map names that pop up with a 404 next to their
+                        names. An alternative, and less ghetto, approach is to
+                        <a href="https://docs.google.com/spreadsheets/d/15DCTCF1qGzN15Rj24jny6-FajObOFtT99lgcfsygs9I">
+                            look at this google docs list.
+                        </a> which will hopefully be updated as thumbnails appear
+                    </p>
+                    <p>
+                        How can I help filling out map information?
+                    </p>
+                    <p class="answer">
+                        Join the discord and I will put up a link where you can go and vote when it's ready. This stuff
+                        is more complicated than it looks
+                    </p>
+                    <p>
+                        What will Tempus Tracker look like when it's finished?
+                    </p>
+                    <p class="answer">
+                        I have plans to make player profiles that show which maps players have completed, which
+                        techniques they enjoy playing, their average place in map leaderboards, map recommendations,
+                        etc. But given that this is a side project and the tempus API is absolute dogshit
+                        held together with twigs and bits of string it's a dice roll if these updates
+                        will come to light. Currently though, everything is nicely self contained
+                        in a local database with no calls being made to the API for the aforementioned reasons!
+                    </p>
+                    <p>
+                        How do you get completion data?
+                    </p>
+                    <p class="answer">
+                        Database is updated manually from a bot about once a week. I've managed to trim the FUCK out of
+                        the requests so the response packets are about 0.15kb in size per map!
+                    </p>
+                </div>
+            </div>
         </header>
         <div id="main-container">
             <div id="filters-container">

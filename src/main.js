@@ -58,3 +58,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         });
     });
 });
+
+document.getElementById("message").addEventListener("click", function () {
+    document.getElementById("alert").classList.toggle("expanded");
+});
