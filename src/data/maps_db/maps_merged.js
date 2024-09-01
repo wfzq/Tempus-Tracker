@@ -346,7 +346,7 @@ const maps_json = [
     },
     {
         "name": "jump_5holers_final",
-        "intended_class": "4",
+        "intended_class": "3",
         "id": 729,
         "zone_counts": {
             "checkpoint": 5,
@@ -677,7 +677,7 @@ const maps_json = [
     },
     {
         "name": "jump_across_a27",
-        "intended_class": "3",
+        "intended_class": "4",
         "id": 567,
         "zone_counts": {
             "checkpoint": 3,
@@ -780,7 +780,7 @@ const maps_json = [
     },
     {
         "name": "jump_aggregate_zip",
-        "intended_class": "3",
+        "intended_class": "4",
         "id": 357,
         "zone_counts": {
             "checkpoint": 5,
