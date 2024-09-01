@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup, Tag
 
 URL = "https://jumpacademy.tf/maps"
-IMAGE_SAVE_PATH = "src/data/thumbnails/"
+IMAGE_SAVE_PATH = "../Desktop/newThumbnails/"
 names_list = []
 
 
@@ -26,7 +26,7 @@ html_content = response.content
 soup = BeautifulSoup(html_content, 'html.parser')
 
 # Get to the correct tag
-tbody = soup.find('tbody')
+tbody = soup.find_all('tbody')[1]
 if not isinstance(tbody, Tag):
     print("<tbody> tag not found")
 
