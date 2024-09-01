@@ -1,6 +1,6 @@
 # Tempus Tracker
 
-[![Github Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://username.github.io/repository-name/)
+[![Github Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://wfzq.github.io/Tempus-Tracker/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## About
