@@ -35,9 +35,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 958,
-            "demoman": 331,
-            "last_updated": "2024-10-04T16:29:11.333982"
+            "soldier": 977,
+            "demoman": 341,
+            "last_updated": "2024-10-22T20:21:27.333557"
         }
     },
     {
@@ -71,9 +71,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 788,
-            "demoman": 399,
-            "last_updated": "2024-10-04T16:29:11.583977"
+            "soldier": 842,
+            "demoman": 420,
+            "last_updated": "2024-10-22T20:21:27.332557"
         }
     },
     {
@@ -105,8 +105,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 321,
-            "demoman": 74,
-            "last_updated": "2024-10-04T16:29:11.186985"
+            "demoman": 76,
+            "last_updated": "2024-10-22T20:21:27.341556"
         }
     },
     {
@@ -208,9 +208,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 986,
-            "demoman": 697,
-            "last_updated": "2024-10-04T16:29:11.583977"
+            "soldier": 996,
+            "demoman": 703,
+            "last_updated": "2024-10-22T20:21:27.340556"
         }
     },
     {
@@ -239,9 +239,9 @@ const maps_json = [
             "demoman": "eIQCxIlrido"
         },
         "completion_info": {
-            "soldier": 825,
-            "demoman": 950,
-            "last_updated": "2024-10-04T16:29:11.436979"
+            "soldier": 828,
+            "demoman": 954,
+            "last_updated": "2024-10-22T20:21:27.338557"
         }
     },
     {
@@ -272,9 +272,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 156,
-            "demoman": 280,
-            "last_updated": "2024-10-04T16:29:11.219984"
+            "soldier": 157,
+            "demoman": 282,
+            "last_updated": "2024-10-22T20:21:27.318558"
         }
     },
     {
@@ -303,9 +303,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2542,
-            "demoman": 1620,
-            "last_updated": "2024-10-04T16:29:11.585976"
+            "soldier": 2559,
+            "demoman": 1630,
+            "last_updated": "2024-10-22T20:21:27.347557"
         }
     },
     {
@@ -339,9 +339,9 @@ const maps_json = [
             "demoman": "VnMFtskCq0Y"
         },
         "completion_info": {
-            "soldier": 2014,
-            "demoman": 795,
-            "last_updated": "2024-10-04T16:29:11.584975"
+            "soldier": 2029,
+            "demoman": 798,
+            "last_updated": "2024-10-22T20:21:27.340556"
         }
     },
     {
@@ -374,7 +374,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 22,
             "demoman": 174,
-            "last_updated": "2024-10-04T16:29:13.142478"
+            "last_updated": "2024-10-22T20:21:28.725606"
         }
     },
     {
@@ -406,8 +406,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 67,
-            "demoman": 209,
-            "last_updated": "2024-10-04T16:29:12.997557"
+            "demoman": 213,
+            "last_updated": "2024-10-22T20:21:28.690607"
         }
     },
     {
@@ -441,8 +441,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 119,
-            "demoman": 457,
-            "last_updated": "2024-10-04T16:29:13.021559"
+            "demoman": 460,
+            "last_updated": "2024-10-22T20:21:28.683603"
         }
     },
     {
@@ -471,9 +471,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1019,
-            "demoman": 991,
-            "last_updated": "2024-10-04T16:29:13.103475"
+            "soldier": 1020,
+            "demoman": 993,
+            "last_updated": "2024-10-22T20:21:28.699607"
         }
     },
     {
@@ -506,9 +506,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 968,
+            "soldier": 969,
             "demoman": 193,
-            "last_updated": "2024-10-04T16:29:13.110480"
+            "last_updated": "2024-10-22T20:21:28.726608"
         }
     },
     {
@@ -540,9 +540,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4439,
-            "demoman": 2213,
-            "last_updated": "2024-10-04T16:29:13.278474"
+            "soldier": 4454,
+            "demoman": 2218,
+            "last_updated": "2024-10-22T20:21:28.703607"
         }
     },
     {
@@ -573,9 +573,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 940,
-            "demoman": 322,
-            "last_updated": "2024-10-04T16:29:13.174477"
+            "soldier": 949,
+            "demoman": 323,
+            "last_updated": "2024-10-22T20:21:28.700607"
         }
     },
     {
@@ -604,9 +604,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1065,
-            "demoman": 588,
-            "last_updated": "2024-10-04T16:29:13.095558"
+            "soldier": 1067,
+            "demoman": 589,
+            "last_updated": "2024-10-22T20:21:28.732606"
         }
     },
     {
@@ -637,9 +637,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1048,
-            "demoman": 777,
-            "last_updated": "2024-10-04T16:29:14.571912"
+            "soldier": 1051,
+            "demoman": 779,
+            "last_updated": "2024-10-22T20:21:29.995850"
         }
     },
     {
@@ -670,9 +670,9 @@ const maps_json = [
             "demoman": "_rXKkSELjHo"
         },
         "completion_info": {
-            "soldier": 1769,
-            "demoman": 511,
-            "last_updated": "2024-10-04T16:29:14.499909"
+            "soldier": 1802,
+            "demoman": 519,
+            "last_updated": "2024-10-22T20:21:29.995850"
         }
     },
     {
@@ -701,9 +701,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 933,
-            "demoman": 393,
-            "last_updated": "2024-10-04T16:29:14.550906"
+            "soldier": 940,
+            "demoman": 396,
+            "last_updated": "2024-10-22T20:21:29.985852"
         }
     },
     {
@@ -742,9 +742,9 @@ const maps_json = [
             "demoman": "TCdQCB15MNc"
         },
         "completion_info": {
-            "soldier": 664,
-            "demoman": 348,
-            "last_updated": "2024-10-04T16:29:14.485908"
+            "soldier": 672,
+            "demoman": 353,
+            "last_updated": "2024-10-22T20:21:30.063850"
         }
     },
     {
@@ -773,9 +773,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3464,
-            "demoman": 932,
-            "last_updated": "2024-10-04T16:29:14.580905"
+            "soldier": 3470,
+            "demoman": 935,
+            "last_updated": "2024-10-22T20:21:29.996850"
         }
     },
     {
@@ -809,9 +809,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 503,
-            "demoman": 607,
-            "last_updated": "2024-10-04T16:29:14.437911"
+            "soldier": 507,
+            "demoman": 609,
+            "last_updated": "2024-10-22T20:21:30.000850"
         }
     },
     {
@@ -840,9 +840,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3059,
-            "demoman": 808,
-            "last_updated": "2024-10-04T16:29:14.637903"
+            "soldier": 3092,
+            "demoman": 812,
+            "last_updated": "2024-10-22T20:21:29.996850"
         }
     },
     {
@@ -878,9 +878,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 152,
-            "demoman": 163,
-            "last_updated": "2024-10-04T16:29:14.388912"
+            "soldier": 155,
+            "demoman": 165,
+            "last_updated": "2024-10-22T20:21:29.977852"
         }
     },
     {
@@ -913,9 +913,9 @@ const maps_json = [
             "demoman": "ZGzteRbGXTI"
         },
         "completion_info": {
-            "soldier": 651,
-            "demoman": 426,
-            "last_updated": "2024-10-04T16:29:15.881624"
+            "soldier": 665,
+            "demoman": 428,
+            "last_updated": "2024-10-22T20:21:31.317384"
         }
     },
     {
@@ -944,9 +944,9 @@ const maps_json = [
             "demoman": "GlOSiG7RHs0"
         },
         "completion_info": {
-            "soldier": 782,
+            "soldier": 785,
             "demoman": 612,
-            "last_updated": "2024-10-04T16:29:15.831626"
+            "last_updated": "2024-10-22T20:21:31.357386"
         }
     },
     {
@@ -975,9 +975,9 @@ const maps_json = [
             "demoman": "kFmJrOZwXsM"
         },
         "completion_info": {
-            "soldier": 2211,
-            "demoman": 1100,
-            "last_updated": "2024-10-04T16:29:15.857625"
+            "soldier": 2228,
+            "demoman": 1106,
+            "last_updated": "2024-10-22T20:21:31.321387"
         }
     },
     {
@@ -1009,9 +1009,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2340,
-            "demoman": 1156,
-            "last_updated": "2024-10-04T16:29:15.924623"
+            "soldier": 2345,
+            "demoman": 1157,
+            "last_updated": "2024-10-22T20:21:31.377385"
         }
     },
     {
@@ -1040,9 +1040,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2243,
-            "demoman": 578,
-            "last_updated": "2024-10-04T16:29:15.952624"
+            "soldier": 2283,
+            "demoman": 592,
+            "last_updated": "2024-10-22T20:21:31.324387"
         }
     },
     {
@@ -1080,7 +1080,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 167,
             "demoman": 142,
-            "last_updated": "2024-10-04T16:29:15.802628"
+            "last_updated": "2024-10-22T20:21:31.338387"
         }
     },
     {
@@ -1119,9 +1119,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 746,
-            "demoman": 824,
-            "last_updated": "2024-10-04T16:29:15.827627"
+            "soldier": 749,
+            "demoman": 827,
+            "last_updated": "2024-10-22T20:21:31.334385"
         }
     },
     {
@@ -1150,9 +1150,9 @@ const maps_json = [
             "demoman": "A3OT_mygc8w"
         },
         "completion_info": {
-            "soldier": 1063,
-            "demoman": 1853,
-            "last_updated": "2024-10-04T16:29:15.907624"
+            "soldier": 1070,
+            "demoman": 1861,
+            "last_updated": "2024-10-22T20:21:31.318385"
         }
     },
     {
@@ -1190,9 +1190,9 @@ const maps_json = [
             "demoman": "_4Srn2kapts"
         },
         "completion_info": {
-            "soldier": 57,
-            "demoman": 190,
-            "last_updated": "2024-10-04T16:29:17.255779"
+            "soldier": 59,
+            "demoman": 192,
+            "last_updated": "2024-10-22T20:21:32.700705"
         }
     },
     {
@@ -1223,9 +1223,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 118,
-            "demoman": 185,
-            "last_updated": "2024-10-04T16:29:17.263777"
+            "soldier": 122,
+            "demoman": 188,
+            "last_updated": "2024-10-22T20:21:32.683705"
         }
     },
     {
@@ -1268,9 +1268,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 633,
-            "demoman": 323,
-            "last_updated": "2024-10-04T16:29:17.284776"
+            "soldier": 639,
+            "demoman": 324,
+            "last_updated": "2024-10-22T20:21:32.736704"
         }
     },
     {
@@ -1301,9 +1301,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1116,
-            "demoman": 710,
-            "last_updated": "2024-10-04T16:29:17.272776"
+            "soldier": 1122,
+            "demoman": 715,
+            "last_updated": "2024-10-22T20:21:32.699704"
         }
     },
     {
@@ -1334,9 +1334,9 @@ const maps_json = [
             "demoman": "F2vNsEd-7YE"
         },
         "completion_info": {
-            "soldier": 1370,
-            "demoman": 447,
-            "last_updated": "2024-10-04T16:29:17.315775"
+            "soldier": 1397,
+            "demoman": 452,
+            "last_updated": "2024-10-22T20:21:32.723706"
         }
     },
     {
@@ -1370,9 +1370,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 847,
-            "demoman": 470,
-            "last_updated": "2024-10-04T16:29:17.334774"
+            "soldier": 851,
+            "demoman": 471,
+            "last_updated": "2024-10-22T20:21:32.699704"
         }
     },
     {
@@ -1401,9 +1401,9 @@ const maps_json = [
             "demoman": "RWobraajgJE"
         },
         "completion_info": {
-            "soldier": 1823,
-            "demoman": 388,
-            "last_updated": "2024-10-04T16:29:17.329775"
+            "soldier": 1832,
+            "demoman": 389,
+            "last_updated": "2024-10-22T20:21:32.700705"
         }
     },
     {
@@ -1436,9 +1436,9 @@ const maps_json = [
             "demoman": "uf3VO-nm4Io"
         },
         "completion_info": {
-            "soldier": 495,
+            "soldier": 496,
             "demoman": 96,
-            "last_updated": "2024-10-04T16:29:17.273776"
+            "last_updated": "2024-10-22T20:21:32.684705"
         }
     },
     {
@@ -1467,9 +1467,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2283,
-            "demoman": 935,
-            "last_updated": "2024-10-04T16:29:18.800890"
+            "soldier": 2303,
+            "demoman": 946,
+            "last_updated": "2024-10-22T20:21:33.995654"
         }
     },
     {
@@ -1501,9 +1501,9 @@ const maps_json = [
             "demoman": "zb_DaODkpSw"
         },
         "completion_info": {
-            "soldier": 1698,
-            "demoman": 782,
-            "last_updated": "2024-10-04T16:29:18.713591"
+            "soldier": 1704,
+            "demoman": 783,
+            "last_updated": "2024-10-22T20:21:34.014154"
         }
     },
     {
@@ -1535,9 +1535,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 511,
-            "demoman": 339,
-            "last_updated": "2024-10-04T16:29:18.626593"
+            "soldier": 523,
+            "demoman": 343,
+            "last_updated": "2024-10-22T20:21:33.956124"
         }
     },
     {
@@ -1568,9 +1568,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2606,
-            "demoman": 914,
-            "last_updated": "2024-10-04T16:29:18.736892"
+            "soldier": 2612,
+            "demoman": 916,
+            "last_updated": "2024-10-22T20:21:33.998652"
         }
     },
     {
@@ -1601,9 +1601,9 @@ const maps_json = [
             "demoman": "2hxL_KzoFUI"
         },
         "completion_info": {
-            "soldier": 291,
-            "demoman": 483,
-            "last_updated": "2024-10-04T16:29:18.713591"
+            "soldier": 292,
+            "demoman": 485,
+            "last_updated": "2024-10-22T20:21:33.973117"
         }
     },
     {
@@ -1634,9 +1634,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 955,
-            "demoman": 420,
-            "last_updated": "2024-10-04T16:29:18.603595"
+            "soldier": 972,
+            "demoman": 425,
+            "last_updated": "2024-10-22T20:21:33.987652"
         }
     },
     {
@@ -1667,9 +1667,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2576,
-            "demoman": 1630,
-            "last_updated": "2024-10-04T16:29:18.763892"
+            "soldier": 2589,
+            "demoman": 1637,
+            "last_updated": "2024-10-22T20:21:33.996652"
         }
     },
     {
@@ -1700,9 +1700,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 597,
-            "demoman": 399,
-            "last_updated": "2024-10-04T16:29:18.620594"
+            "soldier": 603,
+            "demoman": 404,
+            "last_updated": "2024-10-22T20:21:33.972116"
         }
     },
     {
@@ -1733,9 +1733,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1349,
-            "demoman": 1273,
-            "last_updated": "2024-10-04T16:29:20.071626"
+            "soldier": 1350,
+            "demoman": 1276,
+            "last_updated": "2024-10-22T20:21:35.254177"
         }
     },
     {
@@ -1764,9 +1764,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3315,
-            "demoman": 1423,
-            "last_updated": "2024-10-04T16:29:20.082622"
+            "soldier": 3332,
+            "demoman": 1425,
+            "last_updated": "2024-10-22T20:21:35.277179"
         }
     },
     {
@@ -1797,9 +1797,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2670,
-            "demoman": 1022,
-            "last_updated": "2024-10-04T16:29:20.106624"
+            "soldier": 2686,
+            "demoman": 1027,
+            "last_updated": "2024-10-22T20:21:35.312687"
         }
     },
     {
@@ -1828,9 +1828,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3287,
-            "demoman": 2020,
-            "last_updated": "2024-10-04T16:29:20.176620"
+            "soldier": 3299,
+            "demoman": 2027,
+            "last_updated": "2024-10-22T20:21:35.314689"
         }
     },
     {
@@ -1864,9 +1864,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 23,
-            "demoman": 303,
-            "last_updated": "2024-10-04T16:29:19.997627"
+            "soldier": 25,
+            "demoman": 305,
+            "last_updated": "2024-10-22T20:21:35.237349"
         }
     },
     {
@@ -1900,8 +1900,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 370,
-            "demoman": 555,
-            "last_updated": "2024-10-04T16:29:19.975625"
+            "demoman": 557,
+            "last_updated": "2024-10-22T20:21:35.253178"
         }
     },
     {
@@ -1932,9 +1932,9 @@ const maps_json = [
             "demoman": "aMQhmFGR1rg"
         },
         "completion_info": {
-            "soldier": 1680,
-            "demoman": 403,
-            "last_updated": "2024-10-04T16:29:20.041623"
+            "soldier": 1701,
+            "demoman": 406,
+            "last_updated": "2024-10-22T20:21:35.257179"
         }
     },
     {
@@ -1963,9 +1963,9 @@ const maps_json = [
             "demoman": "I8L7NQVt740"
         },
         "completion_info": {
-            "soldier": 436,
-            "demoman": 430,
-            "last_updated": "2024-10-04T16:29:19.967391"
+            "soldier": 438,
+            "demoman": 433,
+            "last_updated": "2024-10-22T20:21:35.298739"
         }
     },
     {
@@ -1995,9 +1995,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1122,
-            "demoman": 896,
-            "last_updated": "2024-10-04T16:29:21.478345"
+            "soldier": 1129,
+            "demoman": 899,
+            "last_updated": "2024-10-22T20:21:36.598326"
         }
     },
     {
@@ -2028,9 +2028,9 @@ const maps_json = [
             "demoman": "FQrotmBANQI"
         },
         "completion_info": {
-            "soldier": 1178,
-            "demoman": 611,
-            "last_updated": "2024-10-04T16:29:21.478345"
+            "soldier": 1187,
+            "demoman": 620,
+            "last_updated": "2024-10-22T20:21:36.546326"
         }
     },
     {
@@ -2059,9 +2059,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2074,
-            "demoman": 1326,
-            "last_updated": "2024-10-04T16:29:21.531346"
+            "soldier": 2082,
+            "demoman": 1333,
+            "last_updated": "2024-10-22T20:21:36.550327"
         }
     },
     {
@@ -2092,9 +2092,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 744,
-            "demoman": 534,
-            "last_updated": "2024-10-04T16:29:21.481345"
+            "soldier": 745,
+            "demoman": 536,
+            "last_updated": "2024-10-22T20:21:36.535327"
         }
     },
     {
@@ -2123,9 +2123,9 @@ const maps_json = [
             "demoman": "4DKWBVuuVpg"
         },
         "completion_info": {
-            "soldier": 589,
+            "soldier": 590,
             "demoman": 399,
-            "last_updated": "2024-10-04T16:29:21.481345"
+            "last_updated": "2024-10-22T20:21:36.547327"
         }
     },
     {
@@ -2158,9 +2158,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 134,
-            "demoman": 485,
-            "last_updated": "2024-10-04T16:29:21.436346"
+            "soldier": 135,
+            "demoman": 486,
+            "last_updated": "2024-10-22T20:21:36.552327"
         }
     },
     {
@@ -2192,8 +2192,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 20,
-            "demoman": 291,
-            "last_updated": "2024-10-04T16:29:21.480347"
+            "demoman": 296,
+            "last_updated": "2024-10-22T20:21:36.530326"
         }
     },
     {
@@ -2226,8 +2226,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 251,
-            "demoman": 505,
-            "last_updated": "2024-10-04T16:29:21.420343"
+            "demoman": 508,
+            "last_updated": "2024-10-22T20:21:36.537327"
         }
     },
     {
@@ -2258,9 +2258,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 822,
-            "demoman": 1254,
-            "last_updated": "2024-10-04T16:29:24.475422"
+            "soldier": 835,
+            "demoman": 1262,
+            "last_updated": "2024-10-22T20:21:37.907331"
         }
     },
     {
@@ -2291,9 +2291,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2918,
-            "demoman": 1517,
-            "last_updated": "2024-10-04T16:29:24.560101"
+            "soldier": 2940,
+            "demoman": 1525,
+            "last_updated": "2024-10-22T20:21:37.907331"
         }
     },
     {
@@ -2322,9 +2322,9 @@ const maps_json = [
             "demoman": "eb7x8tYwofM"
         },
         "completion_info": {
-            "soldier": 608,
-            "demoman": 582,
-            "last_updated": "2024-10-04T16:29:23.562458"
+            "soldier": 615,
+            "demoman": 587,
+            "last_updated": "2024-10-22T20:21:37.895278"
         }
     },
     {
@@ -2357,9 +2357,9 @@ const maps_json = [
             "demoman": "gaM1YHP0Dhs"
         },
         "completion_info": {
-            "soldier": 806,
-            "demoman": 422,
-            "last_updated": "2024-10-04T16:29:23.464456"
+            "soldier": 819,
+            "demoman": 428,
+            "last_updated": "2024-10-22T20:21:37.890278"
         }
     },
     {
@@ -2390,9 +2390,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3710,
-            "demoman": 850,
-            "last_updated": "2024-10-04T16:29:23.700273"
+            "soldier": 3745,
+            "demoman": 854,
+            "last_updated": "2024-10-22T20:21:37.929771"
         }
     },
     {
@@ -2423,9 +2423,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 976,
-            "demoman": 440,
-            "last_updated": "2024-10-04T16:29:24.093845"
+            "soldier": 1010,
+            "demoman": 448,
+            "last_updated": "2024-10-22T20:21:37.906279"
         }
     },
     {
@@ -2461,9 +2461,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 892,
-            "demoman": 568,
-            "last_updated": "2024-10-04T16:29:24.270174"
+            "soldier": 902,
+            "demoman": 574,
+            "last_updated": "2024-10-22T20:21:37.908278"
         }
     },
     {
@@ -2494,9 +2494,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1574,
-            "demoman": 682,
-            "last_updated": "2024-10-04T16:29:23.923838"
+            "soldier": 1578,
+            "demoman": 684,
+            "last_updated": "2024-10-22T20:21:37.906279"
         }
     },
     {
@@ -2529,9 +2529,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2651,
-            "demoman": 1166,
-            "last_updated": "2024-10-04T16:29:25.945040"
+            "soldier": 2668,
+            "demoman": 1171,
+            "last_updated": "2024-10-22T20:21:39.194839"
         }
     },
     {
@@ -2562,9 +2562,9 @@ const maps_json = [
             "demoman": "sn6FZxqgJts"
         },
         "completion_info": {
-            "soldier": 586,
-            "demoman": 248,
-            "last_updated": "2024-10-04T16:29:25.404957"
+            "soldier": 594,
+            "demoman": 253,
+            "last_updated": "2024-10-22T20:21:39.180839"
         }
     },
     {
@@ -2595,9 +2595,9 @@ const maps_json = [
             "demoman": "WlGB_gOgRRk"
         },
         "completion_info": {
-            "soldier": 757,
-            "demoman": 881,
-            "last_updated": "2024-10-04T16:29:25.785694"
+            "soldier": 764,
+            "demoman": 886,
+            "last_updated": "2024-10-22T20:21:39.185839"
         }
     },
     {
@@ -2631,9 +2631,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 965,
-            "demoman": 579,
-            "last_updated": "2024-10-04T16:29:25.843043"
+            "soldier": 969,
+            "demoman": 581,
+            "last_updated": "2024-10-22T20:21:39.218839"
         }
     },
     {
@@ -2669,7 +2669,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 0,
             "demoman": 0,
-            "last_updated": "2024-10-04T16:29:25.109204"
+            "last_updated": "2024-10-22T20:21:39.178839"
         }
     },
     {
@@ -2700,9 +2700,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4211,
-            "demoman": 6018,
-            "last_updated": "2024-10-04T16:29:26.521661"
+            "soldier": 4231,
+            "demoman": 6026,
+            "last_updated": "2024-10-22T20:21:39.216845"
         }
     },
     {
@@ -2731,9 +2731,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 818,
-            "demoman": 545,
-            "last_updated": "2024-10-04T16:29:25.385955"
+            "soldier": 825,
+            "demoman": 552,
+            "last_updated": "2024-10-22T20:21:39.198839"
         }
     },
     {
@@ -2764,9 +2764,9 @@ const maps_json = [
             "demoman": "mVCiaQ0RXX4"
         },
         "completion_info": {
-            "soldier": 1389,
-            "demoman": 864,
-            "last_updated": "2024-10-04T16:29:25.644068"
+            "soldier": 1406,
+            "demoman": 874,
+            "last_updated": "2024-10-22T20:21:39.194839"
         }
     },
     {
@@ -2795,9 +2795,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4584,
-            "demoman": 4505,
-            "last_updated": "2024-10-04T16:29:27.651913"
+            "soldier": 4597,
+            "demoman": 4511,
+            "last_updated": "2024-10-22T20:21:40.516360"
         }
     },
     {
@@ -2826,9 +2826,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 221,
-            "demoman": 234,
-            "last_updated": "2024-10-04T16:29:27.133836"
+            "soldier": 223,
+            "demoman": 239,
+            "last_updated": "2024-10-22T20:21:40.528363"
         }
     },
     {
@@ -2859,9 +2859,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 567,
-            "demoman": 446,
-            "last_updated": "2024-10-04T16:29:27.390923"
+            "soldier": 571,
+            "demoman": 447,
+            "last_updated": "2024-10-22T20:21:40.482361"
         }
     },
     {
@@ -2892,9 +2892,9 @@ const maps_json = [
             "demoman": "uVoker4J87U"
         },
         "completion_info": {
-            "soldier": 1855,
-            "demoman": 240,
-            "last_updated": "2024-10-04T16:29:27.404920"
+            "soldier": 1870,
+            "demoman": 241,
+            "last_updated": "2024-10-22T20:21:40.517360"
         }
     },
     {
@@ -2926,9 +2926,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 109,
-            "demoman": 351,
-            "last_updated": "2024-10-04T16:29:27.425920"
+            "soldier": 111,
+            "demoman": 355,
+            "last_updated": "2024-10-22T20:21:40.476356"
         }
     },
     {
@@ -2960,9 +2960,9 @@ const maps_json = [
             "demoman": "0CwWDzaK1BU"
         },
         "completion_info": {
-            "soldier": 729,
-            "demoman": 306,
-            "last_updated": "2024-10-04T16:29:27.243927"
+            "soldier": 737,
+            "demoman": 308,
+            "last_updated": "2024-10-22T20:21:40.506367"
         }
     },
     {
@@ -2994,9 +2994,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 920,
+            "soldier": 924,
             "demoman": 608,
-            "last_updated": "2024-10-04T16:29:27.263926"
+            "last_updated": "2024-10-22T20:21:40.481361"
         }
     },
     {
@@ -3030,9 +3030,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 9789,
-            "demoman": 2352,
-            "last_updated": "2024-10-04T16:29:27.889908"
+            "soldier": 9834,
+            "demoman": 2360,
+            "last_updated": "2024-10-22T20:21:40.505361"
         }
     },
     {
@@ -3065,9 +3065,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 6881,
-            "demoman": 1857,
-            "last_updated": "2024-10-04T16:29:28.828835"
+            "soldier": 6911,
+            "demoman": 1863,
+            "last_updated": "2024-10-22T20:21:41.828524"
         }
     },
     {
@@ -3099,9 +3099,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2605,
-            "demoman": 1096,
-            "last_updated": "2024-10-04T16:29:28.658838"
+            "soldier": 2621,
+            "demoman": 1098,
+            "last_updated": "2024-10-22T20:21:41.795525"
         }
     },
     {
@@ -3138,9 +3138,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2011,
-            "demoman": 647,
-            "last_updated": "2024-10-04T16:29:28.658838"
+            "soldier": 2052,
+            "demoman": 658,
+            "last_updated": "2024-10-22T20:21:41.796524"
         }
     },
     {
@@ -3169,9 +3169,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1542,
-            "demoman": 745,
-            "last_updated": "2024-10-04T16:29:28.766835"
+            "soldier": 1555,
+            "demoman": 751,
+            "last_updated": "2024-10-22T20:21:41.786525"
         }
     },
     {
@@ -3202,9 +3202,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1633,
-            "demoman": 734,
-            "last_updated": "2024-10-04T16:29:28.598273"
+            "soldier": 1636,
+            "demoman": 735,
+            "last_updated": "2024-10-22T20:21:41.795525"
         }
     },
     {
@@ -3235,9 +3235,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1075,
-            "demoman": 541,
-            "last_updated": "2024-10-04T16:29:28.806835"
+            "soldier": 1079,
+            "demoman": 543,
+            "last_updated": "2024-10-22T20:21:41.791524"
         }
     },
     {
@@ -3268,9 +3268,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2009,
-            "demoman": 377,
-            "last_updated": "2024-10-04T16:29:28.755836"
+            "soldier": 2028,
+            "demoman": 381,
+            "last_updated": "2024-10-22T20:21:41.827524"
         }
     },
     {
@@ -3301,9 +3301,9 @@ const maps_json = [
             "demoman": "MwxogLTFAio"
         },
         "completion_info": {
-            "soldier": 745,
-            "demoman": 460,
-            "last_updated": "2024-10-04T16:29:28.745838"
+            "soldier": 751,
+            "demoman": 467,
+            "last_updated": "2024-10-22T20:21:41.770525"
         }
     },
     {
@@ -3332,9 +3332,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 7953,
-            "demoman": 2965,
-            "last_updated": "2024-10-04T16:29:30.246562"
+            "soldier": 7991,
+            "demoman": 2974,
+            "last_updated": "2024-10-22T20:21:43.157095"
         }
     },
     {
@@ -3364,9 +3364,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3916,
-            "demoman": 2179,
-            "last_updated": "2024-10-04T16:29:30.260562"
+            "soldier": 3943,
+            "demoman": 2183,
+            "last_updated": "2024-10-22T20:21:43.117096"
         }
     },
     {
@@ -3396,9 +3396,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1248,
-            "demoman": 724,
-            "last_updated": "2024-10-04T16:29:30.073566"
+            "soldier": 1260,
+            "demoman": 726,
+            "last_updated": "2024-10-22T20:21:43.094646"
         }
     },
     {
@@ -3429,9 +3429,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 553,
-            "demoman": 486,
-            "last_updated": "2024-10-04T16:29:30.072566"
+            "soldier": 555,
+            "demoman": 488,
+            "last_updated": "2024-10-22T20:21:43.128096"
         }
     },
     {
@@ -3462,9 +3462,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2334,
-            "demoman": 1269,
-            "last_updated": "2024-10-04T16:29:30.169565"
+            "soldier": 2355,
+            "demoman": 1274,
+            "last_updated": "2024-10-22T20:21:43.111959"
         }
     },
     {
@@ -3493,9 +3493,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5075,
-            "demoman": 1818,
-            "last_updated": "2024-10-04T16:29:30.169565"
+            "soldier": 5089,
+            "demoman": 1821,
+            "last_updated": "2024-10-22T20:21:43.127094"
         }
     },
     {
@@ -3526,9 +3526,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 457,
+            "soldier": 460,
             "demoman": 260,
-            "last_updated": "2024-10-04T16:29:30.012013"
+            "last_updated": "2024-10-22T20:21:43.116094"
         }
     },
     {
@@ -3561,9 +3561,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3769,
-            "demoman": 1869,
-            "last_updated": "2024-10-04T16:29:30.258562"
+            "soldier": 3789,
+            "demoman": 1874,
+            "last_updated": "2024-10-22T20:21:43.111959"
         }
     },
     {
@@ -3594,9 +3594,9 @@ const maps_json = [
             "demoman": "JU4R-pJDz-M"
         },
         "completion_info": {
-            "soldier": 2389,
-            "demoman": 1401,
-            "last_updated": "2024-10-04T16:29:31.617820"
+            "soldier": 2406,
+            "demoman": 1411,
+            "last_updated": "2024-10-22T20:21:44.433250"
         }
     },
     {
@@ -3627,9 +3627,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3519,
-            "demoman": 2406,
-            "last_updated": "2024-10-04T16:29:31.693818"
+            "soldier": 3541,
+            "demoman": 2414,
+            "last_updated": "2024-10-22T20:21:44.452759"
         }
     },
     {
@@ -3662,9 +3662,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2760,
-            "demoman": 574,
-            "last_updated": "2024-10-04T16:29:31.721817"
+            "soldier": 2775,
+            "demoman": 576,
+            "last_updated": "2024-10-22T20:21:44.436250"
         }
     },
     {
@@ -3695,9 +3695,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2225,
-            "demoman": 1330,
-            "last_updated": "2024-10-04T16:29:31.631820"
+            "soldier": 2236,
+            "demoman": 1331,
+            "last_updated": "2024-10-22T20:21:44.446480"
         }
     },
     {
@@ -3761,9 +3761,9 @@ const maps_json = [
             "demoman": "e01xRyt1Xjw"
         },
         "completion_info": {
-            "soldier": 256,
-            "demoman": 185,
-            "last_updated": "2024-10-04T16:29:31.519421"
+            "soldier": 259,
+            "demoman": 187,
+            "last_updated": "2024-10-22T20:21:44.416251"
         }
     },
     {
@@ -3792,9 +3792,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 591,
-            "demoman": 335,
-            "last_updated": "2024-10-04T16:29:31.561418"
+            "soldier": 595,
+            "demoman": 337,
+            "last_updated": "2024-10-22T20:21:44.432267"
         }
     },
     {
@@ -3823,9 +3823,9 @@ const maps_json = [
             "demoman": "l3OPWNeeapQ"
         },
         "completion_info": {
-            "soldier": 2189,
-            "demoman": 849,
-            "last_updated": "2024-10-04T16:29:31.620821"
+            "soldier": 2220,
+            "demoman": 861,
+            "last_updated": "2024-10-22T20:21:44.458756"
         }
     },
     {
@@ -3856,9 +3856,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3359,
-            "demoman": 964,
-            "last_updated": "2024-10-04T16:29:31.719817"
+            "soldier": 3379,
+            "demoman": 969,
+            "last_updated": "2024-10-22T20:21:44.476758"
         }
     },
     {
@@ -3889,9 +3889,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3502,
-            "demoman": 1315,
-            "last_updated": "2024-10-04T16:29:33.223075"
+            "soldier": 3522,
+            "demoman": 1322,
+            "last_updated": "2024-10-22T20:21:45.726410"
         }
     },
     {
@@ -3922,9 +3922,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3356,
-            "demoman": 1143,
-            "last_updated": "2024-10-04T16:29:33.223075"
+            "soldier": 3386,
+            "demoman": 1147,
+            "last_updated": "2024-10-22T20:21:45.717412"
         }
     },
     {
@@ -3955,9 +3955,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1107,
-            "demoman": 837,
-            "last_updated": "2024-10-04T16:29:33.175076"
+            "soldier": 1115,
+            "demoman": 841,
+            "last_updated": "2024-10-22T20:21:45.699399"
         }
     },
     {
@@ -3993,9 +3993,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 984,
-            "demoman": 734,
-            "last_updated": "2024-10-04T16:29:33.169076"
+            "soldier": 986,
+            "demoman": 736,
+            "last_updated": "2024-10-22T20:21:45.715414"
         }
     },
     {
@@ -4026,9 +4026,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 357,
-            "demoman": 253,
-            "last_updated": "2024-10-04T16:29:33.111080"
+            "soldier": 359,
+            "demoman": 254,
+            "last_updated": "2024-10-22T20:21:45.728410"
         }
     },
     {
@@ -4062,9 +4062,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 440,
-            "demoman": 409,
-            "last_updated": "2024-10-04T16:29:33.137078"
+            "soldier": 442,
+            "demoman": 410,
+            "last_updated": "2024-10-22T20:21:45.696395"
         }
     },
     {
@@ -4093,9 +4093,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 945,
-            "demoman": 814,
-            "last_updated": "2024-10-04T16:29:33.142077"
+            "soldier": 950,
+            "demoman": 817,
+            "last_updated": "2024-10-22T20:21:45.731410"
         }
     },
     {
@@ -4129,9 +4129,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1027,
-            "demoman": 614,
-            "last_updated": "2024-10-04T16:29:33.136078"
+            "soldier": 1034,
+            "demoman": 616,
+            "last_updated": "2024-10-22T20:21:45.714410"
         }
     },
     {
@@ -4160,9 +4160,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1810,
-            "demoman": 868,
-            "last_updated": "2024-10-04T16:29:34.682968"
+            "soldier": 1825,
+            "demoman": 871,
+            "last_updated": "2024-10-22T20:21:47.026060"
         }
     },
     {
@@ -4193,9 +4193,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1629,
-            "demoman": 968,
-            "last_updated": "2024-10-04T16:29:34.643972"
+            "soldier": 1643,
+            "demoman": 976,
+            "last_updated": "2024-10-22T20:21:47.040062"
         }
     },
     {
@@ -4226,9 +4226,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 805,
-            "demoman": 566,
-            "last_updated": "2024-10-04T16:29:34.627252"
+            "soldier": 809,
+            "demoman": 568,
+            "last_updated": "2024-10-22T20:21:47.023060"
         }
     },
     {
@@ -4262,9 +4262,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1166,
-            "demoman": 473,
-            "last_updated": "2024-10-04T16:29:34.633464"
+            "soldier": 1175,
+            "demoman": 474,
+            "last_updated": "2024-10-22T20:21:47.023060"
         }
     },
     {
@@ -4330,9 +4330,9 @@ const maps_json = [
             "demoman": "6MXxoyfZzWI"
         },
         "completion_info": {
-            "soldier": 586,
+            "soldier": 607,
             "demoman": 71,
-            "last_updated": "2024-10-04T16:29:34.663970"
+            "last_updated": "2024-10-22T20:21:47.031062"
         }
     },
     {
@@ -4366,9 +4366,9 @@ const maps_json = [
             "demoman": "87NYieYn94M"
         },
         "completion_info": {
-            "soldier": 972,
-            "demoman": 791,
-            "last_updated": "2024-10-04T16:29:34.651970"
+            "soldier": 975,
+            "demoman": 796,
+            "last_updated": "2024-10-22T20:21:47.022065"
         }
     },
     {
@@ -4484,9 +4484,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1222,
+            "soldier": 1225,
             "demoman": 460,
-            "last_updated": "2024-10-04T16:29:34.666969"
+            "last_updated": "2024-10-22T20:21:47.064059"
         }
     },
     {
@@ -4522,9 +4522,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4572,
-            "demoman": 1793,
-            "last_updated": "2024-10-04T16:29:34.712982"
+            "soldier": 4612,
+            "demoman": 1799,
+            "last_updated": "2024-10-22T20:21:47.124058"
         }
     },
     {
@@ -4557,9 +4557,9 @@ const maps_json = [
             "demoman": "qlc0z6ftxls"
         },
         "completion_info": {
-            "soldier": 1107,
-            "demoman": 509,
-            "last_updated": "2024-10-04T16:29:36.370599"
+            "soldier": 1128,
+            "demoman": 513,
+            "last_updated": "2024-10-22T20:21:48.307936"
         }
     },
     {
@@ -4592,9 +4592,9 @@ const maps_json = [
             "demoman": "n1e1oZqZNC0"
         },
         "completion_info": {
-            "soldier": 321,
-            "demoman": 326,
-            "last_updated": "2024-10-04T16:29:36.350598"
+            "soldier": 323,
+            "demoman": 328,
+            "last_updated": "2024-10-22T20:21:48.306934"
         }
     },
     {
@@ -4625,9 +4625,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2606,
-            "demoman": 1270,
-            "last_updated": "2024-10-04T16:29:36.438598"
+            "soldier": 2620,
+            "demoman": 1273,
+            "last_updated": "2024-10-22T20:21:48.361935"
         }
     },
     {
@@ -4660,9 +4660,9 @@ const maps_json = [
             "demoman": "LM-1x3Jq7bA"
         },
         "completion_info": {
-            "soldier": 598,
-            "demoman": 353,
-            "last_updated": "2024-10-04T16:29:36.382598"
+            "soldier": 604,
+            "demoman": 355,
+            "last_updated": "2024-10-22T20:21:48.340936"
         }
     },
     {
@@ -4693,9 +4693,9 @@ const maps_json = [
             "demoman": "R6syT42kAlc"
         },
         "completion_info": {
-            "soldier": 302,
-            "demoman": 547,
-            "last_updated": "2024-10-04T16:29:36.369599"
+            "soldier": 310,
+            "demoman": 551,
+            "last_updated": "2024-10-22T20:21:48.292410"
         }
     },
     {
@@ -4726,9 +4726,9 @@ const maps_json = [
             "demoman": "DS9v4m3-3XQ"
         },
         "completion_info": {
-            "soldier": 434,
-            "demoman": 267,
-            "last_updated": "2024-10-04T16:29:36.357599"
+            "soldier": 435,
+            "demoman": 269,
+            "last_updated": "2024-10-22T20:21:48.291406"
         }
     },
     {
@@ -4760,9 +4760,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 491,
+            "soldier": 493,
             "demoman": 260,
-            "last_updated": "2024-10-04T16:29:36.387599"
+            "last_updated": "2024-10-22T20:21:48.314936"
         }
     },
     {
@@ -4791,9 +4791,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1963,
-            "demoman": 689,
-            "last_updated": "2024-10-04T16:29:36.421599"
+            "soldier": 1977,
+            "demoman": 696,
+            "last_updated": "2024-10-22T20:21:48.321934"
         }
     },
     {
@@ -4827,9 +4827,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1126,
-            "demoman": 336,
-            "last_updated": "2024-10-04T16:29:38.204048"
+            "soldier": 1133,
+            "demoman": 338,
+            "last_updated": "2024-10-22T20:21:49.573342"
         }
     },
     {
@@ -4862,9 +4862,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2298,
+            "soldier": 2307,
             "demoman": 779,
-            "last_updated": "2024-10-04T16:29:38.194043"
+            "last_updated": "2024-10-22T20:21:49.625341"
         }
     },
     {
@@ -4897,9 +4897,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 630,
-            "demoman": 503,
-            "last_updated": "2024-10-04T16:29:38.170043"
+            "soldier": 642,
+            "demoman": 505,
+            "last_updated": "2024-10-22T20:21:49.558371"
         }
     },
     {
@@ -5000,9 +5000,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2315,
-            "demoman": 1026,
-            "last_updated": "2024-10-04T16:29:38.216043"
+            "soldier": 2337,
+            "demoman": 1035,
+            "last_updated": "2024-10-22T20:21:49.594342"
         }
     },
     {
@@ -5212,9 +5212,9 @@ const maps_json = [
             "demoman": "gEOm8m9GwBk"
         },
         "completion_info": {
-            "soldier": 208,
+            "soldier": 209,
             "demoman": 177,
-            "last_updated": "2024-10-04T16:29:38.153044"
+            "last_updated": "2024-10-22T20:21:49.564371"
         }
     },
     {
@@ -5245,9 +5245,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 440,
+            "soldier": 443,
             "demoman": 332,
-            "last_updated": "2024-10-04T16:29:38.159043"
+            "last_updated": "2024-10-22T20:21:49.611341"
         }
     },
     {
@@ -5279,9 +5279,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 526,
-            "demoman": 379,
-            "last_updated": "2024-10-04T16:29:38.175043"
+            "soldier": 534,
+            "demoman": 380,
+            "last_updated": "2024-10-22T20:21:49.607342"
         }
     },
     {
@@ -5312,9 +5312,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1508,
-            "demoman": 562,
-            "last_updated": "2024-10-04T16:29:38.192055"
+            "soldier": 1524,
+            "demoman": 565,
+            "last_updated": "2024-10-22T20:21:49.574344"
         }
     },
     {
@@ -5402,9 +5402,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 821,
-            "demoman": 521,
-            "last_updated": "2024-10-04T16:29:39.494313"
+            "soldier": 828,
+            "demoman": 523,
+            "last_updated": "2024-10-22T20:21:50.937432"
         }
     },
     {
@@ -5435,9 +5435,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5633,
-            "demoman": 1083,
-            "last_updated": "2024-10-04T16:29:39.557312"
+            "soldier": 5656,
+            "demoman": 1084,
+            "last_updated": "2024-10-22T20:21:50.922370"
         }
     },
     {
@@ -5508,9 +5508,9 @@ const maps_json = [
             "demoman": "YfOo-eRu4l0"
         },
         "completion_info": {
-            "soldier": 271,
-            "demoman": 332,
-            "last_updated": "2024-10-04T16:29:39.515312"
+            "soldier": 273,
+            "demoman": 334,
+            "last_updated": "2024-10-22T20:21:50.880372"
         }
     },
     {
@@ -5543,7 +5543,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 213,
             "demoman": 427,
-            "last_updated": "2024-10-04T16:29:39.514314"
+            "last_updated": "2024-10-22T20:21:50.880372"
         }
     },
     {
@@ -5576,9 +5576,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 233,
-            "demoman": 370,
-            "last_updated": "2024-10-04T16:29:39.495313"
+            "soldier": 235,
+            "demoman": 374,
+            "last_updated": "2024-10-22T20:21:50.887370"
         }
     },
     {
@@ -5607,9 +5607,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2583,
-            "demoman": 1591,
-            "last_updated": "2024-10-04T16:29:39.557312"
+            "soldier": 2597,
+            "demoman": 1603,
+            "last_updated": "2024-10-22T20:21:50.896370"
         }
     },
     {
@@ -5640,9 +5640,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 521,
-            "demoman": 314,
-            "last_updated": "2024-10-04T16:29:39.514314"
+            "soldier": 529,
+            "demoman": 318,
+            "last_updated": "2024-10-22T20:21:50.938369"
         }
     },
     {
@@ -5671,9 +5671,9 @@ const maps_json = [
             "demoman": "983ExpoUzOo"
         },
         "completion_info": {
-            "soldier": 253,
-            "demoman": 494,
-            "last_updated": "2024-10-04T16:29:39.519314"
+            "soldier": 256,
+            "demoman": 500,
+            "last_updated": "2024-10-22T20:21:50.879367"
         }
     },
     {
@@ -5704,9 +5704,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1182,
-            "demoman": 913,
-            "last_updated": "2024-10-04T16:29:40.997288"
+            "soldier": 1187,
+            "demoman": 914,
+            "last_updated": "2024-10-22T20:21:52.259067"
         }
     },
     {
@@ -5735,9 +5735,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 829,
+            "soldier": 832,
             "demoman": 499,
-            "last_updated": "2024-10-04T16:29:40.955289"
+            "last_updated": "2024-10-22T20:21:52.222248"
         }
     },
     {
@@ -5868,9 +5868,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 294,
-            "demoman": 296,
-            "last_updated": "2024-10-04T16:29:40.935291"
+            "soldier": 300,
+            "demoman": 302,
+            "last_updated": "2024-10-22T20:21:52.202250"
         }
     },
     {
@@ -5902,9 +5902,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5183,
-            "demoman": 1639,
-            "last_updated": "2024-10-04T16:29:41.017288"
+            "soldier": 5225,
+            "demoman": 1648,
+            "last_updated": "2024-10-22T20:21:52.242248"
         }
     },
     {
@@ -5933,9 +5933,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2840,
-            "demoman": 779,
-            "last_updated": "2024-10-04T16:29:41.001287"
+            "soldier": 2864,
+            "demoman": 785,
+            "last_updated": "2024-10-22T20:21:52.258066"
         }
     },
     {
@@ -5967,9 +5967,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2222,
-            "demoman": 1161,
-            "last_updated": "2024-10-04T16:29:40.990288"
+            "soldier": 2231,
+            "demoman": 1163,
+            "last_updated": "2024-10-22T20:21:52.224250"
         }
     },
     {
@@ -6003,9 +6003,9 @@ const maps_json = [
             "demoman": "7saoyqqgKWg"
         },
         "completion_info": {
-            "soldier": 571,
-            "demoman": 933,
-            "last_updated": "2024-10-04T16:29:40.954290"
+            "soldier": 573,
+            "demoman": 937,
+            "last_updated": "2024-10-22T20:21:52.243248"
         }
     },
     {
@@ -6035,9 +6035,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1860,
+            "soldier": 1873,
             "demoman": 491,
-            "last_updated": "2024-10-04T16:29:41.023287"
+            "last_updated": "2024-10-22T20:21:52.218247"
         }
     },
     {
@@ -6068,9 +6068,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1979,
-            "demoman": 563,
-            "last_updated": "2024-10-04T16:29:42.472068"
+            "soldier": 1991,
+            "demoman": 567,
+            "last_updated": "2024-10-22T20:21:53.520730"
         }
     },
     {
@@ -6100,9 +6100,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 387,
+            "soldier": 391,
             "demoman": 373,
-            "last_updated": "2024-10-04T16:29:42.411235"
+            "last_updated": "2024-10-22T20:21:53.470329"
         }
     },
     {
@@ -6131,9 +6131,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2289,
-            "demoman": 1315,
-            "last_updated": "2024-10-04T16:29:42.470068"
+            "soldier": 2302,
+            "demoman": 1319,
+            "last_updated": "2024-10-22T20:21:53.492330"
         }
     },
     {
@@ -6164,9 +6164,9 @@ const maps_json = [
             "demoman": "iZfyIC2rbl8"
         },
         "completion_info": {
-            "soldier": 1116,
+            "soldier": 1125,
             "demoman": 148,
-            "last_updated": "2024-10-04T16:29:42.432071"
+            "last_updated": "2024-10-22T20:21:53.489330"
         }
     },
     {
@@ -6196,9 +6196,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1686,
+            "soldier": 1695,
             "demoman": 786,
-            "last_updated": "2024-10-04T16:29:42.489067"
+            "last_updated": "2024-10-22T20:21:53.476331"
         }
     },
     {
@@ -6229,9 +6229,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2796,
-            "demoman": 1138,
-            "last_updated": "2024-10-04T16:29:42.482068"
+            "soldier": 2821,
+            "demoman": 1141,
+            "last_updated": "2024-10-22T20:21:53.489330"
         }
     },
     {
@@ -6262,9 +6262,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1126,
-            "demoman": 839,
-            "last_updated": "2024-10-04T16:29:42.505067"
+            "soldier": 1129,
+            "demoman": 841,
+            "last_updated": "2024-10-22T20:21:53.491330"
         }
     },
     {
@@ -6296,8 +6296,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 209,
-            "demoman": 424,
-            "last_updated": "2024-10-04T16:29:42.487067"
+            "demoman": 425,
+            "last_updated": "2024-10-22T20:21:53.524333"
         }
     },
     {
@@ -6326,9 +6326,9 @@ const maps_json = [
             "demoman": "EPIpEMiQtW0"
         },
         "completion_info": {
-            "soldier": 389,
-            "demoman": 349,
-            "last_updated": "2024-10-04T16:29:43.804396"
+            "soldier": 390,
+            "demoman": 351,
+            "last_updated": "2024-10-22T20:21:54.784904"
         }
     },
     {
@@ -6362,9 +6362,9 @@ const maps_json = [
             "demoman": "BJJs8tVjq_c"
         },
         "completion_info": {
-            "soldier": 1270,
-            "demoman": 197,
-            "last_updated": "2024-10-04T16:29:43.805400"
+            "soldier": 1276,
+            "demoman": 198,
+            "last_updated": "2024-10-22T20:21:54.752904"
         }
     },
     {
@@ -6395,9 +6395,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 748,
-            "demoman": 629,
-            "last_updated": "2024-10-04T16:29:43.824398"
+            "soldier": 751,
+            "demoman": 631,
+            "last_updated": "2024-10-22T20:21:54.761904"
         }
     },
     {
@@ -6428,9 +6428,9 @@ const maps_json = [
             "demoman": "no60yna1r4k"
         },
         "completion_info": {
-            "soldier": 508,
-            "demoman": 472,
-            "last_updated": "2024-10-04T16:29:43.854398"
+            "soldier": 511,
+            "demoman": 477,
+            "last_updated": "2024-10-22T20:21:54.761904"
         }
     },
     {
@@ -6463,9 +6463,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 868,
-            "demoman": 751,
-            "last_updated": "2024-10-04T16:29:43.823407"
+            "soldier": 881,
+            "demoman": 756,
+            "last_updated": "2024-10-22T20:21:54.786903"
         }
     },
     {
@@ -6496,9 +6496,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 844,
-            "demoman": 510,
-            "last_updated": "2024-10-04T16:29:43.842400"
+            "soldier": 868,
+            "demoman": 523,
+            "last_updated": "2024-10-22T20:21:54.745045"
         }
     },
     {
@@ -6529,9 +6529,9 @@ const maps_json = [
             "demoman": "JCkZLw4bSBE"
         },
         "completion_info": {
-            "soldier": 703,
-            "demoman": 275,
-            "last_updated": "2024-10-04T16:29:43.833399"
+            "soldier": 707,
+            "demoman": 277,
+            "last_updated": "2024-10-22T20:21:54.747905"
         }
     },
     {
@@ -6564,9 +6564,9 @@ const maps_json = [
             "demoman": "3yXPqFcVXeg"
         },
         "completion_info": {
-            "soldier": 531,
-            "demoman": 667,
-            "last_updated": "2024-10-04T16:29:43.830399"
+            "soldier": 533,
+            "demoman": 668,
+            "last_updated": "2024-10-22T20:21:54.747905"
         }
     },
     {
@@ -6602,9 +6602,9 @@ const maps_json = [
             "demoman": "ojiCc9vR5T8"
         },
         "completion_info": {
-            "soldier": 2891,
-            "demoman": 384,
-            "last_updated": "2024-10-04T16:29:45.201672"
+            "soldier": 2904,
+            "demoman": 385,
+            "last_updated": "2024-10-22T20:21:56.044768"
         }
     },
     {
@@ -6636,9 +6636,9 @@ const maps_json = [
             "demoman": "rABO3fM-6hc"
         },
         "completion_info": {
-            "soldier": 1081,
-            "demoman": 415,
-            "last_updated": "2024-10-04T16:29:45.154672"
+            "soldier": 1093,
+            "demoman": 417,
+            "last_updated": "2024-10-22T20:21:56.022768"
         }
     },
     {
@@ -6670,9 +6670,9 @@ const maps_json = [
             "demoman": "XL_d-TpCtH4"
         },
         "completion_info": {
-            "soldier": 569,
+            "soldier": 570,
             "demoman": 112,
-            "last_updated": "2024-10-04T16:29:45.137673"
+            "last_updated": "2024-10-22T20:21:56.015770"
         }
     },
     {
@@ -6703,9 +6703,9 @@ const maps_json = [
             "demoman": "3iyiElkPklA"
         },
         "completion_info": {
-            "soldier": 457,
-            "demoman": 434,
-            "last_updated": "2024-10-04T16:29:45.168672"
+            "soldier": 465,
+            "demoman": 438,
+            "last_updated": "2024-10-22T20:21:56.021768"
         }
     },
     {
@@ -6734,9 +6734,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3214,
-            "demoman": 1365,
-            "last_updated": "2024-10-04T16:29:45.168672"
+            "soldier": 3231,
+            "demoman": 1367,
+            "last_updated": "2024-10-22T20:21:56.100769"
         }
     },
     {
@@ -6769,9 +6769,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1615,
-            "demoman": 1065,
-            "last_updated": "2024-10-04T16:29:45.155674"
+            "soldier": 1626,
+            "demoman": 1068,
+            "last_updated": "2024-10-22T20:21:56.022768"
         }
     },
     {
@@ -6804,9 +6804,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1003,
-            "demoman": 434,
-            "last_updated": "2024-10-04T16:29:45.145673"
+            "soldier": 1028,
+            "demoman": 440,
+            "last_updated": "2024-10-22T20:21:56.073770"
         }
     },
     {
@@ -6835,9 +6835,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2468,
-            "demoman": 1140,
-            "last_updated": "2024-10-04T16:29:45.167678"
+            "soldier": 2494,
+            "demoman": 1148,
+            "last_updated": "2024-10-22T20:21:56.073770"
         }
     },
     {
@@ -6869,9 +6869,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2169,
-            "demoman": 984,
-            "last_updated": "2024-10-04T16:29:46.611859"
+            "soldier": 2201,
+            "demoman": 995,
+            "last_updated": "2024-10-22T20:21:57.336584"
         }
     },
     {
@@ -6902,9 +6902,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 158,
-            "demoman": 356,
-            "last_updated": "2024-10-04T16:29:46.552403"
+            "soldier": 159,
+            "demoman": 357,
+            "last_updated": "2024-10-22T20:21:57.346575"
         }
     },
     {
@@ -6936,9 +6936,9 @@ const maps_json = [
             "demoman": "DV1r-0shkQg"
         },
         "completion_info": {
-            "soldier": 944,
-            "demoman": 589,
-            "last_updated": "2024-10-04T16:29:46.554404"
+            "soldier": 948,
+            "demoman": 591,
+            "last_updated": "2024-10-22T20:21:57.337576"
         }
     },
     {
@@ -6971,9 +6971,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 122,
+            "soldier": 124,
             "demoman": 203,
-            "last_updated": "2024-10-04T16:29:46.568403"
+            "last_updated": "2024-10-22T20:21:57.328572"
         }
     },
     {
@@ -7016,9 +7016,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 785,
-            "demoman": 218,
-            "last_updated": "2024-10-04T16:29:46.549405"
+            "soldier": 791,
+            "demoman": 219,
+            "last_updated": "2024-10-22T20:21:57.347576"
         }
     },
     {
@@ -7052,9 +7052,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2212,
-            "demoman": 1188,
-            "last_updated": "2024-10-04T16:29:46.575402"
+            "soldier": 2225,
+            "demoman": 1197,
+            "last_updated": "2024-10-22T20:21:57.361577"
         }
     },
     {
@@ -7083,9 +7083,9 @@ const maps_json = [
             "demoman": "FR7VWMPVzaw"
         },
         "completion_info": {
-            "soldier": 655,
-            "demoman": 390,
-            "last_updated": "2024-10-04T16:29:46.567403"
+            "soldier": 657,
+            "demoman": 392,
+            "last_updated": "2024-10-22T20:21:57.337576"
         }
     },
     {
@@ -7115,9 +7115,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 350,
-            "demoman": 307,
-            "last_updated": "2024-10-04T16:29:46.557404"
+            "soldier": 356,
+            "demoman": 310,
+            "last_updated": "2024-10-22T20:21:57.329577"
         }
     },
     {
@@ -7156,9 +7156,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 337,
-            "demoman": 236,
-            "last_updated": "2024-10-04T16:29:48.391369"
+            "soldier": 339,
+            "demoman": 237,
+            "last_updated": "2024-10-22T20:21:58.631398"
         }
     },
     {
@@ -7190,8 +7190,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 441,
-            "demoman": 607,
-            "last_updated": "2024-10-04T16:29:48.369369"
+            "demoman": 609,
+            "last_updated": "2024-10-22T20:21:58.688890"
         }
     },
     {
@@ -7220,9 +7220,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1242,
-            "demoman": 313,
-            "last_updated": "2024-10-04T16:29:48.370368"
+            "soldier": 1301,
+            "demoman": 329,
+            "last_updated": "2024-10-22T20:21:58.613399"
         }
     },
     {
@@ -7253,9 +7253,9 @@ const maps_json = [
             "demoman": "eZLssTp7rw8"
         },
         "completion_info": {
-            "soldier": 829,
-            "demoman": 354,
-            "last_updated": "2024-10-04T16:29:48.377369"
+            "soldier": 833,
+            "demoman": 360,
+            "last_updated": "2024-10-22T20:21:58.636398"
         }
     },
     {
@@ -7287,9 +7287,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1965,
+            "soldier": 1970,
             "demoman": 385,
-            "last_updated": "2024-10-04T16:29:48.423368"
+            "last_updated": "2024-10-22T20:21:58.632400"
         }
     },
     {
@@ -7321,9 +7321,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1016,
-            "demoman": 793,
-            "last_updated": "2024-10-04T16:29:48.390369"
+            "soldier": 1024,
+            "demoman": 798,
+            "last_updated": "2024-10-22T20:21:58.630400"
         }
     },
     {
@@ -7356,7 +7356,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 343,
             "demoman": 315,
-            "last_updated": "2024-10-04T16:29:48.375369"
+            "last_updated": "2024-10-22T20:21:58.630400"
         }
     },
     {
@@ -7388,9 +7388,9 @@ const maps_json = [
             "demoman": "AmEvzZS7CrA"
         },
         "completion_info": {
-            "soldier": 892,
-            "demoman": 837,
-            "last_updated": "2024-10-04T16:29:48.392369"
+            "soldier": 896,
+            "demoman": 840,
+            "last_updated": "2024-10-22T20:21:58.614398"
         }
     },
     {
@@ -7419,9 +7419,9 @@ const maps_json = [
             "demoman": "z89STE0mgYc"
         },
         "completion_info": {
-            "soldier": 506,
-            "demoman": 561,
-            "last_updated": "2024-10-04T16:29:49.952229"
+            "soldier": 510,
+            "demoman": 565,
+            "last_updated": "2024-10-22T20:21:59.942985"
         }
     },
     {
@@ -7450,9 +7450,9 @@ const maps_json = [
             "demoman": "aYNfDQzsUyA"
         },
         "completion_info": {
-            "soldier": 582,
-            "demoman": 819,
-            "last_updated": "2024-10-04T16:29:49.953229"
+            "soldier": 586,
+            "demoman": 823,
+            "last_updated": "2024-10-22T20:21:59.931985"
         }
     },
     {
@@ -7484,8 +7484,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 0,
-            "demoman": 214,
-            "last_updated": "2024-10-04T16:29:49.956193"
+            "demoman": 217,
+            "last_updated": "2024-10-22T20:21:59.924985"
         }
     },
     {
@@ -7514,9 +7514,9 @@ const maps_json = [
             "demoman": "r54w4DX48C4"
         },
         "completion_info": {
-            "soldier": 1523,
-            "demoman": 602,
-            "last_updated": "2024-10-04T16:29:49.954188"
+            "soldier": 1535,
+            "demoman": 605,
+            "last_updated": "2024-10-22T20:21:59.941986"
         }
     },
     {
@@ -7547,7 +7547,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 914,
             "demoman": 575,
-            "last_updated": "2024-10-04T16:29:49.995196"
+            "last_updated": "2024-10-22T20:21:59.923986"
         }
     },
     {
@@ -7578,9 +7578,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 846,
-            "demoman": 725,
-            "last_updated": "2024-10-04T16:29:49.959192"
+            "soldier": 847,
+            "demoman": 727,
+            "last_updated": "2024-10-22T20:21:59.943985"
         }
     },
     {
@@ -7610,9 +7610,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 849,
-            "demoman": 505,
-            "last_updated": "2024-10-04T16:29:49.971192"
+            "soldier": 859,
+            "demoman": 506,
+            "last_updated": "2024-10-22T20:21:59.930986"
         }
     },
     {
@@ -7643,9 +7643,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 738,
-            "demoman": 413,
-            "last_updated": "2024-10-04T16:29:49.962193"
+            "soldier": 748,
+            "demoman": 415,
+            "last_updated": "2024-10-22T20:21:59.942985"
         }
     },
     {
@@ -7676,9 +7676,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 696,
-            "demoman": 402,
-            "last_updated": "2024-10-04T16:29:51.364314"
+            "soldier": 700,
+            "demoman": 404,
+            "last_updated": "2024-10-22T20:22:01.302657"
         }
     },
     {
@@ -7709,9 +7709,9 @@ const maps_json = [
             "demoman": "T0r1b3Haeoo"
         },
         "completion_info": {
-            "soldier": 216,
-            "demoman": 821,
-            "last_updated": "2024-10-04T16:29:51.334315"
+            "soldier": 217,
+            "demoman": 825,
+            "last_updated": "2024-10-22T20:22:01.355655"
         }
     },
     {
@@ -7742,9 +7742,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3753,
-            "demoman": 1080,
-            "last_updated": "2024-10-04T16:29:51.378314"
+            "soldier": 3794,
+            "demoman": 1087,
+            "last_updated": "2024-10-22T20:22:01.373655"
         }
     },
     {
@@ -7773,9 +7773,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4380,
-            "demoman": 1584,
-            "last_updated": "2024-10-04T16:29:51.388314"
+            "soldier": 4390,
+            "demoman": 1587,
+            "last_updated": "2024-10-22T20:22:01.366655"
         }
     },
     {
@@ -7804,9 +7804,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 7752,
-            "demoman": 3007,
-            "last_updated": "2024-10-04T16:29:51.386314"
+            "soldier": 7790,
+            "demoman": 3013,
+            "last_updated": "2024-10-22T20:22:01.375655"
         }
     },
     {
@@ -7836,9 +7836,9 @@ const maps_json = [
             "demoman": "LZG9Ap3COgE"
         },
         "completion_info": {
-            "soldier": 623,
-            "demoman": 381,
-            "last_updated": "2024-10-04T16:29:51.354314"
+            "soldier": 634,
+            "demoman": 384,
+            "last_updated": "2024-10-22T20:22:01.304657"
         }
     },
     {
@@ -7869,9 +7869,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1048,
-            "demoman": 381,
-            "last_updated": "2024-10-04T16:29:51.354314"
+            "soldier": 1049,
+            "demoman": 382,
+            "last_updated": "2024-10-22T20:22:01.304657"
         }
     },
     {
@@ -7900,9 +7900,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 950,
+            "soldier": 965,
             "demoman": 349,
-            "last_updated": "2024-10-04T16:29:51.355316"
+            "last_updated": "2024-10-22T20:22:01.306657"
         }
     },
     {
@@ -7933,9 +7933,9 @@ const maps_json = [
             "demoman": "fU1ZWcv9wxo"
         },
         "completion_info": {
-            "soldier": 1025,
-            "demoman": 1333,
-            "last_updated": "2024-10-04T16:29:53.015201"
+            "soldier": 1032,
+            "demoman": 1341,
+            "last_updated": "2024-10-22T20:22:02.616071"
         }
     },
     {
@@ -7966,9 +7966,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 253,
-            "demoman": 449,
-            "last_updated": "2024-10-04T16:29:53.006201"
+            "soldier": 254,
+            "demoman": 452,
+            "last_updated": "2024-10-22T20:22:02.613070"
         }
     },
     {
@@ -8002,9 +8002,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 460,
-            "demoman": 366,
-            "last_updated": "2024-10-04T16:29:53.016201"
+            "soldier": 461,
+            "demoman": 368,
+            "last_updated": "2024-10-22T20:22:02.622070"
         }
     },
     {
@@ -8035,9 +8035,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 7208,
-            "demoman": 3059,
-            "last_updated": "2024-10-04T16:29:53.033201"
+            "soldier": 7247,
+            "demoman": 3065,
+            "last_updated": "2024-10-22T20:22:02.646864"
         }
     },
     {
@@ -8075,9 +8075,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 675,
-            "demoman": 386,
-            "last_updated": "2024-10-04T16:29:53.009201"
+            "soldier": 681,
+            "demoman": 389,
+            "last_updated": "2024-10-22T20:22:02.614070"
         }
     },
     {
@@ -8108,9 +8108,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 792,
+            "soldier": 798,
             "demoman": 372,
-            "last_updated": "2024-10-04T16:29:53.005201"
+            "last_updated": "2024-10-22T20:22:02.658865"
         }
     },
     {
@@ -8141,9 +8141,9 @@ const maps_json = [
             "demoman": "SFSL_6oTGME"
         },
         "completion_info": {
-            "soldier": 1189,
-            "demoman": 194,
-            "last_updated": "2024-10-04T16:29:53.015201"
+            "soldier": 1195,
+            "demoman": 195,
+            "last_updated": "2024-10-22T20:22:02.626072"
         }
     },
     {
@@ -8187,9 +8187,9 @@ const maps_json = [
             "demoman": "5Rx7w0nqv2o"
         },
         "completion_info": {
-            "soldier": 837,
-            "demoman": 219,
-            "last_updated": "2024-10-04T16:29:53.004205"
+            "soldier": 855,
+            "demoman": 223,
+            "last_updated": "2024-10-22T20:22:02.620070"
         }
     },
     {
@@ -8218,9 +8218,9 @@ const maps_json = [
             "demoman": "igbB1wYlJ-E"
         },
         "completion_info": {
-            "soldier": 730,
-            "demoman": 452,
-            "last_updated": "2024-10-04T16:29:54.493342"
+            "soldier": 735,
+            "demoman": 454,
+            "last_updated": "2024-10-22T20:22:03.950214"
         }
     },
     {
@@ -8251,9 +8251,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1050,
-            "demoman": 730,
-            "last_updated": "2024-10-04T16:29:54.502342"
+            "soldier": 1055,
+            "demoman": 732,
+            "last_updated": "2024-10-22T20:22:03.966214"
         }
     },
     {
@@ -8284,9 +8284,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 451,
+            "soldier": 455,
             "demoman": 218,
-            "last_updated": "2024-10-04T16:29:54.476343"
+            "last_updated": "2024-10-22T20:22:03.924144"
         }
     },
     {
@@ -8319,9 +8319,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2126,
-            "demoman": 804,
-            "last_updated": "2024-10-04T16:29:54.502342"
+            "soldier": 2136,
+            "demoman": 806,
+            "last_updated": "2024-10-22T20:22:03.941215"
         }
     },
     {
@@ -8350,9 +8350,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5818,
-            "demoman": 1572,
-            "last_updated": "2024-10-04T16:29:54.523340"
+            "soldier": 5844,
+            "demoman": 1581,
+            "last_updated": "2024-10-22T20:22:03.979214"
         }
     },
     {
@@ -8406,9 +8406,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 284,
-            "demoman": 320,
-            "last_updated": "2024-10-04T16:29:54.482348"
+            "soldier": 285,
+            "demoman": 321,
+            "last_updated": "2024-10-22T20:22:03.928309"
         }
     },
     {
@@ -8437,9 +8437,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 610,
-            "demoman": 692,
-            "last_updated": "2024-10-04T16:29:54.494341"
+            "soldier": 615,
+            "demoman": 694,
+            "last_updated": "2024-10-22T20:22:03.976214"
         }
     },
     {
@@ -8470,9 +8470,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2026,
-            "demoman": 863,
-            "last_updated": "2024-10-04T16:29:54.499341"
+            "soldier": 2034,
+            "demoman": 865,
+            "last_updated": "2024-10-22T20:22:03.966214"
         }
     },
     {
@@ -8505,9 +8505,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1064,
-            "demoman": 628,
-            "last_updated": "2024-10-04T16:29:55.864975"
+            "soldier": 1070,
+            "demoman": 633,
+            "last_updated": "2024-10-22T20:22:05.295025"
         }
     },
     {
@@ -8536,9 +8536,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1186,
-            "demoman": 260,
-            "last_updated": "2024-10-04T16:29:55.867365"
+            "soldier": 1219,
+            "demoman": 264,
+            "last_updated": "2024-10-22T20:22:05.236541"
         }
     },
     {
@@ -8574,9 +8574,9 @@ const maps_json = [
             "demoman": "2brd00_Bb5s"
         },
         "completion_info": {
-            "soldier": 1413,
-            "demoman": 235,
-            "last_updated": "2024-10-04T16:29:55.882362"
+            "soldier": 1424,
+            "demoman": 236,
+            "last_updated": "2024-10-22T20:22:05.252049"
         }
     },
     {
@@ -8605,9 +8605,9 @@ const maps_json = [
             "demoman": "_GeGfCdk5Fs"
         },
         "completion_info": {
-            "soldier": 452,
-            "demoman": 222,
-            "last_updated": "2024-10-04T16:29:55.872362"
+            "soldier": 453,
+            "demoman": 224,
+            "last_updated": "2024-10-22T20:22:05.243053"
         }
     },
     {
@@ -8639,9 +8639,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 883,
+            "soldier": 887,
             "demoman": 104,
-            "last_updated": "2024-10-04T16:29:55.883362"
+            "last_updated": "2024-10-22T20:22:05.257049"
         }
     },
     {
@@ -8671,9 +8671,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 741,
-            "demoman": 949,
-            "last_updated": "2024-10-04T16:29:55.882362"
+            "soldier": 746,
+            "demoman": 952,
+            "last_updated": "2024-10-22T20:22:05.242048"
         }
     },
     {
@@ -8704,9 +8704,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1151,
+            "soldier": 1156,
             "demoman": 645,
-            "last_updated": "2024-10-04T16:29:55.881363"
+            "last_updated": "2024-10-22T20:22:05.234541"
         }
     },
     {
@@ -8735,9 +8735,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1245,
-            "demoman": 877,
-            "last_updated": "2024-10-04T16:29:55.863971"
+            "soldier": 1249,
+            "demoman": 879,
+            "last_updated": "2024-10-22T20:22:05.252049"
         }
     },
     {
@@ -8768,9 +8768,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1029,
-            "demoman": 499,
-            "last_updated": "2024-10-04T16:29:57.198746"
+            "soldier": 1038,
+            "demoman": 501,
+            "last_updated": "2024-10-22T20:22:06.558282"
         }
     },
     {
@@ -8801,9 +8801,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2165,
-            "demoman": 1081,
-            "last_updated": "2024-10-04T16:29:57.223746"
+            "soldier": 2194,
+            "demoman": 1094,
+            "last_updated": "2024-10-22T20:22:06.590281"
         }
     },
     {
@@ -8834,9 +8834,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1167,
-            "demoman": 905,
-            "last_updated": "2024-10-04T16:29:57.217746"
+            "soldier": 1179,
+            "demoman": 907,
+            "last_updated": "2024-10-22T20:22:06.557283"
         }
     },
     {
@@ -8867,9 +8867,9 @@ const maps_json = [
             "demoman": "18kyV4YwaTY"
         },
         "completion_info": {
-            "soldier": 653,
-            "demoman": 544,
-            "last_updated": "2024-10-04T16:29:57.197742"
+            "soldier": 657,
+            "demoman": 547,
+            "last_updated": "2024-10-22T20:22:06.547282"
         }
     },
     {
@@ -8899,8 +8899,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 241,
-            "demoman": 400,
-            "last_updated": "2024-10-04T16:29:57.218746"
+            "demoman": 402,
+            "last_updated": "2024-10-22T20:22:06.540282"
         }
     },
     {
@@ -8929,9 +8929,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1315,
-            "demoman": 678,
-            "last_updated": "2024-10-04T16:29:57.202746"
+            "soldier": 1322,
+            "demoman": 681,
+            "last_updated": "2024-10-22T20:22:06.558282"
         }
     },
     {
@@ -8962,9 +8962,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2476,
-            "demoman": 2386,
-            "last_updated": "2024-10-04T16:29:57.225745"
+            "soldier": 2485,
+            "demoman": 2394,
+            "last_updated": "2024-10-22T20:22:06.581282"
         }
     },
     {
@@ -9000,9 +9000,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 999,
-            "demoman": 373,
-            "last_updated": "2024-10-04T16:29:57.199746"
+            "soldier": 1008,
+            "demoman": 376,
+            "last_updated": "2024-10-22T20:22:06.557283"
         }
     },
     {
@@ -9031,9 +9031,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1004,
-            "demoman": 760,
-            "last_updated": "2024-10-04T16:29:58.534551"
+            "soldier": 1019,
+            "demoman": 766,
+            "last_updated": "2024-10-22T20:22:07.838530"
         }
     },
     {
@@ -9064,9 +9064,9 @@ const maps_json = [
             "demoman": "q5-ZHeBz4WI"
         },
         "completion_info": {
-            "soldier": 2335,
-            "demoman": 1917,
-            "last_updated": "2024-10-04T16:29:58.534551"
+            "soldier": 2357,
+            "demoman": 1925,
+            "last_updated": "2024-10-22T20:22:07.859529"
         }
     },
     {
@@ -9097,9 +9097,9 @@ const maps_json = [
             "demoman": "zEFaRPUtAYA"
         },
         "completion_info": {
-            "soldier": 701,
-            "demoman": 378,
-            "last_updated": "2024-10-04T16:29:58.516559"
+            "soldier": 706,
+            "demoman": 380,
+            "last_updated": "2024-10-22T20:22:07.851529"
         }
     },
     {
@@ -9130,9 +9130,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3139,
-            "demoman": 1613,
-            "last_updated": "2024-10-04T16:29:58.530551"
+            "soldier": 3153,
+            "demoman": 1623,
+            "last_updated": "2024-10-22T20:22:07.863529"
         }
     },
     {
@@ -9165,9 +9165,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 590,
-            "demoman": 474,
-            "last_updated": "2024-10-04T16:29:58.503020"
+            "soldier": 595,
+            "demoman": 478,
+            "last_updated": "2024-10-22T20:22:07.839530"
         }
     },
     {
@@ -9198,8 +9198,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 335,
-            "demoman": 132,
-            "last_updated": "2024-10-04T16:29:58.495017"
+            "demoman": 134,
+            "last_updated": "2024-10-22T20:22:07.851529"
         }
     },
     {
@@ -9232,9 +9232,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 736,
+            "soldier": 737,
             "demoman": 695,
-            "last_updated": "2024-10-04T16:29:58.502017"
+            "last_updated": "2024-10-22T20:22:07.854529"
         }
     },
     {
@@ -9263,9 +9263,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3845,
-            "demoman": 3112,
-            "last_updated": "2024-10-04T16:29:58.530551"
+            "soldier": 3860,
+            "demoman": 3120,
+            "last_updated": "2024-10-22T20:22:07.816530"
         }
     },
     {
@@ -9296,9 +9296,9 @@ const maps_json = [
             "demoman": "zYMvTlYYOjo"
         },
         "completion_info": {
-            "soldier": 620,
-            "demoman": 433,
-            "last_updated": "2024-10-04T16:29:59.812852"
+            "soldier": 624,
+            "demoman": 439,
+            "last_updated": "2024-10-22T20:22:09.151310"
         }
     },
     {
@@ -9327,9 +9327,9 @@ const maps_json = [
             "demoman": "Vc1DnClRqQU"
         },
         "completion_info": {
-            "soldier": 1181,
-            "demoman": 739,
-            "last_updated": "2024-10-04T16:29:59.828851"
+            "soldier": 1192,
+            "demoman": 745,
+            "last_updated": "2024-10-22T20:22:09.151310"
         }
     },
     {
@@ -9358,9 +9358,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5177,
-            "demoman": 2110,
-            "last_updated": "2024-10-04T16:29:59.852850"
+            "soldier": 5210,
+            "demoman": 2116,
+            "last_updated": "2024-10-22T20:22:09.190852"
         }
     },
     {
@@ -9399,7 +9399,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 233,
             "demoman": 218,
-            "last_updated": "2024-10-04T16:29:59.809851"
+            "last_updated": "2024-10-22T20:22:09.132307"
         }
     },
     {
@@ -9428,9 +9428,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 207,
+            "soldier": 208,
             "demoman": 81,
-            "last_updated": "2024-10-04T16:29:59.853850"
+            "last_updated": "2024-10-22T20:22:09.150312"
         }
     },
     {
@@ -9459,9 +9459,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 404,
-            "demoman": 482,
-            "last_updated": "2024-10-04T16:29:59.827851"
+            "soldier": 411,
+            "demoman": 486,
+            "last_updated": "2024-10-22T20:22:09.138310"
         }
     },
     {
@@ -9545,9 +9545,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 645,
-            "demoman": 273,
-            "last_updated": "2024-10-04T16:29:59.828851"
+            "soldier": 649,
+            "demoman": 276,
+            "last_updated": "2024-10-22T20:22:09.150312"
         }
     },
     {
@@ -9581,9 +9581,9 @@ const maps_json = [
             "demoman": "5u8oodZEor0"
         },
         "completion_info": {
-            "soldier": 730,
-            "demoman": 882,
-            "last_updated": "2024-10-04T16:29:59.828851"
+            "soldier": 735,
+            "demoman": 886,
+            "last_updated": "2024-10-22T20:22:09.152312"
         }
     },
     {
@@ -9612,9 +9612,9 @@ const maps_json = [
             "demoman": "KPCxZC21-Ek"
         },
         "completion_info": {
-            "soldier": 562,
-            "demoman": 246,
-            "last_updated": "2024-10-04T16:30:01.108507"
+            "soldier": 572,
+            "demoman": 247,
+            "last_updated": "2024-10-22T20:22:10.426586"
         }
     },
     {
@@ -9645,9 +9645,9 @@ const maps_json = [
             "demoman": "_F72QoXjib8"
         },
         "completion_info": {
-            "soldier": 1237,
-            "demoman": 628,
-            "last_updated": "2024-10-04T16:30:01.128507"
+            "soldier": 1242,
+            "demoman": 630,
+            "last_updated": "2024-10-22T20:22:10.429585"
         }
     },
     {
@@ -9682,9 +9682,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 761,
+            "soldier": 766,
             "demoman": 640,
-            "last_updated": "2024-10-04T16:30:01.127508"
+            "last_updated": "2024-10-22T20:22:10.472583"
         }
     },
     {
@@ -9716,9 +9716,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 403,
-            "demoman": 431,
-            "last_updated": "2024-10-04T16:30:01.126507"
+            "soldier": 404,
+            "demoman": 432,
+            "last_updated": "2024-10-22T20:22:10.427586"
         }
     },
     {
@@ -9750,9 +9750,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 194,
+            "soldier": 196,
             "demoman": 482,
-            "last_updated": "2024-10-04T16:30:01.107507"
+            "last_updated": "2024-10-22T20:22:10.475583"
         }
     },
     {
@@ -9783,9 +9783,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 161,
-            "demoman": 322,
-            "last_updated": "2024-10-04T16:30:01.125508"
+            "soldier": 165,
+            "demoman": 330,
+            "last_updated": "2024-10-22T20:22:10.421582"
         }
     },
     {
@@ -9814,9 +9814,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 442,
+            "soldier": 445,
             "demoman": 144,
-            "last_updated": "2024-10-04T16:30:01.126507"
+            "last_updated": "2024-10-22T20:22:10.473583"
         }
     },
     {
@@ -9847,9 +9847,9 @@ const maps_json = [
             "demoman": "b6f-lMsllwU"
         },
         "completion_info": {
-            "soldier": 1286,
-            "demoman": 269,
-            "last_updated": "2024-10-04T16:30:01.134508"
+            "soldier": 1295,
+            "demoman": 271,
+            "last_updated": "2024-10-22T20:22:10.424586"
         }
     },
     {
@@ -9880,9 +9880,9 @@ const maps_json = [
             "demoman": "cnOEhdSrIyA"
         },
         "completion_info": {
-            "soldier": 1023,
-            "demoman": 304,
-            "last_updated": "2024-10-04T16:30:02.510012"
+            "soldier": 1027,
+            "demoman": 307,
+            "last_updated": "2024-10-22T20:22:11.842857"
         }
     },
     {
@@ -9916,9 +9916,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 824,
-            "demoman": 369,
-            "last_updated": "2024-10-04T16:30:02.552010"
+            "soldier": 827,
+            "demoman": 371,
+            "last_updated": "2024-10-22T20:22:11.841858"
         }
     },
     {
@@ -9951,9 +9951,9 @@ const maps_json = [
             "demoman": "Y-ll0XaGPwk"
         },
         "completion_info": {
-            "soldier": 1080,
+            "soldier": 1084,
             "demoman": 615,
-            "last_updated": "2024-10-04T16:30:02.541010"
+            "last_updated": "2024-10-22T20:22:11.836858"
         }
     },
     {
@@ -9985,9 +9985,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 726,
-            "demoman": 710,
-            "last_updated": "2024-10-04T16:30:02.587009"
+            "soldier": 728,
+            "demoman": 712,
+            "last_updated": "2024-10-22T20:22:11.840857"
         }
     },
     {
@@ -10016,9 +10016,9 @@ const maps_json = [
             "demoman": "imtqOJWbXr0"
         },
         "completion_info": {
-            "soldier": 620,
-            "demoman": 399,
-            "last_updated": "2024-10-04T16:30:02.531010"
+            "soldier": 623,
+            "demoman": 402,
+            "last_updated": "2024-10-22T20:22:11.856900"
         }
     },
     {
@@ -10047,9 +10047,9 @@ const maps_json = [
             "demoman": "2C-bEv0hu7U"
         },
         "completion_info": {
-            "soldier": 1875,
-            "demoman": 277,
-            "last_updated": "2024-10-04T16:30:02.570009"
+            "soldier": 1904,
+            "demoman": 280,
+            "last_updated": "2024-10-22T20:22:11.841858"
         }
     },
     {
@@ -10080,9 +10080,9 @@ const maps_json = [
             "demoman": "fb8VpGRKUtE"
         },
         "completion_info": {
-            "soldier": 617,
+            "soldier": 618,
             "demoman": 697,
-            "last_updated": "2024-10-04T16:30:02.540010"
+            "last_updated": "2024-10-22T20:22:11.857883"
         }
     },
     {
@@ -10111,9 +10111,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2380,
-            "demoman": 1377,
-            "last_updated": "2024-10-04T16:30:02.631008"
+            "soldier": 2398,
+            "demoman": 1383,
+            "last_updated": "2024-10-22T20:22:11.886882"
         }
     },
     {
@@ -10142,9 +10142,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1984,
-            "demoman": 626,
-            "last_updated": "2024-10-04T16:30:03.868472"
+            "soldier": 1993,
+            "demoman": 629,
+            "last_updated": "2024-10-22T20:22:13.387997"
         }
     },
     {
@@ -10178,9 +10178,9 @@ const maps_json = [
             "demoman": "T2iNzSRVsQ4"
         },
         "completion_info": {
-            "soldier": 1471,
-            "demoman": 1100,
-            "last_updated": "2024-10-04T16:30:03.887472"
+            "soldier": 1486,
+            "demoman": 1111,
+            "last_updated": "2024-10-22T20:22:13.341999"
         }
     },
     {
@@ -10209,9 +10209,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1295,
-            "demoman": 951,
-            "last_updated": "2024-10-04T16:30:03.867473"
+            "soldier": 1302,
+            "demoman": 953,
+            "last_updated": "2024-10-22T20:22:13.351999"
         }
     },
     {
@@ -10240,9 +10240,9 @@ const maps_json = [
             "demoman": "sgjCSMo-TVI"
         },
         "completion_info": {
-            "soldier": 894,
-            "demoman": 312,
-            "last_updated": "2024-10-04T16:30:03.857472"
+            "soldier": 899,
+            "demoman": 314,
+            "last_updated": "2024-10-22T20:22:13.351999"
         }
     },
     {
@@ -10274,9 +10274,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 130,
-            "demoman": 258,
-            "last_updated": "2024-10-04T16:30:03.849476"
+            "soldier": 133,
+            "demoman": 261,
+            "last_updated": "2024-10-22T20:22:13.350999"
         }
     },
     {
@@ -10307,9 +10307,9 @@ const maps_json = [
             "demoman": "sRz_ThqBBjM"
         },
         "completion_info": {
-            "soldier": 460,
-            "demoman": 441,
-            "last_updated": "2024-10-04T16:30:03.886472"
+            "soldier": 462,
+            "demoman": 442,
+            "last_updated": "2024-10-22T20:22:13.340999"
         }
     },
     {
@@ -10342,7 +10342,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 127,
             "demoman": 16,
-            "last_updated": "2024-10-04T16:30:03.868472"
+            "last_updated": "2024-10-22T20:22:13.333999"
         }
     },
     {
@@ -10374,9 +10374,9 @@ const maps_json = [
             "demoman": "H4I9cZKtcF4"
         },
         "completion_info": {
-            "soldier": 731,
-            "demoman": 361,
-            "last_updated": "2024-10-04T16:30:03.883479"
+            "soldier": 740,
+            "demoman": 366,
+            "last_updated": "2024-10-22T20:22:13.352998"
         }
     },
     {
@@ -10407,9 +10407,9 @@ const maps_json = [
             "demoman": "qRRkamJgnMY"
         },
         "completion_info": {
-            "soldier": 4009,
-            "demoman": 1091,
-            "last_updated": "2024-10-04T16:30:05.194393"
+            "soldier": 4041,
+            "demoman": 1097,
+            "last_updated": "2024-10-22T20:22:14.730988"
         }
     },
     {
@@ -10438,9 +10438,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 933,
+            "soldier": 939,
             "demoman": 396,
-            "last_updated": "2024-10-04T16:30:05.169394"
+            "last_updated": "2024-10-22T20:22:14.712988"
         }
     },
     {
@@ -10471,9 +10471,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2071,
-            "demoman": 867,
-            "last_updated": "2024-10-04T16:30:05.175393"
+            "soldier": 2076,
+            "demoman": 870,
+            "last_updated": "2024-10-22T20:22:14.718989"
         }
     },
     {
@@ -10504,9 +10504,9 @@ const maps_json = [
             "demoman": "DFeeCQk-pMU"
         },
         "completion_info": {
-            "soldier": 1618,
-            "demoman": 293,
-            "last_updated": "2024-10-04T16:30:05.195394"
+            "soldier": 1626,
+            "demoman": 295,
+            "last_updated": "2024-10-22T20:22:14.775988"
         }
     },
     {
@@ -10537,9 +10537,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2844,
-            "demoman": 1773,
-            "last_updated": "2024-10-04T16:30:05.194393"
+            "soldier": 2855,
+            "demoman": 1781,
+            "last_updated": "2024-10-22T20:22:14.817986"
         }
     },
     {
@@ -10568,9 +10568,9 @@ const maps_json = [
             "demoman": "RPfyohZSc2M"
         },
         "completion_info": {
-            "soldier": 2230,
-            "demoman": 865,
-            "last_updated": "2024-10-04T16:30:05.231032"
+            "soldier": 2235,
+            "demoman": 868,
+            "last_updated": "2024-10-22T20:22:14.767987"
         }
     },
     {
@@ -10603,9 +10603,9 @@ const maps_json = [
             "demoman": "Cu-x1zlAJ6k"
         },
         "completion_info": {
-            "soldier": 498,
-            "demoman": 625,
-            "last_updated": "2024-10-04T16:30:05.206035"
+            "soldier": 499,
+            "demoman": 629,
+            "last_updated": "2024-10-22T20:22:14.729988"
         }
     },
     {
@@ -10637,9 +10637,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1011,
-            "demoman": 672,
-            "last_updated": "2024-10-04T16:30:05.192394"
+            "soldier": 1017,
+            "demoman": 673,
+            "last_updated": "2024-10-22T20:22:14.730988"
         }
     },
     {
@@ -10672,9 +10672,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 7523,
-            "demoman": 2797,
-            "last_updated": "2024-10-04T16:30:06.510323"
+            "soldier": 7561,
+            "demoman": 2805,
+            "last_updated": "2024-10-22T20:22:16.088099"
         }
     },
     {
@@ -10703,9 +10703,9 @@ const maps_json = [
             "demoman": "D_aZOkrNfaE"
         },
         "completion_info": {
-            "soldier": 70,
+            "soldier": 71,
             "demoman": 341,
-            "last_updated": "2024-10-04T16:30:06.460320"
+            "last_updated": "2024-10-22T20:22:16.096098"
         }
     },
     {
@@ -10735,8 +10735,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 174,
-            "demoman": 182,
-            "last_updated": "2024-10-04T16:30:06.464324"
+            "demoman": 183,
+            "last_updated": "2024-10-22T20:22:16.055100"
         }
     },
     {
@@ -10767,9 +10767,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 687,
-            "demoman": 1269,
-            "last_updated": "2024-10-04T16:30:06.481323"
+            "soldier": 691,
+            "demoman": 1274,
+            "last_updated": "2024-10-22T20:22:16.063099"
         }
     },
     {
@@ -10801,9 +10801,9 @@ const maps_json = [
             "demoman": "RJgZkjXJGWY"
         },
         "completion_info": {
-            "soldier": 369,
-            "demoman": 147,
-            "last_updated": "2024-10-04T16:30:06.468325"
+            "soldier": 372,
+            "demoman": 148,
+            "last_updated": "2024-10-22T20:22:16.056099"
         }
     },
     {
@@ -10834,9 +10834,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1141,
-            "demoman": 666,
-            "last_updated": "2024-10-04T16:30:06.478324"
+            "soldier": 1155,
+            "demoman": 668,
+            "last_updated": "2024-10-22T20:22:16.074099"
         }
     },
     {
@@ -10867,9 +10867,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1487,
-            "demoman": 642,
-            "last_updated": "2024-10-04T16:30:06.477328"
+            "soldier": 1491,
+            "demoman": 643,
+            "last_updated": "2024-10-22T20:22:16.073099"
         }
     },
     {
@@ -10901,9 +10901,9 @@ const maps_json = [
             "demoman": "zAG4EUq15nI"
         },
         "completion_info": {
-            "soldier": 190,
-            "demoman": 217,
-            "last_updated": "2024-10-04T16:30:06.463324"
+            "soldier": 195,
+            "demoman": 219,
+            "last_updated": "2024-10-22T20:22:16.121098"
         }
     },
     {
@@ -10936,9 +10936,9 @@ const maps_json = [
             "demoman": "T5J_1W3PBkU"
         },
         "completion_info": {
-            "soldier": 527,
-            "demoman": 257,
-            "last_updated": "2024-10-04T16:30:07.784213"
+            "soldier": 529,
+            "demoman": 259,
+            "last_updated": "2024-10-22T20:22:17.380166"
         }
     },
     {
@@ -10969,9 +10969,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 278,
-            "demoman": 654,
-            "last_updated": "2024-10-04T16:30:07.785225"
+            "soldier": 280,
+            "demoman": 656,
+            "last_updated": "2024-10-22T20:22:17.426480"
         }
     },
     {
@@ -11004,9 +11004,9 @@ const maps_json = [
             "demoman": "4JPSD2eSc-k"
         },
         "completion_info": {
-            "soldier": 972,
-            "demoman": 174,
-            "last_updated": "2024-10-04T16:30:07.827216"
+            "soldier": 993,
+            "demoman": 177,
+            "last_updated": "2024-10-22T20:22:17.397211"
         }
     },
     {
@@ -11037,9 +11037,9 @@ const maps_json = [
             "demoman": "beINOExcuw0"
         },
         "completion_info": {
-            "soldier": 1238,
-            "demoman": 887,
-            "last_updated": "2024-10-04T16:30:07.802217"
+            "soldier": 1244,
+            "demoman": 890,
+            "last_updated": "2024-10-22T20:22:17.389168"
         }
     },
     {
@@ -11068,9 +11068,9 @@ const maps_json = [
             "demoman": "X587ZNn3ZRk"
         },
         "completion_info": {
-            "soldier": 2242,
-            "demoman": 839,
-            "last_updated": "2024-10-04T16:30:07.802217"
+            "soldier": 2264,
+            "demoman": 853,
+            "last_updated": "2024-10-22T20:22:17.398654"
         }
     },
     {
@@ -11101,9 +11101,9 @@ const maps_json = [
             "demoman": "TnY7QHPMz48"
         },
         "completion_info": {
-            "soldier": 1010,
-            "demoman": 101,
-            "last_updated": "2024-10-04T16:30:07.801216"
+            "soldier": 1016,
+            "demoman": 102,
+            "last_updated": "2024-10-22T20:22:17.398173"
         }
     },
     {
@@ -11138,8 +11138,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 246,
-            "demoman": 260,
-            "last_updated": "2024-10-04T16:30:07.801216"
+            "demoman": 262,
+            "last_updated": "2024-10-22T20:22:17.426480"
         }
     },
     {
@@ -11173,9 +11173,9 @@ const maps_json = [
             "demoman": "dzAKyQMvu1I"
         },
         "completion_info": {
-            "soldier": 655,
+            "soldier": 661,
             "demoman": 543,
-            "last_updated": "2024-10-04T16:30:07.789216"
+            "last_updated": "2024-10-22T20:22:17.381167"
         }
     },
     {
@@ -11204,9 +11204,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5207,
-            "demoman": 1268,
-            "last_updated": "2024-10-04T16:30:09.125970"
+            "soldier": 5228,
+            "demoman": 1271,
+            "last_updated": "2024-10-22T20:22:18.773113"
         }
     },
     {
@@ -11237,9 +11237,9 @@ const maps_json = [
             "demoman": "C9CA9HMxefs"
         },
         "completion_info": {
-            "soldier": 465,
-            "demoman": 347,
-            "last_updated": "2024-10-04T16:30:09.118193"
+            "soldier": 468,
+            "demoman": 349,
+            "last_updated": "2024-10-22T20:22:18.739113"
         }
     },
     {
@@ -11268,9 +11268,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 545,
-            "demoman": 375,
-            "last_updated": "2024-10-04T16:30:09.147985"
+            "soldier": 549,
+            "demoman": 379,
+            "last_updated": "2024-10-22T20:22:18.751113"
         }
     },
     {
@@ -11299,9 +11299,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 662,
-            "demoman": 276,
-            "last_updated": "2024-10-04T16:30:09.104193"
+            "soldier": 671,
+            "demoman": 280,
+            "last_updated": "2024-10-22T20:22:18.731113"
         }
     },
     {
@@ -11332,9 +11332,9 @@ const maps_json = [
             "demoman": "J-w7D26YBto"
         },
         "completion_info": {
-            "soldier": 437,
-            "demoman": 12,
-            "last_updated": "2024-10-04T16:30:09.100194"
+            "soldier": 442,
+            "demoman": 13,
+            "last_updated": "2024-10-22T20:22:18.740113"
         }
     },
     {
@@ -11368,9 +11368,9 @@ const maps_json = [
             "demoman": "isYzRCsCgK8"
         },
         "completion_info": {
-            "soldier": 1269,
-            "demoman": 951,
-            "last_updated": "2024-10-04T16:30:09.107195"
+            "soldier": 1275,
+            "demoman": 956,
+            "last_updated": "2024-10-22T20:22:18.741114"
         }
     },
     {
@@ -11401,9 +11401,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 204,
-            "demoman": 173,
-            "last_updated": "2024-10-04T16:30:09.147985"
+            "soldier": 206,
+            "demoman": 176,
+            "last_updated": "2024-10-22T20:22:18.774112"
         }
     },
     {
@@ -11435,8 +11435,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 229,
-            "demoman": 193,
-            "last_updated": "2024-10-04T16:30:09.117194"
+            "demoman": 196,
+            "last_updated": "2024-10-22T20:22:18.750113"
         }
     },
     {
@@ -11467,9 +11467,9 @@ const maps_json = [
             "demoman": "mNh6zk7avjQ"
         },
         "completion_info": {
-            "soldier": 481,
-            "demoman": 436,
-            "last_updated": "2024-10-04T16:30:10.562129"
+            "soldier": 483,
+            "demoman": 439,
+            "last_updated": "2024-10-22T20:22:20.061243"
         }
     },
     {
@@ -11500,9 +11500,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 823,
-            "demoman": 753,
-            "last_updated": "2024-10-04T16:30:10.549132"
+            "soldier": 828,
+            "demoman": 756,
+            "last_updated": "2024-10-22T20:22:20.081906"
         }
     },
     {
@@ -11596,9 +11596,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1469,
+            "soldier": 1490,
             "demoman": 507,
-            "last_updated": "2024-10-04T16:30:10.543127"
+            "last_updated": "2024-10-22T20:22:20.078907"
         }
     },
     {
@@ -11633,7 +11633,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 0,
             "demoman": 29,
-            "last_updated": "2024-10-04T16:30:10.546131"
+            "last_updated": "2024-10-22T20:22:20.077907"
         }
     },
     {
@@ -11665,9 +11665,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3035,
-            "demoman": 1581,
-            "last_updated": "2024-10-04T16:30:10.568129"
+            "soldier": 3058,
+            "demoman": 1590,
+            "last_updated": "2024-10-22T20:22:20.077907"
         }
     },
     {
@@ -11697,9 +11697,9 @@ const maps_json = [
             "demoman": "J0kXQqxMqlc"
         },
         "completion_info": {
-            "soldier": 1176,
-            "demoman": 263,
-            "last_updated": "2024-10-04T16:30:10.544132"
+            "soldier": 1181,
+            "demoman": 265,
+            "last_updated": "2024-10-22T20:22:20.067243"
         }
     },
     {
@@ -11732,9 +11732,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3140,
-            "demoman": 1247,
-            "last_updated": "2024-10-04T16:30:10.562129"
+            "soldier": 3150,
+            "demoman": 1254,
+            "last_updated": "2024-10-22T20:22:20.083907"
         }
     },
     {
@@ -11765,9 +11765,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2545,
-            "demoman": 945,
-            "last_updated": "2024-10-04T16:30:10.586131"
+            "soldier": 2581,
+            "demoman": 956,
+            "last_updated": "2024-10-22T20:22:20.120908"
         }
     },
     {
@@ -11797,8 +11797,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 0,
-            "demoman": 315,
-            "last_updated": "2024-10-04T16:30:11.842491"
+            "demoman": 317,
+            "last_updated": "2024-10-22T20:22:21.409960"
         }
     },
     {
@@ -11827,9 +11827,9 @@ const maps_json = [
             "demoman": "oG-SGxvJaks"
         },
         "completion_info": {
-            "soldier": 496,
-            "demoman": 484,
-            "last_updated": "2024-10-04T16:30:11.849491"
+            "soldier": 501,
+            "demoman": 486,
+            "last_updated": "2024-10-22T20:22:21.402961"
         }
     },
     {
@@ -11861,9 +11861,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 263,
-            "demoman": 432,
-            "last_updated": "2024-10-04T16:30:11.860490"
+            "soldier": 265,
+            "demoman": 434,
+            "last_updated": "2024-10-22T20:22:21.407961"
         }
     },
     {
@@ -11919,9 +11919,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1803,
-            "demoman": 1000,
-            "last_updated": "2024-10-04T16:30:11.860490"
+            "soldier": 1810,
+            "demoman": 1004,
+            "last_updated": "2024-10-22T20:22:21.418960"
         }
     },
     {
@@ -11954,9 +11954,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2644,
-            "demoman": 813,
-            "last_updated": "2024-10-04T16:30:11.859491"
+            "soldier": 2660,
+            "demoman": 814,
+            "last_updated": "2024-10-22T20:22:21.418960"
         }
     },
     {
@@ -11989,9 +11989,9 @@ const maps_json = [
             "demoman": "f_lxNJVczyE"
         },
         "completion_info": {
-            "soldier": 4083,
-            "demoman": 984,
-            "last_updated": "2024-10-04T16:30:11.907489"
+            "soldier": 4111,
+            "demoman": 987,
+            "last_updated": "2024-10-22T20:22:21.442962"
         }
     },
     {
@@ -12023,8 +12023,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 80,
-            "demoman": 159,
-            "last_updated": "2024-10-04T16:30:11.847491"
+            "demoman": 160,
+            "last_updated": "2024-10-22T20:22:21.404961"
         }
     },
     {
@@ -12053,9 +12053,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 341,
-            "demoman": 324,
-            "last_updated": "2024-10-04T16:30:11.844491"
+            "soldier": 349,
+            "demoman": 326,
+            "last_updated": "2024-10-22T20:22:21.462959"
         }
     },
     {
@@ -12084,9 +12084,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 230,
-            "demoman": 289,
-            "last_updated": "2024-10-04T16:30:13.142973"
+            "soldier": 233,
+            "demoman": 295,
+            "last_updated": "2024-10-22T20:22:22.731163"
         }
     },
     {
@@ -12120,9 +12120,9 @@ const maps_json = [
             "demoman": "X9FjSOnU_8A"
         },
         "completion_info": {
-            "soldier": 351,
-            "demoman": 524,
-            "last_updated": "2024-10-04T16:30:13.144972"
+            "soldier": 354,
+            "demoman": 527,
+            "last_updated": "2024-10-22T20:22:22.740163"
         }
     },
     {
@@ -12151,9 +12151,9 @@ const maps_json = [
             "demoman": "IVijqm1eeBo"
         },
         "completion_info": {
-            "soldier": 1268,
-            "demoman": 625,
-            "last_updated": "2024-10-04T16:30:13.150973"
+            "soldier": 1284,
+            "demoman": 626,
+            "last_updated": "2024-10-22T20:22:22.707164"
         }
     },
     {
@@ -12182,9 +12182,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2243,
-            "demoman": 962,
-            "last_updated": "2024-10-04T16:30:13.167971"
+            "soldier": 2267,
+            "demoman": 974,
+            "last_updated": "2024-10-22T20:22:22.728163"
         }
     },
     {
@@ -12213,9 +12213,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1105,
-            "demoman": 931,
-            "last_updated": "2024-10-04T16:30:13.163973"
+            "soldier": 1111,
+            "demoman": 932,
+            "last_updated": "2024-10-22T20:22:22.726165"
         }
     },
     {
@@ -12246,9 +12246,9 @@ const maps_json = [
             "demoman": "iCMZVMGRu2I"
         },
         "completion_info": {
-            "soldier": 1433,
+            "soldier": 1444,
             "demoman": 627,
-            "last_updated": "2024-10-04T16:30:13.164971"
+            "last_updated": "2024-10-22T20:22:22.739163"
         }
     },
     {
@@ -12280,9 +12280,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3440,
-            "demoman": 1086,
-            "last_updated": "2024-10-04T16:30:13.184972"
+            "soldier": 3470,
+            "demoman": 1092,
+            "last_updated": "2024-10-22T20:22:22.742163"
         }
     },
     {
@@ -12313,9 +12313,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 652,
-            "demoman": 516,
-            "last_updated": "2024-10-04T16:30:13.150973"
+            "soldier": 655,
+            "demoman": 518,
+            "last_updated": "2024-10-22T20:22:22.726165"
         }
     },
     {
@@ -12344,9 +12344,9 @@ const maps_json = [
             "demoman": "b85LHLFgF24"
         },
         "completion_info": {
-            "soldier": 837,
-            "demoman": 733,
-            "last_updated": "2024-10-04T16:30:14.457087"
+            "soldier": 838,
+            "demoman": 734,
+            "last_updated": "2024-10-22T20:22:24.095875"
         }
     },
     {
@@ -12377,9 +12377,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 835,
-            "demoman": 753,
-            "last_updated": "2024-10-04T16:30:14.491088"
+            "soldier": 840,
+            "demoman": 755,
+            "last_updated": "2024-10-22T20:22:24.151874"
         }
     },
     {
@@ -12410,9 +12410,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 924,
-            "demoman": 243,
-            "last_updated": "2024-10-04T16:30:14.466087"
+            "soldier": 934,
+            "demoman": 245,
+            "last_updated": "2024-10-22T20:22:24.091880"
         }
     },
     {
@@ -12443,9 +12443,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1762,
-            "demoman": 838,
-            "last_updated": "2024-10-04T16:30:14.475087"
+            "soldier": 1772,
+            "demoman": 842,
+            "last_updated": "2024-10-22T20:22:24.109874"
         }
     },
     {
@@ -12478,9 +12478,9 @@ const maps_json = [
             "demoman": "ZTVo2UWxIJ4"
         },
         "completion_info": {
-            "soldier": 532,
-            "demoman": 273,
-            "last_updated": "2024-10-04T16:30:14.474088"
+            "soldier": 541,
+            "demoman": 279,
+            "last_updated": "2024-10-22T20:22:24.112876"
         }
     },
     {
@@ -12511,9 +12511,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1034,
-            "demoman": 519,
-            "last_updated": "2024-10-04T16:30:14.456084"
+            "soldier": 1041,
+            "demoman": 520,
+            "last_updated": "2024-10-22T20:22:24.100877"
         }
     },
     {
@@ -12542,9 +12542,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 978,
-            "demoman": 844,
-            "last_updated": "2024-10-04T16:30:14.457087"
+            "soldier": 981,
+            "demoman": 847,
+            "last_updated": "2024-10-22T20:22:24.095875"
         }
     },
     {
@@ -12577,9 +12577,9 @@ const maps_json = [
             "demoman": "5cASNeb6J-U"
         },
         "completion_info": {
-            "soldier": 978,
-            "demoman": 849,
-            "last_updated": "2024-10-04T16:30:14.465087"
+            "soldier": 985,
+            "demoman": 851,
+            "last_updated": "2024-10-22T20:22:24.099874"
         }
     },
     {
@@ -12610,9 +12610,9 @@ const maps_json = [
             "demoman": "_KyDdkK5ugs"
         },
         "completion_info": {
-            "soldier": 1425,
+            "soldier": 1434,
             "demoman": 298,
-            "last_updated": "2024-10-04T16:30:15.802157"
+            "last_updated": "2024-10-22T20:22:25.432234"
         }
     },
     {
@@ -12650,9 +12650,9 @@ const maps_json = [
             "demoman": "nDhegpMOTYA"
         },
         "completion_info": {
-            "soldier": 600,
-            "demoman": 368,
-            "last_updated": "2024-10-04T16:30:15.783157"
+            "soldier": 612,
+            "demoman": 372,
+            "last_updated": "2024-10-22T20:22:25.428236"
         }
     },
     {
@@ -12681,9 +12681,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1086,
-            "demoman": 711,
-            "last_updated": "2024-10-04T16:30:15.795158"
+            "soldier": 1089,
+            "demoman": 713,
+            "last_updated": "2024-10-22T20:22:25.426236"
         }
     },
     {
@@ -12722,9 +12722,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1071,
+            "soldier": 1072,
             "demoman": 884,
-            "last_updated": "2024-10-04T16:30:15.798158"
+            "last_updated": "2024-10-22T20:22:25.425235"
         }
     },
     {
@@ -12759,9 +12759,9 @@ const maps_json = [
             "demoman": "3zyVNRKwBfk"
         },
         "completion_info": {
-            "soldier": 1212,
-            "demoman": 276,
-            "last_updated": "2024-10-04T16:30:15.815124"
+            "soldier": 1215,
+            "demoman": 277,
+            "last_updated": "2024-10-22T20:22:25.427235"
         }
     },
     {
@@ -12792,9 +12792,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1434,
-            "demoman": 614,
-            "last_updated": "2024-10-04T16:30:15.794157"
+            "soldier": 1447,
+            "demoman": 619,
+            "last_updated": "2024-10-22T20:22:25.426236"
         }
     },
     {
@@ -12825,9 +12825,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1026,
-            "demoman": 633,
-            "last_updated": "2024-10-04T16:30:15.794157"
+            "soldier": 1033,
+            "demoman": 636,
+            "last_updated": "2024-10-22T20:22:25.425235"
         }
     },
     {
@@ -12856,9 +12856,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 238,
+            "soldier": 240,
             "demoman": 41,
-            "last_updated": "2024-10-04T16:30:15.777159"
+            "last_updated": "2024-10-22T20:22:25.409235"
         }
     },
     {
@@ -12887,9 +12887,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 241,
-            "demoman": 255,
-            "last_updated": "2024-10-04T16:30:17.146960"
+            "soldier": 246,
+            "demoman": 260,
+            "last_updated": "2024-10-22T20:22:26.684337"
         }
     },
     {
@@ -12919,8 +12919,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 0,
-            "demoman": 222,
-            "last_updated": "2024-10-04T16:30:17.158958"
+            "demoman": 223,
+            "last_updated": "2024-10-22T20:22:26.677339"
         }
     },
     {
@@ -12953,9 +12953,9 @@ const maps_json = [
             "demoman": "B_OpmLnmzcE"
         },
         "completion_info": {
-            "soldier": 544,
+            "soldier": 547,
             "demoman": 636,
-            "last_updated": "2024-10-04T16:30:17.137960"
+            "last_updated": "2024-10-22T20:22:26.694337"
         }
     },
     {
@@ -12987,9 +12987,9 @@ const maps_json = [
             "demoman": "n8PZ22RlD28"
         },
         "completion_info": {
-            "soldier": 315,
-            "demoman": 417,
-            "last_updated": "2024-10-04T16:30:17.148960"
+            "soldier": 316,
+            "demoman": 420,
+            "last_updated": "2024-10-22T20:22:26.695337"
         }
     },
     {
@@ -13024,9 +13024,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1956,
+            "soldier": 1964,
             "demoman": 489,
-            "last_updated": "2024-10-04T16:30:17.159958"
+            "last_updated": "2024-10-22T20:22:26.685339"
         }
     },
     {
@@ -13058,9 +13058,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 981,
-            "demoman": 462,
-            "last_updated": "2024-10-04T16:30:17.158958"
+            "soldier": 988,
+            "demoman": 464,
+            "last_updated": "2024-10-22T20:22:26.695337"
         }
     },
     {
@@ -13089,9 +13089,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2679,
-            "demoman": 1258,
-            "last_updated": "2024-10-04T16:30:17.167960"
+            "soldier": 2697,
+            "demoman": 1265,
+            "last_updated": "2024-10-22T20:22:26.700884"
         }
     },
     {
@@ -13123,8 +13123,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 0,
-            "demoman": 105,
-            "last_updated": "2024-10-04T16:30:17.181958"
+            "demoman": 108,
+            "last_updated": "2024-10-22T20:22:26.696338"
         }
     },
     {
@@ -13153,9 +13153,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5079,
-            "demoman": 1930,
-            "last_updated": "2024-10-04T16:30:18.602374"
+            "soldier": 5102,
+            "demoman": 1933,
+            "last_updated": "2024-10-22T20:22:28.072729"
         }
     },
     {
@@ -13189,9 +13189,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 922,
-            "demoman": 554,
-            "last_updated": "2024-10-04T16:30:18.576375"
+            "soldier": 931,
+            "demoman": 556,
+            "last_updated": "2024-10-22T20:22:28.040728"
         }
     },
     {
@@ -13220,9 +13220,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3454,
-            "demoman": 1517,
-            "last_updated": "2024-10-04T16:30:18.593375"
+            "soldier": 3467,
+            "demoman": 1525,
+            "last_updated": "2024-10-22T20:22:28.039728"
         }
     },
     {
@@ -13255,9 +13255,9 @@ const maps_json = [
             "demoman": "FP0cVI4mckQ"
         },
         "completion_info": {
-            "soldier": 1613,
-            "demoman": 1049,
-            "last_updated": "2024-10-04T16:30:18.594373"
+            "soldier": 1621,
+            "demoman": 1054,
+            "last_updated": "2024-10-22T20:22:28.054728"
         }
     },
     {
@@ -13289,9 +13289,9 @@ const maps_json = [
             "demoman": "_NrY5I7k91c"
         },
         "completion_info": {
-            "soldier": 991,
+            "soldier": 993,
             "demoman": 322,
-            "last_updated": "2024-10-04T16:30:18.577376"
+            "last_updated": "2024-10-22T20:22:28.026730"
         }
     },
     {
@@ -13322,9 +13322,9 @@ const maps_json = [
             "demoman": "Cm8_Xd3l-sI"
         },
         "completion_info": {
-            "soldier": 740,
-            "demoman": 344,
-            "last_updated": "2024-10-04T16:30:18.597372"
+            "soldier": 743,
+            "demoman": 346,
+            "last_updated": "2024-10-22T20:22:28.041729"
         }
     },
     {
@@ -13356,9 +13356,9 @@ const maps_json = [
             "demoman": "ux87UxTF0zY"
         },
         "completion_info": {
-            "soldier": 1132,
-            "demoman": 739,
-            "last_updated": "2024-10-04T16:30:18.593375"
+            "soldier": 1134,
+            "demoman": 741,
+            "last_updated": "2024-10-22T20:22:28.039728"
         }
     },
     {
@@ -13387,9 +13387,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1450,
-            "demoman": 956,
-            "last_updated": "2024-10-04T16:30:18.604374"
+            "soldier": 1458,
+            "demoman": 959,
+            "last_updated": "2024-10-22T20:22:28.040728"
         }
     },
     {
@@ -13418,9 +13418,9 @@ const maps_json = [
             "demoman": "y3m9UTWfx2c"
         },
         "completion_info": {
-            "soldier": 1167,
-            "demoman": 688,
-            "last_updated": "2024-10-04T16:30:19.911753"
+            "soldier": 1171,
+            "demoman": 691,
+            "last_updated": "2024-10-22T20:22:29.706433"
         }
     },
     {
@@ -13449,9 +13449,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1264,
-            "demoman": 614,
-            "last_updated": "2024-10-04T16:30:19.913752"
+            "soldier": 1274,
+            "demoman": 619,
+            "last_updated": "2024-10-22T20:22:29.737432"
         }
     },
     {
@@ -13482,9 +13482,9 @@ const maps_json = [
             "demoman": "_v3UiS2iYhg"
         },
         "completion_info": {
-            "soldier": 433,
-            "demoman": 326,
-            "last_updated": "2024-10-04T16:30:19.900754"
+            "soldier": 434,
+            "demoman": 329,
+            "last_updated": "2024-10-22T20:22:29.706433"
         }
     },
     {
@@ -13514,9 +13514,9 @@ const maps_json = [
             "demoman": "9tutc3Yq5wU"
         },
         "completion_info": {
-            "soldier": 251,
+            "soldier": 253,
             "demoman": 123,
-            "last_updated": "2024-10-04T16:30:19.895249"
+            "last_updated": "2024-10-22T20:22:29.747433"
         }
     },
     {
@@ -13549,8 +13549,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 223,
-            "demoman": 291,
-            "last_updated": "2024-10-04T16:30:19.912752"
+            "demoman": 294,
+            "last_updated": "2024-10-22T20:22:29.734432"
         }
     },
     {
@@ -13582,8 +13582,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 427,
-            "demoman": 265,
-            "last_updated": "2024-10-04T16:30:19.900754"
+            "demoman": 266,
+            "last_updated": "2024-10-22T20:22:29.732432"
         }
     },
     {
@@ -13616,9 +13616,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 366,
+            "soldier": 368,
             "demoman": 330,
-            "last_updated": "2024-10-04T16:30:19.911753"
+            "last_updated": "2024-10-22T20:22:29.749432"
         }
     },
     {
@@ -13647,9 +13647,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 794,
-            "demoman": 515,
-            "last_updated": "2024-10-04T16:30:19.912752"
+            "soldier": 801,
+            "demoman": 517,
+            "last_updated": "2024-10-22T20:22:29.735432"
         }
     },
     {
@@ -13680,9 +13680,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 910,
-            "demoman": 1528,
-            "last_updated": "2024-10-04T16:30:21.228009"
+            "soldier": 922,
+            "demoman": 1536,
+            "last_updated": "2024-10-22T20:22:31.010072"
         }
     },
     {
@@ -13713,9 +13713,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1588,
-            "demoman": 721,
-            "last_updated": "2024-10-04T16:30:21.234008"
+            "soldier": 1594,
+            "demoman": 726,
+            "last_updated": "2024-10-22T20:22:31.025072"
         }
     },
     {
@@ -13749,9 +13749,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1714,
-            "demoman": 790,
-            "last_updated": "2024-10-04T16:30:21.213008"
+            "soldier": 1721,
+            "demoman": 793,
+            "last_updated": "2024-10-22T20:22:30.994068"
         }
     },
     {
@@ -13790,9 +13790,9 @@ const maps_json = [
             "demoman": "vQKlU4Qn9KQ"
         },
         "completion_info": {
-            "soldier": 339,
+            "soldier": 340,
             "demoman": 372,
-            "last_updated": "2024-10-04T16:30:21.217011"
+            "last_updated": "2024-10-22T20:22:31.010072"
         }
     },
     {
@@ -13820,9 +13820,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1973,
-            "demoman": 709,
-            "last_updated": "2024-10-04T16:30:21.214008"
+            "soldier": 1990,
+            "demoman": 714,
+            "last_updated": "2024-10-22T20:22:31.027072"
         }
     },
     {
@@ -13853,9 +13853,9 @@ const maps_json = [
             "demoman": "TZP09G1_CHk"
         },
         "completion_info": {
-            "soldier": 890,
+            "soldier": 893,
             "demoman": 133,
-            "last_updated": "2024-10-04T16:30:21.211009"
+            "last_updated": "2024-10-22T20:22:31.054575"
         }
     },
     {
@@ -13884,9 +13884,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1007,
-            "demoman": 479,
-            "last_updated": "2024-10-04T16:30:21.228009"
+            "soldier": 1022,
+            "demoman": 486,
+            "last_updated": "2024-10-22T20:22:31.011071"
         }
     },
     {
@@ -13918,9 +13918,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 909,
-            "demoman": 464,
-            "last_updated": "2024-10-04T16:30:21.229008"
+            "soldier": 915,
+            "demoman": 465,
+            "last_updated": "2024-10-22T20:22:31.011071"
         }
     },
     {
@@ -13952,9 +13952,9 @@ const maps_json = [
             "demoman": "Te-9-Hk4lNw"
         },
         "completion_info": {
-            "soldier": 1633,
-            "demoman": 908,
-            "last_updated": "2024-10-04T16:30:22.550867"
+            "soldier": 1642,
+            "demoman": 917,
+            "last_updated": "2024-10-22T20:22:32.279772"
         }
     },
     {
@@ -13985,9 +13985,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1423,
-            "demoman": 1084,
-            "last_updated": "2024-10-04T16:30:22.530867"
+            "soldier": 1428,
+            "demoman": 1089,
+            "last_updated": "2024-10-22T20:22:32.295772"
         }
     },
     {
@@ -14016,9 +14016,9 @@ const maps_json = [
             "demoman": "XqU4LOBFGus"
         },
         "completion_info": {
-            "soldier": 864,
-            "demoman": 522,
-            "last_updated": "2024-10-04T16:30:22.510869"
+            "soldier": 870,
+            "demoman": 524,
+            "last_updated": "2024-10-22T20:22:32.332523"
         }
     },
     {
@@ -14051,9 +14051,9 @@ const maps_json = [
             "demoman": "r-u5CWtMSvk"
         },
         "completion_info": {
-            "soldier": 188,
-            "demoman": 156,
-            "last_updated": "2024-10-04T16:30:22.503868"
+            "soldier": 189,
+            "demoman": 162,
+            "last_updated": "2024-10-22T20:22:32.272770"
         }
     },
     {
@@ -14085,9 +14085,9 @@ const maps_json = [
             "demoman": "_VbiFWehM5k"
         },
         "completion_info": {
-            "soldier": 195,
+            "soldier": 197,
             "demoman": 106,
-            "last_updated": "2024-10-04T16:30:22.511925"
+            "last_updated": "2024-10-22T20:22:32.297772"
         }
     },
     {
@@ -14120,9 +14120,9 @@ const maps_json = [
             "demoman": "W8ImOZ6_88k"
         },
         "completion_info": {
-            "soldier": 1930,
+            "soldier": 1937,
             "demoman": 224,
-            "last_updated": "2024-10-04T16:30:22.512869"
+            "last_updated": "2024-10-22T20:22:32.297772"
         }
     },
     {
@@ -14153,9 +14153,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1171,
-            "demoman": 666,
-            "last_updated": "2024-10-04T16:30:22.522869"
+            "soldier": 1174,
+            "demoman": 667,
+            "last_updated": "2024-10-22T20:22:32.312521"
         }
     },
     {
@@ -14186,9 +14186,9 @@ const maps_json = [
             "demoman": "XB7bL9c_ZQY"
         },
         "completion_info": {
-            "soldier": 913,
-            "demoman": 468,
-            "last_updated": "2024-10-04T16:30:22.521867"
+            "soldier": 918,
+            "demoman": 472,
+            "last_updated": "2024-10-22T20:22:32.278772"
         }
     },
     {
@@ -14219,9 +14219,9 @@ const maps_json = [
             "demoman": "xjNc-Bk36B0"
         },
         "completion_info": {
-            "soldier": 482,
-            "demoman": 346,
-            "last_updated": "2024-10-04T16:30:23.804663"
+            "soldier": 490,
+            "demoman": 352,
+            "last_updated": "2024-10-22T20:22:33.637870"
         }
     },
     {
@@ -14255,9 +14255,9 @@ const maps_json = [
             "demoman": "9gItIOlrls0"
         },
         "completion_info": {
-            "soldier": 809,
-            "demoman": 295,
-            "last_updated": "2024-10-04T16:30:23.812657"
+            "soldier": 815,
+            "demoman": 298,
+            "last_updated": "2024-10-22T20:22:33.654871"
         }
     },
     {
@@ -14288,9 +14288,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2041,
-            "demoman": 897,
-            "last_updated": "2024-10-04T16:30:23.821659"
+            "soldier": 2062,
+            "demoman": 904,
+            "last_updated": "2024-10-22T20:22:33.653871"
         }
     },
     {
@@ -14322,9 +14322,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4887,
-            "demoman": 1808,
-            "last_updated": "2024-10-04T16:30:23.836656"
+            "soldier": 4926,
+            "demoman": 1820,
+            "last_updated": "2024-10-22T20:22:33.675870"
         }
     },
     {
@@ -14353,9 +14353,9 @@ const maps_json = [
             "demoman": "JRnKB3y2-aM"
         },
         "completion_info": {
-            "soldier": 1060,
-            "demoman": 648,
-            "last_updated": "2024-10-04T16:30:23.838657"
+            "soldier": 1069,
+            "demoman": 651,
+            "last_updated": "2024-10-22T20:22:33.684869"
         }
     },
     {
@@ -14384,9 +14384,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1018,
-            "demoman": 669,
-            "last_updated": "2024-10-04T16:30:23.811657"
+            "soldier": 1033,
+            "demoman": 672,
+            "last_updated": "2024-10-22T20:22:33.666874"
         }
     },
     {
@@ -14417,9 +14417,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1631,
-            "demoman": 727,
-            "last_updated": "2024-10-04T16:30:23.825657"
+            "soldier": 1640,
+            "demoman": 728,
+            "last_updated": "2024-10-22T20:22:33.690868"
         }
     },
     {
@@ -14458,9 +14458,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3963,
-            "demoman": 1421,
-            "last_updated": "2024-10-04T16:30:23.836656"
+            "soldier": 3999,
+            "demoman": 1425,
+            "last_updated": "2024-10-22T20:22:33.667869"
         }
     },
     {
@@ -14492,9 +14492,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1432,
-            "demoman": 644,
-            "last_updated": "2024-10-04T16:30:25.132168"
+            "soldier": 1442,
+            "demoman": 645,
+            "last_updated": "2024-10-22T20:22:35.001843"
         }
     },
     {
@@ -14527,9 +14527,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 50,
+            "soldier": 52,
             "demoman": 115,
-            "last_updated": "2024-10-04T16:30:25.117175"
+            "last_updated": "2024-10-22T20:22:35.000843"
         }
     },
     {
@@ -14560,7 +14560,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 668,
             "demoman": 283,
-            "last_updated": "2024-10-04T16:30:25.115170"
+            "last_updated": "2024-10-22T20:22:34.958844"
         }
     },
     {
@@ -14591,9 +14591,9 @@ const maps_json = [
             "demoman": "tCIy4SOrbMQ"
         },
         "completion_info": {
-            "soldier": 447,
-            "demoman": 206,
-            "last_updated": "2024-10-04T16:30:25.157168"
+            "soldier": 451,
+            "demoman": 217,
+            "last_updated": "2024-10-22T20:22:34.954839"
         }
     },
     {
@@ -14622,9 +14622,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1267,
+            "soldier": 1269,
             "demoman": 544,
-            "last_updated": "2024-10-04T16:30:25.119171"
+            "last_updated": "2024-10-22T20:22:34.972848"
         }
     },
     {
@@ -14667,8 +14667,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 47,
-            "demoman": 129,
-            "last_updated": "2024-10-04T16:30:25.133171"
+            "demoman": 130,
+            "last_updated": "2024-10-22T20:22:35.001843"
         }
     },
     {
@@ -14700,9 +14700,9 @@ const maps_json = [
             "demoman": "_t29SEMw_r8"
         },
         "completion_info": {
-            "soldier": 299,
-            "demoman": 399,
-            "last_updated": "2024-10-04T16:30:25.114169"
+            "soldier": 300,
+            "demoman": 403,
+            "last_updated": "2024-10-22T20:22:34.955844"
         }
     },
     {
@@ -14736,9 +14736,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 793,
-            "demoman": 899,
-            "last_updated": "2024-10-04T16:30:25.133171"
+            "soldier": 803,
+            "demoman": 901,
+            "last_updated": "2024-10-22T20:22:34.960843"
         }
     },
     {
@@ -14769,9 +14769,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 349,
-            "demoman": 264,
-            "last_updated": "2024-10-04T16:30:26.476042"
+            "soldier": 352,
+            "demoman": 265,
+            "last_updated": "2024-10-22T20:22:36.374241"
         }
     },
     {
@@ -14805,9 +14805,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 916,
-            "demoman": 448,
-            "last_updated": "2024-10-04T16:30:26.516616"
+            "soldier": 919,
+            "demoman": 450,
+            "last_updated": "2024-10-22T20:22:36.374241"
         }
     },
     {
@@ -14838,9 +14838,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3699,
-            "demoman": 2194,
-            "last_updated": "2024-10-04T16:30:26.504042"
+            "soldier": 3727,
+            "demoman": 2205,
+            "last_updated": "2024-10-22T20:22:36.373239"
         }
     },
     {
@@ -14873,9 +14873,9 @@ const maps_json = [
             "demoman": "1fHlBbEhvFI"
         },
         "completion_info": {
-            "soldier": 1498,
+            "soldier": 1505,
             "demoman": 373,
-            "last_updated": "2024-10-04T16:30:26.493040"
+            "last_updated": "2024-10-22T20:22:36.354240"
         }
     },
     {
@@ -14906,9 +14906,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 445,
-            "demoman": 215,
-            "last_updated": "2024-10-04T16:30:26.479042"
+            "soldier": 462,
+            "demoman": 224,
+            "last_updated": "2024-10-22T20:22:36.399239"
         }
     },
     {
@@ -14939,9 +14939,9 @@ const maps_json = [
             "demoman": "EPve1COxhAo"
         },
         "completion_info": {
-            "soldier": 465,
-            "demoman": 269,
-            "last_updated": "2024-10-04T16:30:26.492040"
+            "soldier": 472,
+            "demoman": 273,
+            "last_updated": "2024-10-22T20:22:36.354240"
         }
     },
     {
@@ -14970,9 +14970,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 846,
-            "demoman": 659,
-            "last_updated": "2024-10-04T16:30:26.478042"
+            "soldier": 847,
+            "demoman": 661,
+            "last_updated": "2024-10-22T20:22:36.376240"
         }
     },
     {
@@ -15004,9 +15004,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 947,
-            "demoman": 493,
-            "last_updated": "2024-10-04T16:30:26.493040"
+            "soldier": 954,
+            "demoman": 495,
+            "last_updated": "2024-10-22T20:22:36.412239"
         }
     },
     {
@@ -15042,9 +15042,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 72,
-            "demoman": 391,
-            "last_updated": "2024-10-04T16:30:27.794843"
+            "soldier": 73,
+            "demoman": 397,
+            "last_updated": "2024-10-22T20:22:37.636680"
         }
     },
     {
@@ -15077,9 +15077,9 @@ const maps_json = [
             "demoman": "8zFhvcrPxNE"
         },
         "completion_info": {
-            "soldier": 424,
+            "soldier": 429,
             "demoman": 249,
-            "last_updated": "2024-10-04T16:30:27.796848"
+            "last_updated": "2024-10-22T20:22:37.639680"
         }
     },
     {
@@ -15108,9 +15108,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 883,
-            "demoman": 562,
-            "last_updated": "2024-10-04T16:30:27.790845"
+            "soldier": 887,
+            "demoman": 563,
+            "last_updated": "2024-10-22T20:22:37.654680"
         }
     },
     {
@@ -15141,9 +15141,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1043,
-            "demoman": 672,
-            "last_updated": "2024-10-04T16:30:27.851513"
+            "soldier": 1051,
+            "demoman": 673,
+            "last_updated": "2024-10-22T20:22:37.696679"
         }
     },
     {
@@ -15175,9 +15175,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2100,
-            "demoman": 1131,
-            "last_updated": "2024-10-04T16:30:27.851513"
+            "soldier": 2115,
+            "demoman": 1137,
+            "last_updated": "2024-10-22T20:22:37.696679"
         }
     },
     {
@@ -15206,9 +15206,9 @@ const maps_json = [
             "demoman": "_rsyq6JBHOY"
         },
         "completion_info": {
-            "soldier": 824,
-            "demoman": 923,
-            "last_updated": "2024-10-04T16:30:27.823512"
+            "soldier": 825,
+            "demoman": 924,
+            "last_updated": "2024-10-22T20:22:37.653683"
         }
     },
     {
@@ -15237,9 +15237,9 @@ const maps_json = [
             "demoman": "FzJopExkRFY"
         },
         "completion_info": {
-            "soldier": 623,
-            "demoman": 396,
-            "last_updated": "2024-10-04T16:30:27.819514"
+            "soldier": 625,
+            "demoman": 397,
+            "last_updated": "2024-10-22T20:22:37.653683"
         }
     },
     {
@@ -15271,9 +15271,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1419,
+            "soldier": 1421,
             "demoman": 1006,
-            "last_updated": "2024-10-04T16:30:27.823512"
+            "last_updated": "2024-10-22T20:22:37.676679"
         }
     },
     {
@@ -15304,9 +15304,9 @@ const maps_json = [
             "demoman": "0C9SPA6o_VU"
         },
         "completion_info": {
-            "soldier": 2861,
-            "demoman": 1057,
-            "last_updated": "2024-10-04T16:30:29.122366"
+            "soldier": 2913,
+            "demoman": 1077,
+            "last_updated": "2024-10-22T20:22:38.971823"
         }
     },
     {
@@ -15337,9 +15337,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2432,
-            "demoman": 1328,
-            "last_updated": "2024-10-04T16:30:29.142306"
+            "soldier": 2444,
+            "demoman": 1331,
+            "last_updated": "2024-10-22T20:22:38.990824"
         }
     },
     {
@@ -15370,9 +15370,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 907,
-            "demoman": 331,
-            "last_updated": "2024-10-04T16:30:29.120301"
+            "soldier": 928,
+            "demoman": 338,
+            "last_updated": "2024-10-22T20:22:38.972824"
         }
     },
     {
@@ -15404,9 +15404,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4840,
-            "demoman": 1546,
-            "last_updated": "2024-10-04T16:30:29.144302"
+            "soldier": 4862,
+            "demoman": 1552,
+            "last_updated": "2024-10-22T20:22:39.007829"
         }
     },
     {
@@ -15435,9 +15435,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1098,
-            "demoman": 521,
-            "last_updated": "2024-10-04T16:30:29.110790"
+            "soldier": 1107,
+            "demoman": 522,
+            "last_updated": "2024-10-22T20:22:38.979824"
         }
     },
     {
@@ -15466,9 +15466,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 607,
-            "demoman": 247,
-            "last_updated": "2024-10-04T16:30:29.123302"
+            "soldier": 613,
+            "demoman": 249,
+            "last_updated": "2024-10-22T20:22:39.020822"
         }
     },
     {
@@ -15497,9 +15497,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 151,
-            "demoman": 92,
-            "last_updated": "2024-10-04T16:30:29.082226"
+            "soldier": 157,
+            "demoman": 94,
+            "last_updated": "2024-10-22T20:22:39.017831"
         }
     },
     {
@@ -15530,9 +15530,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 580,
+            "soldier": 581,
             "demoman": 352,
-            "last_updated": "2024-10-04T16:30:29.081226"
+            "last_updated": "2024-10-22T20:22:38.989823"
         }
     },
     {
@@ -15562,8 +15562,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 274,
-            "demoman": 294,
-            "last_updated": "2024-10-04T16:30:30.386000"
+            "demoman": 295,
+            "last_updated": "2024-10-22T20:22:40.287678"
         }
     },
     {
@@ -15592,9 +15592,9 @@ const maps_json = [
             "demoman": "WgRvOFKZ3rM"
         },
         "completion_info": {
-            "soldier": 580,
-            "demoman": 332,
-            "last_updated": "2024-10-04T16:30:30.385001"
+            "soldier": 584,
+            "demoman": 336,
+            "last_updated": "2024-10-22T20:22:40.339676"
         }
     },
     {
@@ -15688,9 +15688,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1407,
-            "demoman": 316,
-            "last_updated": "2024-10-04T16:30:30.380002"
+            "soldier": 1420,
+            "demoman": 318,
+            "last_updated": "2024-10-22T20:22:40.298676"
         }
     },
     {
@@ -15724,9 +15724,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 200,
+            "soldier": 201,
             "demoman": 97,
-            "last_updated": "2024-10-04T16:30:30.377258"
+            "last_updated": "2024-10-22T20:22:40.281675"
         }
     },
     {
@@ -15756,9 +15756,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 513,
-            "demoman": 507,
-            "last_updated": "2024-10-04T16:30:30.378264"
+            "soldier": 530,
+            "demoman": 513,
+            "last_updated": "2024-10-22T20:22:40.286674"
         }
     },
     {
@@ -15790,9 +15790,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 593,
+            "soldier": 598,
             "demoman": 176,
-            "last_updated": "2024-10-04T16:30:30.378996"
+            "last_updated": "2024-10-22T20:22:40.282675"
         }
     },
     {
@@ -15821,9 +15821,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 951,
-            "demoman": 487,
-            "last_updated": "2024-10-04T16:30:30.380002"
+            "soldier": 966,
+            "demoman": 493,
+            "last_updated": "2024-10-22T20:22:40.288677"
         }
     },
     {
@@ -15854,9 +15854,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 495,
-            "demoman": 355,
-            "last_updated": "2024-10-04T16:30:30.395000"
+            "soldier": 500,
+            "demoman": 356,
+            "last_updated": "2024-10-22T20:22:40.298676"
         }
     },
     {
@@ -15885,9 +15885,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 922,
-            "demoman": 452,
-            "last_updated": "2024-10-04T16:30:31.698232"
+            "soldier": 924,
+            "demoman": 453,
+            "last_updated": "2024-10-22T20:22:41.571750"
         }
     },
     {
@@ -15919,9 +15919,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1578,
-            "demoman": 663,
-            "last_updated": "2024-10-04T16:30:31.683232"
+            "soldier": 1602,
+            "demoman": 672,
+            "last_updated": "2024-10-22T20:22:41.570750"
         }
     },
     {
@@ -15956,7 +15956,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 947,
             "demoman": 535,
-            "last_updated": "2024-10-04T16:30:31.666234"
+            "last_updated": "2024-10-22T20:22:41.563745"
         }
     },
     {
@@ -15985,9 +15985,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5353,
-            "demoman": 2225,
-            "last_updated": "2024-10-04T16:30:31.715231"
+            "soldier": 5374,
+            "demoman": 2233,
+            "last_updated": "2024-10-22T20:22:41.623746"
         }
     },
     {
@@ -16018,9 +16018,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 6936,
-            "demoman": 1942,
-            "last_updated": "2024-10-04T16:30:31.699233"
+            "soldier": 6968,
+            "demoman": 1951,
+            "last_updated": "2024-10-22T20:22:41.624746"
         }
     },
     {
@@ -16049,9 +16049,9 @@ const maps_json = [
             "demoman": "h6RSHCLGwmg"
         },
         "completion_info": {
-            "soldier": 417,
-            "demoman": 324,
-            "last_updated": "2024-10-04T16:30:31.668233"
+            "soldier": 420,
+            "demoman": 327,
+            "last_updated": "2024-10-22T20:22:41.623746"
         }
     },
     {
@@ -16081,9 +16081,9 @@ const maps_json = [
             "demoman": "sK9zRnNMw0w"
         },
         "completion_info": {
-            "soldier": 1444,
+            "soldier": 1453,
             "demoman": 246,
-            "last_updated": "2024-10-04T16:30:31.684232"
+            "last_updated": "2024-10-22T20:22:41.594747"
         }
     },
     {
@@ -16112,9 +16112,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 604,
+            "soldier": 614,
             "demoman": 353,
-            "last_updated": "2024-10-04T16:30:31.683232"
+            "last_updated": "2024-10-22T20:22:41.580750"
         }
     },
     {
@@ -16146,9 +16146,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1818,
-            "demoman": 860,
-            "last_updated": "2024-10-04T16:30:32.979784"
+            "soldier": 1822,
+            "demoman": 861,
+            "last_updated": "2024-10-22T20:22:42.905804"
         }
     },
     {
@@ -16177,9 +16177,9 @@ const maps_json = [
             "demoman": "NOOIWDRlOt8"
         },
         "completion_info": {
-            "soldier": 515,
-            "demoman": 412,
-            "last_updated": "2024-10-04T16:30:32.983782"
+            "soldier": 516,
+            "demoman": 413,
+            "last_updated": "2024-10-22T20:22:42.878804"
         }
     },
     {
@@ -16210,9 +16210,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 983,
-            "demoman": 464,
-            "last_updated": "2024-10-04T16:30:32.978785"
+            "soldier": 989,
+            "demoman": 467,
+            "last_updated": "2024-10-22T20:22:42.868805"
         }
     },
     {
@@ -16251,9 +16251,9 @@ const maps_json = [
             "demoman": "f-RLxPO4oLs"
         },
         "completion_info": {
-            "soldier": 434,
-            "demoman": 344,
-            "last_updated": "2024-10-04T16:30:32.968785"
+            "soldier": 437,
+            "demoman": 347,
+            "last_updated": "2024-10-22T20:22:42.860801"
         }
     },
     {
@@ -16289,9 +16289,9 @@ const maps_json = [
             "demoman": "fKIE-ZDre44"
         },
         "completion_info": {
-            "soldier": 244,
-            "demoman": 202,
-            "last_updated": "2024-10-04T16:30:32.968785"
+            "soldier": 247,
+            "demoman": 203,
+            "last_updated": "2024-10-22T20:22:42.860801"
         }
     },
     {
@@ -16332,9 +16332,9 @@ const maps_json = [
             "demoman": "-eiiekbCR2c"
         },
         "completion_info": {
-            "soldier": 435,
+            "soldier": 438,
             "demoman": 214,
-            "last_updated": "2024-10-04T16:30:32.960779"
+            "last_updated": "2024-10-22T20:22:42.860801"
         }
     },
     {
@@ -16363,9 +16363,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 686,
+            "soldier": 691,
             "demoman": 398,
-            "last_updated": "2024-10-04T16:30:32.978785"
+            "last_updated": "2024-10-22T20:22:42.902804"
         }
     },
     {
@@ -16394,9 +16394,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1156,
-            "demoman": 511,
-            "last_updated": "2024-10-04T16:30:33.008810"
+            "soldier": 1171,
+            "demoman": 516,
+            "last_updated": "2024-10-22T20:22:42.879804"
         }
     },
     {
@@ -16427,9 +16427,9 @@ const maps_json = [
             "demoman": "C7199qSD1FE"
         },
         "completion_info": {
-            "soldier": 663,
-            "demoman": 534,
-            "last_updated": "2024-10-04T16:30:34.411392"
+            "soldier": 667,
+            "demoman": 535,
+            "last_updated": "2024-10-22T20:22:44.210416"
         }
     },
     {
@@ -16460,9 +16460,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2149,
-            "demoman": 858,
-            "last_updated": "2024-10-04T16:30:34.378393"
+            "soldier": 2161,
+            "demoman": 863,
+            "last_updated": "2024-10-22T20:22:44.243415"
         }
     },
     {
@@ -16491,9 +16491,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2053,
-            "demoman": 1004,
-            "last_updated": "2024-10-04T16:30:34.383393"
+            "soldier": 2059,
+            "demoman": 1006,
+            "last_updated": "2024-10-22T20:22:44.239416"
         }
     },
     {
@@ -16523,9 +16523,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 481,
-            "demoman": 358,
-            "last_updated": "2024-10-04T16:30:34.359394"
+            "soldier": 490,
+            "demoman": 360,
+            "last_updated": "2024-10-22T20:22:44.185788"
         }
     },
     {
@@ -16556,9 +16556,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 745,
-            "demoman": 488,
-            "last_updated": "2024-10-04T16:30:34.379395"
+            "soldier": 749,
+            "demoman": 490,
+            "last_updated": "2024-10-22T20:22:44.237416"
         }
     },
     {
@@ -16590,9 +16590,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 608,
-            "demoman": 327,
-            "last_updated": "2024-10-04T16:30:34.360396"
+            "soldier": 611,
+            "demoman": 329,
+            "last_updated": "2024-10-22T20:22:44.193787"
         }
     },
     {
@@ -16623,9 +16623,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 581,
-            "demoman": 318,
-            "last_updated": "2024-10-04T16:30:34.375395"
+            "soldier": 598,
+            "demoman": 322,
+            "last_updated": "2024-10-22T20:22:44.188787"
         }
     },
     {
@@ -16654,9 +16654,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3706,
-            "demoman": 1472,
-            "last_updated": "2024-10-04T16:30:34.412392"
+            "soldier": 3747,
+            "demoman": 1481,
+            "last_updated": "2024-10-22T20:22:44.206416"
         }
     },
     {
@@ -16685,9 +16685,9 @@ const maps_json = [
             "demoman": "qafAt5vSkqg"
         },
         "completion_info": {
-            "soldier": 501,
-            "demoman": 302,
-            "last_updated": "2024-10-04T16:30:35.827367"
+            "soldier": 503,
+            "demoman": 305,
+            "last_updated": "2024-10-22T20:22:45.562826"
         }
     },
     {
@@ -16716,9 +16716,9 @@ const maps_json = [
             "demoman": "Is3nGHWs7s0"
         },
         "completion_info": {
-            "soldier": 466,
-            "demoman": 224,
-            "last_updated": "2024-10-04T16:30:35.833367"
+            "soldier": 470,
+            "demoman": 225,
+            "last_updated": "2024-10-22T20:22:45.570423"
         }
     },
     {
@@ -16752,9 +16752,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 734,
-            "demoman": 591,
-            "last_updated": "2024-10-04T16:30:35.833367"
+            "soldier": 742,
+            "demoman": 595,
+            "last_updated": "2024-10-22T20:22:45.580423"
         }
     },
     {
@@ -16785,9 +16785,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 734,
+            "soldier": 735,
             "demoman": 330,
-            "last_updated": "2024-10-04T16:30:35.825368"
+            "last_updated": "2024-10-22T20:22:45.581423"
         }
     },
     {
@@ -16818,9 +16818,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1908,
-            "demoman": 777,
-            "last_updated": "2024-10-04T16:30:35.883366"
+            "soldier": 1920,
+            "demoman": 783,
+            "last_updated": "2024-10-22T20:22:45.579425"
         }
     },
     {
@@ -16850,9 +16850,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 689,
-            "demoman": 507,
-            "last_updated": "2024-10-04T16:30:35.843367"
+            "soldier": 693,
+            "demoman": 510,
+            "last_updated": "2024-10-22T20:22:45.563820"
         }
     },
     {
@@ -16883,9 +16883,9 @@ const maps_json = [
             "demoman": "0vJbBcjEpo8"
         },
         "completion_info": {
-            "soldier": 1266,
-            "demoman": 903,
-            "last_updated": "2024-10-04T16:30:35.851367"
+            "soldier": 1279,
+            "demoman": 911,
+            "last_updated": "2024-10-22T20:22:45.623422"
         }
     },
     {
@@ -16916,9 +16916,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3089,
-            "demoman": 833,
-            "last_updated": "2024-10-04T16:30:35.843367"
+            "soldier": 3121,
+            "demoman": 838,
+            "last_updated": "2024-10-22T20:22:45.622424"
         }
     },
     {
@@ -16947,9 +16947,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 934,
-            "demoman": 444,
-            "last_updated": "2024-10-04T16:30:37.164104"
+            "soldier": 939,
+            "demoman": 445,
+            "last_updated": "2024-10-22T20:22:47.086353"
         }
     },
     {
@@ -16980,9 +16980,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 630,
+            "soldier": 634,
             "demoman": 492,
-            "last_updated": "2024-10-04T16:30:37.154104"
+            "last_updated": "2024-10-22T20:22:47.111353"
         }
     },
     {
@@ -17014,9 +17014,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 578,
-            "demoman": 579,
-            "last_updated": "2024-10-04T16:30:37.206102"
+            "soldier": 584,
+            "demoman": 583,
+            "last_updated": "2024-10-22T20:22:47.083353"
         }
     },
     {
@@ -17047,9 +17047,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 704,
-            "demoman": 378,
-            "last_updated": "2024-10-04T16:30:37.164104"
+            "soldier": 719,
+            "demoman": 381,
+            "last_updated": "2024-10-22T20:22:47.109353"
         }
     },
     {
@@ -17082,9 +17082,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 260,
-            "demoman": 362,
-            "last_updated": "2024-10-04T16:30:37.150104"
+            "soldier": 264,
+            "demoman": 363,
+            "last_updated": "2024-10-22T20:22:47.079350"
         }
     },
     {
@@ -17117,8 +17117,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 143,
-            "demoman": 273,
-            "last_updated": "2024-10-04T16:30:37.145842"
+            "demoman": 275,
+            "last_updated": "2024-10-22T20:22:47.110352"
         }
     },
     {
@@ -17149,9 +17149,9 @@ const maps_json = [
             "demoman": "kx4LG76Teko"
         },
         "completion_info": {
-            "soldier": 518,
-            "demoman": 248,
-            "last_updated": "2024-10-04T16:30:37.155107"
+            "soldier": 525,
+            "demoman": 249,
+            "last_updated": "2024-10-22T20:22:47.109353"
         }
     },
     {
@@ -17180,9 +17180,9 @@ const maps_json = [
             "demoman": "54pExF5ayUw"
         },
         "completion_info": {
-            "soldier": 932,
-            "demoman": 985,
-            "last_updated": "2024-10-04T16:30:37.163104"
+            "soldier": 951,
+            "demoman": 991,
+            "last_updated": "2024-10-22T20:22:47.110352"
         }
     },
     {
@@ -17215,9 +17215,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1497,
-            "demoman": 541,
-            "last_updated": "2024-10-04T16:30:38.427163"
+            "soldier": 1503,
+            "demoman": 544,
+            "last_updated": "2024-10-22T20:22:48.398751"
         }
     },
     {
@@ -17303,9 +17303,9 @@ const maps_json = [
             "demoman": "GqMUu60NLiY"
         },
         "completion_info": {
-            "soldier": 522,
-            "demoman": 347,
-            "last_updated": "2024-10-04T16:30:38.409204"
+            "soldier": 540,
+            "demoman": 352,
+            "last_updated": "2024-10-22T20:22:48.427748"
         }
     },
     {
@@ -17336,9 +17336,9 @@ const maps_json = [
             "demoman": "Z5H3YpmbR-0"
         },
         "completion_info": {
-            "soldier": 1085,
-            "demoman": 27,
-            "last_updated": "2024-10-04T16:30:38.427163"
+            "soldier": 1091,
+            "demoman": 28,
+            "last_updated": "2024-10-22T20:22:48.429748"
         }
     },
     {
@@ -17368,9 +17368,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4440,
-            "demoman": 1263,
-            "last_updated": "2024-10-04T16:30:38.431163"
+            "soldier": 4466,
+            "demoman": 1270,
+            "last_updated": "2024-10-22T20:22:48.419755"
         }
     },
     {
@@ -17399,9 +17399,9 @@ const maps_json = [
             "demoman": "2IvYYkYvqV0"
         },
         "completion_info": {
-            "soldier": 94,
+            "soldier": 95,
             "demoman": 155,
-            "last_updated": "2024-10-04T16:30:38.415207"
+            "last_updated": "2024-10-22T20:22:48.385749"
         }
     },
     {
@@ -17432,9 +17432,9 @@ const maps_json = [
             "demoman": "s0m5snPLuYg"
         },
         "completion_info": {
-            "soldier": 117,
-            "demoman": 56,
-            "last_updated": "2024-10-04T16:30:38.471164"
+            "soldier": 118,
+            "demoman": 58,
+            "last_updated": "2024-10-22T20:22:48.377750"
         }
     },
     {
@@ -17465,9 +17465,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3489,
-            "demoman": 1244,
-            "last_updated": "2024-10-04T16:30:38.441162"
+            "soldier": 3531,
+            "demoman": 1251,
+            "last_updated": "2024-10-22T20:22:48.453748"
         }
     },
     {
@@ -17498,9 +17498,9 @@ const maps_json = [
             "demoman": "sDp4QGeJesM"
         },
         "completion_info": {
-            "soldier": 612,
-            "demoman": 570,
-            "last_updated": "2024-10-04T16:30:38.417755"
+            "soldier": 613,
+            "demoman": 571,
+            "last_updated": "2024-10-22T20:22:48.399755"
         }
     },
     {
@@ -17530,8 +17530,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 433,
-            "demoman": 490,
-            "last_updated": "2024-10-04T16:30:39.668576"
+            "demoman": 491,
+            "last_updated": "2024-10-22T20:22:49.860802"
         }
     },
     {
@@ -17562,9 +17562,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5214,
-            "demoman": 1390,
-            "last_updated": "2024-10-04T16:30:39.700016"
+            "soldier": 5231,
+            "demoman": 1395,
+            "last_updated": "2024-10-22T20:22:49.914632"
         }
     },
     {
@@ -17595,9 +17595,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1049,
-            "demoman": 586,
-            "last_updated": "2024-10-04T16:30:39.731526"
+            "soldier": 1060,
+            "demoman": 588,
+            "last_updated": "2024-10-22T20:22:49.865801"
         }
     },
     {
@@ -17628,9 +17628,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 804,
-            "demoman": 529,
-            "last_updated": "2024-10-04T16:30:39.685580"
+            "soldier": 805,
+            "demoman": 532,
+            "last_updated": "2024-10-22T20:22:49.866802"
         }
     },
     {
@@ -17662,9 +17662,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3932,
-            "demoman": 1739,
-            "last_updated": "2024-10-04T16:30:39.750526"
+            "soldier": 3953,
+            "demoman": 1745,
+            "last_updated": "2024-10-22T20:22:49.897632"
         }
     },
     {
@@ -17696,9 +17696,9 @@ const maps_json = [
             "demoman": "RCDXp48kxdE"
         },
         "completion_info": {
-            "soldier": 1804,
-            "demoman": 467,
-            "last_updated": "2024-10-04T16:30:39.685580"
+            "soldier": 1815,
+            "demoman": 472,
+            "last_updated": "2024-10-22T20:22:49.881634"
         }
     },
     {
@@ -17739,9 +17739,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2152,
-            "demoman": 1120,
-            "last_updated": "2024-10-04T16:30:39.685580"
+            "soldier": 2154,
+            "demoman": 1121,
+            "last_updated": "2024-10-22T20:22:49.888632"
         }
     },
     {
@@ -17770,9 +17770,9 @@ const maps_json = [
             "demoman": "F8Xjb1fHgmw"
         },
         "completion_info": {
-            "soldier": 1212,
-            "demoman": 905,
-            "last_updated": "2024-10-04T16:30:39.690580"
+            "soldier": 1224,
+            "demoman": 913,
+            "last_updated": "2024-10-22T20:22:49.866802"
         }
     },
     {
@@ -17805,9 +17805,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 307,
-            "demoman": 368,
-            "last_updated": "2024-10-04T16:30:41.013605"
+            "soldier": 311,
+            "demoman": 370,
+            "last_updated": "2024-10-22T20:22:51.203958"
         }
     },
     {
@@ -17838,9 +17838,9 @@ const maps_json = [
             "demoman": "sHQ59vOrkaA"
         },
         "completion_info": {
-            "soldier": 809,
+            "soldier": 813,
             "demoman": 394,
-            "last_updated": "2024-10-04T16:30:41.002607"
+            "last_updated": "2024-10-22T20:22:51.221354"
         }
     },
     {
@@ -17869,9 +17869,9 @@ const maps_json = [
             "demoman": "Nbk18m0WnMM"
         },
         "completion_info": {
-            "soldier": 218,
-            "demoman": 489,
-            "last_updated": "2024-10-04T16:30:40.996666"
+            "soldier": 219,
+            "demoman": 492,
+            "last_updated": "2024-10-22T20:22:51.281351"
         }
     },
     {
@@ -17902,9 +17902,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1174,
-            "demoman": 561,
-            "last_updated": "2024-10-04T16:30:41.015611"
+            "soldier": 1178,
+            "demoman": 564,
+            "last_updated": "2024-10-22T20:22:51.221354"
         }
     },
     {
@@ -17933,9 +17933,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1352,
-            "demoman": 760,
-            "last_updated": "2024-10-04T16:30:41.014605"
+            "soldier": 1354,
+            "demoman": 762,
+            "last_updated": "2024-10-22T20:22:51.231352"
         }
     },
     {
@@ -17966,9 +17966,9 @@ const maps_json = [
             "demoman": "oe30xebWljo"
         },
         "completion_info": {
-            "soldier": 904,
-            "demoman": 272,
-            "last_updated": "2024-10-04T16:30:41.003608"
+            "soldier": 908,
+            "demoman": 271,
+            "last_updated": "2024-10-22T20:22:51.249353"
         }
     },
     {
@@ -17999,9 +17999,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1319,
-            "demoman": 468,
-            "last_updated": "2024-10-04T16:30:41.021605"
+            "soldier": 1322,
+            "demoman": 469,
+            "last_updated": "2024-10-22T20:22:51.307351"
         }
     },
     {
@@ -18030,9 +18030,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 508,
-            "demoman": 255,
-            "last_updated": "2024-10-04T16:30:41.014605"
+            "soldier": 514,
+            "demoman": 257,
+            "last_updated": "2024-10-22T20:22:51.313351"
         }
     },
     {
@@ -18061,9 +18061,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 991,
-            "demoman": 855,
-            "last_updated": "2024-10-04T16:30:42.432532"
+            "soldier": 994,
+            "demoman": 856,
+            "last_updated": "2024-10-22T20:22:52.697058"
         }
     },
     {
@@ -18094,9 +18094,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 862,
-            "demoman": 902,
-            "last_updated": "2024-10-04T16:30:42.391532"
+            "soldier": 872,
+            "demoman": 905,
+            "last_updated": "2024-10-22T20:22:52.639055"
         }
     },
     {
@@ -18132,9 +18132,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 663,
-            "demoman": 465,
-            "last_updated": "2024-10-04T16:30:42.407532"
+            "soldier": 666,
+            "demoman": 467,
+            "last_updated": "2024-10-22T20:22:52.657058"
         }
     },
     {
@@ -18164,9 +18164,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 521,
-            "demoman": 484,
-            "last_updated": "2024-10-04T16:30:42.406532"
+            "soldier": 529,
+            "demoman": 485,
+            "last_updated": "2024-10-22T20:22:52.657058"
         }
     },
     {
@@ -18195,9 +18195,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 879,
+            "soldier": 882,
             "demoman": 627,
-            "last_updated": "2024-10-04T16:30:42.408532"
+            "last_updated": "2024-10-22T20:22:52.658060"
         }
     },
     {
@@ -18228,9 +18228,9 @@ const maps_json = [
             "demoman": "vt3-YIsALIM"
         },
         "completion_info": {
-            "soldier": 529,
+            "soldier": 530,
             "demoman": 232,
-            "last_updated": "2024-10-04T16:30:42.408532"
+            "last_updated": "2024-10-22T20:22:52.646058"
         }
     },
     {
@@ -18261,9 +18261,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 419,
-            "demoman": 137,
-            "last_updated": "2024-10-04T16:30:42.409532"
+            "soldier": 428,
+            "demoman": 139,
+            "last_updated": "2024-10-22T20:22:52.646058"
         }
     },
     {
@@ -18294,9 +18294,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2281,
-            "demoman": 773,
-            "last_updated": "2024-10-04T16:30:42.408532"
+            "soldier": 2311,
+            "demoman": 779,
+            "last_updated": "2024-10-22T20:22:52.658060"
         }
     },
     {
@@ -18328,8 +18328,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 0,
-            "demoman": 369,
-            "last_updated": "2024-10-04T16:30:43.802925"
+            "demoman": 370,
+            "last_updated": "2024-10-22T20:22:54.033736"
         }
     },
     {
@@ -18361,9 +18361,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2934,
-            "demoman": 1243,
-            "last_updated": "2024-10-04T16:30:43.801927"
+            "soldier": 2951,
+            "demoman": 1247,
+            "last_updated": "2024-10-22T20:22:54.061735"
         }
     },
     {
@@ -18392,9 +18392,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 278,
-            "demoman": 286,
-            "last_updated": "2024-10-04T16:30:43.774299"
+            "soldier": 285,
+            "demoman": 289,
+            "last_updated": "2024-10-22T20:22:54.048736"
         }
     },
     {
@@ -18425,9 +18425,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 188,
-            "demoman": 287,
-            "last_updated": "2024-10-04T16:30:43.757299"
+            "soldier": 190,
+            "demoman": 289,
+            "last_updated": "2024-10-22T20:22:54.029736"
         }
     },
     {
@@ -18458,9 +18458,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3489,
-            "demoman": 2358,
-            "last_updated": "2024-10-04T16:30:43.783298"
+            "soldier": 3502,
+            "demoman": 2365,
+            "last_updated": "2024-10-22T20:22:54.058736"
         }
     },
     {
@@ -18491,9 +18491,9 @@ const maps_json = [
             "demoman": "2PeXu1Nfs0s"
         },
         "completion_info": {
-            "soldier": 1050,
+            "soldier": 1052,
             "demoman": 860,
-            "last_updated": "2024-10-04T16:30:43.774299"
+            "last_updated": "2024-10-22T20:22:54.057736"
         }
     },
     {
@@ -18524,9 +18524,9 @@ const maps_json = [
             "demoman": "hXptvEULBr0"
         },
         "completion_info": {
-            "soldier": 858,
-            "demoman": 591,
-            "last_updated": "2024-10-04T16:30:43.773299"
+            "soldier": 862,
+            "demoman": 594,
+            "last_updated": "2024-10-22T20:22:54.048736"
         }
     },
     {
@@ -18560,9 +18560,9 @@ const maps_json = [
             "demoman": "aT-qJFhnBRE"
         },
         "completion_info": {
-            "soldier": 1036,
-            "demoman": 585,
-            "last_updated": "2024-10-04T16:30:43.777298"
+            "soldier": 1038,
+            "demoman": 587,
+            "last_updated": "2024-10-22T20:22:54.047736"
         }
     },
     {
@@ -18591,9 +18591,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 720,
-            "demoman": 333,
-            "last_updated": "2024-10-04T16:30:45.031215"
+            "soldier": 732,
+            "demoman": 334,
+            "last_updated": "2024-10-22T20:22:55.363970"
         }
     },
     {
@@ -18625,9 +18625,9 @@ const maps_json = [
             "demoman": "xE4mgXHkKRk"
         },
         "completion_info": {
-            "soldier": 1854,
-            "demoman": 1152,
-            "last_updated": "2024-10-04T16:30:45.044215"
+            "soldier": 1855,
+            "demoman": 1157,
+            "last_updated": "2024-10-22T20:22:55.374969"
         }
     },
     {
@@ -18659,9 +18659,9 @@ const maps_json = [
             "demoman": "w8ZRgEqaWis"
         },
         "completion_info": {
-            "soldier": 351,
+            "soldier": 352,
             "demoman": 451,
-            "last_updated": "2024-10-04T16:30:45.030215"
+            "last_updated": "2024-10-22T20:22:55.356976"
         }
     },
     {
@@ -18691,9 +18691,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 442,
-            "demoman": 311,
-            "last_updated": "2024-10-04T16:30:45.063134"
+            "soldier": 445,
+            "demoman": 314,
+            "last_updated": "2024-10-22T20:22:55.375970"
         }
     },
     {
@@ -18725,8 +18725,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 52,
-            "demoman": 162,
-            "last_updated": "2024-10-04T16:30:45.023213"
+            "demoman": 163,
+            "last_updated": "2024-10-22T20:22:55.375970"
         }
     },
     {
@@ -18757,9 +18757,9 @@ const maps_json = [
             "demoman": "ca9DdXg5iZk"
         },
         "completion_info": {
-            "soldier": 824,
-            "demoman": 537,
-            "last_updated": "2024-10-04T16:30:45.040215"
+            "soldier": 835,
+            "demoman": 538,
+            "last_updated": "2024-10-22T20:22:55.374969"
         }
     },
     {
@@ -18788,9 +18788,9 @@ const maps_json = [
             "demoman": "OusoeEhxjDo"
         },
         "completion_info": {
-            "soldier": 653,
+            "soldier": 658,
             "demoman": 704,
-            "last_updated": "2024-10-04T16:30:45.030215"
+            "last_updated": "2024-10-22T20:22:55.373971"
         }
     },
     {
@@ -18821,9 +18821,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 798,
-            "demoman": 522,
-            "last_updated": "2024-10-04T16:30:45.041214"
+            "soldier": 804,
+            "demoman": 524,
+            "last_updated": "2024-10-22T20:22:55.373971"
         }
     },
     {
@@ -18856,9 +18856,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1727,
-            "demoman": 834,
-            "last_updated": "2024-10-04T16:30:46.307814"
+            "soldier": 1742,
+            "demoman": 837,
+            "last_updated": "2024-10-22T20:22:56.713512"
         }
     },
     {
@@ -18889,9 +18889,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1530,
-            "demoman": 919,
-            "last_updated": "2024-10-04T16:30:46.291814"
+            "soldier": 1540,
+            "demoman": 922,
+            "last_updated": "2024-10-22T20:22:56.687310"
         }
     },
     {
@@ -18922,9 +18922,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 752,
-            "demoman": 409,
-            "last_updated": "2024-10-04T16:30:46.291814"
+            "soldier": 756,
+            "demoman": 412,
+            "last_updated": "2024-10-22T20:22:56.671310"
         }
     },
     {
@@ -18955,9 +18955,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 9563,
-            "demoman": 3472,
-            "last_updated": "2024-10-04T16:30:46.345819"
+            "soldier": 9622,
+            "demoman": 3488,
+            "last_updated": "2024-10-22T20:22:56.698514"
         }
     },
     {
@@ -18989,9 +18989,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 530,
-            "demoman": 476,
-            "last_updated": "2024-10-04T16:30:46.289815"
+            "soldier": 535,
+            "demoman": 479,
+            "last_updated": "2024-10-22T20:22:56.663308"
         }
     },
     {
@@ -19020,9 +19020,9 @@ const maps_json = [
             "demoman": "M-H9FcN37b4"
         },
         "completion_info": {
-            "soldier": 531,
-            "demoman": 274,
-            "last_updated": "2024-10-04T16:30:46.298815"
+            "soldier": 540,
+            "demoman": 276,
+            "last_updated": "2024-10-22T20:22:56.671310"
         }
     },
     {
@@ -19053,9 +19053,9 @@ const maps_json = [
             "demoman": "QV9QkLBCikA"
         },
         "completion_info": {
-            "soldier": 1315,
-            "demoman": 476,
-            "last_updated": "2024-10-04T16:30:46.298815"
+            "soldier": 1331,
+            "demoman": 479,
+            "last_updated": "2024-10-22T20:22:56.673312"
         }
     },
     {
@@ -19090,8 +19090,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 400,
-            "demoman": 272,
-            "last_updated": "2024-10-04T16:30:46.290817"
+            "demoman": 273,
+            "last_updated": "2024-10-22T20:22:56.683312"
         }
     },
     {
@@ -19120,9 +19120,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 668,
-            "demoman": 331,
-            "last_updated": "2024-10-04T16:30:47.572358"
+            "soldier": 673,
+            "demoman": 333,
+            "last_updated": "2024-10-22T20:22:58.035847"
         }
     },
     {
@@ -19153,9 +19153,9 @@ const maps_json = [
             "demoman": "S9JRZE2Kzgo"
         },
         "completion_info": {
-            "soldier": 585,
-            "demoman": 480,
-            "last_updated": "2024-10-04T16:30:47.570359"
+            "soldier": 591,
+            "demoman": 483,
+            "last_updated": "2024-10-22T20:22:58.036848"
         }
     },
     {
@@ -19186,9 +19186,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 428,
-            "demoman": 488,
-            "last_updated": "2024-10-04T16:30:47.554356"
+            "soldier": 437,
+            "demoman": 491,
+            "last_updated": "2024-10-22T20:22:58.042853"
         }
     },
     {
@@ -19219,9 +19219,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3160,
-            "demoman": 968,
-            "last_updated": "2024-10-04T16:30:47.571359"
+            "soldier": 3189,
+            "demoman": 972,
+            "last_updated": "2024-10-22T20:22:58.053848"
         }
     },
     {
@@ -19250,9 +19250,9 @@ const maps_json = [
             "demoman": "GqECx5NTj_s"
         },
         "completion_info": {
-            "soldier": 259,
+            "soldier": 262,
             "demoman": 129,
-            "last_updated": "2024-10-04T16:30:47.571359"
+            "last_updated": "2024-10-22T20:22:58.034851"
         }
     },
     {
@@ -19285,9 +19285,9 @@ const maps_json = [
             "demoman": "2P_AfXkslXs"
         },
         "completion_info": {
-            "soldier": 251,
-            "demoman": 316,
-            "last_updated": "2024-10-04T16:30:47.561360"
+            "soldier": 253,
+            "demoman": 317,
+            "last_updated": "2024-10-22T20:22:58.034851"
         }
     },
     {
@@ -19320,9 +19320,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 865,
-            "demoman": 650,
-            "last_updated": "2024-10-04T16:30:47.560358"
+            "soldier": 876,
+            "demoman": 656,
+            "last_updated": "2024-10-22T20:22:58.078848"
         }
     },
     {
@@ -19423,9 +19423,9 @@ const maps_json = [
             "demoman": "ykbLK_t9QYg"
         },
         "completion_info": {
-            "soldier": 470,
+            "soldier": 473,
             "demoman": 279,
-            "last_updated": "2024-10-04T16:30:47.593228"
+            "last_updated": "2024-10-22T20:22:58.037850"
         }
     },
     {
@@ -19459,9 +19459,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5041,
-            "demoman": 1538,
-            "last_updated": "2024-10-04T16:30:48.850113"
+            "soldier": 5071,
+            "demoman": 1545,
+            "last_updated": "2024-10-22T20:22:59.488838"
         }
     },
     {
@@ -19492,9 +19492,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1635,
-            "demoman": 693,
-            "last_updated": "2024-10-04T16:30:48.837113"
+            "soldier": 1642,
+            "demoman": 696,
+            "last_updated": "2024-10-22T20:22:59.470838"
         }
     },
     {
@@ -19525,9 +19525,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5730,
-            "demoman": 1728,
-            "last_updated": "2024-10-04T16:30:48.860114"
+            "soldier": 5754,
+            "demoman": 1730,
+            "last_updated": "2024-10-22T20:22:59.529837"
         }
     },
     {
@@ -19556,9 +19556,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3667,
-            "demoman": 2237,
-            "last_updated": "2024-10-04T16:30:48.846115"
+            "soldier": 3678,
+            "demoman": 2239,
+            "last_updated": "2024-10-22T20:22:59.505838"
         }
     },
     {
@@ -19591,9 +19591,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 817,
-            "demoman": 430,
-            "last_updated": "2024-10-04T16:30:48.830110"
+            "soldier": 834,
+            "demoman": 434,
+            "last_updated": "2024-10-22T20:22:59.494840"
         }
     },
     {
@@ -19625,9 +19625,9 @@ const maps_json = [
             "demoman": "MiDHveEwXxg"
         },
         "completion_info": {
-            "soldier": 789,
+            "soldier": 793,
             "demoman": 340,
-            "last_updated": "2024-10-04T16:30:48.858115"
+            "last_updated": "2024-10-22T20:22:59.479839"
         }
     },
     {
@@ -19659,9 +19659,9 @@ const maps_json = [
             "demoman": "2nNXb3FenFY"
         },
         "completion_info": {
-            "soldier": 1254,
-            "demoman": 591,
-            "last_updated": "2024-10-04T16:30:48.862114"
+            "soldier": 1258,
+            "demoman": 592,
+            "last_updated": "2024-10-22T20:22:59.493838"
         }
     },
     {
@@ -19692,9 +19692,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 366,
-            "demoman": 181,
-            "last_updated": "2024-10-04T16:30:48.847122"
+            "soldier": 368,
+            "demoman": 182,
+            "last_updated": "2024-10-22T20:22:59.469839"
         }
     },
     {
@@ -19723,9 +19723,9 @@ const maps_json = [
             "demoman": "NqsHmvxOWuE"
         },
         "completion_info": {
-            "soldier": 2390,
-            "demoman": 1907,
-            "last_updated": "2024-10-04T16:30:50.127439"
+            "soldier": 2400,
+            "demoman": 1916,
+            "last_updated": "2024-10-22T20:23:00.890919"
         }
     },
     {
@@ -19754,9 +19754,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 624,
-            "demoman": 542,
-            "last_updated": "2024-10-04T16:30:50.112443"
+            "soldier": 633,
+            "demoman": 547,
+            "last_updated": "2024-10-22T20:23:00.872797"
         }
     },
     {
@@ -19789,7 +19789,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 308,
             "demoman": 403,
-            "last_updated": "2024-10-04T16:30:50.095436"
+            "last_updated": "2024-10-22T20:23:00.914916"
         }
     },
     {
@@ -19819,9 +19819,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1552,
-            "demoman": 890,
-            "last_updated": "2024-10-04T16:30:50.112443"
+            "soldier": 1561,
+            "demoman": 892,
+            "last_updated": "2024-10-22T20:23:00.892917"
         }
     },
     {
@@ -19852,9 +19852,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 661,
-            "demoman": 549,
-            "last_updated": "2024-10-04T16:30:50.096441"
+            "soldier": 663,
+            "demoman": 551,
+            "last_updated": "2024-10-22T20:23:00.872797"
         }
     },
     {
@@ -19885,9 +19885,9 @@ const maps_json = [
             "demoman": "1HRHqu9m7Wk"
         },
         "completion_info": {
-            "soldier": 3482,
-            "demoman": 788,
-            "last_updated": "2024-10-04T16:30:50.114438"
+            "soldier": 3502,
+            "demoman": 791,
+            "last_updated": "2024-10-22T20:23:00.926916"
         }
     },
     {
@@ -19920,9 +19920,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1189,
-            "demoman": 650,
-            "last_updated": "2024-10-04T16:30:50.113439"
+            "soldier": 1204,
+            "demoman": 653,
+            "last_updated": "2024-10-22T20:23:00.892917"
         }
     },
     {
@@ -19956,9 +19956,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 374,
-            "demoman": 391,
-            "last_updated": "2024-10-04T16:30:50.101439"
+            "soldier": 379,
+            "demoman": 392,
+            "last_updated": "2024-10-22T20:23:00.891927"
         }
     },
     {
@@ -19989,9 +19989,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1307,
-            "demoman": 578,
-            "last_updated": "2024-10-04T16:30:51.366952"
+            "soldier": 1319,
+            "demoman": 579,
+            "last_updated": "2024-10-22T20:23:02.186267"
         }
     },
     {
@@ -20028,9 +20028,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 938,
+            "soldier": 948,
             "demoman": 624,
-            "last_updated": "2024-10-04T16:30:51.397951"
+            "last_updated": "2024-10-22T20:23:02.188267"
         }
     },
     {
@@ -20061,9 +20061,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 166,
+            "soldier": 167,
             "demoman": 442,
-            "last_updated": "2024-10-04T16:30:51.364957"
+            "last_updated": "2024-10-22T20:23:02.181270"
         }
     },
     {
@@ -20094,9 +20094,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 660,
-            "demoman": 475,
-            "last_updated": "2024-10-04T16:30:51.372959"
+            "soldier": 664,
+            "demoman": 476,
+            "last_updated": "2024-10-22T20:23:02.199268"
         }
     },
     {
@@ -20127,9 +20127,9 @@ const maps_json = [
             "demoman": "EspALAU4gyI"
         },
         "completion_info": {
-            "soldier": 535,
-            "demoman": 394,
-            "last_updated": "2024-10-04T16:30:51.398951"
+            "soldier": 539,
+            "demoman": 396,
+            "last_updated": "2024-10-22T20:23:02.199268"
         }
     },
     {
@@ -20159,8 +20159,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 288,
-            "demoman": 529,
-            "last_updated": "2024-10-04T16:30:51.372959"
+            "demoman": 530,
+            "last_updated": "2024-10-22T20:23:02.238267"
         }
     },
     {
@@ -20193,9 +20193,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3729,
-            "demoman": 1196,
-            "last_updated": "2024-10-04T16:30:51.398951"
+            "soldier": 3745,
+            "demoman": 1203,
+            "last_updated": "2024-10-22T20:23:02.219267"
         }
     },
     {
@@ -20228,9 +20228,9 @@ const maps_json = [
             "demoman": "7mJ5km0rdQQ"
         },
         "completion_info": {
-            "soldier": 580,
-            "demoman": 22,
-            "last_updated": "2024-10-04T16:30:51.363947"
+            "soldier": 584,
+            "demoman": 23,
+            "last_updated": "2024-10-22T20:23:02.182270"
         }
     },
     {
@@ -20262,9 +20262,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5480,
-            "demoman": 2007,
-            "last_updated": "2024-10-04T16:30:52.669287"
+            "soldier": 5499,
+            "demoman": 2014,
+            "last_updated": "2024-10-22T20:23:03.557649"
         }
     },
     {
@@ -20296,9 +20296,9 @@ const maps_json = [
             "demoman": "FGjpf1E6sjc"
         },
         "completion_info": {
-            "soldier": 4991,
-            "demoman": 2381,
-            "last_updated": "2024-10-04T16:30:52.683287"
+            "soldier": 5010,
+            "demoman": 2387,
+            "last_updated": "2024-10-22T20:23:03.589951"
         }
     },
     {
@@ -20327,9 +20327,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3318,
-            "demoman": 1869,
-            "last_updated": "2024-10-04T16:30:52.652296"
+            "soldier": 3325,
+            "demoman": 1872,
+            "last_updated": "2024-10-22T20:23:03.542650"
         }
     },
     {
@@ -20358,9 +20358,9 @@ const maps_json = [
             "demoman": "_ngf9RGVRWI"
         },
         "completion_info": {
-            "soldier": 1145,
-            "demoman": 498,
-            "last_updated": "2024-10-04T16:30:52.635288"
+            "soldier": 1165,
+            "demoman": 502,
+            "last_updated": "2024-10-22T20:23:03.550649"
         }
     },
     {
@@ -20394,9 +20394,9 @@ const maps_json = [
             "demoman": "hiWL0BWGSak"
         },
         "completion_info": {
-            "soldier": 1635,
-            "demoman": 713,
-            "last_updated": "2024-10-04T16:30:52.657288"
+            "soldier": 1643,
+            "demoman": 719,
+            "last_updated": "2024-10-22T20:23:03.542650"
         }
     },
     {
@@ -20427,9 +20427,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3300,
-            "demoman": 1561,
-            "last_updated": "2024-10-04T16:30:52.654289"
+            "soldier": 3333,
+            "demoman": 1564,
+            "last_updated": "2024-10-22T20:23:03.541650"
         }
     },
     {
@@ -20459,9 +20459,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4429,
-            "demoman": 1673,
-            "last_updated": "2024-10-04T16:30:52.667288"
+            "soldier": 4452,
+            "demoman": 1682,
+            "last_updated": "2024-10-22T20:23:03.532652"
         }
     },
     {
@@ -20495,7 +20495,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 101,
             "demoman": 260,
-            "last_updated": "2024-10-04T16:30:52.632288"
+            "last_updated": "2024-10-22T20:23:03.525651"
         }
     },
     {
@@ -20526,9 +20526,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 536,
-            "demoman": 237,
-            "last_updated": "2024-10-04T16:30:53.946153"
+            "soldier": 548,
+            "demoman": 241,
+            "last_updated": "2024-10-22T20:23:04.838900"
         }
     },
     {
@@ -20561,9 +20561,9 @@ const maps_json = [
             "demoman": "l9BgNtXMGGU"
         },
         "completion_info": {
-            "soldier": 1188,
-            "demoman": 704,
-            "last_updated": "2024-10-04T16:30:53.963153"
+            "soldier": 1198,
+            "demoman": 707,
+            "last_updated": "2024-10-22T20:23:04.852699"
         }
     },
     {
@@ -20592,9 +20592,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 919,
-            "demoman": 585,
-            "last_updated": "2024-10-04T16:30:53.941154"
+            "soldier": 922,
+            "demoman": 587,
+            "last_updated": "2024-10-22T20:23:04.895696"
         }
     },
     {
@@ -20623,9 +20623,9 @@ const maps_json = [
             "demoman": "gZJnh0X8iYQ"
         },
         "completion_info": {
-            "soldier": 1702,
+            "soldier": 1710,
             "demoman": 392,
-            "last_updated": "2024-10-04T16:30:53.961161"
+            "last_updated": "2024-10-22T20:23:04.896696"
         }
     },
     {
@@ -20654,9 +20654,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 726,
-            "demoman": 388,
-            "last_updated": "2024-10-04T16:30:53.946153"
+            "soldier": 735,
+            "demoman": 391,
+            "last_updated": "2024-10-22T20:23:04.835900"
         }
     },
     {
@@ -20695,9 +20695,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 847,
-            "demoman": 250,
-            "last_updated": "2024-10-04T16:30:53.945153"
+            "soldier": 862,
+            "demoman": 253,
+            "last_updated": "2024-10-22T20:23:04.842899"
         }
     },
     {
@@ -20728,9 +20728,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 894,
-            "demoman": 615,
-            "last_updated": "2024-10-04T16:30:53.956154"
+            "soldier": 900,
+            "demoman": 617,
+            "last_updated": "2024-10-22T20:23:04.895696"
         }
     },
     {
@@ -20763,7 +20763,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 79,
             "demoman": 155,
-            "last_updated": "2024-10-04T16:30:53.937154"
+            "last_updated": "2024-10-22T20:23:04.894696"
         }
     },
     {
@@ -20792,9 +20792,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 803,
-            "demoman": 310,
-            "last_updated": "2024-10-04T16:30:55.248353"
+            "soldier": 808,
+            "demoman": 311,
+            "last_updated": "2024-10-22T20:23:06.140738"
         }
     },
     {
@@ -20823,9 +20823,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 919,
-            "demoman": 533,
-            "last_updated": "2024-10-04T16:30:55.238353"
+            "soldier": 922,
+            "demoman": 535,
+            "last_updated": "2024-10-22T20:23:06.134739"
         }
     },
     {
@@ -20854,9 +20854,9 @@ const maps_json = [
             "demoman": "rif9KJ0SE0g"
         },
         "completion_info": {
-            "soldier": 713,
-            "demoman": 459,
-            "last_updated": "2024-10-04T16:30:55.248353"
+            "soldier": 714,
+            "demoman": 462,
+            "last_updated": "2024-10-22T20:23:06.134739"
         }
     },
     {
@@ -20885,9 +20885,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 716,
-            "demoman": 350,
-            "last_updated": "2024-10-04T16:30:55.249352"
+            "soldier": 720,
+            "demoman": 351,
+            "last_updated": "2024-10-22T20:23:06.133738"
         }
     },
     {
@@ -20921,9 +20921,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2233,
-            "demoman": 1018,
-            "last_updated": "2024-10-04T16:30:55.249352"
+            "soldier": 2240,
+            "demoman": 1020,
+            "last_updated": "2024-10-22T20:23:06.173737"
         }
     },
     {
@@ -20952,9 +20952,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1134,
-            "demoman": 928,
-            "last_updated": "2024-10-04T16:30:55.238353"
+            "soldier": 1141,
+            "demoman": 930,
+            "last_updated": "2024-10-22T20:23:06.172738"
         }
     },
     {
@@ -20983,9 +20983,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 397,
+            "soldier": 405,
             "demoman": 333,
-            "last_updated": "2024-10-04T16:30:55.230354"
+            "last_updated": "2024-10-22T20:23:06.141739"
         }
     },
     {
@@ -21017,9 +21017,9 @@ const maps_json = [
             "demoman": "BZl8-CE7EB0"
         },
         "completion_info": {
-            "soldier": 233,
-            "demoman": 866,
-            "last_updated": "2024-10-04T16:30:55.286358"
+            "soldier": 236,
+            "demoman": 873,
+            "last_updated": "2024-10-22T20:23:06.150738"
         }
     },
     {
@@ -21049,9 +21049,9 @@ const maps_json = [
             "demoman": "MYfN0hAuy7o"
         },
         "completion_info": {
-            "soldier": 99,
-            "demoman": 926,
-            "last_updated": "2024-10-04T16:30:56.579818"
+            "soldier": 101,
+            "demoman": 929,
+            "last_updated": "2024-10-22T20:23:07.431694"
         }
     },
     {
@@ -21089,9 +21089,9 @@ const maps_json = [
             "demoman": "RtebLEXvs3k"
         },
         "completion_info": {
-            "soldier": 109,
-            "demoman": 221,
-            "last_updated": "2024-10-04T16:30:56.587817"
+            "soldier": 112,
+            "demoman": 222,
+            "last_updated": "2024-10-22T20:23:07.468209"
         }
     },
     {
@@ -21122,9 +21122,9 @@ const maps_json = [
             "demoman": "YdomGI45Cpk"
         },
         "completion_info": {
-            "soldier": 1535,
-            "demoman": 148,
-            "last_updated": "2024-10-04T16:30:56.622817"
+            "soldier": 1550,
+            "demoman": 152,
+            "last_updated": "2024-10-22T20:23:07.476206"
         }
     },
     {
@@ -21156,8 +21156,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 435,
-            "demoman": 327,
-            "last_updated": "2024-10-04T16:30:56.588819"
+            "demoman": 331,
+            "last_updated": "2024-10-22T20:23:07.421693"
         }
     },
     {
@@ -21186,9 +21186,9 @@ const maps_json = [
             "demoman": "xvNvaJk40GY"
         },
         "completion_info": {
-            "soldier": 396,
-            "demoman": 161,
-            "last_updated": "2024-10-04T16:30:56.578819"
+            "soldier": 397,
+            "demoman": 163,
+            "last_updated": "2024-10-22T20:23:07.414694"
         }
     },
     {
@@ -21217,9 +21217,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 662,
-            "demoman": 486,
-            "last_updated": "2024-10-04T16:30:56.579818"
+            "soldier": 663,
+            "demoman": 488,
+            "last_updated": "2024-10-22T20:23:07.478206"
         }
     },
     {
@@ -21255,9 +21255,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 508,
+            "soldier": 515,
             "demoman": 272,
-            "last_updated": "2024-10-04T16:30:56.584817"
+            "last_updated": "2024-10-22T20:23:07.466226"
         }
     },
     {
@@ -21289,9 +21289,9 @@ const maps_json = [
             "demoman": "l2C_L7rCtTU"
         },
         "completion_info": {
-            "soldier": 1664,
-            "demoman": 1240,
-            "last_updated": "2024-10-04T16:30:56.586819"
+            "soldier": 1680,
+            "demoman": 1251,
+            "last_updated": "2024-10-22T20:23:07.431694"
         }
     },
     {
@@ -21320,9 +21320,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1729,
-            "demoman": 1318,
-            "last_updated": "2024-10-04T16:30:57.871789"
+            "soldier": 1738,
+            "demoman": 1321,
+            "last_updated": "2024-10-22T20:23:08.724349"
         }
     },
     {
@@ -21351,9 +21351,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 932,
-            "demoman": 711,
-            "last_updated": "2024-10-04T16:30:57.869788"
+            "soldier": 948,
+            "demoman": 712,
+            "last_updated": "2024-10-22T20:23:08.725347"
         }
     },
     {
@@ -21384,9 +21384,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 238,
-            "demoman": 524,
-            "last_updated": "2024-10-04T16:30:57.858795"
+            "soldier": 241,
+            "demoman": 528,
+            "last_updated": "2024-10-22T20:23:08.754346"
         }
     },
     {
@@ -21415,9 +21415,9 @@ const maps_json = [
             "demoman": "JKcxwHo5--s"
         },
         "completion_info": {
-            "soldier": 511,
+            "soldier": 512,
             "demoman": 249,
-            "last_updated": "2024-10-04T16:30:57.870789"
+            "last_updated": "2024-10-22T20:23:08.712347"
         }
     },
     {
@@ -21452,9 +21452,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3373,
-            "demoman": 1494,
-            "last_updated": "2024-10-04T16:30:57.928297"
+            "soldier": 3405,
+            "demoman": 1505,
+            "last_updated": "2024-10-22T20:23:08.725347"
         }
     },
     {
@@ -21485,9 +21485,9 @@ const maps_json = [
             "demoman": "ULufYX8ELrs"
         },
         "completion_info": {
-            "soldier": 692,
-            "demoman": 488,
-            "last_updated": "2024-10-04T16:30:57.881789"
+            "soldier": 695,
+            "demoman": 490,
+            "last_updated": "2024-10-22T20:23:08.707349"
         }
     },
     {
@@ -21521,9 +21521,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1401,
+            "soldier": 1403,
             "demoman": 457,
-            "last_updated": "2024-10-04T16:30:57.870789"
+            "last_updated": "2024-10-22T20:23:08.726348"
         }
     },
     {
@@ -21558,7 +21558,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 78,
             "demoman": 71,
-            "last_updated": "2024-10-04T16:30:57.853791"
+            "last_updated": "2024-10-22T20:23:08.724349"
         }
     },
     {
@@ -21591,8 +21591,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 490,
-            "demoman": 345,
-            "last_updated": "2024-10-04T16:30:59.120978"
+            "demoman": 346,
+            "last_updated": "2024-10-22T20:23:12.005087"
         }
     },
     {
@@ -21622,9 +21622,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1668,
-            "demoman": 783,
-            "last_updated": "2024-10-04T16:30:59.136979"
+            "soldier": 1674,
+            "demoman": 787,
+            "last_updated": "2024-10-22T20:23:11.989087"
         }
     },
     {
@@ -21654,9 +21654,9 @@ const maps_json = [
             "demoman": "9XdPfJVaNS4"
         },
         "completion_info": {
-            "soldier": 763,
-            "demoman": 355,
-            "last_updated": "2024-10-04T16:30:59.169986"
+            "soldier": 766,
+            "demoman": 358,
+            "last_updated": "2024-10-22T20:23:12.009087"
         }
     },
     {
@@ -21699,9 +21699,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 304,
-            "demoman": 145,
-            "last_updated": "2024-10-04T16:30:59.119977"
+            "soldier": 307,
+            "demoman": 147,
+            "last_updated": "2024-10-22T20:23:12.021087"
         }
     },
     {
@@ -21732,9 +21732,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1265,
-            "demoman": 464,
-            "last_updated": "2024-10-04T16:30:59.137977"
+            "soldier": 1287,
+            "demoman": 473,
+            "last_updated": "2024-10-22T20:23:12.012088"
         }
     },
     {
@@ -21765,9 +21765,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 8867,
-            "demoman": 2829,
-            "last_updated": "2024-10-04T16:30:59.167985"
+            "soldier": 8900,
+            "demoman": 2834,
+            "last_updated": "2024-10-22T20:23:12.048688"
         }
     },
     {
@@ -21798,9 +21798,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 650,
-            "demoman": 251,
-            "last_updated": "2024-10-04T16:30:59.136979"
+            "soldier": 663,
+            "demoman": 250,
+            "last_updated": "2024-10-22T20:23:12.011087"
         }
     },
     {
@@ -21832,9 +21832,9 @@ const maps_json = [
             "demoman": "RiuxuJC4DHs"
         },
         "completion_info": {
-            "soldier": 182,
-            "demoman": 213,
-            "last_updated": "2024-10-04T16:30:59.126979"
+            "soldier": 183,
+            "demoman": 215,
+            "last_updated": "2024-10-22T20:23:12.022088"
         }
     },
     {
@@ -21870,9 +21870,9 @@ const maps_json = [
             "demoman": "9G7TvUvnCnQ"
         },
         "completion_info": {
-            "soldier": 449,
-            "demoman": 642,
-            "last_updated": "2024-10-04T16:31:00.870321"
+            "soldier": 452,
+            "demoman": 644,
+            "last_updated": "2024-10-22T20:23:14.272137"
         }
     },
     {
@@ -21903,9 +21903,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2630,
-            "demoman": 813,
-            "last_updated": "2024-10-04T16:31:00.843321"
+            "soldier": 2641,
+            "demoman": 816,
+            "last_updated": "2024-10-22T20:23:14.339184"
         }
     },
     {
@@ -21936,9 +21936,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 952,
-            "demoman": 638,
-            "last_updated": "2024-10-04T16:31:00.841321"
+            "soldier": 963,
+            "demoman": 640,
+            "last_updated": "2024-10-22T20:23:14.336204"
         }
     },
     {
@@ -21969,9 +21969,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1107,
-            "demoman": 963,
-            "last_updated": "2024-10-04T16:31:00.840321"
+            "soldier": 1112,
+            "demoman": 966,
+            "last_updated": "2024-10-22T20:23:14.288135"
         }
     },
     {
@@ -22010,8 +22010,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 139,
-            "demoman": 173,
-            "last_updated": "2024-10-04T16:31:00.780319"
+            "demoman": 176,
+            "last_updated": "2024-10-22T20:23:14.301146"
         }
     },
     {
@@ -22040,9 +22040,9 @@ const maps_json = [
             "demoman": "MgMfOBz15n4"
         },
         "completion_info": {
-            "soldier": 702,
-            "demoman": 335,
-            "last_updated": "2024-10-04T16:31:00.810322"
+            "soldier": 703,
+            "demoman": 339,
+            "last_updated": "2024-10-22T20:23:14.314184"
         }
     },
     {
@@ -22073,9 +22073,9 @@ const maps_json = [
             "demoman": "ZNRbxgt_FwY"
         },
         "completion_info": {
-            "soldier": 858,
-            "demoman": 457,
-            "last_updated": "2024-10-04T16:31:00.801322"
+            "soldier": 863,
+            "demoman": 460,
+            "last_updated": "2024-10-22T20:23:14.314184"
         }
     },
     {
@@ -22106,9 +22106,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 320,
-            "demoman": 335,
-            "last_updated": "2024-10-04T16:31:00.839321"
+            "soldier": 326,
+            "demoman": 337,
+            "last_updated": "2024-10-22T20:23:14.335183"
         }
     },
     {
@@ -22138,9 +22138,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 937,
-            "demoman": 615,
-            "last_updated": "2024-10-04T16:31:02.055330"
+            "soldier": 940,
+            "demoman": 616,
+            "last_updated": "2024-10-22T20:23:15.597675"
         }
     },
     {
@@ -22169,9 +22169,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 269,
-            "demoman": 569,
-            "last_updated": "2024-10-04T16:31:02.069331"
+            "soldier": 274,
+            "demoman": 571,
+            "last_updated": "2024-10-22T20:23:15.578678"
         }
     },
     {
@@ -22200,9 +22200,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 870,
-            "demoman": 759,
-            "last_updated": "2024-10-04T16:31:02.060330"
+            "soldier": 875,
+            "demoman": 763,
+            "last_updated": "2024-10-22T20:23:15.579678"
         }
     },
     {
@@ -22233,9 +22233,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1190,
-            "demoman": 734,
-            "last_updated": "2024-10-04T16:31:02.054330"
+            "soldier": 1192,
+            "demoman": 735,
+            "last_updated": "2024-10-22T20:23:15.597675"
         }
     },
     {
@@ -22272,9 +22272,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 546,
-            "demoman": 474,
-            "last_updated": "2024-10-04T16:31:02.101331"
+            "soldier": 555,
+            "demoman": 479,
+            "last_updated": "2024-10-22T20:23:15.593675"
         }
     },
     {
@@ -22405,9 +22405,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 310,
-            "demoman": 135,
-            "last_updated": "2024-10-04T16:31:02.060330"
+            "soldier": 315,
+            "demoman": 136,
+            "last_updated": "2024-10-22T20:23:15.574676"
         }
     },
     {
@@ -22438,9 +22438,9 @@ const maps_json = [
             "demoman": "MYEHhkpgj3Y"
         },
         "completion_info": {
-            "soldier": 298,
-            "demoman": 285,
-            "last_updated": "2024-10-04T16:31:02.052076"
+            "soldier": 299,
+            "demoman": 290,
+            "last_updated": "2024-10-22T20:23:15.592676"
         }
     },
     {
@@ -22474,9 +22474,9 @@ const maps_json = [
             "demoman": "tby9PD7_teg"
         },
         "completion_info": {
-            "soldier": 919,
-            "demoman": 754,
-            "last_updated": "2024-10-04T16:31:02.131329"
+            "soldier": 926,
+            "demoman": 755,
+            "last_updated": "2024-10-22T20:23:15.581675"
         }
     },
     {
@@ -22510,9 +22510,9 @@ const maps_json = [
             "demoman": "mytZOlCaitE"
         },
         "completion_info": {
-            "soldier": 944,
-            "demoman": 245,
-            "last_updated": "2024-10-04T16:31:03.319148"
+            "soldier": 947,
+            "demoman": 246,
+            "last_updated": "2024-10-22T20:23:16.968654"
         }
     },
     {
@@ -22543,9 +22543,9 @@ const maps_json = [
             "demoman": "5iBP6KJhKDU"
         },
         "completion_info": {
-            "soldier": 500,
-            "demoman": 320,
-            "last_updated": "2024-10-04T16:31:03.326148"
+            "soldier": 502,
+            "demoman": 325,
+            "last_updated": "2024-10-22T20:23:16.955654"
         }
     },
     {
@@ -22629,9 +22629,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 733,
-            "demoman": 400,
-            "last_updated": "2024-10-04T16:31:03.339147"
+            "soldier": 739,
+            "demoman": 402,
+            "last_updated": "2024-10-22T20:23:17.012170"
         }
     },
     {
@@ -22663,9 +22663,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1500,
-            "demoman": 477,
-            "last_updated": "2024-10-04T16:31:03.335157"
+            "soldier": 1515,
+            "demoman": 482,
+            "last_updated": "2024-10-22T20:23:17.013170"
         }
     },
     {
@@ -22701,7 +22701,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 22,
             "demoman": 3,
-            "last_updated": "2024-10-04T16:31:03.321150"
+            "last_updated": "2024-10-22T20:23:16.949664"
         }
     },
     {
@@ -22732,9 +22732,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1463,
-            "demoman": 729,
-            "last_updated": "2024-10-04T16:31:03.336147"
+            "soldier": 1469,
+            "demoman": 731,
+            "last_updated": "2024-10-22T20:23:16.967655"
         }
     },
     {
@@ -22765,7 +22765,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 298,
             "demoman": 218,
-            "last_updated": "2024-10-04T16:31:03.318145"
+            "last_updated": "2024-10-22T20:23:16.958654"
         }
     },
     {
@@ -22796,9 +22796,9 @@ const maps_json = [
             "demoman": "34x6HB05rXk"
         },
         "completion_info": {
-            "soldier": 1340,
+            "soldier": 1350,
             "demoman": 126,
-            "last_updated": "2024-10-04T16:31:03.335157"
+            "last_updated": "2024-10-22T20:23:17.012170"
         }
     },
     {
@@ -22827,9 +22827,9 @@ const maps_json = [
             "demoman": "7Jln9qZHgeI"
         },
         "completion_info": {
-            "soldier": 1470,
-            "demoman": 975,
-            "last_updated": "2024-10-04T16:31:04.817802"
+            "soldier": 1476,
+            "demoman": 978,
+            "last_updated": "2024-10-22T20:23:18.361888"
         }
     },
     {
@@ -22860,9 +22860,9 @@ const maps_json = [
             "demoman": "2sDxmRB-njc"
         },
         "completion_info": {
-            "soldier": 343,
-            "demoman": 696,
-            "last_updated": "2024-10-04T16:31:04.805809"
+            "soldier": 348,
+            "demoman": 698,
+            "last_updated": "2024-10-22T20:23:18.350889"
         }
     },
     {
@@ -22891,9 +22891,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 494,
+            "soldier": 499,
             "demoman": 180,
-            "last_updated": "2024-10-04T16:31:04.767803"
+            "last_updated": "2024-10-22T20:23:18.345885"
         }
     },
     {
@@ -22924,9 +22924,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 994,
-            "demoman": 722,
-            "last_updated": "2024-10-04T16:31:04.856739"
+            "soldier": 997,
+            "demoman": 723,
+            "last_updated": "2024-10-22T20:23:18.370890"
         }
     },
     {
@@ -22958,9 +22958,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 783,
-            "demoman": 767,
-            "last_updated": "2024-10-04T16:31:04.783805"
+            "soldier": 794,
+            "demoman": 773,
+            "last_updated": "2024-10-22T20:23:18.349890"
         }
     },
     {
@@ -22991,9 +22991,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3773,
-            "demoman": 1872,
-            "last_updated": "2024-10-04T16:31:04.836741"
+            "soldier": 3792,
+            "demoman": 1877,
+            "last_updated": "2024-10-22T20:23:18.395887"
         }
     },
     {
@@ -23029,9 +23029,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1142,
-            "demoman": 375,
-            "last_updated": "2024-10-04T16:31:04.816803"
+            "soldier": 1161,
+            "demoman": 378,
+            "last_updated": "2024-10-22T20:23:18.365888"
         }
     },
     {
@@ -23067,9 +23067,9 @@ const maps_json = [
             "demoman": "EhG8jmTco_4"
         },
         "completion_info": {
-            "soldier": 1398,
-            "demoman": 413,
-            "last_updated": "2024-10-04T16:31:04.856739"
+            "soldier": 1404,
+            "demoman": 415,
+            "last_updated": "2024-10-22T20:23:18.352890"
         }
     },
     {
@@ -23101,8 +23101,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 497,
-            "demoman": 318,
-            "last_updated": "2024-10-04T16:31:06.352963"
+            "demoman": 320,
+            "last_updated": "2024-10-22T20:23:19.738858"
         }
     },
     {
@@ -23133,9 +23133,9 @@ const maps_json = [
             "demoman": "eQbp1uF_PkU"
         },
         "completion_info": {
-            "soldier": 957,
-            "demoman": 315,
-            "last_updated": "2024-10-04T16:31:06.318106"
+            "soldier": 966,
+            "demoman": 316,
+            "last_updated": "2024-10-22T20:23:19.736855"
         }
     },
     {
@@ -23168,9 +23168,9 @@ const maps_json = [
             "demoman": "6piDsgqe_rc"
         },
         "completion_info": {
-            "soldier": 350,
-            "demoman": 464,
-            "last_updated": "2024-10-04T16:31:06.378211"
+            "soldier": 352,
+            "demoman": 469,
+            "last_updated": "2024-10-22T20:23:19.770859"
         }
     },
     {
@@ -23199,9 +23199,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2048,
-            "demoman": 1211,
-            "last_updated": "2024-10-04T16:31:06.377210"
+            "soldier": 2077,
+            "demoman": 1217,
+            "last_updated": "2024-10-22T20:23:19.768858"
         }
     },
     {
@@ -23234,9 +23234,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1342,
-            "demoman": 562,
-            "last_updated": "2024-10-04T16:31:06.341962"
+            "soldier": 1356,
+            "demoman": 568,
+            "last_updated": "2024-10-22T20:23:19.754860"
         }
     },
     {
@@ -23267,9 +23267,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 65,
+            "soldier": 66,
             "demoman": 202,
-            "last_updated": "2024-10-04T16:31:06.352963"
+            "last_updated": "2024-10-22T20:23:19.737858"
         }
     },
     {
@@ -23301,9 +23301,9 @@ const maps_json = [
             "demoman": "VQsNIf1Gb3o"
         },
         "completion_info": {
-            "soldier": 624,
+            "soldier": 625,
             "demoman": 512,
-            "last_updated": "2024-10-04T16:31:06.332963"
+            "last_updated": "2024-10-22T20:23:19.745860"
         }
     },
     {
@@ -23334,9 +23334,9 @@ const maps_json = [
             "demoman": "uxxMrfbZ_bU"
         },
         "completion_info": {
-            "soldier": 949,
-            "demoman": 482,
-            "last_updated": "2024-10-04T16:31:06.354962"
+            "soldier": 951,
+            "demoman": 483,
+            "last_updated": "2024-10-22T20:23:19.754860"
         }
     },
     {
@@ -23365,9 +23365,9 @@ const maps_json = [
             "demoman": "Xdy9pKujGvo"
         },
         "completion_info": {
-            "soldier": 2383,
-            "demoman": 1369,
-            "last_updated": "2024-10-04T16:31:07.615343"
+            "soldier": 2397,
+            "demoman": 1374,
+            "last_updated": "2024-10-22T20:23:21.094731"
         }
     },
     {
@@ -23399,9 +23399,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2863,
-            "demoman": 1600,
-            "last_updated": "2024-10-04T16:31:07.604333"
+            "soldier": 2879,
+            "demoman": 1606,
+            "last_updated": "2024-10-22T20:23:21.109733"
         }
     },
     {
@@ -23430,9 +23430,9 @@ const maps_json = [
             "demoman": "ki00NLur1XM"
         },
         "completion_info": {
-            "soldier": 713,
-            "demoman": 823,
-            "last_updated": "2024-10-04T16:31:07.605333"
+            "soldier": 715,
+            "demoman": 825,
+            "last_updated": "2024-10-22T20:23:21.075728"
         }
     },
     {
@@ -23464,9 +23464,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1555,
-            "demoman": 985,
-            "last_updated": "2024-10-04T16:31:07.599334"
+            "soldier": 1584,
+            "demoman": 992,
+            "last_updated": "2024-10-22T20:23:21.093733"
         }
     },
     {
@@ -23495,9 +23495,9 @@ const maps_json = [
             "demoman": "QmvaV5hlQqU"
         },
         "completion_info": {
-            "soldier": 863,
-            "demoman": 600,
-            "last_updated": "2024-10-04T16:31:07.648332"
+            "soldier": 869,
+            "demoman": 605,
+            "last_updated": "2024-10-22T20:23:21.082732"
         }
     },
     {
@@ -23528,9 +23528,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 482,
-            "demoman": 371,
-            "last_updated": "2024-10-04T16:31:07.598334"
+            "soldier": 486,
+            "demoman": 374,
+            "last_updated": "2024-10-22T20:23:21.101730"
         }
     },
     {
@@ -23560,9 +23560,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 935,
-            "demoman": 578,
-            "last_updated": "2024-10-04T16:31:07.616333"
+            "soldier": 937,
+            "demoman": 579,
+            "last_updated": "2024-10-22T20:23:21.093733"
         }
     },
     {
@@ -23603,9 +23603,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 712,
-            "demoman": 467,
-            "last_updated": "2024-10-04T16:31:07.614333"
+            "soldier": 736,
+            "demoman": 476,
+            "last_updated": "2024-10-22T20:23:21.139821"
         }
     },
     {
@@ -23637,7 +23637,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 407,
             "demoman": 304,
-            "last_updated": "2024-10-04T16:31:08.898521"
+            "last_updated": "2024-10-22T20:23:22.411721"
         }
     },
     {
@@ -23668,9 +23668,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1069,
-            "demoman": 727,
-            "last_updated": "2024-10-04T16:31:08.928519"
+            "soldier": 1079,
+            "demoman": 733,
+            "last_updated": "2024-10-22T20:23:22.407719"
         }
     },
     {
@@ -23699,9 +23699,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2122,
-            "demoman": 1069,
-            "last_updated": "2024-10-04T16:31:08.907519"
+            "soldier": 2136,
+            "demoman": 1073,
+            "last_updated": "2024-10-22T20:23:22.441038"
         }
     },
     {
@@ -23733,9 +23733,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2141,
-            "demoman": 679,
-            "last_updated": "2024-10-04T16:31:08.890515"
+            "soldier": 2160,
+            "demoman": 682,
+            "last_updated": "2024-10-22T20:23:22.425039"
         }
     },
     {
@@ -23766,9 +23766,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2179,
-            "demoman": 760,
-            "last_updated": "2024-10-04T16:31:08.911520"
+            "soldier": 2199,
+            "demoman": 769,
+            "last_updated": "2024-10-22T20:23:22.440039"
         }
     },
     {
@@ -23797,9 +23797,9 @@ const maps_json = [
             "demoman": "2qxWG-jzZL8"
         },
         "completion_info": {
-            "soldier": 925,
-            "demoman": 526,
-            "last_updated": "2024-10-04T16:31:08.890515"
+            "soldier": 931,
+            "demoman": 528,
+            "last_updated": "2024-10-22T20:23:22.407719"
         }
     },
     {
@@ -23833,9 +23833,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 40,
+            "soldier": 41,
             "demoman": 47,
-            "last_updated": "2024-10-04T16:31:08.898521"
+            "last_updated": "2024-10-22T20:23:22.424039"
         }
     },
     {
@@ -23866,9 +23866,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 539,
-            "demoman": 224,
-            "last_updated": "2024-10-04T16:31:08.891520"
+            "soldier": 555,
+            "demoman": 232,
+            "last_updated": "2024-10-22T20:23:22.412721"
         }
     },
     {
@@ -23899,9 +23899,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1628,
-            "demoman": 684,
-            "last_updated": "2024-10-04T16:31:10.248719"
+            "soldier": 1634,
+            "demoman": 688,
+            "last_updated": "2024-10-22T20:23:23.772151"
         }
     },
     {
@@ -23935,9 +23935,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 787,
-            "demoman": 393,
-            "last_updated": "2024-10-04T16:31:10.249721"
+            "soldier": 792,
+            "demoman": 395,
+            "last_updated": "2024-10-22T20:23:23.772151"
         }
     },
     {
@@ -23969,9 +23969,9 @@ const maps_json = [
             "demoman": "fs4sPrAxMSk"
         },
         "completion_info": {
-            "soldier": 1140,
-            "demoman": 684,
-            "last_updated": "2024-10-04T16:31:10.248719"
+            "soldier": 1144,
+            "demoman": 685,
+            "last_updated": "2024-10-22T20:23:23.773142"
         }
     },
     {
@@ -24004,8 +24004,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 105,
-            "demoman": 244,
-            "last_updated": "2024-10-04T16:31:10.238719"
+            "demoman": 245,
+            "last_updated": "2024-10-22T20:23:23.755142"
         }
     },
     {
@@ -24034,9 +24034,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1509,
+            "soldier": 1523,
             "demoman": 617,
-            "last_updated": "2024-10-04T16:31:10.282718"
+            "last_updated": "2024-10-22T20:23:23.782142"
         }
     },
     {
@@ -24068,9 +24068,9 @@ const maps_json = [
             "demoman": "PgS1Cx4W5oo"
         },
         "completion_info": {
-            "soldier": 495,
-            "demoman": 178,
-            "last_updated": "2024-10-04T16:31:10.231662"
+            "soldier": 494,
+            "demoman": 180,
+            "last_updated": "2024-10-22T20:23:23.781142"
         }
     },
     {
@@ -24099,9 +24099,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2542,
-            "demoman": 1010,
-            "last_updated": "2024-10-04T16:31:10.283718"
+            "soldier": 2558,
+            "demoman": 1015,
+            "last_updated": "2024-10-22T20:23:23.778142"
         }
     },
     {
@@ -24132,9 +24132,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 997,
-            "demoman": 493,
-            "last_updated": "2024-10-04T16:31:10.247721"
+            "soldier": 999,
+            "demoman": 494,
+            "last_updated": "2024-10-22T20:23:23.789142"
         }
     },
     {
@@ -24165,9 +24165,9 @@ const maps_json = [
             "demoman": "vnCEavoacqI"
         },
         "completion_info": {
-            "soldier": 1636,
-            "demoman": 396,
-            "last_updated": "2024-10-04T16:31:11.548006"
+            "soldier": 1646,
+            "demoman": 400,
+            "last_updated": "2024-10-22T20:23:25.089153"
         }
     },
     {
@@ -24205,8 +24205,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 178,
-            "demoman": 48,
-            "last_updated": "2024-10-04T16:31:11.533006"
+            "demoman": 49,
+            "last_updated": "2024-10-22T20:23:25.071153"
         }
     },
     {
@@ -24240,9 +24240,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 640,
+            "soldier": 641,
             "demoman": 220,
-            "last_updated": "2024-10-04T16:31:11.530007"
+            "last_updated": "2024-10-22T20:23:25.089153"
         }
     },
     {
@@ -24271,9 +24271,9 @@ const maps_json = [
             "demoman": "ie65hpFtwTo"
         },
         "completion_info": {
-            "soldier": 1960,
-            "demoman": 959,
-            "last_updated": "2024-10-04T16:31:11.591005"
+            "soldier": 1975,
+            "demoman": 964,
+            "last_updated": "2024-10-22T20:23:25.091153"
         }
     },
     {
@@ -24305,7 +24305,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 76,
             "demoman": 114,
-            "last_updated": "2024-10-04T16:31:11.543007"
+            "last_updated": "2024-10-22T20:23:25.090153"
         }
     },
     {
@@ -24334,9 +24334,9 @@ const maps_json = [
             "demoman": "UrNIdQHRFw4"
         },
         "completion_info": {
-            "soldier": 667,
-            "demoman": 44,
-            "last_updated": "2024-10-04T16:31:11.525008"
+            "soldier": 669,
+            "demoman": 45,
+            "last_updated": "2024-10-22T20:23:25.089153"
         }
     },
     {
@@ -24365,9 +24365,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4132,
-            "demoman": 1774,
-            "last_updated": "2024-10-04T16:31:11.585005"
+            "soldier": 4160,
+            "demoman": 1779,
+            "last_updated": "2024-10-22T20:23:25.133151"
         }
     },
     {
@@ -24410,9 +24410,9 @@ const maps_json = [
             "demoman": "zFHEBX5hEFY"
         },
         "completion_info": {
-            "soldier": 636,
-            "demoman": 477,
-            "last_updated": "2024-10-04T16:31:11.533006"
+            "soldier": 637,
+            "demoman": 481,
+            "last_updated": "2024-10-22T20:23:25.075153"
         }
     },
     {
@@ -24441,9 +24441,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 748,
-            "demoman": 709,
-            "last_updated": "2024-10-04T16:31:12.858533"
+            "soldier": 752,
+            "demoman": 711,
+            "last_updated": "2024-10-22T20:23:26.418735"
         }
     },
     {
@@ -24472,9 +24472,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1655,
-            "demoman": 525,
-            "last_updated": "2024-10-04T16:31:12.800537"
+            "soldier": 1708,
+            "demoman": 536,
+            "last_updated": "2024-10-22T20:23:26.416735"
         }
     },
     {
@@ -24503,9 +24503,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1469,
-            "demoman": 713,
-            "last_updated": "2024-10-04T16:31:12.817536"
+            "soldier": 1476,
+            "demoman": 719,
+            "last_updated": "2024-10-22T20:23:26.417735"
         }
     },
     {
@@ -24539,9 +24539,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 106,
-            "demoman": 225,
-            "last_updated": "2024-10-04T16:31:12.808536"
+            "soldier": 108,
+            "demoman": 226,
+            "last_updated": "2024-10-22T20:23:26.399736"
         }
     },
     {
@@ -24575,9 +24575,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1120,
-            "demoman": 471,
-            "last_updated": "2024-10-04T16:31:12.806535"
+            "soldier": 1130,
+            "demoman": 475,
+            "last_updated": "2024-10-22T20:23:26.419735"
         }
     },
     {
@@ -24608,9 +24608,9 @@ const maps_json = [
             "demoman": "kVa5hPZxgXQ"
         },
         "completion_info": {
-            "soldier": 404,
+            "soldier": 407,
             "demoman": 187,
-            "last_updated": "2024-10-04T16:31:12.805535"
+            "last_updated": "2024-10-22T20:23:26.418735"
         }
     },
     {
@@ -24641,9 +24641,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1859,
-            "demoman": 768,
-            "last_updated": "2024-10-04T16:31:12.803535"
+            "soldier": 1867,
+            "demoman": 771,
+            "last_updated": "2024-10-22T20:23:26.420735"
         }
     },
     {
@@ -24677,9 +24677,9 @@ const maps_json = [
             "demoman": "CY61-LPApBE"
         },
         "completion_info": {
-            "soldier": 130,
-            "demoman": 428,
-            "last_updated": "2024-10-04T16:31:12.806535"
+            "soldier": 131,
+            "demoman": 430,
+            "last_updated": "2024-10-22T20:23:26.417735"
         }
     },
     {
@@ -24710,9 +24710,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 467,
-            "demoman": 250,
-            "last_updated": "2024-10-04T16:31:14.111099"
+            "soldier": 472,
+            "demoman": 251,
+            "last_updated": "2024-10-22T20:23:27.909871"
         }
     },
     {
@@ -24746,9 +24746,9 @@ const maps_json = [
             "demoman": "7NPMCTpl2lc"
         },
         "completion_info": {
-            "soldier": 412,
-            "demoman": 308,
-            "last_updated": "2024-10-04T16:31:14.112099"
+            "soldier": 413,
+            "demoman": 310,
+            "last_updated": "2024-10-22T20:23:27.923870"
         }
     },
     {
@@ -24783,7 +24783,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 59,
             "demoman": 12,
-            "last_updated": "2024-10-04T16:31:14.093176"
+            "last_updated": "2024-10-22T20:23:27.903871"
         }
     },
     {
@@ -24812,9 +24812,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1227,
-            "demoman": 623,
-            "last_updated": "2024-10-04T16:31:14.113100"
+            "soldier": 1232,
+            "demoman": 630,
+            "last_updated": "2024-10-22T20:23:27.923870"
         }
     },
     {
@@ -24847,7 +24847,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 570,
             "demoman": 543,
-            "last_updated": "2024-10-04T16:31:14.147099"
+            "last_updated": "2024-10-22T20:23:27.908870"
         }
     },
     {
@@ -24878,9 +24878,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 195,
-            "demoman": 517,
-            "last_updated": "2024-10-04T16:31:14.099099"
+            "soldier": 202,
+            "demoman": 523,
+            "last_updated": "2024-10-22T20:23:27.910871"
         }
     },
     {
@@ -24911,9 +24911,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1168,
-            "demoman": 676,
-            "last_updated": "2024-10-04T16:31:14.113100"
+            "soldier": 1175,
+            "demoman": 678,
+            "last_updated": "2024-10-22T20:23:27.922871"
         }
     },
     {
@@ -24943,9 +24943,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1990,
+            "soldier": 1998,
             "demoman": 668,
-            "last_updated": "2024-10-04T16:31:14.111099"
+            "last_updated": "2024-10-22T20:23:27.928871"
         }
     },
     {
@@ -24984,9 +24984,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 141,
-            "demoman": 141,
-            "last_updated": "2024-10-04T16:31:15.563773"
+            "soldier": 145,
+            "demoman": 142,
+            "last_updated": "2024-10-22T20:23:29.269045"
         }
     },
     {
@@ -25015,9 +25015,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1690,
-            "demoman": 729,
-            "last_updated": "2024-10-04T16:31:15.510777"
+            "soldier": 1710,
+            "demoman": 734,
+            "last_updated": "2024-10-22T20:23:29.288888"
         }
     },
     {
@@ -25050,9 +25050,9 @@ const maps_json = [
             "demoman": "IFhdxByItpo"
         },
         "completion_info": {
-            "soldier": 378,
-            "demoman": 253,
-            "last_updated": "2024-10-04T16:31:15.504773"
+            "soldier": 381,
+            "demoman": 254,
+            "last_updated": "2024-10-22T20:23:29.276046"
         }
     },
     {
@@ -25083,9 +25083,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 448,
-            "demoman": 361,
-            "last_updated": "2024-10-04T16:31:15.511774"
+            "soldier": 452,
+            "demoman": 363,
+            "last_updated": "2024-10-22T20:23:29.274046"
         }
     },
     {
@@ -25115,9 +25115,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1259,
-            "demoman": 1049,
-            "last_updated": "2024-10-04T16:31:15.522773"
+            "soldier": 1271,
+            "demoman": 1052,
+            "last_updated": "2024-10-22T20:23:29.287887"
         }
     },
     {
@@ -25148,9 +25148,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1359,
-            "demoman": 601,
-            "last_updated": "2024-10-04T16:31:15.526804"
+            "soldier": 1365,
+            "demoman": 604,
+            "last_updated": "2024-10-22T20:23:29.336886"
         }
     },
     {
@@ -25183,9 +25183,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3894,
-            "demoman": 1790,
-            "last_updated": "2024-10-04T16:31:15.536772"
+            "soldier": 3911,
+            "demoman": 1792,
+            "last_updated": "2024-10-22T20:23:29.303887"
         }
     },
     {
@@ -25216,9 +25216,9 @@ const maps_json = [
             "demoman": "9eJIcrrBfcc"
         },
         "completion_info": {
-            "soldier": 1195,
-            "demoman": 119,
-            "last_updated": "2024-10-04T16:31:15.512773"
+            "soldier": 1199,
+            "demoman": 122,
+            "last_updated": "2024-10-22T20:23:29.292887"
         }
     },
     {
@@ -25247,9 +25247,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 717,
-            "demoman": 424,
-            "last_updated": "2024-10-04T16:31:16.798654"
+            "soldier": 719,
+            "demoman": 426,
+            "last_updated": "2024-10-22T20:23:30.641746"
         }
     },
     {
@@ -25280,9 +25280,9 @@ const maps_json = [
             "demoman": "lfH9HemFvQk"
         },
         "completion_info": {
-            "soldier": 250,
-            "demoman": 218,
-            "last_updated": "2024-10-04T16:31:16.790650"
+            "soldier": 253,
+            "demoman": 219,
+            "last_updated": "2024-10-22T20:23:30.658073"
         }
     },
     {
@@ -25313,9 +25313,9 @@ const maps_json = [
             "demoman": "ojAnIjDmrfM"
         },
         "completion_info": {
-            "soldier": 720,
-            "demoman": 941,
-            "last_updated": "2024-10-04T16:31:16.789679"
+            "soldier": 729,
+            "demoman": 945,
+            "last_updated": "2024-10-22T20:23:30.666087"
         }
     },
     {
@@ -25344,9 +25344,9 @@ const maps_json = [
             "demoman": "dOFQ1j1T-aU"
         },
         "completion_info": {
-            "soldier": 640,
-            "demoman": 484,
-            "last_updated": "2024-10-04T16:31:16.808654"
+            "soldier": 650,
+            "demoman": 486,
+            "last_updated": "2024-10-22T20:23:30.648070"
         }
     },
     {
@@ -25377,8 +25377,8 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 321,
-            "demoman": 259,
-            "last_updated": "2024-10-04T16:31:16.790650"
+            "demoman": 262,
+            "last_updated": "2024-10-22T20:23:30.660070"
         }
     },
     {
@@ -25411,7 +25411,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 344,
             "demoman": 193,
-            "last_updated": "2024-10-04T16:31:16.795654"
+            "last_updated": "2024-10-22T20:23:30.646070"
         }
     },
     {
@@ -25442,7 +25442,7 @@ const maps_json = [
         "completion_info": {
             "soldier": 547,
             "demoman": 92,
-            "last_updated": "2024-10-04T16:31:16.828652"
+            "last_updated": "2024-10-22T20:23:30.659072"
         }
     },
     {
@@ -25471,9 +25471,9 @@ const maps_json = [
             "demoman": "i_RD9IhQ41U"
         },
         "completion_info": {
-            "soldier": 756,
-            "demoman": 411,
-            "last_updated": "2024-10-04T16:31:16.827652"
+            "soldier": 763,
+            "demoman": 414,
+            "last_updated": "2024-10-22T20:23:30.659072"
         }
     },
     {
@@ -25505,9 +25505,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 480,
-            "demoman": 312,
-            "last_updated": "2024-10-04T16:31:18.090506"
+            "soldier": 484,
+            "demoman": 317,
+            "last_updated": "2024-10-22T20:23:31.942675"
         }
     },
     {
@@ -25540,9 +25540,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2127,
-            "demoman": 1095,
-            "last_updated": "2024-10-04T16:31:18.085506"
+            "soldier": 2146,
+            "demoman": 1099,
+            "last_updated": "2024-10-22T20:23:31.959676"
         }
     },
     {
@@ -25578,9 +25578,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 566,
-            "demoman": 361,
-            "last_updated": "2024-10-04T16:31:18.068508"
+            "soldier": 574,
+            "demoman": 363,
+            "last_updated": "2024-10-22T20:23:31.950676"
         }
     },
     {
@@ -25610,9 +25610,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5126,
-            "demoman": 1282,
-            "last_updated": "2024-10-04T16:31:18.093507"
+            "soldier": 5139,
+            "demoman": 1285,
+            "last_updated": "2024-10-22T20:23:31.973675"
         }
     },
     {
@@ -25643,9 +25643,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1728,
-            "demoman": 371,
-            "last_updated": "2024-10-04T16:31:18.086506"
+            "soldier": 1736,
+            "demoman": 373,
+            "last_updated": "2024-10-22T20:23:31.967675"
         }
     },
     {
@@ -25674,9 +25674,9 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1914,
-            "demoman": 1131,
-            "last_updated": "2024-10-04T16:31:18.085506"
+            "soldier": 1919,
+            "demoman": 1134,
+            "last_updated": "2024-10-22T20:23:31.960676"
         }
     },
     {
@@ -25705,9 +25705,9 @@ const maps_json = [
             "demoman": "wJOlGrP5HFY"
         },
         "completion_info": {
-            "soldier": 18,
-            "demoman": 234,
-            "last_updated": "2024-10-04T16:31:18.086506"
+            "soldier": 19,
+            "demoman": 236,
+            "last_updated": "2024-10-22T20:23:31.964676"
         }
     },
     {
@@ -25736,9 +25736,9 @@ const maps_json = [
             "demoman": "GpP57Aq4uj8"
         },
         "completion_info": {
-            "soldier": 616,
-            "demoman": 306,
-            "last_updated": "2024-10-04T16:31:18.072508"
+            "soldier": 618,
+            "demoman": 309,
+            "last_updated": "2024-10-22T20:23:31.945677"
         }
     }
 ]
