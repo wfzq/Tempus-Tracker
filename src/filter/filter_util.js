@@ -8,8 +8,8 @@ var sliderD = document.getElementById('toggle-d-slider');
 var r1d = document.getElementById('r1-d')
 var r2d = document.getElementById('r2-d')
 var sliderB = document.getElementById('toggle-b-slider');
-var r1b // Loaded in runtime;
-var r2b // Loaded in runtime;
+var r1b // Loaded in function filters_reset
+var r2b // Loaded in function filters_reset
 var toggleLinear = document.getElementById('toggle-linear');
 var toggleCourse = document.getElementById('toggle-course');
 var toggleSoldierIntended = document.getElementById('toggle-soldier');
