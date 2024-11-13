@@ -227,14 +227,14 @@ function reduceFilterFunctions(currentFilters) {
 }
 
 /** Functions Index:
+ *  - IN - INtended
+ *  - LC - Linear Course
+ *  - AC - Author Count
+ *  - AN - Author Name
+ *  - CO - COmpletions
  *  - B  - Bonus
  *  - S  - Soldier
  *  - D  - Demoman
- *  - LC - Linear Course
- *  - IN - INtended
- *  - AN - Author Name
- *  - AC - Author Count
- *  - CO - COmpletions
  */
 function filterMaps(mapList, excludeFiltersByKey = []) {
     let filters = new Map([
@@ -254,6 +254,13 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
         filters.delete(key);
     });
     reduceFilterFunctions(filters);
+
+    // Show reset button if filters are applied
+    if (filters.size){ 
+        resetButton.classList.remove('hidden')
+    } else {
+        resetButton.classList.add('hidden')
+    }
 
     /**
      *  This code is hacky bullshit for running OR when applicable

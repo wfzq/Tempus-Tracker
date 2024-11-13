@@ -23,7 +23,7 @@ function filters_slider_toggle(button) {
 function filters_difficulty_mix(button) {
     mapFilters.difficultyMix = !mapFilters.difficultyMix;
     button.innerText = mapFilters.difficultyMix ? "and" : "or";
-    
+
     maps_filtered = filterMaps(maps_json);
     display_mapCount();
 }
@@ -135,34 +135,44 @@ function filters_input_completions_max(max) {
 }
 
 function filters_combo_sort(filterValue) {
+    /* 
+        Filter all maps once,
+        this fixes issues with re-ordering them each time
+        more maps have been added to the pool
+    */
+    let ordered_maps
     switch (filterValue) {
         case 'oldest':
-            maps_filtered = sortBy_oldestId(maps_filtered);
+            ordered_maps = sortBy_oldestId([...maps_json]);
             break;
         case 'newest':
-            maps_filtered = sortBy_newestId(maps_filtered);
+            ordered_maps = sortBy_newestId([...maps_json]);
             break;
         case 'completions_most_s':
-            maps_filtered = sortBy_mostCompletions(maps_filtered, map_getSoldierCompletions);
+            ordered_maps = sortBy_mostCompletions([...maps_json], map_getSoldierCompletions);
             break;
         case 'completions_least_s':
-            maps_filtered = sortBy_leastCompletions(maps_filtered, map_getSoldierCompletions);
+            ordered_maps = sortBy_leastCompletions([...maps_json], map_getSoldierCompletions);
             break;
         case 'completions_most_d':
-            maps_filtered = sortBy_mostCompletions(maps_filtered, map_getDemomanCompletions);
+            ordered_maps = sortBy_mostCompletions([...maps_json], map_getDemomanCompletions);
             break;
         case 'completions_least_d':
-            maps_filtered = sortBy_leastCompletions(maps_filtered, map_getDemomanCompletions);
+            ordered_maps = sortBy_leastCompletions([...maps_json], map_getDemomanCompletions);
             break;
         case 'completions_most_o':
-            maps_filtered = sortBy_mostCompletions(maps_filtered, map_getBothCompletions);
+            ordered_maps = sortBy_mostCompletions([...maps_json], map_getBothCompletions);
             break;
         case 'completions_least_o':
-            maps_filtered = sortBy_leastCompletions(maps_filtered, map_getBothCompletions);
+            ordered_maps = sortBy_leastCompletions([...maps_json], map_getBothCompletions);
             break;
         default:
-            maps_filtered = [...maps_json];
-            break;
+            ordered_maps = [...maps_json];
+            
+            // Avoid tripping restart code
+            reorderMapElements(ordered_maps);
+            return;
     }
-    reorderMapElements(maps_filtered);
+    reorderMapElements(ordered_maps);
+    resetButton.classList.remove('hidden')
 }

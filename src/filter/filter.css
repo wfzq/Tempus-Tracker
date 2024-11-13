@@ -114,7 +114,8 @@ button {
     z-index: 9;
     cursor: pointer;
     border: 0;
-    top: 110px; /* HEIGHT TO TOP IS A MAGIC NUMBER!! */
+    top: 110px;
+    /* HEIGHT TO TOP IS A MAGIC NUMBER!! */
     height: 20px;
     width: 33px;
     font-size: 12px;
@@ -138,6 +139,22 @@ button {
 
 #r2-tip {
     right: 0;
+}
+
+#reset-btn {
+    background: url(../data/ico/reset-button.svg);
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: rotate(-200deg);
 }
 
 #map-type-toggle, #map-intended-toggle {

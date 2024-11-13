@@ -1,3 +1,26 @@
+// Filters HTML elements
+var resetButton = document.getElementById('reset-btn');
+var sliderS = document.getElementById('toggle-s-slider');
+var r1s = document.getElementById('r1-s');
+var r2s = document.getElementById('r2-s');
+var toggleMix = document.getElementById('toggle-mix');
+var sliderD = document.getElementById('toggle-d-slider');
+var r1d = document.getElementById('r1-d')
+var r2d = document.getElementById('r2-d')
+var sliderB = document.getElementById('toggle-b-slider');
+var r1b // Loaded in runtime;
+var r2b // Loaded in runtime;
+var toggleLinear = document.getElementById('toggle-linear');
+var toggleCourse = document.getElementById('toggle-course');
+var toggleSoldierIntended = document.getElementById('toggle-soldier');
+var toggleDemomanIntended = document.getElementById('toggle-demoman');
+var selectAuthor = document.getElementById('author-select');
+var selectAuthorAmount = document.getElementById('author-amount-select');
+var completionsClass = document.getElementById('completions-class-select');
+var completionsMin = document.getElementById('min-completions');
+var completionsMax = document.getElementById('max-completions');
+var sortMapsSelect = document.getElementById('sort-select');
+
 function populate_sortByAuthor(authors) {
     const select = document.getElementById('author-select');
 
@@ -125,4 +148,76 @@ function visual_rangeInput_update(slider) {
 function display_mapCount() {
     const mapCount = document.getElementById('map-count');
     mapCount.textContent = `${Object.keys(maps_filtered).length}`;
+}
+
+function reset_filters_prompt() {
+    const user_confirm = confirm("Are you sure you want to revert filter settings?")
+    if (user_confirm) {
+        filters_reset()
+    }
+}
+
+function filters_reset() {
+    resetButton.classList.add('hidden')
+
+    // Runtime load
+    r1b = document.getElementById('r1-b')
+    r2b = document.getElementById('r2-b')
+
+    // Reset maps
+    mapFilters = getDefaultFilters();
+    maps_filtered = maps_json;
+    filters_combo_sort();
+    display_mapCount();
+
+    // Reset Controls
+    /* Soldier Difficulty */
+    sliderS.classList.remove('button-off');
+    sliderS.classList.add('button-on');
+    r1s.value = MIN_TIER;
+    visual_rangeInput_update(r1s);
+    r2s.value = MAX_TIER;
+    visual_rangeInput_update(r2s);
+
+    /* and|or */
+    toggleMix.innerHTML = "and";
+
+    /* Demoman Difficulty */
+    sliderD.classList.remove('button-off');
+    sliderD.classList.add('button-on');
+    r1d.value = MIN_TIER;
+    visual_rangeInput_update(r1d);
+    r2d.value = MAX_TIER;
+    visual_rangeInput_update(r2d);
+
+    /* Bonuses */
+    sliderB.classList.remove('button-off');
+    sliderB.classList.add('button-on');
+    r1b.value = 0;
+    visual_rangeInput_update(r1b);
+    r2b.value = mostBonuses;
+    visual_rangeInput_update(r2b);
+
+    /* Map Type */
+    toggleLinear.classList.remove('button-off');
+    toggleLinear.classList.add('button-on');
+    toggleCourse.classList.remove('button-off');
+    toggleCourse.classList.add('button-on');
+
+    toggleSoldierIntended.classList.remove('button-off');
+    toggleSoldierIntended.classList.add('button-on');
+    toggleDemomanIntended.classList.remove('button-off');
+    toggleDemomanIntended.classList.add('button-on');
+
+    /* Author */
+    selectAuthor.value = "__all__";
+    selectAuthorAmount.value = "__all__";
+
+    /* Completions */
+    completionsClass.value = "either";
+    completionsMin.value = null;
+    completionsMax.value = null;
+
+    /* Sort by */
+    sortMapsSelect.value = "name";
 }
