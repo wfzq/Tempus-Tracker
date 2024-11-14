@@ -1,13 +1,14 @@
 #filters-container {
-    min-width: 250px;
-    width: 10%;
+    min-width: 280px;
+    width: 280px;
     position: sticky;
     top: 10px;
-    padding-left: 1%;
-    padding-right: 1%;
-    height: calc(100vh - 20px);
+    padding: 12px 12px 12px 12px;
+    height: calc(100vh - 42px);
+
     background-color: #1e2124;
     color: white;
+
     border-radius: 5px;
     user-select: none;
     font-weight: bold;
@@ -96,6 +97,14 @@ input[type="range"]::-moz-range-thumb {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
+input[type="range"]:hover::-webkit-slider-thumb {
+    background: #5466a7;
+}
+
+input[type="range"]:hover::-moz-range-thumb {
+    background: #5466a7;
+}
+
 button {
     border-radius: 3px;
 }
@@ -110,16 +119,26 @@ button {
     background: #1e2124;
     color: #7289da;
     position: absolute;
-    border-radius: 50px;
+    border-radius: 10px;
     z-index: 9;
     cursor: pointer;
     border: 0;
-    top: 110px;
+
     /* HEIGHT TO TOP IS A MAGIC NUMBER!! */
+    top: 115px;
+    left: 9px;
     height: 20px;
-    width: 33px;
-    font-size: 12px;
+    width: 40px;
+
+    font-size: 10pt;
     font-style: italic;
+
+    transition: background 0.5s ease, font-size 0.1s ease-in-out;
+}
+
+#toggle-mix:hover {
+    background: #36393e;
+    font-size: 12pt;
 }
 
 .range-tip-container {
@@ -150,11 +169,13 @@ button {
     width: 20px;
     height: 20px;
     cursor: pointer;
+    opacity: 0.6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
 }
 
 #reset-btn:hover {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     transform: rotate(-200deg);
+    opacity: 1;
 }
 
 #map-type-toggle, #map-intended-toggle {

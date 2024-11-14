@@ -167,6 +167,7 @@ function filters_reset() {
     // Reset maps
     mapFilters = getDefaultFilters();
     maps_filtered = maps_json;
+    maps_showFromList(maps_filtered);
     filters_combo_sort();
     display_mapCount();
 
