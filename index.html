@@ -6,7 +6,9 @@
     <meta name="google-site-verification" content="FBr-cp1Ciy81Q9X-nzCqPU9Qor9J_78z0JgwUTwJNjA" />
     <meta name="description"
         content="Tempus Tracker is a jump map browser for all maps hosted by the Tempus Jump Network servers for Team Fortress 2. Made by Amuria, also going by Mutra on Discord" />
+
     <link rel="icon" href="src/data/ico/tt.png" type="image/x-icon">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css">
 
     <link rel="stylesheet" type="text/css" href="src/main.css">
     <link rel="stylesheet" type="text/css" href="src/filter/filter.css">
@@ -45,20 +47,29 @@
                     Discord
                     <img id="discord-icon" src="src/data/ico/discord.png">
                 </a>
-                <div class="header-option" id="maps">
+                <div class="header-option header-selected" id="maps">
+                    <i class="fa fa-globe"></i>&nbsp;
                     Maps
                 </div>
-                <div class="header-option" id="users">
-                    Users
-                </div>
                 <div class="header-option" id="servers">
+                    <i class="fa fa-server"></i>&nbsp;
                     Servers
                 </div>
+                <div class="header-option" id="users">
+                    <i class="fa fa-user"></i>&nbsp;
+                    My Times
+                </div>
                 <div class="header-option" id="help">
+                    <i class="fa fa-question-circle"></i>&nbsp;
                     Help
                 </div>
             </div>
         </header>
+
+        <div id="about-full">
+
+        </div>
+
         <div id="main-container">
             <div id="filters-container">
                 <div id="search-container">
@@ -202,6 +213,36 @@
             </div>
         </div>
     </main>
+    <footer>
+        <div id="footer-message">
+            <h1 id="thank-you">Thank you!</h1>
+            <p id="thank-you-text">
+                To everybody who helped by contributing, sharing the tool, giving feedback, and interacting with the
+                project
+            </p>
+
+            <h1 id="contributors">❤️ Contributors ❤️</h1>
+            <div id="contributor-container">
+                <p class="creditors" id="thumbnails-contributors">
+                    <span>Mur</span>
+                    <span>Boshy</span>
+                    <span>Vavlie</span>
+                    <span>Else</span>
+                    <span>Heladess</span>
+                </p>
+                <p class="creditors" id="info-contributors">
+                    <span>Vice</span>
+                    <span>Sgt. Bytheway</span>
+                    <span>Newbi</span>
+                    <span>Jacka</span>
+                    <span>J</span>
+                </p>
+            </div>
+            <p id="extra">
+                * Thumbnails were also used from the Jump-Academy and Tempus websites
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>

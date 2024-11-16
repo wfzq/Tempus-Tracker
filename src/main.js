@@ -58,3 +58,18 @@ document.addEventListener('DOMContentLoaded', async function () {
         });
     });
 });
+
+// Header (nav) menu listeners
+const headerOptions = document.querySelectorAll('.header-option');
+document.querySelectorAll('.header-option').forEach(option => {
+    // Exclude discord button
+    if (option.id == 'discord-container') {return;}
+
+    option.addEventListener('click', () => {
+        // Remove the 'header-selected' class from all options
+        headerOptions.forEach(opt => opt.classList.remove('header-selected'));
+
+        // Add the 'header-selected' class to the clicked option
+        option.classList.add('header-selected');
+    });
+});
