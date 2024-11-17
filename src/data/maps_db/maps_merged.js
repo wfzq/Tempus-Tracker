@@ -35,9 +35,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 991,
-            "demoman": 343,
-            "last_updated": "2024-11-05T17:13:37.668836"
+            "soldier": 1002,
+            "demoman": 346,
+            "last_updated": "2024-11-17T21:31:43.802911"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -71,9 +75,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 866,
-            "demoman": 432,
-            "last_updated": "2024-11-05T17:13:37.654837"
+            "soldier": 895,
+            "demoman": 441,
+            "last_updated": "2024-11-17T21:31:43.660915"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -106,7 +114,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 321,
             "demoman": 76,
-            "last_updated": "2024-11-05T17:13:37.614844"
+            "last_updated": "2024-11-17T21:31:43.817911"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -208,9 +224,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 996,
-            "demoman": 703,
-            "last_updated": "2024-11-05T17:13:38.014829"
+            "soldier": 1001,
+            "demoman": 704,
+            "last_updated": "2024-11-17T21:31:43.800912"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -239,9 +259,15 @@ const maps_json = [
             "demoman": "eIQCxIlrido"
         },
         "completion_info": {
-            "soldier": 831,
-            "demoman": 957,
-            "last_updated": "2024-11-05T17:13:38.104827"
+            "soldier": 832,
+            "demoman": 959,
+            "last_updated": "2024-11-17T21:31:43.801911"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -272,9 +298,19 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 160,
-            "demoman": 283,
-            "last_updated": "2024-11-05T17:13:37.849832"
+            "soldier": 163,
+            "demoman": 284,
+            "last_updated": "2024-11-17T21:31:43.801911"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank",
+                "Hole"
+            ],
+            "demoman": [
+                "Pogo",
+                "Jank"
+            ]
         }
     },
     {
@@ -303,9 +339,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2570,
-            "demoman": 1636,
-            "last_updated": "2024-11-05T17:13:38.346266"
+            "soldier": 2583,
+            "demoman": 1640,
+            "last_updated": "2024-11-17T21:31:43.818911"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -339,9 +379,13 @@ const maps_json = [
             "demoman": "VnMFtskCq0Y"
         },
         "completion_info": {
-            "soldier": 2036,
-            "demoman": 802,
-            "last_updated": "2024-11-05T17:13:38.155269"
+            "soldier": 2040,
+            "demoman": 806,
+            "last_updated": "2024-11-17T21:31:43.802911"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -373,8 +417,17 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 22,
-            "demoman": 174,
-            "last_updated": "2024-11-05T17:13:39.139527"
+            "demoman": 175,
+            "last_updated": "2024-11-17T21:31:50.306081"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank",
+                "Hole"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -406,8 +459,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 68,
-            "demoman": 216,
-            "last_updated": "2024-11-05T17:13:38.971603"
+            "demoman": 218,
+            "last_updated": "2024-11-17T21:31:50.342078"
+        },
+        "class_tech": {
+            "soldier": [
+                "Airstrike"
+            ],
+            "demoman": []
         }
     },
     {
@@ -442,7 +501,16 @@ const maps_json = [
         "completion_info": {
             "soldier": 119,
             "demoman": 461,
-            "last_updated": "2024-11-05T17:13:39.042529"
+            "last_updated": "2024-11-17T21:31:50.307078"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Bounce"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -471,9 +539,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1022,
-            "demoman": 995,
-            "last_updated": "2024-11-05T17:13:39.290981"
+            "soldier": 1026,
+            "demoman": 997,
+            "last_updated": "2024-11-17T21:31:50.290080"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -506,9 +580,19 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 972,
+            "soldier": 977,
             "demoman": 194,
-            "last_updated": "2024-11-05T17:13:39.184525"
+            "last_updated": "2024-11-17T21:31:50.308079"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf",
+                "Gimmick"
+            ],
+            "demoman": [
+                "Jurf",
+                "Gimmick"
+            ]
         }
     },
     {
@@ -540,9 +624,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4465,
-            "demoman": 2218,
-            "last_updated": "2024-11-05T17:13:39.390980"
+            "soldier": 4472,
+            "demoman": 2220,
+            "last_updated": "2024-11-17T21:31:50.337079"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -573,9 +661,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 953,
-            "demoman": 323,
-            "last_updated": "2024-11-05T17:13:39.092527"
+            "soldier": 956,
+            "demoman": 327,
+            "last_updated": "2024-11-17T21:31:50.343079"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -604,9 +696,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1074,
-            "demoman": 590,
-            "last_updated": "2024-11-05T17:13:39.174526"
+            "soldier": 1085,
+            "demoman": 591,
+            "last_updated": "2024-11-17T21:31:50.322078"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -637,9 +735,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1057,
-            "demoman": 783,
-            "last_updated": "2024-11-05T17:13:40.431659"
+            "soldier": 1060,
+            "demoman": 784,
+            "last_updated": "2024-11-17T21:31:55.026238"
+        },
+        "class_tech": {
+            "soldier": [
+                "Pogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -670,9 +776,13 @@ const maps_json = [
             "demoman": "_rXKkSELjHo"
         },
         "completion_info": {
-            "soldier": 1816,
-            "demoman": 525,
-            "last_updated": "2024-11-05T17:13:40.431659"
+            "soldier": 1834,
+            "demoman": 530,
+            "last_updated": "2024-11-17T21:31:55.026238"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -701,9 +811,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 945,
-            "demoman": 397,
-            "last_updated": "2024-11-05T17:13:40.443663"
+            "soldier": 948,
+            "demoman": 398,
+            "last_updated": "2024-11-17T21:31:55.043237"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -742,9 +856,17 @@ const maps_json = [
             "demoman": "TCdQCB15MNc"
         },
         "completion_info": {
-            "soldier": 676,
-            "demoman": 355,
-            "last_updated": "2024-11-05T17:13:40.383349"
+            "soldier": 684,
+            "demoman": 362,
+            "last_updated": "2024-11-17T21:31:55.042237"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -773,9 +895,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3486,
-            "demoman": 938,
-            "last_updated": "2024-11-05T17:13:40.574656"
+            "soldier": 3496,
+            "demoman": 939,
+            "last_updated": "2024-11-17T21:31:55.042237"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -809,9 +935,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 511,
-            "demoman": 611,
-            "last_updated": "2024-11-05T17:13:40.497657"
+            "soldier": 512,
+            "demoman": 616,
+            "last_updated": "2024-11-17T21:31:55.041241"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Lim Ammo",
+                "Pogo"
+            ]
         }
     },
     {
@@ -840,9 +973,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3104,
-            "demoman": 817,
-            "last_updated": "2024-11-05T17:13:40.608656"
+            "soldier": 3118,
+            "demoman": 820,
+            "last_updated": "2024-11-17T21:31:55.155233"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -878,9 +1015,18 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 159,
+            "soldier": 161,
             "demoman": 165,
-            "last_updated": "2024-11-05T17:13:40.494658"
+            "last_updated": "2024-11-17T21:31:55.085235"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallbug",
+                "Bounce"
+            ],
+            "demoman": [
+                "Wallbug"
+            ]
         }
     },
     {
@@ -913,9 +1059,15 @@ const maps_json = [
             "demoman": "ZGzteRbGXTI"
         },
         "completion_info": {
-            "soldier": 672,
-            "demoman": 430,
-            "last_updated": "2024-11-05T17:13:41.749855"
+            "soldier": 677,
+            "demoman": 431,
+            "last_updated": "2024-11-17T21:32:02.077146"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -944,9 +1096,13 @@ const maps_json = [
             "demoman": "GlOSiG7RHs0"
         },
         "completion_info": {
-            "soldier": 791,
+            "soldier": 795,
             "demoman": 615,
-            "last_updated": "2024-11-05T17:13:41.767856"
+            "last_updated": "2024-11-17T21:32:02.093146"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -975,9 +1131,13 @@ const maps_json = [
             "demoman": "kFmJrOZwXsM"
         },
         "completion_info": {
-            "soldier": 2234,
-            "demoman": 1109,
-            "last_updated": "2024-11-05T17:13:41.839853"
+            "soldier": 2238,
+            "demoman": 1112,
+            "last_updated": "2024-11-17T21:32:02.093146"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1009,9 +1169,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2349,
-            "demoman": 1160,
-            "last_updated": "2024-11-05T17:13:41.888852"
+            "soldier": 2360,
+            "demoman": 1161,
+            "last_updated": "2024-11-17T21:32:02.092146"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1040,9 +1204,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2315,
-            "demoman": 597,
-            "last_updated": "2024-11-05T17:13:41.773856"
+            "soldier": 2339,
+            "demoman": 601,
+            "last_updated": "2024-11-17T21:32:02.114145"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -1078,9 +1250,17 @@ const maps_json = [
             "demoman": "8ilv4_I_JAc"
         },
         "completion_info": {
-            "soldier": 170,
+            "soldier": 171,
             "demoman": 143,
-            "last_updated": "2024-11-05T17:13:41.782855"
+            "last_updated": "2024-11-17T21:32:02.122145"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -1120,8 +1300,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 758,
-            "demoman": 829,
-            "last_updated": "2024-11-05T17:13:41.850854"
+            "demoman": 830,
+            "last_updated": "2024-11-17T21:32:02.108147"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -1150,9 +1336,13 @@ const maps_json = [
             "demoman": "A3OT_mygc8w"
         },
         "completion_info": {
-            "soldier": 1071,
-            "demoman": 1864,
-            "last_updated": "2024-11-05T17:13:41.844854"
+            "soldier": 1076,
+            "demoman": 1870,
+            "last_updated": "2024-11-17T21:32:02.123145"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1192,7 +1382,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 59,
             "demoman": 194,
-            "last_updated": "2024-11-05T17:13:43.141715"
+            "last_updated": "2024-11-17T21:32:08.179617"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1223,9 +1417,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 124,
-            "demoman": 189,
-            "last_updated": "2024-11-05T17:13:43.081719"
+            "soldier": 129,
+            "demoman": 190,
+            "last_updated": "2024-11-17T21:32:08.194618"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -1268,9 +1468,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 644,
-            "demoman": 329,
-            "last_updated": "2024-11-05T17:13:43.121716"
+            "soldier": 649,
+            "demoman": 330,
+            "last_updated": "2024-11-17T21:32:08.179617"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -1301,9 +1507,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1124,
-            "demoman": 715,
-            "last_updated": "2024-11-05T17:13:43.134715"
+            "soldier": 1129,
+            "demoman": 717,
+            "last_updated": "2024-11-17T21:32:08.193617"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1334,9 +1544,13 @@ const maps_json = [
             "demoman": "F2vNsEd-7YE"
         },
         "completion_info": {
-            "soldier": 1412,
-            "demoman": 455,
-            "last_updated": "2024-11-05T17:13:43.182714"
+            "soldier": 1420,
+            "demoman": 457,
+            "last_updated": "2024-11-17T21:32:08.195618"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1370,9 +1584,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 852,
-            "demoman": 472,
-            "last_updated": "2024-11-05T17:13:43.144715"
+            "soldier": 856,
+            "demoman": 473,
+            "last_updated": "2024-11-17T21:32:08.194618"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1401,9 +1619,15 @@ const maps_json = [
             "demoman": "RWobraajgJE"
         },
         "completion_info": {
-            "soldier": 1840,
-            "demoman": 391,
-            "last_updated": "2024-11-05T17:13:43.181714"
+            "soldier": 1848,
+            "demoman": 396,
+            "last_updated": "2024-11-17T21:32:08.212617"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -1436,9 +1660,15 @@ const maps_json = [
             "demoman": "uf3VO-nm4Io"
         },
         "completion_info": {
-            "soldier": 498,
+            "soldier": 499,
             "demoman": 97,
-            "last_updated": "2024-11-05T17:13:43.165716"
+            "last_updated": "2024-11-17T21:32:08.178617"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -1467,9 +1697,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2315,
-            "demoman": 950,
-            "last_updated": "2024-11-05T17:13:44.550895"
+            "soldier": 2326,
+            "demoman": 954,
+            "last_updated": "2024-11-17T21:32:12.913616"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1501,9 +1735,13 @@ const maps_json = [
             "demoman": "zb_DaODkpSw"
         },
         "completion_info": {
-            "soldier": 1712,
-            "demoman": 785,
-            "last_updated": "2024-11-05T17:13:44.462899"
+            "soldier": 1719,
+            "demoman": 788,
+            "last_updated": "2024-11-17T21:32:12.909616"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1535,9 +1773,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 525,
-            "demoman": 343,
-            "last_updated": "2024-11-05T17:13:44.426707"
+            "soldier": 528,
+            "demoman": 344,
+            "last_updated": "2024-11-17T21:32:12.872616"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1568,9 +1810,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2628,
-            "demoman": 919,
-            "last_updated": "2024-11-05T17:13:44.487898"
+            "soldier": 2634,
+            "demoman": 920,
+            "last_updated": "2024-11-17T21:32:12.911616"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -1602,8 +1852,15 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 294,
-            "demoman": 486,
-            "last_updated": "2024-11-05T17:13:44.488898"
+            "demoman": 487,
+            "last_updated": "2024-11-17T21:32:12.917618"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce",
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -1634,9 +1891,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 978,
-            "demoman": 427,
-            "last_updated": "2024-11-05T17:13:44.442898"
+            "soldier": 984,
+            "demoman": 431,
+            "last_updated": "2024-11-17T21:32:12.896617"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -1667,9 +1932,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2596,
-            "demoman": 1640,
-            "last_updated": "2024-11-05T17:13:44.527898"
+            "soldier": 2599,
+            "demoman": 1642,
+            "last_updated": "2024-11-17T21:32:12.925615"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1700,9 +1969,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 611,
-            "demoman": 404,
-            "last_updated": "2024-11-05T17:13:44.455899"
+            "soldier": 624,
+            "demoman": 406,
+            "last_updated": "2024-11-17T21:32:12.919615"
+        },
+        "class_tech": {
+            "soldier": [
+                "Pogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -1733,9 +2008,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1351,
-            "demoman": 1278,
-            "last_updated": "2024-11-05T17:13:45.918103"
+            "soldier": 1356,
+            "demoman": 1282,
+            "last_updated": "2024-11-17T21:32:14.750572"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1764,9 +2043,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3345,
-            "demoman": 1431,
-            "last_updated": "2024-11-05T17:13:45.896104"
+            "soldier": 3351,
+            "demoman": 1432,
+            "last_updated": "2024-11-17T21:32:14.773570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1797,9 +2080,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2692,
+            "soldier": 2697,
             "demoman": 1029,
-            "last_updated": "2024-11-05T17:13:45.903104"
+            "last_updated": "2024-11-17T21:32:14.772570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1828,9 +2115,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3315,
-            "demoman": 2030,
-            "last_updated": "2024-11-05T17:13:45.915105"
+            "soldier": 3326,
+            "demoman": 2033,
+            "last_updated": "2024-11-17T21:32:14.787570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1864,9 +2155,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 27,
-            "demoman": 307,
-            "last_updated": "2024-11-05T17:13:45.831102"
+            "soldier": 28,
+            "demoman": 308,
+            "last_updated": "2024-11-17T21:32:14.751571"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -1900,8 +2199,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 370,
-            "demoman": 559,
-            "last_updated": "2024-11-05T17:13:45.915105"
+            "demoman": 560,
+            "last_updated": "2024-11-17T21:32:14.772570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1932,9 +2235,13 @@ const maps_json = [
             "demoman": "aMQhmFGR1rg"
         },
         "completion_info": {
-            "soldier": 1703,
-            "demoman": 406,
-            "last_updated": "2024-11-05T17:13:45.869105"
+            "soldier": 1710,
+            "demoman": 409,
+            "last_updated": "2024-11-17T21:32:14.746571"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1965,7 +2272,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 440,
             "demoman": 435,
-            "last_updated": "2024-11-05T17:13:45.919778"
+            "last_updated": "2024-11-17T21:32:14.771570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -1995,9 +2306,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1133,
-            "demoman": 901,
-            "last_updated": "2024-11-05T17:13:47.218365"
+            "soldier": 1141,
+            "demoman": 904,
+            "last_updated": "2024-11-17T21:32:16.418529"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2028,9 +2343,17 @@ const maps_json = [
             "demoman": "FQrotmBANQI"
         },
         "completion_info": {
-            "soldier": 1188,
+            "soldier": 1190,
             "demoman": 621,
-            "last_updated": "2024-11-05T17:13:47.191366"
+            "last_updated": "2024-11-17T21:32:16.416530"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -2059,9 +2382,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2093,
-            "demoman": 1334,
-            "last_updated": "2024-11-05T17:13:47.210368"
+            "soldier": 2100,
+            "demoman": 1337,
+            "last_updated": "2024-11-17T21:32:16.427528"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2092,9 +2419,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 745,
-            "demoman": 536,
-            "last_updated": "2024-11-05T17:13:47.219365"
+            "soldier": 747,
+            "demoman": 537,
+            "last_updated": "2024-11-17T21:32:16.417530"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -2123,9 +2456,18 @@ const maps_json = [
             "demoman": "4DKWBVuuVpg"
         },
         "completion_info": {
-            "soldier": 594,
-            "demoman": 400,
-            "last_updated": "2024-11-05T17:13:47.210368"
+            "soldier": 598,
+            "demoman": 401,
+            "last_updated": "2024-11-17T21:32:16.402529"
+        },
+        "class_tech": {
+            "soldier": [
+                "Lim Ammo"
+            ],
+            "demoman": [
+                "Lim Ammo",
+                "Pogo"
+            ]
         }
     },
     {
@@ -2159,8 +2501,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 135,
-            "demoman": 486,
-            "last_updated": "2024-11-05T17:13:47.169534"
+            "demoman": 487,
+            "last_updated": "2024-11-17T21:32:16.419530"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -2192,8 +2542,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 21,
-            "demoman": 298,
-            "last_updated": "2024-11-05T17:13:47.185366"
+            "demoman": 300,
+            "last_updated": "2024-11-17T21:32:16.395530"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -2227,7 +2585,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 255,
             "demoman": 509,
-            "last_updated": "2024-11-05T17:13:47.175537"
+            "last_updated": "2024-11-17T21:32:16.417530"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -2258,9 +2624,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 839,
-            "demoman": 1271,
-            "last_updated": "2024-11-05T17:13:48.549888"
+            "soldier": 843,
+            "demoman": 1277,
+            "last_updated": "2024-11-17T21:32:17.944491"
+        },
+        "class_tech": {
+            "soldier": [
+                "Sync"
+            ],
+            "demoman": []
         }
     },
     {
@@ -2291,9 +2663,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2947,
-            "demoman": 1528,
-            "last_updated": "2024-11-05T17:13:48.561887"
+            "soldier": 2956,
+            "demoman": 1530,
+            "last_updated": "2024-11-17T21:32:17.979490"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2322,9 +2698,17 @@ const maps_json = [
             "demoman": "eb7x8tYwofM"
         },
         "completion_info": {
-            "soldier": 619,
-            "demoman": 589,
-            "last_updated": "2024-11-05T17:13:48.510786"
+            "soldier": 620,
+            "demoman": 590,
+            "last_updated": "2024-11-17T21:32:17.950492"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -2357,9 +2741,13 @@ const maps_json = [
             "demoman": "gaM1YHP0Dhs"
         },
         "completion_info": {
-            "soldier": 830,
-            "demoman": 430,
-            "last_updated": "2024-11-05T17:13:48.567886"
+            "soldier": 834,
+            "demoman": 434,
+            "last_updated": "2024-11-17T21:32:17.963491"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2390,9 +2778,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3775,
-            "demoman": 859,
-            "last_updated": "2024-11-05T17:13:48.622891"
+            "soldier": 3785,
+            "demoman": 864,
+            "last_updated": "2024-11-17T21:32:17.972491"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -2423,9 +2819,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1012,
-            "demoman": 449,
-            "last_updated": "2024-11-05T17:13:48.548886"
+            "soldier": 1017,
+            "demoman": 453,
+            "last_updated": "2024-11-17T21:32:17.976491"
+        },
+        "class_tech": {
+            "soldier": [
+                "Lim Ammo"
+            ],
+            "demoman": [
+                "Lim Ammo"
+            ]
         }
     },
     {
@@ -2461,9 +2865,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 904,
-            "demoman": 574,
-            "last_updated": "2024-11-05T17:13:48.517788"
+            "soldier": 917,
+            "demoman": 576,
+            "last_updated": "2024-11-17T21:32:17.946499"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2494,9 +2902,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1582,
-            "demoman": 685,
-            "last_updated": "2024-11-05T17:13:48.563887"
+            "soldier": 1589,
+            "demoman": 686,
+            "last_updated": "2024-11-17T21:32:17.974492"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2529,9 +2941,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2678,
-            "demoman": 1172,
-            "last_updated": "2024-11-05T17:13:49.892559"
+            "soldier": 2682,
+            "demoman": 1174,
+            "last_updated": "2024-11-17T21:32:19.502739"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2562,9 +2978,13 @@ const maps_json = [
             "demoman": "sn6FZxqgJts"
         },
         "completion_info": {
-            "soldier": 598,
+            "soldier": 601,
             "demoman": 254,
-            "last_updated": "2024-11-05T17:13:49.872557"
+            "last_updated": "2024-11-17T21:32:19.485739"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2595,9 +3015,13 @@ const maps_json = [
             "demoman": "WlGB_gOgRRk"
         },
         "completion_info": {
-            "soldier": 765,
-            "demoman": 889,
-            "last_updated": "2024-11-05T17:13:49.856558"
+            "soldier": 767,
+            "demoman": 891,
+            "last_updated": "2024-11-17T21:32:19.506738"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2631,9 +3055,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 977,
+            "soldier": 982,
             "demoman": 582,
-            "last_updated": "2024-11-05T17:13:49.892559"
+            "last_updated": "2024-11-17T21:32:19.501739"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2669,7 +3097,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 0,
             "demoman": 0,
-            "last_updated": "2024-11-05T17:13:49.857558"
+            "last_updated": "2024-11-17T21:32:19.478742"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2700,9 +3132,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4239,
-            "demoman": 6040,
-            "last_updated": "2024-11-05T17:13:49.934283"
+            "soldier": 4263,
+            "demoman": 6051,
+            "last_updated": "2024-11-17T21:32:19.521738"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2731,9 +3167,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 831,
-            "demoman": 556,
-            "last_updated": "2024-11-05T17:13:49.851558"
+            "soldier": 836,
+            "demoman": 557,
+            "last_updated": "2024-11-17T21:32:19.507740"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2764,9 +3204,13 @@ const maps_json = [
             "demoman": "mVCiaQ0RXX4"
         },
         "completion_info": {
-            "soldier": 1411,
-            "demoman": 882,
-            "last_updated": "2024-11-05T17:13:49.895271"
+            "soldier": 1420,
+            "demoman": 887,
+            "last_updated": "2024-11-17T21:32:19.502739"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2795,9 +3239,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4606,
-            "demoman": 4516,
-            "last_updated": "2024-11-05T17:13:51.255594"
+            "soldier": 4615,
+            "demoman": 4520,
+            "last_updated": "2024-11-17T21:32:21.178840"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2827,8 +3275,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 223,
-            "demoman": 239,
-            "last_updated": "2024-11-05T17:13:51.187596"
+            "demoman": 241,
+            "last_updated": "2024-11-17T21:32:21.146838"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2859,9 +3311,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 576,
-            "demoman": 448,
-            "last_updated": "2024-11-05T17:13:51.205595"
+            "soldier": 577,
+            "demoman": 449,
+            "last_updated": "2024-11-17T21:32:21.154840"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2892,9 +3348,15 @@ const maps_json = [
             "demoman": "uVoker4J87U"
         },
         "completion_info": {
-            "soldier": 1873,
+            "soldier": 1883,
             "demoman": 241,
-            "last_updated": "2024-11-05T17:13:51.245594"
+            "last_updated": "2024-11-17T21:32:21.166840"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -2926,9 +3388,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 112,
+            "soldier": 114,
             "demoman": 356,
-            "last_updated": "2024-11-05T17:13:51.200596"
+            "last_updated": "2024-11-17T21:32:21.165841"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -2960,9 +3428,13 @@ const maps_json = [
             "demoman": "0CwWDzaK1BU"
         },
         "completion_info": {
-            "soldier": 745,
+            "soldier": 750,
             "demoman": 308,
-            "last_updated": "2024-11-05T17:13:51.183596"
+            "last_updated": "2024-11-17T21:32:21.150843"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -2994,9 +3466,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 930,
-            "demoman": 611,
-            "last_updated": "2024-11-05T17:13:51.215595"
+            "soldier": 931,
+            "demoman": 613,
+            "last_updated": "2024-11-17T21:32:21.167841"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3030,9 +3506,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 9866,
-            "demoman": 2367,
-            "last_updated": "2024-11-05T17:13:51.325576"
+            "soldier": 9911,
+            "demoman": 2370,
+            "last_updated": "2024-11-17T21:32:21.223353"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3065,9 +3545,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 6927,
-            "demoman": 1867,
-            "last_updated": "2024-11-05T17:13:52.606553"
+            "soldier": 6937,
+            "demoman": 1874,
+            "last_updated": "2024-11-17T21:32:22.991933"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3099,9 +3583,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2638,
-            "demoman": 1104,
-            "last_updated": "2024-11-05T17:13:52.604549"
+            "soldier": 2645,
+            "demoman": 1106,
+            "last_updated": "2024-11-17T21:32:22.965936"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3138,9 +3626,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2066,
-            "demoman": 664,
-            "last_updated": "2024-11-05T17:13:52.590548"
+            "soldier": 2082,
+            "demoman": 668,
+            "last_updated": "2024-11-17T21:32:22.966936"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3169,9 +3661,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1562,
-            "demoman": 753,
-            "last_updated": "2024-11-05T17:13:52.540551"
+            "soldier": 1563,
+            "demoman": 754,
+            "last_updated": "2024-11-17T21:32:22.950934"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3202,9 +3698,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1658,
-            "demoman": 742,
-            "last_updated": "2024-11-05T17:13:52.537551"
+            "soldier": 1670,
+            "demoman": 743,
+            "last_updated": "2024-11-17T21:32:22.969934"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3235,9 +3735,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1081,
-            "demoman": 545,
-            "last_updated": "2024-11-05T17:13:52.534634"
+            "soldier": 1088,
+            "demoman": 548,
+            "last_updated": "2024-11-17T21:32:22.945936"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3268,9 +3772,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2035,
-            "demoman": 382,
-            "last_updated": "2024-11-05T17:13:52.604549"
+            "soldier": 2038,
+            "demoman": 383,
+            "last_updated": "2024-11-17T21:32:22.974935"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3301,9 +3809,15 @@ const maps_json = [
             "demoman": "MwxogLTFAio"
         },
         "completion_info": {
-            "soldier": 759,
-            "demoman": 468,
-            "last_updated": "2024-11-05T17:13:52.572548"
+            "soldier": 762,
+            "demoman": 473,
+            "last_updated": "2024-11-17T21:32:22.971935"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Gimmick"
+            ]
         }
     },
     {
@@ -3332,9 +3846,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 8008,
-            "demoman": 2977,
-            "last_updated": "2024-11-05T17:13:53.941974"
+            "soldier": 8045,
+            "demoman": 2988,
+            "last_updated": "2024-11-17T21:32:24.705431"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -3364,9 +3886,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3949,
-            "demoman": 2184,
-            "last_updated": "2024-11-05T17:13:53.909974"
+            "soldier": 3959,
+            "demoman": 2188,
+            "last_updated": "2024-11-17T21:32:24.646432"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -3396,9 +3926,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1267,
-            "demoman": 731,
-            "last_updated": "2024-11-05T17:13:53.931974"
+            "soldier": 1278,
+            "demoman": 734,
+            "last_updated": "2024-11-17T21:32:24.629435"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3429,9 +3963,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 558,
-            "demoman": 489,
-            "last_updated": "2024-11-05T17:13:53.840973"
+            "soldier": 565,
+            "demoman": 491,
+            "last_updated": "2024-11-17T21:32:24.642433"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3462,9 +4000,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2365,
-            "demoman": 1277,
-            "last_updated": "2024-11-05T17:13:53.931974"
+            "soldier": 2372,
+            "demoman": 1280,
+            "last_updated": "2024-11-17T21:32:24.608926"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3493,9 +4035,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5105,
-            "demoman": 1824,
-            "last_updated": "2024-11-05T17:13:53.880975"
+            "soldier": 5114,
+            "demoman": 1827,
+            "last_updated": "2024-11-17T21:32:24.565928"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3527,8 +4073,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 462,
-            "demoman": 261,
-            "last_updated": "2024-11-05T17:13:53.909974"
+            "demoman": 262,
+            "last_updated": "2024-11-17T21:32:24.524927"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -3561,9 +4113,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3807,
-            "demoman": 1879,
-            "last_updated": "2024-11-05T17:13:53.910975"
+            "soldier": 3821,
+            "demoman": 1881,
+            "last_updated": "2024-11-17T21:32:24.640434"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3594,9 +4150,15 @@ const maps_json = [
             "demoman": "JU4R-pJDz-M"
         },
         "completion_info": {
-            "soldier": 2410,
-            "demoman": 1414,
-            "last_updated": "2024-11-05T17:13:55.153962"
+            "soldier": 2414,
+            "demoman": 1416,
+            "last_updated": "2024-11-17T21:32:26.310307"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -3627,9 +4189,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3558,
-            "demoman": 2423,
-            "last_updated": "2024-11-05T17:13:55.208261"
+            "soldier": 3575,
+            "demoman": 2429,
+            "last_updated": "2024-11-17T21:32:26.373305"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3662,9 +4228,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2789,
-            "demoman": 579,
-            "last_updated": "2024-11-05T17:13:55.189159"
+            "soldier": 2796,
+            "demoman": 580,
+            "last_updated": "2024-11-17T21:32:26.434598"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3695,9 +4265,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2255,
-            "demoman": 1342,
-            "last_updated": "2024-11-05T17:13:55.209263"
+            "soldier": 2273,
+            "demoman": 1343,
+            "last_updated": "2024-11-17T21:32:26.352307"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3763,7 +4337,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 260,
             "demoman": 187,
-            "last_updated": "2024-11-05T17:13:55.127960"
+            "last_updated": "2024-11-17T21:32:26.201799"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3792,9 +4370,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 600,
-            "demoman": 339,
-            "last_updated": "2024-11-05T17:13:55.143964"
+            "soldier": 605,
+            "demoman": 341,
+            "last_updated": "2024-11-17T21:32:26.318307"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3823,9 +4405,13 @@ const maps_json = [
             "demoman": "l3OPWNeeapQ"
         },
         "completion_info": {
-            "soldier": 2238,
-            "demoman": 866,
-            "last_updated": "2024-11-05T17:13:55.229984"
+            "soldier": 2248,
+            "demoman": 868,
+            "last_updated": "2024-11-17T21:32:26.280244"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3856,9 +4442,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3393,
-            "demoman": 970,
-            "last_updated": "2024-11-05T17:13:55.209263"
+            "soldier": 3408,
+            "demoman": 973,
+            "last_updated": "2024-11-17T21:32:26.432598"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -3889,9 +4483,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3529,
-            "demoman": 1323,
-            "last_updated": "2024-11-05T17:13:56.491672"
+            "soldier": 3547,
+            "demoman": 1328,
+            "last_updated": "2024-11-17T21:32:27.871676"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -3922,9 +4524,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3397,
-            "demoman": 1151,
-            "last_updated": "2024-11-05T17:13:56.485669"
+            "soldier": 3407,
+            "demoman": 1152,
+            "last_updated": "2024-11-17T21:32:27.866677"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -3955,9 +4561,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1116,
-            "demoman": 843,
-            "last_updated": "2024-11-05T17:13:56.452669"
+            "soldier": 1121,
+            "demoman": 847,
+            "last_updated": "2024-11-17T21:32:27.818677"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": []
         }
     },
     {
@@ -3993,9 +4605,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 989,
-            "demoman": 738,
-            "last_updated": "2024-11-05T17:13:56.451669"
+            "soldier": 990,
+            "demoman": 739,
+            "last_updated": "2024-11-17T21:32:27.854678"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": []
         }
     },
     {
@@ -4028,7 +4646,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 364,
             "demoman": 257,
-            "last_updated": "2024-11-05T17:13:56.457669"
+            "last_updated": "2024-11-17T21:32:27.837677"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": []
         }
     },
     {
@@ -4062,9 +4686,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 445,
-            "demoman": 414,
-            "last_updated": "2024-11-05T17:13:56.448669"
+            "soldier": 448,
+            "demoman": 416,
+            "last_updated": "2024-11-17T21:32:27.880678"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": []
         }
     },
     {
@@ -4093,9 +4723,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 955,
-            "demoman": 819,
-            "last_updated": "2024-11-05T17:13:56.474670"
+            "soldier": 964,
+            "demoman": 822,
+            "last_updated": "2024-11-17T21:32:27.873676"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -4129,9 +4765,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1039,
-            "demoman": 618,
-            "last_updated": "2024-11-05T17:13:56.474670"
+            "soldier": 1054,
+            "demoman": 627,
+            "last_updated": "2024-11-17T21:32:27.815674"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4160,9 +4800,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1831,
-            "demoman": 872,
-            "last_updated": "2024-11-05T17:13:57.797478"
+            "soldier": 1832,
+            "demoman": 873,
+            "last_updated": "2024-11-17T21:32:30.202121"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4193,9 +4837,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1649,
-            "demoman": 976,
-            "last_updated": "2024-11-05T17:13:57.796470"
+            "soldier": 1654,
+            "demoman": 981,
+            "last_updated": "2024-11-17T21:32:30.442625"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4226,9 +4874,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 811,
-            "demoman": 568,
-            "last_updated": "2024-11-05T17:13:57.761468"
+            "soldier": 816,
+            "demoman": 569,
+            "last_updated": "2024-11-17T21:32:30.102606"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4262,9 +4914,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1186,
-            "demoman": 478,
-            "last_updated": "2024-11-05T17:13:57.781471"
+            "soldier": 1192,
+            "demoman": 479,
+            "last_updated": "2024-11-17T21:32:29.694570"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": []
         }
     },
     {
@@ -4330,9 +4988,15 @@ const maps_json = [
             "demoman": "6MXxoyfZzWI"
         },
         "completion_info": {
-            "soldier": 612,
+            "soldier": 621,
             "demoman": 72,
-            "last_updated": "2024-11-05T17:13:57.780471"
+            "last_updated": "2024-11-17T21:32:30.305120"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -4366,9 +5030,13 @@ const maps_json = [
             "demoman": "87NYieYn94M"
         },
         "completion_info": {
-            "soldier": 978,
-            "demoman": 798,
-            "last_updated": "2024-11-05T17:13:57.780471"
+            "soldier": 980,
+            "demoman": 800,
+            "last_updated": "2024-11-17T21:32:30.027100"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4484,9 +5152,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1237,
+            "soldier": 1238,
             "demoman": 464,
-            "last_updated": "2024-11-05T17:13:57.779475"
+            "last_updated": "2024-11-17T21:32:29.945592"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4522,9 +5194,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4623,
-            "demoman": 1805,
-            "last_updated": "2024-11-05T17:13:57.822469"
+            "soldier": 4638,
+            "demoman": 1807,
+            "last_updated": "2024-11-17T21:32:30.652359"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -4557,9 +5237,13 @@ const maps_json = [
             "demoman": "qlc0z6ftxls"
         },
         "completion_info": {
-            "soldier": 1133,
-            "demoman": 515,
-            "last_updated": "2024-11-05T17:13:59.120649"
+            "soldier": 1138,
+            "demoman": 519,
+            "last_updated": "2024-11-17T21:32:31.774630"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4593,8 +5277,17 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 327,
-            "demoman": 331,
-            "last_updated": "2024-11-05T17:13:59.102903"
+            "demoman": 333,
+            "last_updated": "2024-11-17T21:32:31.532344"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Hole"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -4625,9 +5318,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2623,
-            "demoman": 1274,
-            "last_updated": "2024-11-05T17:13:59.129656"
+            "soldier": 2632,
+            "demoman": 1276,
+            "last_updated": "2024-11-17T21:32:31.955627"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4660,9 +5357,13 @@ const maps_json = [
             "demoman": "LM-1x3Jq7bA"
         },
         "completion_info": {
-            "soldier": 604,
-            "demoman": 355,
-            "last_updated": "2024-11-05T17:13:59.108905"
+            "soldier": 606,
+            "demoman": 357,
+            "last_updated": "2024-11-17T21:32:31.697612"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4693,9 +5394,15 @@ const maps_json = [
             "demoman": "R6syT42kAlc"
         },
         "completion_info": {
-            "soldier": 311,
-            "demoman": 552,
-            "last_updated": "2024-11-05T17:13:59.120649"
+            "soldier": 312,
+            "demoman": 554,
+            "last_updated": "2024-11-17T21:32:31.841629"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -4726,9 +5433,15 @@ const maps_json = [
             "demoman": "DS9v4m3-3XQ"
         },
         "completion_info": {
-            "soldier": 436,
-            "demoman": 269,
-            "last_updated": "2024-11-05T17:13:59.125658"
+            "soldier": 438,
+            "demoman": 274,
+            "last_updated": "2024-11-17T21:32:31.666612"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -4760,9 +5473,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 498,
+            "soldier": 499,
             "demoman": 263,
-            "last_updated": "2024-11-05T17:13:59.124651"
+            "last_updated": "2024-11-17T21:32:31.552616"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4791,9 +5508,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1981,
-            "demoman": 698,
-            "last_updated": "2024-11-05T17:13:59.136648"
+            "soldier": 2009,
+            "demoman": 707,
+            "last_updated": "2024-11-17T21:32:31.953626"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4827,9 +5548,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1134,
-            "demoman": 339,
-            "last_updated": "2024-11-05T17:14:00.487643"
+            "soldier": 1137,
+            "demoman": 341,
+            "last_updated": "2024-11-17T21:32:33.472836"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -4862,9 +5587,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2312,
-            "demoman": 780,
-            "last_updated": "2024-11-05T17:14:00.471644"
+            "soldier": 2321,
+            "demoman": 784,
+            "last_updated": "2024-11-17T21:32:33.463836"
+        },
+        "class_tech": {
+            "soldier": [
+                "Lim Ammo"
+            ],
+            "demoman": [
+                "Lim Ammo"
+            ]
         }
     },
     {
@@ -4897,9 +5630,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 642,
-            "demoman": 508,
-            "last_updated": "2024-11-05T17:14:00.486644"
+            "soldier": 644,
+            "demoman": 509,
+            "last_updated": "2024-11-17T21:32:33.328331"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5000,9 +5737,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2345,
-            "demoman": 1040,
-            "last_updated": "2024-11-05T17:14:00.486644"
+            "soldier": 2360,
+            "demoman": 1044,
+            "last_updated": "2024-11-17T21:32:33.521349"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5212,9 +5953,13 @@ const maps_json = [
             "demoman": "gEOm8m9GwBk"
         },
         "completion_info": {
-            "soldier": 209,
-            "demoman": 177,
-            "last_updated": "2024-11-05T17:14:00.472645"
+            "soldier": 210,
+            "demoman": 179,
+            "last_updated": "2024-11-17T21:32:33.291333"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5245,9 +5990,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 449,
-            "demoman": 335,
-            "last_updated": "2024-11-05T17:14:00.453645"
+            "soldier": 459,
+            "demoman": 339,
+            "last_updated": "2024-11-17T21:32:33.215334"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5279,9 +6028,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 539,
-            "demoman": 382,
-            "last_updated": "2024-11-05T17:14:00.472645"
+            "soldier": 540,
+            "demoman": 383,
+            "last_updated": "2024-11-17T21:32:33.234334"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5312,9 +6065,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1533,
-            "demoman": 569,
-            "last_updated": "2024-11-05T17:14:00.471644"
+            "soldier": 1541,
+            "demoman": 570,
+            "last_updated": "2024-11-17T21:32:33.511348"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5402,9 +6159,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 829,
-            "demoman": 524,
-            "last_updated": "2024-11-05T17:14:01.912907"
+            "soldier": 830,
+            "demoman": 526,
+            "last_updated": "2024-11-17T21:32:34.941165"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5435,9 +6196,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5662,
-            "demoman": 1087,
-            "last_updated": "2024-11-05T17:14:02.006900"
+            "soldier": 5675,
+            "demoman": 1088,
+            "last_updated": "2024-11-17T21:32:35.201305"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": [
+                "Jank"
+            ]
         }
     },
     {
@@ -5510,7 +6279,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 273,
             "demoman": 334,
-            "last_updated": "2024-11-05T17:14:01.982901"
+            "last_updated": "2024-11-17T21:32:34.857019"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5542,8 +6315,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 215,
-            "demoman": 429,
-            "last_updated": "2024-11-05T17:14:01.913902"
+            "demoman": 431,
+            "last_updated": "2024-11-17T21:32:34.858019"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5577,8 +6354,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 239,
-            "demoman": 375,
-            "last_updated": "2024-11-05T17:14:01.987901"
+            "demoman": 376,
+            "last_updated": "2024-11-17T21:32:35.100258"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -5607,9 +6390,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2606,
-            "demoman": 1605,
-            "last_updated": "2024-11-05T17:14:01.980900"
+            "soldier": 2620,
+            "demoman": 1608,
+            "last_updated": "2024-11-17T21:32:35.027212"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5640,9 +6427,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 532,
-            "demoman": 321,
-            "last_updated": "2024-11-05T17:14:01.980900"
+            "soldier": 535,
+            "demoman": 323,
+            "last_updated": "2024-11-17T21:32:35.036212"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -5673,7 +6466,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 256,
             "demoman": 503,
-            "last_updated": "2024-11-05T17:14:02.005899"
+            "last_updated": "2024-11-17T21:32:35.102258"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5704,9 +6501,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1188,
+            "soldier": 1190,
             "demoman": 917,
-            "last_updated": "2024-11-05T17:14:03.228770"
+            "last_updated": "2024-11-17T21:32:37.117294"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5737,7 +6538,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 832,
             "demoman": 501,
-            "last_updated": "2024-11-05T17:14:03.252790"
+            "last_updated": "2024-11-17T21:32:37.219292"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5868,9 +6673,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 303,
+            "soldier": 306,
             "demoman": 302,
-            "last_updated": "2024-11-05T17:14:03.220771"
+            "last_updated": "2024-11-17T21:32:37.061297"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5902,9 +6711,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5240,
-            "demoman": 1651,
-            "last_updated": "2024-11-05T17:14:03.257790"
+            "soldier": 5257,
+            "demoman": 1658,
+            "last_updated": "2024-11-17T21:32:37.321289"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5933,9 +6746,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2877,
-            "demoman": 786,
-            "last_updated": "2024-11-05T17:14:03.240769"
+            "soldier": 2887,
+            "demoman": 787,
+            "last_updated": "2024-11-17T21:32:37.198292"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -5967,9 +6784,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2243,
+            "soldier": 2247,
             "demoman": 1169,
-            "last_updated": "2024-11-05T17:14:03.244769"
+            "last_updated": "2024-11-17T21:32:37.320289"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6003,9 +6824,16 @@ const maps_json = [
             "demoman": "7saoyqqgKWg"
         },
         "completion_info": {
-            "soldier": 574,
-            "demoman": 938,
-            "last_updated": "2024-11-05T17:14:03.253792"
+            "soldier": 582,
+            "demoman": 944,
+            "last_updated": "2024-11-17T21:32:37.140294"
+        },
+        "class_tech": {
+            "soldier": [
+                "Edgebug",
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -6035,9 +6863,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1881,
-            "demoman": 494,
-            "last_updated": "2024-11-05T17:14:03.242769"
+            "soldier": 1888,
+            "demoman": 495,
+            "last_updated": "2024-11-17T21:32:37.243291"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6068,9 +6900,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1997,
-            "demoman": 567,
-            "last_updated": "2024-11-05T17:14:04.740866"
+            "soldier": 2001,
+            "demoman": 571,
+            "last_updated": "2024-11-17T21:32:38.820072"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6100,9 +6936,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 392,
+            "soldier": 394,
             "demoman": 373,
-            "last_updated": "2024-11-05T17:14:04.748866"
+            "last_updated": "2024-11-17T21:32:38.823072"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -6131,9 +6973,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2313,
-            "demoman": 1323,
-            "last_updated": "2024-11-05T17:14:04.740866"
+            "soldier": 2316,
+            "demoman": 1324,
+            "last_updated": "2024-11-17T21:32:38.968067"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -6164,9 +7012,15 @@ const maps_json = [
             "demoman": "iZfyIC2rbl8"
         },
         "completion_info": {
-            "soldier": 1141,
-            "demoman": 149,
-            "last_updated": "2024-11-05T17:14:04.753866"
+            "soldier": 1144,
+            "demoman": 150,
+            "last_updated": "2024-11-17T21:32:38.761558"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -6196,9 +7050,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1702,
+            "soldier": 1705,
             "demoman": 787,
-            "last_updated": "2024-11-05T17:14:04.741866"
+            "last_updated": "2024-11-17T21:32:38.972068"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6229,9 +7087,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2828,
-            "demoman": 1142,
-            "last_updated": "2024-11-05T17:14:04.742867"
+            "soldier": 2844,
+            "demoman": 1143,
+            "last_updated": "2024-11-17T21:32:38.880069"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6262,9 +7124,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1135,
-            "demoman": 845,
-            "last_updated": "2024-11-05T17:14:04.752866"
+            "soldier": 1136,
+            "demoman": 847,
+            "last_updated": "2024-11-17T21:32:38.750555"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6295,9 +7161,15 @@ const maps_json = [
             "demoman": "NxuBwJWeIwY"
         },
         "completion_info": {
-            "soldier": 209,
-            "demoman": 426,
-            "last_updated": "2024-11-05T17:14:04.722867"
+            "soldier": 210,
+            "demoman": 428,
+            "last_updated": "2024-11-17T21:32:38.885069"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -6327,8 +7199,17 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 390,
-            "demoman": 351,
-            "last_updated": "2024-11-05T17:14:06.076687"
+            "demoman": 353,
+            "last_updated": "2024-11-17T21:32:40.278777"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Hole"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -6362,9 +7243,17 @@ const maps_json = [
             "demoman": "BJJs8tVjq_c"
         },
         "completion_info": {
-            "soldier": 1280,
+            "soldier": 1287,
             "demoman": 198,
-            "last_updated": "2024-11-05T17:14:06.093684"
+            "last_updated": "2024-11-17T21:32:40.303776"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -6395,9 +7284,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 753,
-            "demoman": 633,
-            "last_updated": "2024-11-05T17:14:06.095684"
+            "soldier": 757,
+            "demoman": 636,
+            "last_updated": "2024-11-17T21:32:40.303776"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -6430,7 +7325,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 512,
             "demoman": 477,
-            "last_updated": "2024-11-05T17:14:06.079685"
+            "last_updated": "2024-11-17T21:32:40.277772"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -6463,9 +7366,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 888,
-            "demoman": 757,
-            "last_updated": "2024-11-05T17:14:06.095684"
+            "soldier": 897,
+            "demoman": 762,
+            "last_updated": "2024-11-17T21:32:40.344774"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6496,9 +7403,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 871,
+            "soldier": 872,
             "demoman": 528,
-            "last_updated": "2024-11-05T17:14:06.082686"
+            "last_updated": "2024-11-17T21:32:40.345773"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6529,9 +7440,13 @@ const maps_json = [
             "demoman": "JCkZLw4bSBE"
         },
         "completion_info": {
-            "soldier": 712,
-            "demoman": 280,
-            "last_updated": "2024-11-05T17:14:06.094685"
+            "soldier": 718,
+            "demoman": 281,
+            "last_updated": "2024-11-17T21:32:40.343774"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6564,9 +7479,13 @@ const maps_json = [
             "demoman": "3yXPqFcVXeg"
         },
         "completion_info": {
-            "soldier": 547,
+            "soldier": 548,
             "demoman": 672,
-            "last_updated": "2024-11-05T17:14:06.093684"
+            "last_updated": "2024-11-17T21:32:40.344774"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6602,9 +7521,13 @@ const maps_json = [
             "demoman": "ojiCc9vR5T8"
         },
         "completion_info": {
-            "soldier": 2912,
-            "demoman": 387,
-            "last_updated": "2024-11-05T17:14:07.451400"
+            "soldier": 2928,
+            "demoman": 388,
+            "last_updated": "2024-11-17T21:32:41.852924"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6636,9 +7559,13 @@ const maps_json = [
             "demoman": "rABO3fM-6hc"
         },
         "completion_info": {
-            "soldier": 1101,
-            "demoman": 417,
-            "last_updated": "2024-11-05T17:14:07.436400"
+            "soldier": 1102,
+            "demoman": 418,
+            "last_updated": "2024-11-17T21:32:41.805804"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6670,9 +7597,15 @@ const maps_json = [
             "demoman": "XL_d-TpCtH4"
         },
         "completion_info": {
-            "soldier": 573,
-            "demoman": 114,
-            "last_updated": "2024-11-05T17:14:07.425400"
+            "soldier": 577,
+            "demoman": 115,
+            "last_updated": "2024-11-17T21:32:41.865882"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -6704,8 +7637,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 468,
-            "demoman": 439,
-            "last_updated": "2024-11-05T17:14:07.435400"
+            "demoman": 441,
+            "last_updated": "2024-11-17T21:32:41.785805"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -6734,9 +7675,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3242,
+            "soldier": 3244,
             "demoman": 1369,
-            "last_updated": "2024-11-05T17:14:07.456399"
+            "last_updated": "2024-11-17T21:32:41.873881"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6769,9 +7714,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1629,
-            "demoman": 1072,
-            "last_updated": "2024-11-05T17:14:07.434400"
+            "soldier": 1640,
+            "demoman": 1075,
+            "last_updated": "2024-11-17T21:32:41.894874"
+        },
+        "class_tech": {
+            "soldier": [
+                "Pogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -6804,9 +7757,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1041,
-            "demoman": 444,
-            "last_updated": "2024-11-05T17:14:07.418401"
+            "soldier": 1045,
+            "demoman": 445,
+            "last_updated": "2024-11-17T21:32:41.900866"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6835,9 +7792,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2497,
-            "demoman": 1151,
-            "last_updated": "2024-11-05T17:14:07.435400"
+            "soldier": 2502,
+            "demoman": 1152,
+            "last_updated": "2024-11-17T21:32:41.885867"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6869,9 +7830,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2213,
-            "demoman": 1001,
-            "last_updated": "2024-11-05T17:14:08.791499"
+            "soldier": 2223,
+            "demoman": 1003,
+            "last_updated": "2024-11-17T21:32:43.344839"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6902,9 +7867,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 161,
-            "demoman": 358,
-            "last_updated": "2024-11-05T17:14:08.762165"
+            "soldier": 162,
+            "demoman": 361,
+            "last_updated": "2024-11-17T21:32:43.283985"
+        },
+        "class_tech": {
+            "soldier": [
+                "Phase",
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -6936,9 +7908,13 @@ const maps_json = [
             "demoman": "DV1r-0shkQg"
         },
         "completion_info": {
-            "soldier": 950,
+            "soldier": 951,
             "demoman": 593,
-            "last_updated": "2024-11-05T17:14:08.779502"
+            "last_updated": "2024-11-17T21:32:43.301984"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -6971,9 +7947,18 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 128,
+            "soldier": 129,
             "demoman": 205,
-            "last_updated": "2024-11-05T17:14:08.765500"
+            "last_updated": "2024-11-17T21:32:43.274982"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallbug",
+                "Bounce"
+            ],
+            "demoman": [
+                "Jank"
+            ]
         }
     },
     {
@@ -7016,9 +8001,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 801,
+            "soldier": 809,
             "demoman": 219,
-            "last_updated": "2024-11-05T17:14:08.769500"
+            "last_updated": "2024-11-17T21:32:43.302984"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "3pre"
+            ]
         }
     },
     {
@@ -7052,9 +8043,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2235,
-            "demoman": 1201,
-            "last_updated": "2024-11-05T17:14:08.786501"
+            "soldier": 2239,
+            "demoman": 1203,
+            "last_updated": "2024-11-17T21:32:43.354355"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7084,8 +8079,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 658,
-            "demoman": 392,
-            "last_updated": "2024-11-05T17:14:08.779502"
+            "demoman": 393,
+            "last_updated": "2024-11-17T21:32:43.343838"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -7115,9 +8118,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 357,
+            "soldier": 358,
             "demoman": 311,
-            "last_updated": "2024-11-05T17:14:08.763496"
+            "last_updated": "2024-11-17T21:32:43.327838"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Gimmick"
+            ]
         }
     },
     {
@@ -7156,9 +8167,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 344,
-            "demoman": 240,
-            "last_updated": "2024-11-05T17:14:10.057852"
+            "soldier": 346,
+            "demoman": 241,
+            "last_updated": "2024-11-17T21:32:44.809222"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -7189,9 +8206,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 442,
-            "demoman": 613,
-            "last_updated": "2024-11-05T17:14:10.075027"
+            "soldier": 444,
+            "demoman": 614,
+            "last_updated": "2024-11-17T21:32:44.818221"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7220,9 +8241,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1345,
-            "demoman": 333,
-            "last_updated": "2024-11-05T17:14:10.076027"
+            "soldier": 1378,
+            "demoman": 335,
+            "last_updated": "2024-11-17T21:32:44.841221"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7253,9 +8278,15 @@ const maps_json = [
             "demoman": "eZLssTp7rw8"
         },
         "completion_info": {
-            "soldier": 844,
+            "soldier": 847,
             "demoman": 363,
-            "last_updated": "2024-11-05T17:14:10.059969"
+            "last_updated": "2024-11-17T21:32:44.816221"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -7287,9 +8318,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1977,
-            "demoman": 388,
-            "last_updated": "2024-11-05T17:14:10.079025"
+            "soldier": 1983,
+            "demoman": 390,
+            "last_updated": "2024-11-17T21:32:44.862252"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": []
         }
     },
     {
@@ -7321,9 +8358,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1031,
-            "demoman": 802,
-            "last_updated": "2024-11-05T17:14:10.075027"
+            "soldier": 1037,
+            "demoman": 805,
+            "last_updated": "2024-11-17T21:32:44.858262"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -7356,7 +8401,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 345,
             "demoman": 317,
-            "last_updated": "2024-11-05T17:14:10.061969"
+            "last_updated": "2024-11-17T21:32:44.833220"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7388,9 +8437,13 @@ const maps_json = [
             "demoman": "AmEvzZS7CrA"
         },
         "completion_info": {
-            "soldier": 905,
-            "demoman": 847,
-            "last_updated": "2024-11-05T17:14:10.060969"
+            "soldier": 907,
+            "demoman": 848,
+            "last_updated": "2024-11-17T21:32:44.839220"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7419,9 +8472,13 @@ const maps_json = [
             "demoman": "z89STE0mgYc"
         },
         "completion_info": {
-            "soldier": 512,
-            "demoman": 567,
-            "last_updated": "2024-11-05T17:14:11.360245"
+            "soldier": 513,
+            "demoman": 568,
+            "last_updated": "2024-11-17T21:32:47.459716"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7451,8 +8508,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 586,
-            "demoman": 825,
-            "last_updated": "2024-11-05T17:14:11.361249"
+            "demoman": 826,
+            "last_updated": "2024-11-17T21:32:47.493155"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7484,8 +8545,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 0,
-            "demoman": 218,
-            "last_updated": "2024-11-05T17:14:11.368930"
+            "demoman": 219,
+            "last_updated": "2024-11-17T21:32:47.452717"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7514,9 +8579,13 @@ const maps_json = [
             "demoman": "r54w4DX48C4"
         },
         "completion_info": {
-            "soldier": 1540,
-            "demoman": 606,
-            "last_updated": "2024-11-05T17:14:11.390931"
+            "soldier": 1541,
+            "demoman": 607,
+            "last_updated": "2024-11-17T21:32:47.473127"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7545,9 +8614,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 917,
-            "demoman": 579,
-            "last_updated": "2024-11-05T17:14:11.363933"
+            "soldier": 922,
+            "demoman": 580,
+            "last_updated": "2024-11-17T21:32:47.473127"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7578,9 +8651,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 848,
+            "soldier": 855,
             "demoman": 728,
-            "last_updated": "2024-11-05T17:14:11.364933"
+            "last_updated": "2024-11-17T21:32:47.491155"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7610,9 +8687,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 867,
-            "demoman": 507,
-            "last_updated": "2024-11-05T17:14:11.380931"
+            "soldier": 869,
+            "demoman": 508,
+            "last_updated": "2024-11-17T21:32:47.486154"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7643,9 +8724,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 752,
-            "demoman": 417,
-            "last_updated": "2024-11-05T17:14:11.381930"
+            "soldier": 756,
+            "demoman": 418,
+            "last_updated": "2024-11-17T21:32:47.491155"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7676,9 +8761,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 702,
+            "soldier": 705,
             "demoman": 404,
-            "last_updated": "2024-11-05T17:14:12.763825"
+            "last_updated": "2024-11-17T21:32:49.080750"
+        },
+        "class_tech": {
+            "soldier": [
+                "Edgebug"
+            ],
+            "demoman": []
         }
     },
     {
@@ -7709,9 +8800,17 @@ const maps_json = [
             "demoman": "T0r1b3Haeoo"
         },
         "completion_info": {
-            "soldier": 219,
-            "demoman": 826,
-            "last_updated": "2024-11-05T17:14:12.714516"
+            "soldier": 221,
+            "demoman": 830,
+            "last_updated": "2024-11-17T21:32:49.087749"
+        },
+        "class_tech": {
+            "soldier": [
+                "Rand Bounce"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -7742,9 +8841,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3813,
-            "demoman": 1088,
-            "last_updated": "2024-11-05T17:14:12.827342"
+            "soldier": 3833,
+            "demoman": 1089,
+            "last_updated": "2024-11-17T21:32:49.106749"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7773,9 +8876,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4398,
-            "demoman": 1588,
-            "last_updated": "2024-11-05T17:14:12.843547"
+            "soldier": 4408,
+            "demoman": 1589,
+            "last_updated": "2024-11-17T21:32:49.109749"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7804,9 +8911,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 7820,
-            "demoman": 3020,
-            "last_updated": "2024-11-05T17:14:12.860547"
+            "soldier": 7838,
+            "demoman": 3025,
+            "last_updated": "2024-11-17T21:32:49.147264"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -7837,8 +8950,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 637,
-            "demoman": 386,
-            "last_updated": "2024-11-05T17:14:12.805344"
+            "demoman": 388,
+            "last_updated": "2024-11-17T21:32:49.115748"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -7871,7 +8990,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 1056,
             "demoman": 387,
-            "last_updated": "2024-11-05T17:14:12.738514"
+            "last_updated": "2024-11-17T21:32:49.101751"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7900,9 +9023,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 979,
-            "demoman": 353,
-            "last_updated": "2024-11-05T17:14:12.765833"
+            "soldier": 992,
+            "demoman": 354,
+            "last_updated": "2024-11-17T21:32:49.088750"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7933,9 +9060,13 @@ const maps_json = [
             "demoman": "fU1ZWcv9wxo"
         },
         "completion_info": {
-            "soldier": 1032,
-            "demoman": 1342,
-            "last_updated": "2024-11-05T17:14:14.103064"
+            "soldier": 1037,
+            "demoman": 1345,
+            "last_updated": "2024-11-17T21:32:50.725579"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -7966,9 +9097,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 257,
-            "demoman": 453,
-            "last_updated": "2024-11-05T17:14:14.051066"
+            "soldier": 260,
+            "demoman": 454,
+            "last_updated": "2024-11-17T21:32:50.732579"
+        },
+        "class_tech": {
+            "soldier": [
+                "Texturebug"
+            ],
+            "demoman": []
         }
     },
     {
@@ -8002,9 +9139,18 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 463,
+            "soldier": 465,
             "demoman": 372,
-            "last_updated": "2024-11-05T17:14:14.034822"
+            "last_updated": "2024-11-17T21:32:50.724580"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Jank"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -8035,9 +9181,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 7267,
-            "demoman": 3074,
-            "last_updated": "2024-11-05T17:14:14.163268"
+            "soldier": 7284,
+            "demoman": 3078,
+            "last_updated": "2024-11-17T21:32:50.765839"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8075,9 +9225,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 686,
-            "demoman": 390,
-            "last_updated": "2024-11-05T17:14:14.062066"
+            "soldier": 692,
+            "demoman": 392,
+            "last_updated": "2024-11-17T21:32:50.741578"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8108,9 +9262,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 806,
-            "demoman": 373,
-            "last_updated": "2024-11-05T17:14:14.104064"
+            "soldier": 807,
+            "demoman": 376,
+            "last_updated": "2024-11-17T21:32:50.730578"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -8141,9 +9301,17 @@ const maps_json = [
             "demoman": "SFSL_6oTGME"
         },
         "completion_info": {
-            "soldier": 1203,
-            "demoman": 196,
-            "last_updated": "2024-11-05T17:14:14.103064"
+            "soldier": 1207,
+            "demoman": 197,
+            "last_updated": "2024-11-17T21:32:50.739578"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Phase"
+            ]
         }
     },
     {
@@ -8187,9 +9355,17 @@ const maps_json = [
             "demoman": "5Rx7w0nqv2o"
         },
         "completion_info": {
-            "soldier": 867,
-            "demoman": 224,
-            "last_updated": "2024-11-05T17:14:14.135064"
+            "soldier": 876,
+            "demoman": 227,
+            "last_updated": "2024-11-17T21:32:50.738578"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -8218,9 +9394,13 @@ const maps_json = [
             "demoman": "igbB1wYlJ-E"
         },
         "completion_info": {
-            "soldier": 738,
-            "demoman": 458,
-            "last_updated": "2024-11-05T17:14:15.432735"
+            "soldier": 743,
+            "demoman": 459,
+            "last_updated": "2024-11-17T21:32:52.341726"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8251,9 +9431,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1055,
-            "demoman": 732,
-            "last_updated": "2024-11-05T17:14:15.542144"
+            "soldier": 1061,
+            "demoman": 737,
+            "last_updated": "2024-11-17T21:32:52.336726"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8284,9 +9468,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 461,
+            "soldier": 464,
             "demoman": 220,
-            "last_updated": "2024-11-05T17:14:15.427733"
+            "last_updated": "2024-11-17T21:32:52.342726"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -8319,9 +9509,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2148,
-            "demoman": 810,
-            "last_updated": "2024-11-05T17:14:15.597140"
+            "soldier": 2151,
+            "demoman": 811,
+            "last_updated": "2024-11-17T21:32:52.359726"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -8350,9 +9546,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5860,
-            "demoman": 1585,
-            "last_updated": "2024-11-05T17:14:15.627141"
+            "soldier": 5871,
+            "demoman": 1588,
+            "last_updated": "2024-11-17T21:32:52.384060"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8406,9 +9606,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 286,
+            "soldier": 287,
             "demoman": 321,
-            "last_updated": "2024-11-05T17:14:15.514754"
+            "last_updated": "2024-11-17T21:32:52.360726"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": [
+                "Jank"
+            ]
         }
     },
     {
@@ -8437,9 +9645,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 616,
-            "demoman": 696,
-            "last_updated": "2024-11-05T17:14:15.446737"
+            "soldier": 621,
+            "demoman": 698,
+            "last_updated": "2024-11-17T21:32:52.341726"
+        },
+        "class_tech": {
+            "soldier": [
+                "Speedshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -8470,9 +9684,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2035,
-            "demoman": 866,
-            "last_updated": "2024-11-05T17:14:15.515754"
+            "soldier": 2038,
+            "demoman": 868,
+            "last_updated": "2024-11-17T21:32:52.365062"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8506,8 +9724,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 1079,
-            "demoman": 640,
-            "last_updated": "2024-11-05T17:14:18.049784"
+            "demoman": 639,
+            "last_updated": "2024-11-17T21:32:53.909627"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8536,9 +9758,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1248,
+            "soldier": 1258,
             "demoman": 269,
-            "last_updated": "2024-11-05T17:14:16.732180"
+            "last_updated": "2024-11-17T21:32:53.903628"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8574,9 +9800,17 @@ const maps_json = [
             "demoman": "2brd00_Bb5s"
         },
         "completion_info": {
-            "soldier": 1427,
+            "soldier": 1432,
             "demoman": 237,
-            "last_updated": "2024-11-05T17:14:18.105781"
+            "last_updated": "2024-11-17T21:32:53.906626"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -8607,7 +9841,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 453,
             "demoman": 224,
-            "last_updated": "2024-11-05T17:14:17.920479"
+            "last_updated": "2024-11-17T21:32:53.922626"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -8639,9 +9881,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 895,
+            "soldier": 900,
             "demoman": 104,
-            "last_updated": "2024-11-05T17:14:18.129238"
+            "last_updated": "2024-11-17T21:32:53.905626"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -8672,8 +9920,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 749,
-            "demoman": 953,
-            "last_updated": "2024-11-05T17:14:18.105781"
+            "demoman": 954,
+            "last_updated": "2024-11-17T21:32:53.921627"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8704,9 +9956,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1167,
-            "demoman": 645,
-            "last_updated": "2024-11-05T17:14:16.734185"
+            "soldier": 1181,
+            "demoman": 650,
+            "last_updated": "2024-11-17T21:32:53.922626"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8735,9 +9991,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1259,
-            "demoman": 880,
-            "last_updated": "2024-11-05T17:14:18.193235"
+            "soldier": 1276,
+            "demoman": 881,
+            "last_updated": "2024-11-17T21:32:53.923627"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8768,9 +10028,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1045,
+            "soldier": 1050,
             "demoman": 504,
-            "last_updated": "2024-11-05T17:14:19.348798"
+            "last_updated": "2024-11-17T21:32:55.496718"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8801,9 +10065,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2199,
-            "demoman": 1098,
-            "last_updated": "2024-11-05T17:14:19.689903"
+            "soldier": 2208,
+            "demoman": 1100,
+            "last_updated": "2024-11-17T21:32:55.520719"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8834,9 +10102,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1186,
-            "demoman": 909,
-            "last_updated": "2024-11-05T17:14:19.614904"
+            "soldier": 1197,
+            "demoman": 914,
+            "last_updated": "2024-11-17T21:32:55.508719"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8867,9 +10139,13 @@ const maps_json = [
             "demoman": "18kyV4YwaTY"
         },
         "completion_info": {
-            "soldier": 659,
-            "demoman": 550,
-            "last_updated": "2024-11-05T17:14:19.220802"
+            "soldier": 661,
+            "demoman": 552,
+            "last_updated": "2024-11-17T21:32:55.533721"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8898,9 +10174,17 @@ const maps_json = [
             "demoman": "6yYofY9Dupw"
         },
         "completion_info": {
-            "soldier": 245,
-            "demoman": 406,
-            "last_updated": "2024-11-05T17:14:19.155812"
+            "soldier": 249,
+            "demoman": 409,
+            "last_updated": "2024-11-17T21:32:55.501720"
+        },
+        "class_tech": {
+            "soldier": [
+                "Rand Bounce"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -8929,9 +10213,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1331,
-            "demoman": 685,
-            "last_updated": "2024-11-05T17:14:19.669905"
+            "soldier": 1337,
+            "demoman": 689,
+            "last_updated": "2024-11-17T21:32:55.531718"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -8962,9 +10250,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2490,
-            "demoman": 2395,
-            "last_updated": "2024-11-05T17:14:19.610904"
+            "soldier": 2495,
+            "demoman": 2396,
+            "last_updated": "2024-11-17T21:32:55.551717"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9000,9 +10292,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1011,
-            "demoman": 376,
-            "last_updated": "2024-11-05T17:14:19.472796"
+            "soldier": 1016,
+            "demoman": 378,
+            "last_updated": "2024-11-17T21:32:55.520719"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9031,9 +10327,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1026,
-            "demoman": 768,
-            "last_updated": "2024-11-05T17:14:20.662735"
+            "soldier": 1035,
+            "demoman": 769,
+            "last_updated": "2024-11-17T21:32:57.044064"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9064,9 +10364,13 @@ const maps_json = [
             "demoman": "q5-ZHeBz4WI"
         },
         "completion_info": {
-            "soldier": 2361,
-            "demoman": 1926,
-            "last_updated": "2024-11-05T17:14:20.848724"
+            "soldier": 2365,
+            "demoman": 1928,
+            "last_updated": "2024-11-17T21:32:57.053077"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9097,9 +10401,13 @@ const maps_json = [
             "demoman": "zEFaRPUtAYA"
         },
         "completion_info": {
-            "soldier": 711,
-            "demoman": 381,
-            "last_updated": "2024-11-05T17:14:20.849722"
+            "soldier": 714,
+            "demoman": 384,
+            "last_updated": "2024-11-17T21:32:57.071068"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9130,9 +10438,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3163,
-            "demoman": 1627,
-            "last_updated": "2024-11-05T17:14:20.952720"
+            "soldier": 3178,
+            "demoman": 1634,
+            "last_updated": "2024-11-17T21:32:57.066069"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9165,9 +10477,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 596,
-            "demoman": 481,
-            "last_updated": "2024-11-05T17:14:20.640497"
+            "soldier": 599,
+            "demoman": 482,
+            "last_updated": "2024-11-17T21:32:57.065066"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9197,9 +10513,19 @@ const maps_json = [
             "demoman": "0Qlnn1KBA78"
         },
         "completion_info": {
-            "soldier": 338,
-            "demoman": 136,
-            "last_updated": "2024-11-05T17:14:20.724726"
+            "soldier": 340,
+            "demoman": 137,
+            "last_updated": "2024-11-17T21:32:57.064069"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Jank"
+            ],
+            "demoman": [
+                "Airpogo",
+                "Jank"
+            ]
         }
     },
     {
@@ -9232,9 +10558,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 739,
+            "soldier": 741,
             "demoman": 695,
-            "last_updated": "2024-11-05T17:14:20.921721"
+            "last_updated": "2024-11-17T21:32:57.045068"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9263,9 +10593,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3868,
-            "demoman": 3123,
-            "last_updated": "2024-11-05T17:14:20.938722"
+            "soldier": 3877,
+            "demoman": 3128,
+            "last_updated": "2024-11-17T21:32:57.082068"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9296,9 +10630,13 @@ const maps_json = [
             "demoman": "zYMvTlYYOjo"
         },
         "completion_info": {
-            "soldier": 629,
-            "demoman": 440,
-            "last_updated": "2024-11-05T17:14:22.024927"
+            "soldier": 632,
+            "demoman": 445,
+            "last_updated": "2024-11-17T21:32:59.062465"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9327,9 +10665,13 @@ const maps_json = [
             "demoman": "Vc1DnClRqQU"
         },
         "completion_info": {
-            "soldier": 1198,
-            "demoman": 746,
-            "last_updated": "2024-11-05T17:14:22.054928"
+            "soldier": 1204,
+            "demoman": 747,
+            "last_updated": "2024-11-17T21:32:59.069465"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9358,9 +10700,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5226,
-            "demoman": 2119,
-            "last_updated": "2024-11-05T17:14:22.165293"
+            "soldier": 5242,
+            "demoman": 2123,
+            "last_updated": "2024-11-17T21:32:59.095465"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9397,9 +10743,17 @@ const maps_json = [
             "demoman": "tEU4i5rvqdE"
         },
         "completion_info": {
-            "soldier": 234,
-            "demoman": 219,
-            "last_updated": "2024-11-05T17:14:21.967764"
+            "soldier": 235,
+            "demoman": 220,
+            "last_updated": "2024-11-17T21:32:59.088465"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -9428,9 +10782,18 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 209,
+            "soldier": 210,
             "demoman": 82,
-            "last_updated": "2024-11-05T17:14:22.093295"
+            "last_updated": "2024-11-17T21:32:59.087465"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Airpogo",
+                "Jank"
+            ]
         }
     },
     {
@@ -9459,9 +10822,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 416,
-            "demoman": 490,
-            "last_updated": "2024-11-05T17:14:22.039927"
+            "soldier": 417,
+            "demoman": 492,
+            "last_updated": "2024-11-17T21:32:59.089465"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9545,9 +10912,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 653,
-            "demoman": 277,
-            "last_updated": "2024-11-05T17:14:22.113294"
+            "soldier": 658,
+            "demoman": 279,
+            "last_updated": "2024-11-17T21:32:59.088465"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9581,9 +10952,13 @@ const maps_json = [
             "demoman": "5u8oodZEor0"
         },
         "completion_info": {
-            "soldier": 736,
-            "demoman": 886,
-            "last_updated": "2024-11-05T17:14:22.101294"
+            "soldier": 739,
+            "demoman": 887,
+            "last_updated": "2024-11-17T21:32:59.087465"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9612,9 +10987,13 @@ const maps_json = [
             "demoman": "KPCxZC21-Ek"
         },
         "completion_info": {
-            "soldier": 579,
-            "demoman": 249,
-            "last_updated": "2024-11-05T17:14:23.300098"
+            "soldier": 590,
+            "demoman": 251,
+            "last_updated": "2024-11-17T21:33:00.626773"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9645,9 +11024,13 @@ const maps_json = [
             "demoman": "_F72QoXjib8"
         },
         "completion_info": {
-            "soldier": 1253,
+            "soldier": 1255,
             "demoman": 633,
-            "last_updated": "2024-11-05T17:14:23.334630"
+            "last_updated": "2024-11-17T21:33:00.648778"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9682,9 +11065,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 773,
-            "demoman": 642,
-            "last_updated": "2024-11-05T17:14:23.364626"
+            "soldier": 780,
+            "demoman": 644,
+            "last_updated": "2024-11-17T21:33:00.653777"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9716,9 +11103,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 408,
-            "demoman": 433,
-            "last_updated": "2024-11-05T17:14:23.365627"
+            "soldier": 412,
+            "demoman": 434,
+            "last_updated": "2024-11-17T21:33:00.630778"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -9750,9 +11143,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 198,
+            "soldier": 199,
             "demoman": 482,
-            "last_updated": "2024-11-05T17:14:23.303097"
+            "last_updated": "2024-11-17T21:33:00.647780"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -9783,9 +11182,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 168,
-            "demoman": 333,
-            "last_updated": "2024-11-05T17:14:23.284093"
+            "soldier": 169,
+            "demoman": 334,
+            "last_updated": "2024-11-17T21:33:00.627778"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -9814,9 +11219,19 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 445,
+            "soldier": 448,
             "demoman": 145,
-            "last_updated": "2024-11-05T17:14:23.365627"
+            "last_updated": "2024-11-17T21:33:00.633777"
+        },
+        "class_tech": {
+            "soldier": [
+                "Airstrike",
+                "Gimmick"
+            ],
+            "demoman": [
+                "Airpogo",
+                "Lim Ammo"
+            ]
         }
     },
     {
@@ -9847,9 +11262,16 @@ const maps_json = [
             "demoman": "b6f-lMsllwU"
         },
         "completion_info": {
-            "soldier": 1297,
-            "demoman": 272,
-            "last_updated": "2024-11-05T17:14:23.381906"
+            "soldier": 1300,
+            "demoman": 275,
+            "last_updated": "2024-11-17T21:33:00.653777"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo",
+                "Buttons"
+            ]
         }
     },
     {
@@ -9880,9 +11302,15 @@ const maps_json = [
             "demoman": "cnOEhdSrIyA"
         },
         "completion_info": {
-            "soldier": 1031,
+            "soldier": 1038,
             "demoman": 307,
-            "last_updated": "2024-11-05T17:14:24.646648"
+            "last_updated": "2024-11-17T21:33:02.143652"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -9916,9 +11344,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 834,
+            "soldier": 836,
             "demoman": 373,
-            "last_updated": "2024-11-05T17:14:24.756290"
+            "last_updated": "2024-11-17T21:33:02.153656"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9951,9 +11383,13 @@ const maps_json = [
             "demoman": "Y-ll0XaGPwk"
         },
         "completion_info": {
-            "soldier": 1088,
-            "demoman": 616,
-            "last_updated": "2024-11-05T17:14:24.661996"
+            "soldier": 1095,
+            "demoman": 621,
+            "last_updated": "2024-11-17T21:33:02.144655"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -9985,9 +11421,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 731,
-            "demoman": 713,
-            "last_updated": "2024-11-05T17:14:24.724995"
+            "soldier": 733,
+            "demoman": 714,
+            "last_updated": "2024-11-17T21:33:02.146657"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10016,9 +11456,17 @@ const maps_json = [
             "demoman": "imtqOJWbXr0"
         },
         "completion_info": {
-            "soldier": 625,
+            "soldier": 626,
             "demoman": 404,
-            "last_updated": "2024-11-05T17:14:24.723995"
+            "last_updated": "2024-11-17T21:33:02.155656"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -10047,9 +11495,13 @@ const maps_json = [
             "demoman": "2C-bEv0hu7U"
         },
         "completion_info": {
-            "soldier": 1922,
-            "demoman": 283,
-            "last_updated": "2024-11-05T17:14:24.758290"
+            "soldier": 1934,
+            "demoman": 284,
+            "last_updated": "2024-11-17T21:33:02.170655"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10082,7 +11534,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 619,
             "demoman": 698,
-            "last_updated": "2024-11-05T17:14:24.648729"
+            "last_updated": "2024-11-17T21:33:02.144655"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -10111,9 +11569,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2409,
-            "demoman": 1387,
-            "last_updated": "2024-11-05T17:14:24.743995"
+            "soldier": 2424,
+            "demoman": 1390,
+            "last_updated": "2024-11-17T21:33:02.171655"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10142,9 +11604,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1993,
+            "soldier": 1999,
             "demoman": 630,
-            "last_updated": "2024-11-05T17:14:26.061422"
+            "last_updated": "2024-11-17T21:33:03.674657"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10178,9 +11644,13 @@ const maps_json = [
             "demoman": "T2iNzSRVsQ4"
         },
         "completion_info": {
-            "soldier": 1493,
-            "demoman": 1117,
-            "last_updated": "2024-11-05T17:14:26.054017"
+            "soldier": 1506,
+            "demoman": 1120,
+            "last_updated": "2024-11-17T21:33:03.686658"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10209,9 +11679,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1310,
-            "demoman": 958,
-            "last_updated": "2024-11-05T17:14:26.034016"
+            "soldier": 1312,
+            "demoman": 959,
+            "last_updated": "2024-11-17T21:33:03.673657"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10240,9 +11714,15 @@ const maps_json = [
             "demoman": "sgjCSMo-TVI"
         },
         "completion_info": {
-            "soldier": 905,
-            "demoman": 314,
-            "last_updated": "2024-11-05T17:14:26.054017"
+            "soldier": 911,
+            "demoman": 316,
+            "last_updated": "2024-11-17T21:33:03.686658"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": []
         }
     },
     {
@@ -10274,9 +11754,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 134,
-            "demoman": 263,
-            "last_updated": "2024-11-05T17:14:26.014017"
+            "soldier": 136,
+            "demoman": 266,
+            "last_updated": "2024-11-17T21:33:03.664657"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -10307,9 +11793,15 @@ const maps_json = [
             "demoman": "sRz_ThqBBjM"
         },
         "completion_info": {
-            "soldier": 466,
+            "soldier": 468,
             "demoman": 443,
-            "last_updated": "2024-11-05T17:14:25.978018"
+            "last_updated": "2024-11-17T21:33:03.687656"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -10340,9 +11832,17 @@ const maps_json = [
             "demoman": "5-LsXiE7si4"
         },
         "completion_info": {
-            "soldier": 127,
-            "demoman": 16,
-            "last_updated": "2024-11-05T17:14:25.943457"
+            "soldier": 128,
+            "demoman": 17,
+            "last_updated": "2024-11-17T21:33:03.674657"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -10374,9 +11874,15 @@ const maps_json = [
             "demoman": "H4I9cZKtcF4"
         },
         "completion_info": {
-            "soldier": 743,
-            "demoman": 366,
-            "last_updated": "2024-11-05T17:14:25.981019"
+            "soldier": 744,
+            "demoman": 368,
+            "last_updated": "2024-11-17T21:33:03.669657"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -10407,9 +11913,13 @@ const maps_json = [
             "demoman": "qRRkamJgnMY"
         },
         "completion_info": {
-            "soldier": 4079,
-            "demoman": 1104,
-            "last_updated": "2024-11-05T17:14:27.457380"
+            "soldier": 4102,
+            "demoman": 1109,
+            "last_updated": "2024-11-17T21:33:05.219433"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10438,9 +11948,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 941,
+            "soldier": 944,
             "demoman": 397,
-            "last_updated": "2024-11-05T17:14:27.323419"
+            "last_updated": "2024-11-17T21:33:05.185435"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10473,7 +11987,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 2084,
             "demoman": 871,
-            "last_updated": "2024-11-05T17:14:27.411383"
+            "last_updated": "2024-11-17T21:33:05.203434"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10504,9 +12022,15 @@ const maps_json = [
             "demoman": "DFeeCQk-pMU"
         },
         "completion_info": {
-            "soldier": 1633,
-            "demoman": 297,
-            "last_updated": "2024-11-05T17:14:27.301372"
+            "soldier": 1639,
+            "demoman": 299,
+            "last_updated": "2024-11-17T21:33:05.203434"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -10537,9 +12061,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2861,
-            "demoman": 1783,
-            "last_updated": "2024-11-05T17:14:27.431382"
+            "soldier": 2877,
+            "demoman": 1785,
+            "last_updated": "2024-11-17T21:33:05.215435"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10568,9 +12096,13 @@ const maps_json = [
             "demoman": "RPfyohZSc2M"
         },
         "completion_info": {
-            "soldier": 2239,
-            "demoman": 870,
-            "last_updated": "2024-11-05T17:14:27.380415"
+            "soldier": 2244,
+            "demoman": 872,
+            "last_updated": "2024-11-17T21:33:05.219433"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10603,9 +12135,13 @@ const maps_json = [
             "demoman": "Cu-x1zlAJ6k"
         },
         "completion_info": {
-            "soldier": 501,
-            "demoman": 635,
-            "last_updated": "2024-11-05T17:14:27.321419"
+            "soldier": 503,
+            "demoman": 636,
+            "last_updated": "2024-11-17T21:33:05.187434"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10638,8 +12174,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 1028,
-            "demoman": 675,
-            "last_updated": "2024-11-05T17:14:27.412382"
+            "demoman": 676,
+            "last_updated": "2024-11-17T21:33:05.217434"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10672,9 +12212,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 7597,
-            "demoman": 2812,
-            "last_updated": "2024-11-05T17:14:28.766214"
+            "soldier": 7636,
+            "demoman": 2819,
+            "last_updated": "2024-11-17T21:33:06.711284"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -10703,9 +12247,19 @@ const maps_json = [
             "demoman": "D_aZOkrNfaE"
         },
         "completion_info": {
-            "soldier": 72,
-            "demoman": 342,
-            "last_updated": "2024-11-05T17:14:28.656235"
+            "soldier": 73,
+            "demoman": 345,
+            "last_updated": "2024-11-17T21:33:06.649287"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank",
+                "Rand Bounce"
+            ],
+            "demoman": [
+                "Downair",
+                "Pogo"
+            ]
         }
     },
     {
@@ -10734,9 +12288,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 174,
+            "soldier": 181,
             "demoman": 185,
-            "last_updated": "2024-11-05T17:14:28.627431"
+            "last_updated": "2024-11-17T21:33:06.643287"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank",
+                "Speedshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -10767,9 +12328,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 692,
-            "demoman": 1275,
-            "last_updated": "2024-11-05T17:14:28.657231"
+            "soldier": 695,
+            "demoman": 1277,
+            "last_updated": "2024-11-17T21:33:06.666285"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank",
+                "Speedshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -10803,7 +12371,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 373,
             "demoman": 150,
-            "last_updated": "2024-11-05T17:14:28.623431"
+            "last_updated": "2024-11-17T21:33:06.650289"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -10834,9 +12410,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1156,
-            "demoman": 668,
-            "last_updated": "2024-11-05T17:14:28.688949"
+            "soldier": 1162,
+            "demoman": 669,
+            "last_updated": "2024-11-17T21:33:06.666285"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -10867,9 +12449,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1493,
-            "demoman": 643,
-            "last_updated": "2024-11-05T17:14:28.687949"
+            "soldier": 1497,
+            "demoman": 647,
+            "last_updated": "2024-11-17T21:33:06.667285"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -10902,8 +12490,18 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 196,
-            "demoman": 219,
-            "last_updated": "2024-11-05T17:14:28.605433"
+            "demoman": 221,
+            "last_updated": "2024-11-17T21:33:06.647287"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Hole"
+            ],
+            "demoman": [
+                "Airpogo",
+                "Lim Ammo"
+            ]
         }
     },
     {
@@ -10938,7 +12536,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 529,
             "demoman": 261,
-            "last_updated": "2024-11-05T17:14:29.955587"
+            "last_updated": "2024-11-17T21:33:08.603369"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": [
+                "Bounce"
+            ]
         }
     },
     {
@@ -10969,9 +12575,18 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 282,
-            "demoman": 659,
-            "last_updated": "2024-11-05T17:14:29.957586"
+            "soldier": 284,
+            "demoman": 662,
+            "last_updated": "2024-11-17T21:33:08.597370"
+        },
+        "class_tech": {
+            "soldier": [
+                "Rand Bounce",
+                "Jank"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -11004,9 +12619,15 @@ const maps_json = [
             "demoman": "4JPSD2eSc-k"
         },
         "completion_info": {
-            "soldier": 1001,
-            "demoman": 179,
-            "last_updated": "2024-11-05T17:14:30.008585"
+            "soldier": 1012,
+            "demoman": 182,
+            "last_updated": "2024-11-17T21:33:08.606369"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -11037,9 +12658,13 @@ const maps_json = [
             "demoman": "beINOExcuw0"
         },
         "completion_info": {
-            "soldier": 1253,
-            "demoman": 895,
-            "last_updated": "2024-11-05T17:14:30.014585"
+            "soldier": 1255,
+            "demoman": 898,
+            "last_updated": "2024-11-17T21:33:08.624368"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11068,9 +12693,13 @@ const maps_json = [
             "demoman": "X587ZNn3ZRk"
         },
         "completion_info": {
-            "soldier": 2271,
-            "demoman": 855,
-            "last_updated": "2024-11-05T17:14:30.052085"
+            "soldier": 2278,
+            "demoman": 858,
+            "last_updated": "2024-11-17T21:33:08.624368"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11101,9 +12730,16 @@ const maps_json = [
             "demoman": "TnY7QHPMz48"
         },
         "completion_info": {
-            "soldier": 1019,
+            "soldier": 1027,
             "demoman": 102,
-            "last_updated": "2024-11-05T17:14:30.001585"
+            "last_updated": "2024-11-17T21:33:08.627368"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Phase",
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -11137,9 +12773,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 247,
-            "demoman": 264,
-            "last_updated": "2024-11-05T17:14:29.954582"
+            "soldier": 248,
+            "demoman": 265,
+            "last_updated": "2024-11-17T21:33:08.626369"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": []
         }
     },
     {
@@ -11173,9 +12815,13 @@ const maps_json = [
             "demoman": "dzAKyQMvu1I"
         },
         "completion_info": {
-            "soldier": 663,
-            "demoman": 544,
-            "last_updated": "2024-11-05T17:14:29.987589"
+            "soldier": 666,
+            "demoman": 545,
+            "last_updated": "2024-11-17T21:33:08.599369"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11204,9 +12850,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5233,
-            "demoman": 1271,
-            "last_updated": "2024-11-05T17:14:31.361965"
+            "soldier": 5250,
+            "demoman": 1273,
+            "last_updated": "2024-11-17T21:33:10.169451"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11237,9 +12887,13 @@ const maps_json = [
             "demoman": "C9CA9HMxefs"
         },
         "completion_info": {
-            "soldier": 471,
-            "demoman": 351,
-            "last_updated": "2024-11-05T17:14:31.302887"
+            "soldier": 476,
+            "demoman": 355,
+            "last_updated": "2024-11-17T21:33:10.156444"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11268,9 +12922,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 549,
-            "demoman": 379,
-            "last_updated": "2024-11-05T17:14:31.301887"
+            "soldier": 550,
+            "demoman": 382,
+            "last_updated": "2024-11-17T21:33:10.134441"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -11299,9 +12959,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 674,
-            "demoman": 281,
-            "last_updated": "2024-11-05T17:14:31.302887"
+            "soldier": 679,
+            "demoman": 282,
+            "last_updated": "2024-11-17T21:33:10.140448"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -11332,9 +12998,18 @@ const maps_json = [
             "demoman": "J-w7D26YBto"
         },
         "completion_info": {
-            "soldier": 445,
+            "soldier": 449,
             "demoman": 13,
-            "last_updated": "2024-11-05T17:14:31.321968"
+            "last_updated": "2024-11-17T21:33:10.155449"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick",
+                "Airstrike"
+            ],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -11368,9 +13043,13 @@ const maps_json = [
             "demoman": "isYzRCsCgK8"
         },
         "completion_info": {
-            "soldier": 1284,
-            "demoman": 961,
-            "last_updated": "2024-11-05T17:14:31.361965"
+            "soldier": 1290,
+            "demoman": 963,
+            "last_updated": "2024-11-17T21:33:10.155449"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11401,9 +13080,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 213,
+            "soldier": 215,
             "demoman": 179,
-            "last_updated": "2024-11-05T17:14:31.341965"
+            "last_updated": "2024-11-17T21:33:10.139443"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -11434,9 +13119,17 @@ const maps_json = [
             "demoman": "eSPCEGhwVwM"
         },
         "completion_info": {
-            "soldier": 229,
-            "demoman": 196,
-            "last_updated": "2024-11-05T17:14:31.317965"
+            "soldier": 232,
+            "demoman": 199,
+            "last_updated": "2024-11-17T21:33:10.154443"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -11467,9 +13160,17 @@ const maps_json = [
             "demoman": "mNh6zk7avjQ"
         },
         "completion_info": {
-            "soldier": 486,
-            "demoman": 444,
-            "last_updated": "2024-11-05T17:14:32.617931"
+            "soldier": 487,
+            "demoman": 446,
+            "last_updated": "2024-11-17T21:33:11.629710"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -11501,8 +13202,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 837,
-            "demoman": 757,
-            "last_updated": "2024-11-05T17:14:32.621936"
+            "demoman": 758,
+            "last_updated": "2024-11-17T21:33:11.621710"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11596,9 +13301,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1504,
+            "soldier": 1511,
             "demoman": 508,
-            "last_updated": "2024-11-05T17:14:32.622936"
+            "last_updated": "2024-11-17T21:33:11.620709"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Buttons"
+            ]
         }
     },
     {
@@ -11633,7 +13344,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 0,
             "demoman": 30,
-            "last_updated": "2024-11-05T17:14:32.624936"
+            "last_updated": "2024-11-17T21:33:11.640709"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Vert"
+            ]
         }
     },
     {
@@ -11665,9 +13382,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3069,
-            "demoman": 1594,
-            "last_updated": "2024-11-05T17:14:32.676937"
+            "soldier": 3072,
+            "demoman": 1596,
+            "last_updated": "2024-11-17T21:33:11.644710"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11697,9 +13418,17 @@ const maps_json = [
             "demoman": "J0kXQqxMqlc"
         },
         "completion_info": {
-            "soldier": 1187,
-            "demoman": 265,
-            "last_updated": "2024-11-05T17:14:32.676937"
+            "soldier": 1193,
+            "demoman": 267,
+            "last_updated": "2024-11-17T21:33:11.628713"
+        },
+        "class_tech": {
+            "soldier": [
+                "Airstrike"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -11732,9 +13461,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3158,
-            "demoman": 1258,
-            "last_updated": "2024-11-05T17:14:32.682936"
+            "soldier": 3172,
+            "demoman": 1263,
+            "last_updated": "2024-11-17T21:33:11.640709"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11765,9 +13498,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2602,
-            "demoman": 958,
-            "last_updated": "2024-11-05T17:14:32.681937"
+            "soldier": 2615,
+            "demoman": 959,
+            "last_updated": "2024-11-17T21:33:11.647715"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11797,8 +13534,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 0,
-            "demoman": 318,
-            "last_updated": "2024-11-05T17:14:33.910070"
+            "demoman": 322,
+            "last_updated": "2024-11-17T21:33:13.102148"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -11827,9 +13570,17 @@ const maps_json = [
             "demoman": "oG-SGxvJaks"
         },
         "completion_info": {
-            "soldier": 502,
-            "demoman": 486,
-            "last_updated": "2024-11-05T17:14:33.926584"
+            "soldier": 504,
+            "demoman": 490,
+            "last_updated": "2024-11-17T21:33:13.098147"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -11861,9 +13612,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 269,
-            "demoman": 438,
-            "last_updated": "2024-11-05T17:14:33.911350"
+            "soldier": 271,
+            "demoman": 439,
+            "last_updated": "2024-11-17T21:33:13.115682"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -11919,9 +13676,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1814,
-            "demoman": 1007,
-            "last_updated": "2024-11-05T17:14:33.951537"
+            "soldier": 1820,
+            "demoman": 1009,
+            "last_updated": "2024-11-17T21:33:13.116682"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -11954,9 +13715,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2673,
+            "soldier": 2678,
             "demoman": 819,
-            "last_updated": "2024-11-05T17:14:33.963538"
+            "last_updated": "2024-11-17T21:33:13.116682"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -11989,9 +13758,17 @@ const maps_json = [
             "demoman": "f_lxNJVczyE"
         },
         "completion_info": {
-            "soldier": 4127,
-            "demoman": 988,
-            "last_updated": "2024-11-05T17:14:33.981538"
+            "soldier": 4143,
+            "demoman": 989,
+            "last_updated": "2024-11-17T21:33:13.130684"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -12022,9 +13799,18 @@ const maps_json = [
             "demoman": "s0aJNMLgGpM"
         },
         "completion_info": {
-            "soldier": 81,
-            "demoman": 162,
-            "last_updated": "2024-11-05T17:14:33.930582"
+            "soldier": 83,
+            "demoman": 168,
+            "last_updated": "2024-11-17T21:33:13.095760"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Rand Bounce"
+            ],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -12053,9 +13839,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 351,
+            "soldier": 354,
             "demoman": 326,
-            "last_updated": "2024-11-05T17:14:33.926584"
+            "last_updated": "2024-11-17T21:33:13.101147"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -12084,9 +13876,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 233,
-            "demoman": 296,
-            "last_updated": "2024-11-05T17:14:35.229509"
+            "soldier": 236,
+            "demoman": 298,
+            "last_updated": "2024-11-17T21:33:14.580558"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -12121,8 +13919,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 356,
-            "demoman": 533,
-            "last_updated": "2024-11-05T17:14:35.271501"
+            "demoman": 534,
+            "last_updated": "2024-11-17T21:33:14.579555"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -12151,9 +13957,13 @@ const maps_json = [
             "demoman": "IVijqm1eeBo"
         },
         "completion_info": {
-            "soldier": 1292,
-            "demoman": 627,
-            "last_updated": "2024-11-05T17:14:35.245503"
+            "soldier": 1297,
+            "demoman": 629,
+            "last_updated": "2024-11-17T21:33:14.602556"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12182,9 +13992,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2278,
-            "demoman": 976,
-            "last_updated": "2024-11-05T17:14:35.272500"
+            "soldier": 2287,
+            "demoman": 981,
+            "last_updated": "2024-11-17T21:33:14.603555"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Gimmick"
+            ]
         }
     },
     {
@@ -12213,9 +14031,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1117,
-            "demoman": 933,
-            "last_updated": "2024-11-05T17:14:35.257503"
+            "soldier": 1118,
+            "demoman": 934,
+            "last_updated": "2024-11-17T21:33:14.586555"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12246,9 +14068,13 @@ const maps_json = [
             "demoman": "iCMZVMGRu2I"
         },
         "completion_info": {
-            "soldier": 1447,
-            "demoman": 628,
-            "last_updated": "2024-11-05T17:14:35.272500"
+            "soldier": 1450,
+            "demoman": 631,
+            "last_updated": "2024-11-17T21:33:14.603555"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12280,9 +14106,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3488,
+            "soldier": 3494,
             "demoman": 1094,
-            "last_updated": "2024-11-05T17:14:35.304499"
+            "last_updated": "2024-11-17T21:33:14.607554"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12313,9 +14143,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 657,
+            "soldier": 658,
             "demoman": 518,
-            "last_updated": "2024-11-05T17:14:35.237501"
+            "last_updated": "2024-11-17T21:33:14.608555"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12344,9 +14178,13 @@ const maps_json = [
             "demoman": "b85LHLFgF24"
         },
         "completion_info": {
-            "soldier": 839,
-            "demoman": 736,
-            "last_updated": "2024-11-05T17:14:36.620523"
+            "soldier": 841,
+            "demoman": 737,
+            "last_updated": "2024-11-17T21:33:16.058350"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12378,8 +14216,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 848,
-            "demoman": 759,
-            "last_updated": "2024-11-05T17:14:36.587524"
+            "demoman": 760,
+            "last_updated": "2024-11-17T21:33:16.061348"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12410,9 +14252,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 950,
+            "soldier": 953,
             "demoman": 248,
-            "last_updated": "2024-11-05T17:14:36.618523"
+            "last_updated": "2024-11-17T21:33:16.056346"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": []
         }
     },
     {
@@ -12443,9 +14291,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1777,
-            "demoman": 842,
-            "last_updated": "2024-11-05T17:14:36.604525"
+            "soldier": 1785,
+            "demoman": 846,
+            "last_updated": "2024-11-17T21:33:16.065349"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12478,9 +14330,13 @@ const maps_json = [
             "demoman": "ZTVo2UWxIJ4"
         },
         "completion_info": {
-            "soldier": 552,
-            "demoman": 283,
-            "last_updated": "2024-11-05T17:14:36.604525"
+            "soldier": 557,
+            "demoman": 285,
+            "last_updated": "2024-11-17T21:33:16.076350"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12511,9 +14367,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1045,
-            "demoman": 520,
-            "last_updated": "2024-11-05T17:14:36.618523"
+            "soldier": 1049,
+            "demoman": 521,
+            "last_updated": "2024-11-17T21:33:16.077348"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Pogo",
+                "Jank"
+            ]
         }
     },
     {
@@ -12542,9 +14405,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 988,
-            "demoman": 848,
-            "last_updated": "2024-11-05T17:14:36.603525"
+            "soldier": 992,
+            "demoman": 851,
+            "last_updated": "2024-11-17T21:33:16.078348"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12577,9 +14444,13 @@ const maps_json = [
             "demoman": "5cASNeb6J-U"
         },
         "completion_info": {
-            "soldier": 989,
-            "demoman": 854,
-            "last_updated": "2024-11-05T17:14:36.588523"
+            "soldier": 993,
+            "demoman": 857,
+            "last_updated": "2024-11-17T21:33:16.077348"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12610,9 +14481,13 @@ const maps_json = [
             "demoman": "_KyDdkK5ugs"
         },
         "completion_info": {
-            "soldier": 1448,
-            "demoman": 303,
-            "last_updated": "2024-11-05T17:14:37.936851"
+            "soldier": 1453,
+            "demoman": 305,
+            "last_updated": "2024-11-17T21:33:17.549570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12650,9 +14525,15 @@ const maps_json = [
             "demoman": "nDhegpMOTYA"
         },
         "completion_info": {
-            "soldier": 615,
-            "demoman": 374,
-            "last_updated": "2024-11-05T17:14:37.950853"
+            "soldier": 618,
+            "demoman": 376,
+            "last_updated": "2024-11-17T21:33:17.540570"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -12681,9 +14562,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1095,
-            "demoman": 717,
-            "last_updated": "2024-11-05T17:14:37.940852"
+            "soldier": 1098,
+            "demoman": 718,
+            "last_updated": "2024-11-17T21:33:17.540570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12722,9 +14607,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1073,
-            "demoman": 884,
-            "last_updated": "2024-11-05T17:14:37.970852"
+            "soldier": 1090,
+            "demoman": 888,
+            "last_updated": "2024-11-17T21:33:17.561570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12759,9 +14648,13 @@ const maps_json = [
             "demoman": "3zyVNRKwBfk"
         },
         "completion_info": {
-            "soldier": 1218,
+            "soldier": 1221,
             "demoman": 280,
-            "last_updated": "2024-11-05T17:14:37.956851"
+            "last_updated": "2024-11-17T21:33:17.547570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12792,9 +14685,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1458,
-            "demoman": 621,
-            "last_updated": "2024-11-05T17:14:37.969852"
+            "soldier": 1476,
+            "demoman": 623,
+            "last_updated": "2024-11-17T21:33:17.541570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12825,9 +14722,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1034,
-            "demoman": 637,
-            "last_updated": "2024-11-05T17:14:37.939851"
+            "soldier": 1037,
+            "demoman": 639,
+            "last_updated": "2024-11-17T21:33:17.561570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -12856,9 +14757,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 240,
-            "demoman": 41,
-            "last_updated": "2024-11-05T17:14:37.933848"
+            "soldier": 242,
+            "demoman": 42,
+            "last_updated": "2024-11-17T21:33:17.544570"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -12888,8 +14797,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 246,
-            "demoman": 262,
-            "last_updated": "2024-11-05T17:14:39.285856"
+            "demoman": 263,
+            "last_updated": "2024-11-17T21:33:18.997026"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": []
         }
     },
     {
@@ -12920,7 +14835,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 0,
             "demoman": 225,
-            "last_updated": "2024-11-05T17:14:40.267829"
+            "last_updated": "2024-11-17T21:33:18.987027"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -12954,8 +14875,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 549,
-            "demoman": 638,
-            "last_updated": "2024-11-05T17:14:39.268855"
+            "demoman": 640,
+            "last_updated": "2024-11-17T21:33:18.991026"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -12987,9 +14916,17 @@ const maps_json = [
             "demoman": "n8PZ22RlD28"
         },
         "completion_info": {
-            "soldier": 318,
-            "demoman": 420,
-            "last_updated": "2024-11-05T17:14:40.289828"
+            "soldier": 319,
+            "demoman": 423,
+            "last_updated": "2024-11-17T21:33:18.993026"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -13024,9 +14961,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1968,
-            "demoman": 492,
-            "last_updated": "2024-11-05T17:14:40.315828"
+            "soldier": 1976,
+            "demoman": 494,
+            "last_updated": "2024-11-17T21:33:19.007358"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13058,9 +14999,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 995,
-            "demoman": 465,
-            "last_updated": "2024-11-05T17:14:40.318828"
+            "soldier": 998,
+            "demoman": 468,
+            "last_updated": "2024-11-17T21:33:19.007358"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -13089,9 +15036,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2709,
-            "demoman": 1271,
-            "last_updated": "2024-11-05T17:14:40.320827"
+            "soldier": 2713,
+            "demoman": 1272,
+            "last_updated": "2024-11-17T21:33:19.012356"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13124,7 +15075,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 0,
             "demoman": 109,
-            "last_updated": "2024-11-05T17:14:40.286828"
+            "last_updated": "2024-11-17T21:33:19.008357"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Downair"
+            ]
         }
     },
     {
@@ -13153,9 +15110,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5108,
-            "demoman": 1936,
-            "last_updated": "2024-11-05T17:14:41.463201"
+            "soldier": 5118,
+            "demoman": 1937,
+            "last_updated": "2024-11-17T21:33:20.635966"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13189,9 +15150,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 940,
+            "soldier": 943,
             "demoman": 558,
-            "last_updated": "2024-11-05T17:14:41.420203"
+            "last_updated": "2024-11-17T21:33:20.613964"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13220,9 +15185,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3483,
-            "demoman": 1528,
-            "last_updated": "2024-11-05T17:14:41.463201"
+            "soldier": 3502,
+            "demoman": 1538,
+            "last_updated": "2024-11-17T21:33:20.627963"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13255,9 +15224,13 @@ const maps_json = [
             "demoman": "FP0cVI4mckQ"
         },
         "completion_info": {
-            "soldier": 1633,
-            "demoman": 1060,
-            "last_updated": "2024-11-05T17:14:41.408203"
+            "soldier": 1640,
+            "demoman": 1065,
+            "last_updated": "2024-11-17T21:33:20.626963"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13290,8 +15263,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 996,
-            "demoman": 322,
-            "last_updated": "2024-11-05T17:14:41.392199"
+            "demoman": 323,
+            "last_updated": "2024-11-17T21:33:20.635966"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13322,9 +15299,13 @@ const maps_json = [
             "demoman": "Cm8_Xd3l-sI"
         },
         "completion_info": {
-            "soldier": 747,
-            "demoman": 350,
-            "last_updated": "2024-11-05T17:14:41.420203"
+            "soldier": 752,
+            "demoman": 353,
+            "last_updated": "2024-11-17T21:33:20.606964"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13356,9 +15337,13 @@ const maps_json = [
             "demoman": "ux87UxTF0zY"
         },
         "completion_info": {
-            "soldier": 1145,
-            "demoman": 745,
-            "last_updated": "2024-11-05T17:14:41.396204"
+            "soldier": 1148,
+            "demoman": 746,
+            "last_updated": "2024-11-17T21:33:20.637963"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13387,9 +15372,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1485,
-            "demoman": 970,
-            "last_updated": "2024-11-05T17:14:41.464201"
+            "soldier": 1492,
+            "demoman": 973,
+            "last_updated": "2024-11-17T21:33:20.631964"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13418,9 +15407,13 @@ const maps_json = [
             "demoman": "y3m9UTWfx2c"
         },
         "completion_info": {
-            "soldier": 1179,
+            "soldier": 1181,
             "demoman": 695,
-            "last_updated": "2024-11-05T17:14:42.709334"
+            "last_updated": "2024-11-17T21:33:22.083968"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13449,9 +15442,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1275,
-            "demoman": 620,
-            "last_updated": "2024-11-05T17:14:42.715332"
+            "soldier": 1277,
+            "demoman": 621,
+            "last_updated": "2024-11-17T21:33:22.081968"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13482,9 +15479,13 @@ const maps_json = [
             "demoman": "_v3UiS2iYhg"
         },
         "completion_info": {
-            "soldier": 438,
+            "soldier": 439,
             "demoman": 332,
-            "last_updated": "2024-11-05T17:14:42.699335"
+            "last_updated": "2024-11-17T21:33:22.078968"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13514,9 +15515,17 @@ const maps_json = [
             "demoman": "9tutc3Yq5wU"
         },
         "completion_info": {
-            "soldier": 253,
+            "soldier": 254,
             "demoman": 123,
-            "last_updated": "2024-11-05T17:14:42.684321"
+            "last_updated": "2024-11-17T21:33:22.096972"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -13548,9 +15557,13 @@ const maps_json = [
             "demoman": "5t2IpADg6hs"
         },
         "completion_info": {
-            "soldier": 227,
-            "demoman": 295,
-            "last_updated": "2024-11-05T17:14:42.682322"
+            "soldier": 229,
+            "demoman": 298,
+            "last_updated": "2024-11-17T21:33:22.095968"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13582,8 +15595,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 428,
-            "demoman": 266,
-            "last_updated": "2024-11-05T17:14:42.688321"
+            "demoman": 267,
+            "last_updated": "2024-11-17T21:33:22.075975"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -13616,9 +15637,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 369,
+            "soldier": 370,
             "demoman": 330,
-            "last_updated": "2024-11-05T17:14:42.711333"
+            "last_updated": "2024-11-17T21:33:22.096972"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13647,9 +15672,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 808,
-            "demoman": 517,
-            "last_updated": "2024-11-05T17:14:42.714333"
+            "soldier": 814,
+            "demoman": 520,
+            "last_updated": "2024-11-17T21:33:22.095968"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13680,9 +15709,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 931,
-            "demoman": 1539,
-            "last_updated": "2024-11-05T17:14:44.018809"
+            "soldier": 932,
+            "demoman": 1541,
+            "last_updated": "2024-11-17T21:33:23.533612"
+        },
+        "class_tech": {
+            "soldier": [
+                "Ctap"
+            ],
+            "demoman": []
         }
     },
     {
@@ -13713,9 +15748,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1605,
-            "demoman": 729,
-            "last_updated": "2024-11-05T17:14:44.048807"
+            "soldier": 1632,
+            "demoman": 736,
+            "last_updated": "2024-11-17T21:33:23.525610"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13749,9 +15788,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1726,
-            "demoman": 796,
-            "last_updated": "2024-11-05T17:14:44.045808"
+            "soldier": 1738,
+            "demoman": 806,
+            "last_updated": "2024-11-17T21:33:23.533612"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13790,9 +15833,15 @@ const maps_json = [
             "demoman": "vQKlU4Qn9KQ"
         },
         "completion_info": {
-            "soldier": 341,
+            "soldier": 342,
             "demoman": 372,
-            "last_updated": "2024-11-05T17:14:44.033808"
+            "last_updated": "2024-11-17T21:33:23.524611"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": []
         }
     },
     {
@@ -13820,9 +15869,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2009,
-            "demoman": 716,
-            "last_updated": "2024-11-05T17:14:44.032809"
+            "soldier": 2022,
+            "demoman": 723,
+            "last_updated": "2024-11-17T21:33:23.545613"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13853,9 +15906,16 @@ const maps_json = [
             "demoman": "TZP09G1_CHk"
         },
         "completion_info": {
-            "soldier": 896,
-            "demoman": 133,
-            "last_updated": "2024-11-05T17:14:44.048807"
+            "soldier": 898,
+            "demoman": 134,
+            "last_updated": "2024-11-17T21:33:23.544610"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Lim Ammo",
+                "Pogo"
+            ]
         }
     },
     {
@@ -13884,9 +15944,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1026,
-            "demoman": 488,
-            "last_updated": "2024-11-05T17:14:44.014805"
+            "soldier": 1030,
+            "demoman": 491,
+            "last_updated": "2024-11-17T21:33:23.545613"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13918,9 +15982,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 923,
-            "demoman": 466,
-            "last_updated": "2024-11-05T17:14:44.061807"
+            "soldier": 926,
+            "demoman": 467,
+            "last_updated": "2024-11-17T21:33:23.546612"
+        },
+        "class_tech": {
+            "soldier": [
+                "Buttons"
+            ],
+            "demoman": [
+                "Buttons"
+            ]
         }
     },
     {
@@ -13952,9 +16024,13 @@ const maps_json = [
             "demoman": "Te-9-Hk4lNw"
         },
         "completion_info": {
-            "soldier": 1647,
-            "demoman": 922,
-            "last_updated": "2024-11-05T17:14:45.405233"
+            "soldier": 1654,
+            "demoman": 925,
+            "last_updated": "2024-11-17T21:33:24.986723"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -13985,9 +16061,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1441,
-            "demoman": 1095,
-            "last_updated": "2024-11-05T17:14:45.413232"
+            "soldier": 1453,
+            "demoman": 1098,
+            "last_updated": "2024-11-17T21:33:24.972723"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14016,9 +16096,13 @@ const maps_json = [
             "demoman": "XqU4LOBFGus"
         },
         "completion_info": {
-            "soldier": 874,
-            "demoman": 529,
-            "last_updated": "2024-11-05T17:14:45.381996"
+            "soldier": 878,
+            "demoman": 530,
+            "last_updated": "2024-11-17T21:33:24.973723"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14052,8 +16136,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 189,
-            "demoman": 162,
-            "last_updated": "2024-11-05T17:14:45.414233"
+            "demoman": 164,
+            "last_updated": "2024-11-17T21:33:24.969724"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14085,9 +16177,17 @@ const maps_json = [
             "demoman": "_VbiFWehM5k"
         },
         "completion_info": {
-            "soldier": 198,
+            "soldier": 199,
             "demoman": 106,
-            "last_updated": "2024-11-05T17:14:45.397994"
+            "last_updated": "2024-11-17T21:33:24.966414"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14120,9 +16220,17 @@ const maps_json = [
             "demoman": "W8ImOZ6_88k"
         },
         "completion_info": {
-            "soldier": 1946,
+            "soldier": 1949,
             "demoman": 225,
-            "last_updated": "2024-11-05T17:14:45.388995"
+            "last_updated": "2024-11-17T21:33:24.992725"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14153,9 +16261,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1177,
-            "demoman": 669,
-            "last_updated": "2024-11-05T17:14:45.438232"
+            "soldier": 1180,
+            "demoman": 670,
+            "last_updated": "2024-11-17T21:33:24.986723"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14186,9 +16298,17 @@ const maps_json = [
             "demoman": "XB7bL9c_ZQY"
         },
         "completion_info": {
-            "soldier": 926,
-            "demoman": 473,
-            "last_updated": "2024-11-05T17:14:45.432231"
+            "soldier": 931,
+            "demoman": 476,
+            "last_updated": "2024-11-17T21:33:24.985725"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14220,8 +16340,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 490,
-            "demoman": 352,
-            "last_updated": "2024-11-05T17:14:47.767821"
+            "demoman": 353,
+            "last_updated": "2024-11-17T21:33:26.692434"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14255,9 +16383,17 @@ const maps_json = [
             "demoman": "9gItIOlrls0"
         },
         "completion_info": {
-            "soldier": 818,
-            "demoman": 299,
-            "last_updated": "2024-11-05T17:14:47.749822"
+            "soldier": 825,
+            "demoman": 300,
+            "last_updated": "2024-11-17T21:33:26.726433"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14288,9 +16424,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2067,
-            "demoman": 908,
-            "last_updated": "2024-11-05T17:14:47.733823"
+            "soldier": 2082,
+            "demoman": 912,
+            "last_updated": "2024-11-17T21:33:26.717435"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14322,9 +16462,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4946,
-            "demoman": 1824,
-            "last_updated": "2024-11-05T17:14:47.783820"
+            "soldier": 4955,
+            "demoman": 1826,
+            "last_updated": "2024-11-17T21:33:26.723435"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14353,9 +16497,17 @@ const maps_json = [
             "demoman": "JRnKB3y2-aM"
         },
         "completion_info": {
-            "soldier": 1076,
-            "demoman": 656,
-            "last_updated": "2024-11-05T17:14:47.770820"
+            "soldier": 1081,
+            "demoman": 658,
+            "last_updated": "2024-11-17T21:33:26.725432"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14384,9 +16536,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1052,
-            "demoman": 680,
-            "last_updated": "2024-11-05T17:14:47.714447"
+            "soldier": 1060,
+            "demoman": 682,
+            "last_updated": "2024-11-17T21:33:26.719433"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14417,9 +16573,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1644,
+            "soldier": 1646,
             "demoman": 730,
-            "last_updated": "2024-11-05T17:14:47.744823"
+            "last_updated": "2024-11-17T21:33:26.718435"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14458,9 +16618,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4030,
-            "demoman": 1430,
-            "last_updated": "2024-11-05T17:14:47.767821"
+            "soldier": 4049,
+            "demoman": 1431,
+            "last_updated": "2024-11-17T21:33:26.719433"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -14492,9 +16658,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1449,
-            "demoman": 648,
-            "last_updated": "2024-11-05T17:14:49.454747"
+            "soldier": 1452,
+            "demoman": 649,
+            "last_updated": "2024-11-17T21:33:28.380622"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14527,9 +16697,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 52,
-            "demoman": 117,
-            "last_updated": "2024-11-05T17:14:49.436747"
+            "soldier": 53,
+            "demoman": 120,
+            "last_updated": "2024-11-17T21:33:28.375622"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14558,9 +16736,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 672,
-            "demoman": 283,
-            "last_updated": "2024-11-05T17:14:49.453746"
+            "soldier": 676,
+            "demoman": 285,
+            "last_updated": "2024-11-17T21:33:28.379623"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14591,9 +16773,17 @@ const maps_json = [
             "demoman": "tCIy4SOrbMQ"
         },
         "completion_info": {
-            "soldier": 455,
-            "demoman": 218,
-            "last_updated": "2024-11-05T17:14:49.435748"
+            "soldier": 456,
+            "demoman": 220,
+            "last_updated": "2024-11-17T21:33:28.370623"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14622,9 +16812,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1277,
+            "soldier": 1278,
             "demoman": 548,
-            "last_updated": "2024-11-05T17:14:49.467747"
+            "last_updated": "2024-11-17T21:33:28.379623"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14667,8 +16861,17 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 47,
-            "demoman": 130,
-            "last_updated": "2024-11-05T17:14:49.455747"
+            "demoman": 131,
+            "last_updated": "2024-11-17T21:33:28.367622"
+        },
+        "class_tech": {
+            "soldier": [
+                "Phase",
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Phase"
+            ]
         }
     },
     {
@@ -14700,9 +16903,19 @@ const maps_json = [
             "demoman": "_t29SEMw_r8"
         },
         "completion_info": {
-            "soldier": 302,
+            "soldier": 303,
             "demoman": 409,
-            "last_updated": "2024-11-05T17:14:49.454747"
+            "last_updated": "2024-11-17T21:33:28.378623"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Rand Bounce"
+            ],
+            "demoman": [
+                "Pogo",
+                "Airpogo"
+            ]
         }
     },
     {
@@ -14736,9 +16949,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 808,
+            "soldier": 816,
             "demoman": 902,
-            "last_updated": "2024-11-05T17:14:49.455747"
+            "last_updated": "2024-11-17T21:33:28.392501"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14769,9 +16986,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 354,
-            "demoman": 267,
-            "last_updated": "2024-11-05T17:14:50.735661"
+            "soldier": 358,
+            "demoman": 268,
+            "last_updated": "2024-11-17T21:33:29.820325"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot",
+                "Phase"
+            ],
+            "demoman": []
         }
     },
     {
@@ -14805,9 +17029,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 937,
-            "demoman": 452,
-            "last_updated": "2024-11-05T17:14:50.759662"
+            "soldier": 957,
+            "demoman": 460,
+            "last_updated": "2024-11-17T21:33:29.820325"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14838,9 +17066,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3738,
-            "demoman": 2208,
-            "last_updated": "2024-11-05T17:14:50.794661"
+            "soldier": 3778,
+            "demoman": 2213,
+            "last_updated": "2024-11-17T21:33:29.865568"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -14873,9 +17109,13 @@ const maps_json = [
             "demoman": "1fHlBbEhvFI"
         },
         "completion_info": {
-            "soldier": 1508,
-            "demoman": 374,
-            "last_updated": "2024-11-05T17:14:50.748662"
+            "soldier": 1510,
+            "demoman": 375,
+            "last_updated": "2024-11-17T21:33:29.830568"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14907,8 +17147,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 470,
-            "demoman": 225,
-            "last_updated": "2024-11-05T17:14:50.747662"
+            "demoman": 226,
+            "last_updated": "2024-11-17T21:33:29.841569"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -14939,9 +17183,18 @@ const maps_json = [
             "demoman": "EPve1COxhAo"
         },
         "completion_info": {
-            "soldier": 475,
-            "demoman": 273,
-            "last_updated": "2024-11-05T17:14:50.731661"
+            "soldier": 477,
+            "demoman": 275,
+            "last_updated": "2024-11-17T21:33:29.829569"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Jank",
+                "Pogo"
+            ]
         }
     },
     {
@@ -14970,9 +17223,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 850,
-            "demoman": 661,
-            "last_updated": "2024-11-05T17:14:50.748662"
+            "soldier": 852,
+            "demoman": 662,
+            "last_updated": "2024-11-17T21:33:29.830568"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15004,9 +17261,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 962,
-            "demoman": 496,
-            "last_updated": "2024-11-05T17:14:50.772660"
+            "soldier": 963,
+            "demoman": 498,
+            "last_updated": "2024-11-17T21:33:29.842567"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15044,7 +17305,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 74,
             "demoman": 397,
-            "last_updated": "2024-11-05T17:14:52.104785"
+            "last_updated": "2024-11-17T21:33:31.264519"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -15077,9 +17344,13 @@ const maps_json = [
             "demoman": "8zFhvcrPxNE"
         },
         "completion_info": {
-            "soldier": 431,
-            "demoman": 249,
-            "last_updated": "2024-11-05T17:14:52.087783"
+            "soldier": 432,
+            "demoman": 252,
+            "last_updated": "2024-11-17T21:33:31.288521"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15108,9 +17379,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 894,
-            "demoman": 564,
-            "last_updated": "2024-11-05T17:14:52.117786"
+            "soldier": 899,
+            "demoman": 570,
+            "last_updated": "2024-11-17T21:33:31.275519"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -15141,9 +17418,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1053,
+            "soldier": 1056,
             "demoman": 673,
-            "last_updated": "2024-11-05T17:14:52.095786"
+            "last_updated": "2024-11-17T21:33:31.269519"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15175,9 +17456,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2122,
-            "demoman": 1143,
-            "last_updated": "2024-11-05T17:14:52.104785"
+            "soldier": 2128,
+            "demoman": 1147,
+            "last_updated": "2024-11-17T21:33:31.287519"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15206,9 +17491,13 @@ const maps_json = [
             "demoman": "_rsyq6JBHOY"
         },
         "completion_info": {
-            "soldier": 828,
-            "demoman": 924,
-            "last_updated": "2024-11-05T17:14:52.110786"
+            "soldier": 837,
+            "demoman": 925,
+            "last_updated": "2024-11-17T21:33:31.287519"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15237,9 +17526,13 @@ const maps_json = [
             "demoman": "FzJopExkRFY"
         },
         "completion_info": {
-            "soldier": 626,
-            "demoman": 399,
-            "last_updated": "2024-11-05T17:14:52.108786"
+            "soldier": 631,
+            "demoman": 403,
+            "last_updated": "2024-11-17T21:33:31.273522"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15271,9 +17564,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1430,
-            "demoman": 1008,
-            "last_updated": "2024-11-05T17:14:52.094788"
+            "soldier": 1433,
+            "demoman": 1009,
+            "last_updated": "2024-11-17T21:33:31.286518"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15304,9 +17601,13 @@ const maps_json = [
             "demoman": "0C9SPA6o_VU"
         },
         "completion_info": {
-            "soldier": 2924,
-            "demoman": 1082,
-            "last_updated": "2024-11-05T17:14:53.478570"
+            "soldier": 2944,
+            "demoman": 1089,
+            "last_updated": "2024-11-17T21:33:32.726457"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15337,9 +17638,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2450,
-            "demoman": 1331,
-            "last_updated": "2024-11-05T17:14:53.462762"
+            "soldier": 2454,
+            "demoman": 1335,
+            "last_updated": "2024-11-17T21:33:32.725457"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15370,9 +17675,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 930,
-            "demoman": 340,
-            "last_updated": "2024-11-05T17:14:53.461763"
+            "soldier": 944,
+            "demoman": 341,
+            "last_updated": "2024-11-17T21:33:32.692456"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -15404,9 +17715,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4871,
-            "demoman": 1553,
-            "last_updated": "2024-11-05T17:14:53.521569"
+            "soldier": 4889,
+            "demoman": 1557,
+            "last_updated": "2024-11-17T21:33:32.737657"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15435,9 +17750,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1119,
-            "demoman": 523,
-            "last_updated": "2024-11-05T17:14:53.445757"
+            "soldier": 1121,
+            "demoman": 524,
+            "last_updated": "2024-11-17T21:33:32.728457"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15466,9 +17785,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 650,
-            "demoman": 259,
-            "last_updated": "2024-11-05T17:14:53.475572"
+            "soldier": 656,
+            "demoman": 260,
+            "last_updated": "2024-11-17T21:33:32.700456"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -15497,9 +17822,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 161,
-            "demoman": 94,
-            "last_updated": "2024-11-05T17:14:53.478570"
+            "soldier": 165,
+            "demoman": 97,
+            "last_updated": "2024-11-17T21:33:32.710457"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -15530,9 +17863,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 587,
+            "soldier": 610,
             "demoman": 355,
-            "last_updated": "2024-11-05T17:14:53.474570"
+            "last_updated": "2024-11-17T21:33:32.726457"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -15561,9 +17900,17 @@ const maps_json = [
             "demoman": "4vJepoiW5Is"
         },
         "completion_info": {
-            "soldier": 277,
+            "soldier": 279,
             "demoman": 297,
-            "last_updated": "2024-11-05T17:14:54.747698"
+            "last_updated": "2024-11-17T21:33:34.167074"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -15592,9 +17939,17 @@ const maps_json = [
             "demoman": "WgRvOFKZ3rM"
         },
         "completion_info": {
-            "soldier": 590,
+            "soldier": 591,
             "demoman": 338,
-            "last_updated": "2024-11-05T17:14:54.764696"
+            "last_updated": "2024-11-17T21:33:34.154075"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -15688,9 +18043,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1421,
+            "soldier": 1428,
             "demoman": 319,
-            "last_updated": "2024-11-05T17:14:54.763695"
+            "last_updated": "2024-11-17T21:33:34.154075"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15725,8 +18084,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 204,
-            "demoman": 97,
-            "last_updated": "2024-11-05T17:14:54.731693"
+            "demoman": 98,
+            "last_updated": "2024-11-17T21:33:34.155076"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15756,9 +18119,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 533,
-            "demoman": 513,
-            "last_updated": "2024-11-05T17:14:54.757698"
+            "soldier": 534,
+            "demoman": 514,
+            "last_updated": "2024-11-17T21:33:34.161074"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15790,9 +18157,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 599,
+            "soldier": 601,
             "demoman": 176,
-            "last_updated": "2024-11-05T17:14:54.749696"
+            "last_updated": "2024-11-17T21:33:34.180075"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Gimmick"
+            ]
         }
     },
     {
@@ -15821,9 +18196,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 972,
-            "demoman": 496,
-            "last_updated": "2024-11-05T17:14:54.748696"
+            "soldier": 973,
+            "demoman": 497,
+            "last_updated": "2024-11-17T21:33:34.153077"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -15854,9 +18237,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 512,
+            "soldier": 513,
             "demoman": 358,
-            "last_updated": "2024-11-05T17:14:54.748696"
+            "last_updated": "2024-11-17T21:33:34.134079"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15886,8 +18273,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 930,
-            "demoman": 454,
-            "last_updated": "2024-11-05T17:14:56.023583"
+            "demoman": 455,
+            "last_updated": "2024-11-17T21:33:35.601019"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -15919,9 +18312,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1611,
+            "soldier": 1616,
             "demoman": 674,
-            "last_updated": "2024-11-05T17:14:56.050589"
+            "last_updated": "2024-11-17T21:33:35.593319"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15954,9 +18351,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 954,
-            "demoman": 538,
-            "last_updated": "2024-11-05T17:14:56.026589"
+            "soldier": 957,
+            "demoman": 540,
+            "last_updated": "2024-11-17T21:33:35.578327"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -15985,9 +18386,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5390,
-            "demoman": 2238,
-            "last_updated": "2024-11-05T17:14:56.089587"
+            "soldier": 5399,
+            "demoman": 2239,
+            "last_updated": "2024-11-17T21:33:35.634529"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16018,9 +18423,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 6989,
-            "demoman": 1954,
-            "last_updated": "2024-11-05T17:14:56.089587"
+            "soldier": 7008,
+            "demoman": 1957,
+            "last_updated": "2024-11-17T21:33:35.664525"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16049,9 +18458,17 @@ const maps_json = [
             "demoman": "h6RSHCLGwmg"
         },
         "completion_info": {
-            "soldier": 422,
+            "soldier": 423,
             "demoman": 330,
-            "last_updated": "2024-11-05T17:14:56.026589"
+            "last_updated": "2024-11-17T21:33:35.569320"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -16081,9 +18498,19 @@ const maps_json = [
             "demoman": "sK9zRnNMw0w"
         },
         "completion_info": {
-            "soldier": 1459,
-            "demoman": 246,
-            "last_updated": "2024-11-05T17:14:56.045588"
+            "soldier": 1466,
+            "demoman": 247,
+            "last_updated": "2024-11-17T21:33:35.614019"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick",
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo",
+                "Pogo"
+            ]
         }
     },
     {
@@ -16112,9 +18539,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 616,
-            "demoman": 353,
-            "last_updated": "2024-11-05T17:14:56.041589"
+            "soldier": 617,
+            "demoman": 354,
+            "last_updated": "2024-11-17T21:33:35.592319"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16146,9 +18577,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1832,
-            "demoman": 864,
-            "last_updated": "2024-11-05T17:14:57.349388"
+            "soldier": 1841,
+            "demoman": 866,
+            "last_updated": "2024-11-17T21:33:37.024627"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16177,9 +18612,15 @@ const maps_json = [
             "demoman": "NOOIWDRlOt8"
         },
         "completion_info": {
-            "soldier": 520,
-            "demoman": 414,
-            "last_updated": "2024-11-05T17:14:57.345389"
+            "soldier": 523,
+            "demoman": 420,
+            "last_updated": "2024-11-17T21:33:37.007626"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -16210,9 +18651,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 999,
-            "demoman": 471,
-            "last_updated": "2024-11-05T17:14:57.327323"
+            "soldier": 1004,
+            "demoman": 473,
+            "last_updated": "2024-11-17T21:33:37.025627"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16252,8 +18697,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 440,
-            "demoman": 350,
-            "last_updated": "2024-11-05T17:14:57.328320"
+            "demoman": 353,
+            "last_updated": "2024-11-17T21:33:37.023627"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -16289,9 +18742,17 @@ const maps_json = [
             "demoman": "fKIE-ZDre44"
         },
         "completion_info": {
-            "soldier": 247,
+            "soldier": 250,
             "demoman": 205,
-            "last_updated": "2024-11-05T17:14:57.336319"
+            "last_updated": "2024-11-17T21:33:37.004514"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -16332,9 +18793,17 @@ const maps_json = [
             "demoman": "-eiiekbCR2c"
         },
         "completion_info": {
-            "soldier": 444,
-            "demoman": 215,
-            "last_updated": "2024-11-05T17:14:57.331319"
+            "soldier": 448,
+            "demoman": 217,
+            "last_updated": "2024-11-17T21:33:37.029626"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -16363,9 +18832,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 695,
-            "demoman": 402,
-            "last_updated": "2024-11-05T17:14:57.334319"
+            "soldier": 703,
+            "demoman": 407,
+            "last_updated": "2024-11-17T21:33:37.025627"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16394,9 +18867,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1177,
+            "soldier": 1185,
             "demoman": 517,
-            "last_updated": "2024-11-05T17:14:57.349388"
+            "last_updated": "2024-11-17T21:33:37.051132"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16427,9 +18904,17 @@ const maps_json = [
             "demoman": "C7199qSD1FE"
         },
         "completion_info": {
-            "soldier": 667,
-            "demoman": 538,
-            "last_updated": "2024-11-05T17:14:58.625692"
+            "soldier": 668,
+            "demoman": 540,
+            "last_updated": "2024-11-17T21:33:38.470337"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -16460,9 +18945,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2168,
-            "demoman": 864,
-            "last_updated": "2024-11-05T17:14:58.648692"
+            "soldier": 2178,
+            "demoman": 865,
+            "last_updated": "2024-11-17T21:33:38.480337"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16491,9 +18980,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2060,
-            "demoman": 1007,
-            "last_updated": "2024-11-05T17:14:58.642692"
+            "soldier": 2063,
+            "demoman": 1008,
+            "last_updated": "2024-11-17T21:33:38.486336"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "3pre"
+            ]
         }
     },
     {
@@ -16523,9 +19020,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 496,
-            "demoman": 362,
-            "last_updated": "2024-11-05T17:14:58.642692"
+            "soldier": 505,
+            "demoman": 363,
+            "last_updated": "2024-11-17T21:33:38.481336"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16556,9 +19057,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 756,
-            "demoman": 490,
-            "last_updated": "2024-11-05T17:14:58.650690"
+            "soldier": 760,
+            "demoman": 492,
+            "last_updated": "2024-11-17T21:33:38.488336"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16592,7 +19097,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 613,
             "demoman": 330,
-            "last_updated": "2024-11-05T17:14:58.627693"
+            "last_updated": "2024-11-17T21:33:38.461336"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16623,9 +19132,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 606,
-            "demoman": 327,
-            "last_updated": "2024-11-05T17:14:58.643692"
+            "soldier": 612,
+            "demoman": 331,
+            "last_updated": "2024-11-17T21:33:38.462337"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -16654,9 +19169,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3766,
-            "demoman": 1483,
-            "last_updated": "2024-11-05T17:14:58.687691"
+            "soldier": 3776,
+            "demoman": 1485,
+            "last_updated": "2024-11-17T21:33:38.486336"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16685,9 +19204,17 @@ const maps_json = [
             "demoman": "qafAt5vSkqg"
         },
         "completion_info": {
-            "soldier": 504,
-            "demoman": 306,
-            "last_updated": "2024-11-05T17:14:59.913029"
+            "soldier": 508,
+            "demoman": 308,
+            "last_updated": "2024-11-17T21:33:39.894936"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -16718,7 +19245,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 472,
             "demoman": 226,
-            "last_updated": "2024-11-05T17:14:59.913029"
+            "last_updated": "2024-11-17T21:33:39.894936"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -16752,9 +19287,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 751,
-            "demoman": 598,
-            "last_updated": "2024-11-05T17:14:59.929374"
+            "soldier": 752,
+            "demoman": 599,
+            "last_updated": "2024-11-17T21:33:39.885933"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16785,9 +19324,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 738,
+            "soldier": 746,
             "demoman": 331,
-            "last_updated": "2024-11-05T17:14:59.937376"
+            "last_updated": "2024-11-17T21:33:39.913185"
+        },
+        "class_tech": {
+            "soldier": [
+                "Phase"
+            ],
+            "demoman": []
         }
     },
     {
@@ -16818,9 +19363,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1930,
-            "demoman": 788,
-            "last_updated": "2024-11-05T17:14:59.945407"
+            "soldier": 1931,
+            "demoman": 789,
+            "last_updated": "2024-11-17T21:33:39.906192"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16850,9 +19399,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 695,
-            "demoman": 513,
-            "last_updated": "2024-11-05T17:14:59.945407"
+            "soldier": 700,
+            "demoman": 515,
+            "last_updated": "2024-11-17T21:33:39.906192"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16883,9 +19436,13 @@ const maps_json = [
             "demoman": "0vJbBcjEpo8"
         },
         "completion_info": {
-            "soldier": 1283,
-            "demoman": 913,
-            "last_updated": "2024-11-05T17:14:59.936377"
+            "soldier": 1284,
+            "demoman": 915,
+            "last_updated": "2024-11-17T21:33:39.907185"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16916,9 +19473,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3140,
-            "demoman": 842,
-            "last_updated": "2024-11-05T17:14:59.974951"
+            "soldier": 3150,
+            "demoman": 843,
+            "last_updated": "2024-11-17T21:33:39.931184"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16947,9 +19508,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 942,
-            "demoman": 447,
-            "last_updated": "2024-11-05T17:15:01.219707"
+            "soldier": 962,
+            "demoman": 454,
+            "last_updated": "2024-11-17T21:33:41.315942"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -16980,9 +19545,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 637,
+            "soldier": 641,
             "demoman": 493,
-            "last_updated": "2024-11-05T17:15:01.217707"
+            "last_updated": "2024-11-17T21:33:41.312941"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17016,7 +19585,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 586,
             "demoman": 587,
-            "last_updated": "2024-11-05T17:15:01.213486"
+            "last_updated": "2024-11-17T21:33:41.311942"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -17047,9 +19622,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 729,
-            "demoman": 385,
-            "last_updated": "2024-11-05T17:15:01.245303"
+            "soldier": 739,
+            "demoman": 387,
+            "last_updated": "2024-11-17T21:33:41.314941"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -17082,9 +19663,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 264,
-            "demoman": 365,
-            "last_updated": "2024-11-05T17:15:01.230303"
+            "soldier": 268,
+            "demoman": 367,
+            "last_updated": "2024-11-17T21:33:41.319941"
+        },
+        "class_tech": {
+            "soldier": [
+                "Strafe"
+            ],
+            "demoman": []
         }
     },
     {
@@ -17117,8 +19704,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 144,
-            "demoman": 275,
-            "last_updated": "2024-11-05T17:15:01.213486"
+            "demoman": 276,
+            "last_updated": "2024-11-17T21:33:41.321941"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -17149,9 +19742,13 @@ const maps_json = [
             "demoman": "kx4LG76Teko"
         },
         "completion_info": {
-            "soldier": 534,
-            "demoman": 251,
-            "last_updated": "2024-11-05T17:15:01.230303"
+            "soldier": 538,
+            "demoman": 255,
+            "last_updated": "2024-11-17T21:33:41.332942"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17180,9 +19777,15 @@ const maps_json = [
             "demoman": "54pExF5ayUw"
         },
         "completion_info": {
-            "soldier": 954,
-            "demoman": 992,
-            "last_updated": "2024-11-05T17:15:01.231306"
+            "soldier": 956,
+            "demoman": 993,
+            "last_updated": "2024-11-17T21:33:41.332942"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "3pre"
+            ]
         }
     },
     {
@@ -17217,7 +19820,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 1516,
             "demoman": 547,
-            "last_updated": "2024-11-05T17:15:02.518358"
+            "last_updated": "2024-11-17T21:33:42.856368"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17303,9 +19910,13 @@ const maps_json = [
             "demoman": "GqMUu60NLiY"
         },
         "completion_info": {
-            "soldier": 541,
-            "demoman": 352,
-            "last_updated": "2024-11-05T17:15:02.504342"
+            "soldier": 542,
+            "demoman": 355,
+            "last_updated": "2024-11-17T21:33:42.845042"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17336,9 +19947,15 @@ const maps_json = [
             "demoman": "Z5H3YpmbR-0"
         },
         "completion_info": {
-            "soldier": 1094,
+            "soldier": 1098,
             "demoman": 28,
-            "last_updated": "2024-11-05T17:15:02.518358"
+            "last_updated": "2024-11-17T21:33:42.856368"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -17368,9 +19985,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4485,
+            "soldier": 4495,
             "demoman": 1275,
-            "last_updated": "2024-11-05T17:15:02.559893"
+            "last_updated": "2024-11-17T21:33:42.881367"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17401,7 +20022,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 96,
             "demoman": 155,
-            "last_updated": "2024-11-05T17:15:02.498343"
+            "last_updated": "2024-11-17T21:33:42.838041"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17432,9 +20057,17 @@ const maps_json = [
             "demoman": "s0m5snPLuYg"
         },
         "completion_info": {
-            "soldier": 118,
+            "soldier": 119,
             "demoman": 58,
-            "last_updated": "2024-11-05T17:15:02.514342"
+            "last_updated": "2024-11-17T21:33:42.836039"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -17465,9 +20098,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3536,
-            "demoman": 1253,
-            "last_updated": "2024-11-05T17:15:02.560893"
+            "soldier": 3551,
+            "demoman": 1254,
+            "last_updated": "2024-11-17T21:33:42.881367"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17498,9 +20135,13 @@ const maps_json = [
             "demoman": "sDp4QGeJesM"
         },
         "completion_info": {
-            "soldier": 615,
-            "demoman": 573,
-            "last_updated": "2024-11-05T17:15:02.529893"
+            "soldier": 616,
+            "demoman": 576,
+            "last_updated": "2024-11-17T21:33:42.842042"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17530,8 +20171,18 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 439,
-            "demoman": 494,
-            "last_updated": "2024-11-05T17:15:03.803242"
+            "demoman": 495,
+            "last_updated": "2024-11-17T21:33:44.272642"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Jank"
+            ],
+            "demoman": [
+                "Pogo",
+                "Airpogo"
+            ]
         }
     },
     {
@@ -17562,9 +20213,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5241,
-            "demoman": 1397,
-            "last_updated": "2024-11-05T17:15:03.829177"
+            "soldier": 5256,
+            "demoman": 1400,
+            "last_updated": "2024-11-17T21:33:44.302837"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17595,9 +20250,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1065,
+            "soldier": 1068,
             "demoman": 589,
-            "last_updated": "2024-11-05T17:15:03.798237"
+            "last_updated": "2024-11-17T21:33:44.267628"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17628,9 +20287,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 806,
-            "demoman": 532,
-            "last_updated": "2024-11-05T17:15:03.814242"
+            "soldier": 813,
+            "demoman": 533,
+            "last_updated": "2024-11-17T21:33:44.291830"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Buttons"
+            ]
         }
     },
     {
@@ -17662,9 +20327,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3964,
+            "soldier": 3974,
             "demoman": 1750,
-            "last_updated": "2024-11-05T17:15:03.860175"
+            "last_updated": "2024-11-17T21:33:44.287829"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -17696,9 +20367,13 @@ const maps_json = [
             "demoman": "RCDXp48kxdE"
         },
         "completion_info": {
-            "soldier": 1819,
-            "demoman": 474,
-            "last_updated": "2024-11-05T17:15:03.832177"
+            "soldier": 1822,
+            "demoman": 479,
+            "last_updated": "2024-11-17T21:33:44.286829"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17739,9 +20414,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2159,
-            "demoman": 1121,
-            "last_updated": "2024-11-05T17:15:03.819239"
+            "soldier": 2162,
+            "demoman": 1123,
+            "last_updated": "2024-11-17T21:33:44.303830"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17770,9 +20449,13 @@ const maps_json = [
             "demoman": "F8Xjb1fHgmw"
         },
         "completion_info": {
-            "soldier": 1229,
-            "demoman": 915,
-            "last_updated": "2024-11-05T17:15:03.800241"
+            "soldier": 1233,
+            "demoman": 916,
+            "last_updated": "2024-11-17T21:33:44.287829"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17805,9 +20488,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 315,
-            "demoman": 371,
-            "last_updated": "2024-11-05T17:15:05.090578"
+            "soldier": 318,
+            "demoman": 372,
+            "last_updated": "2024-11-17T21:33:45.696046"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17838,9 +20525,13 @@ const maps_json = [
             "demoman": "sHQ59vOrkaA"
         },
         "completion_info": {
-            "soldier": 817,
-            "demoman": 394,
-            "last_updated": "2024-11-05T17:15:05.090578"
+            "soldier": 823,
+            "demoman": 395,
+            "last_updated": "2024-11-17T21:33:45.714056"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17869,9 +20560,17 @@ const maps_json = [
             "demoman": "Nbk18m0WnMM"
         },
         "completion_info": {
-            "soldier": 219,
-            "demoman": 492,
-            "last_updated": "2024-11-05T17:15:05.088576"
+            "soldier": 220,
+            "demoman": 493,
+            "last_updated": "2024-11-17T21:33:45.694049"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -17902,9 +20601,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1182,
-            "demoman": 567,
-            "last_updated": "2024-11-05T17:15:05.108576"
+            "soldier": 1184,
+            "demoman": 568,
+            "last_updated": "2024-11-17T21:33:45.715053"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17933,9 +20636,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1370,
-            "demoman": 770,
-            "last_updated": "2024-11-05T17:15:05.107577"
+            "soldier": 1386,
+            "demoman": 776,
+            "last_updated": "2024-11-17T21:33:45.714056"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17966,9 +20673,13 @@ const maps_json = [
             "demoman": "oe30xebWljo"
         },
         "completion_info": {
-            "soldier": 914,
-            "demoman": 272,
-            "last_updated": "2024-11-05T17:15:05.107577"
+            "soldier": 922,
+            "demoman": 274,
+            "last_updated": "2024-11-17T21:33:45.703048"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -17999,9 +20710,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1334,
-            "demoman": 474,
-            "last_updated": "2024-11-05T17:15:05.108576"
+            "soldier": 1346,
+            "demoman": 475,
+            "last_updated": "2024-11-17T21:33:45.715053"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18030,9 +20745,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 514,
-            "demoman": 258,
-            "last_updated": "2024-11-05T17:15:05.106576"
+            "soldier": 521,
+            "demoman": 261,
+            "last_updated": "2024-11-17T21:33:45.698046"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -18061,9 +20782,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 995,
-            "demoman": 857,
-            "last_updated": "2024-11-05T17:15:06.586574"
+            "soldier": 1001,
+            "demoman": 858,
+            "last_updated": "2024-11-17T21:33:47.126653"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18094,9 +20819,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 876,
-            "demoman": 907,
-            "last_updated": "2024-11-05T17:15:06.587574"
+            "soldier": 898,
+            "demoman": 915,
+            "last_updated": "2024-11-17T21:33:47.121652"
+        },
+        "class_tech": {
+            "soldier": [
+                "Speedshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -18132,9 +20863,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 678,
-            "demoman": 470,
-            "last_updated": "2024-11-05T17:15:06.568574"
+            "soldier": 688,
+            "demoman": 472,
+            "last_updated": "2024-11-17T21:33:47.117682"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18164,9 +20899,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 537,
+            "soldier": 538,
             "demoman": 486,
-            "last_updated": "2024-11-05T17:15:06.587574"
+            "last_updated": "2024-11-17T21:33:47.138651"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18195,9 +20934,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 884,
-            "demoman": 627,
-            "last_updated": "2024-11-05T17:15:06.602574"
+            "soldier": 885,
+            "demoman": 629,
+            "last_updated": "2024-11-17T21:33:47.138651"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -18228,9 +20973,17 @@ const maps_json = [
             "demoman": "vt3-YIsALIM"
         },
         "completion_info": {
-            "soldier": 530,
-            "demoman": 232,
-            "last_updated": "2024-11-05T17:15:06.571576"
+            "soldier": 536,
+            "demoman": 233,
+            "last_updated": "2024-11-17T21:33:47.139651"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -18261,9 +21014,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 440,
-            "demoman": 139,
-            "last_updated": "2024-11-05T17:15:06.586574"
+            "soldier": 459,
+            "demoman": 143,
+            "last_updated": "2024-11-17T21:33:47.127651"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Phase",
+                "Pogo"
+            ]
         }
     },
     {
@@ -18294,9 +21054,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2328,
-            "demoman": 782,
-            "last_updated": "2024-11-05T17:15:06.618573"
+            "soldier": 2346,
+            "demoman": 787,
+            "last_updated": "2024-11-17T21:33:47.140658"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18329,7 +21093,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 0,
             "demoman": 372,
-            "last_updated": "2024-11-05T17:15:07.974439"
+            "last_updated": "2024-11-17T21:33:48.562557"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18361,9 +21129,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2956,
-            "demoman": 1249,
-            "last_updated": "2024-11-05T17:15:08.015437"
+            "soldier": 2962,
+            "demoman": 1250,
+            "last_updated": "2024-11-17T21:33:48.564661"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18392,9 +21164,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 286,
-            "demoman": 291,
-            "last_updated": "2024-11-05T17:15:08.002438"
+            "soldier": 287,
+            "demoman": 292,
+            "last_updated": "2024-11-17T21:33:48.544556"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": []
         }
     },
     {
@@ -18425,9 +21203,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 192,
-            "demoman": 289,
-            "last_updated": "2024-11-05T17:15:07.977438"
+            "soldier": 194,
+            "demoman": 290,
+            "last_updated": "2024-11-17T21:33:48.543557"
+        },
+        "class_tech": {
+            "soldier": [
+                "Bounce"
+            ],
+            "demoman": []
         }
     },
     {
@@ -18458,9 +21242,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3515,
-            "demoman": 2369,
-            "last_updated": "2024-11-05T17:15:08.016445"
+            "soldier": 3519,
+            "demoman": 2370,
+            "last_updated": "2024-11-17T21:33:48.589664"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18491,9 +21279,13 @@ const maps_json = [
             "demoman": "2PeXu1Nfs0s"
         },
         "completion_info": {
-            "soldier": 1055,
-            "demoman": 862,
-            "last_updated": "2024-11-05T17:15:07.999437"
+            "soldier": 1058,
+            "demoman": 868,
+            "last_updated": "2024-11-17T21:33:48.568668"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18524,9 +21316,13 @@ const maps_json = [
             "demoman": "hXptvEULBr0"
         },
         "completion_info": {
-            "soldier": 864,
-            "demoman": 597,
-            "last_updated": "2024-11-05T17:15:08.004438"
+            "soldier": 867,
+            "demoman": 600,
+            "last_updated": "2024-11-17T21:33:48.563556"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18560,9 +21356,13 @@ const maps_json = [
             "demoman": "aT-qJFhnBRE"
         },
         "completion_info": {
-            "soldier": 1045,
-            "demoman": 592,
-            "last_updated": "2024-11-05T17:15:07.991437"
+            "soldier": 1046,
+            "demoman": 593,
+            "last_updated": "2024-11-17T21:33:48.563556"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18591,9 +21391,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 742,
-            "demoman": 338,
-            "last_updated": "2024-11-05T17:15:09.314528"
+            "soldier": 757,
+            "demoman": 341,
+            "last_updated": "2024-11-17T21:33:49.976655"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -18625,9 +21431,17 @@ const maps_json = [
             "demoman": "xE4mgXHkKRk"
         },
         "completion_info": {
-            "soldier": 1861,
-            "demoman": 1160,
-            "last_updated": "2024-11-05T17:15:09.330537"
+            "soldier": 1865,
+            "demoman": 1162,
+            "last_updated": "2024-11-17T21:33:49.988105"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -18659,9 +21473,17 @@ const maps_json = [
             "demoman": "w8ZRgEqaWis"
         },
         "completion_info": {
-            "soldier": 355,
-            "demoman": 458,
-            "last_updated": "2024-11-05T17:15:09.331529"
+            "soldier": 358,
+            "demoman": 461,
+            "last_updated": "2024-11-17T21:33:49.989103"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -18691,9 +21513,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 446,
-            "demoman": 315,
-            "last_updated": "2024-11-05T17:15:09.312525"
+            "soldier": 453,
+            "demoman": 317,
+            "last_updated": "2024-11-17T21:33:49.977655"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18724,9 +21550,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 52,
-            "demoman": 165,
-            "last_updated": "2024-11-05T17:15:09.318530"
+            "soldier": 54,
+            "demoman": 166,
+            "last_updated": "2024-11-17T21:33:49.966651"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -18757,9 +21589,13 @@ const maps_json = [
             "demoman": "ca9DdXg5iZk"
         },
         "completion_info": {
-            "soldier": 838,
-            "demoman": 539,
-            "last_updated": "2024-11-05T17:15:09.331529"
+            "soldier": 846,
+            "demoman": 540,
+            "last_updated": "2024-11-17T21:33:49.988105"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18788,9 +21624,13 @@ const maps_json = [
             "demoman": "OusoeEhxjDo"
         },
         "completion_info": {
-            "soldier": 662,
+            "soldier": 663,
             "demoman": 704,
-            "last_updated": "2024-11-05T17:15:09.314528"
+            "last_updated": "2024-11-17T21:33:49.990105"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18821,9 +21661,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 806,
-            "demoman": 524,
-            "last_updated": "2024-11-05T17:15:09.329528"
+            "soldier": 813,
+            "demoman": 528,
+            "last_updated": "2024-11-17T21:33:49.987099"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18856,9 +21700,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1747,
-            "demoman": 839,
-            "last_updated": "2024-11-05T17:15:10.622935"
+            "soldier": 1748,
+            "demoman": 840,
+            "last_updated": "2024-11-17T21:33:51.414401"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18889,9 +21737,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1553,
-            "demoman": 928,
-            "last_updated": "2024-11-05T17:15:10.624924"
+            "soldier": 1567,
+            "demoman": 930,
+            "last_updated": "2024-11-17T21:33:51.407398"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18922,9 +21774,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 760,
-            "demoman": 414,
-            "last_updated": "2024-11-05T17:15:10.606924"
+            "soldier": 763,
+            "demoman": 416,
+            "last_updated": "2024-11-17T21:33:51.405395"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18955,9 +21811,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 9653,
-            "demoman": 3493,
-            "last_updated": "2024-11-05T17:15:10.658922"
+            "soldier": 9674,
+            "demoman": 3495,
+            "last_updated": "2024-11-17T21:33:51.469911"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -18991,7 +21851,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 536,
             "demoman": 483,
-            "last_updated": "2024-11-05T17:15:10.605923"
+            "last_updated": "2024-11-17T21:33:51.429398"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -19020,9 +21888,13 @@ const maps_json = [
             "demoman": "M-H9FcN37b4"
         },
         "completion_info": {
-            "soldier": 549,
-            "demoman": 276,
-            "last_updated": "2024-11-05T17:15:10.623922"
+            "soldier": 555,
+            "demoman": 277,
+            "last_updated": "2024-11-17T21:33:51.425398"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19053,9 +21925,17 @@ const maps_json = [
             "demoman": "QV9QkLBCikA"
         },
         "completion_info": {
-            "soldier": 1337,
-            "demoman": 481,
-            "last_updated": "2024-11-05T17:15:10.639923"
+            "soldier": 1340,
+            "demoman": 482,
+            "last_updated": "2024-11-17T21:33:51.431398"
+        },
+        "class_tech": {
+            "soldier": [
+                "Airstrike"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -19089,9 +21969,15 @@ const maps_json = [
             "demoman": "81t3sNpTpxk"
         },
         "completion_info": {
-            "soldier": 403,
+            "soldier": 406,
             "demoman": 274,
-            "last_updated": "2024-11-05T17:15:10.637922"
+            "last_updated": "2024-11-17T21:33:51.425398"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -19120,9 +22006,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 675,
-            "demoman": 334,
-            "last_updated": "2024-11-05T17:15:11.986216"
+            "soldier": 680,
+            "demoman": 335,
+            "last_updated": "2024-11-17T21:33:52.830574"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19153,9 +22043,17 @@ const maps_json = [
             "demoman": "S9JRZE2Kzgo"
         },
         "completion_info": {
-            "soldier": 593,
+            "soldier": 595,
             "demoman": 484,
-            "last_updated": "2024-11-05T17:15:11.986216"
+            "last_updated": "2024-11-17T21:33:52.829574"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -19186,9 +22084,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 443,
-            "demoman": 500,
-            "last_updated": "2024-11-05T17:15:11.985213"
+            "soldier": 444,
+            "demoman": 501,
+            "last_updated": "2024-11-17T21:33:52.826575"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19219,9 +22121,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3204,
-            "demoman": 975,
-            "last_updated": "2024-11-05T17:15:12.007216"
+            "soldier": 3221,
+            "demoman": 978,
+            "last_updated": "2024-11-17T21:33:52.861356"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -19250,9 +22160,17 @@ const maps_json = [
             "demoman": "GqECx5NTj_s"
         },
         "completion_info": {
-            "soldier": 262,
+            "soldier": 263,
             "demoman": 129,
-            "last_updated": "2024-11-05T17:15:11.989216"
+            "last_updated": "2024-11-17T21:33:52.847356"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -19286,8 +22204,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 253,
-            "demoman": 319,
-            "last_updated": "2024-11-05T17:15:11.991222"
+            "demoman": 322,
+            "last_updated": "2024-11-17T21:33:52.845358"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -19320,9 +22246,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 877,
-            "demoman": 656,
-            "last_updated": "2024-11-05T17:15:12.003216"
+            "soldier": 882,
+            "demoman": 657,
+            "last_updated": "2024-11-17T21:33:52.846356"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19423,9 +22353,13 @@ const maps_json = [
             "demoman": "ykbLK_t9QYg"
         },
         "completion_info": {
-            "soldier": 477,
-            "demoman": 281,
-            "last_updated": "2024-11-05T17:15:11.993217"
+            "soldier": 481,
+            "demoman": 282,
+            "last_updated": "2024-11-17T21:33:52.846356"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19459,9 +22393,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5091,
-            "demoman": 1547,
-            "last_updated": "2024-11-05T17:15:13.380684"
+            "soldier": 5113,
+            "demoman": 1551,
+            "last_updated": "2024-11-17T21:33:54.449615"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": []
         }
     },
     {
@@ -19492,9 +22432,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1654,
+            "soldier": 1660,
             "demoman": 698,
-            "last_updated": "2024-11-05T17:15:13.357460"
+            "last_updated": "2024-11-17T21:33:54.300619"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19525,9 +22469,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5770,
-            "demoman": 1731,
-            "last_updated": "2024-11-05T17:15:13.369457"
+            "soldier": 5782,
+            "demoman": 1734,
+            "last_updated": "2024-11-17T21:33:54.394618"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19556,9 +22504,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3688,
-            "demoman": 2240,
-            "last_updated": "2024-11-05T17:15:13.380684"
+            "soldier": 3693,
+            "demoman": 2241,
+            "last_updated": "2024-11-17T21:33:54.366617"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19591,9 +22543,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 834,
-            "demoman": 434,
-            "last_updated": "2024-11-05T17:15:13.383858"
+            "soldier": 837,
+            "demoman": 436,
+            "last_updated": "2024-11-17T21:33:54.277619"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19625,9 +22581,13 @@ const maps_json = [
             "demoman": "MiDHveEwXxg"
         },
         "completion_info": {
-            "soldier": 807,
-            "demoman": 343,
-            "last_updated": "2024-11-05T17:15:13.340856"
+            "soldier": 813,
+            "demoman": 351,
+            "last_updated": "2024-11-17T21:33:54.339616"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19659,9 +22619,13 @@ const maps_json = [
             "demoman": "2nNXb3FenFY"
         },
         "completion_info": {
-            "soldier": 1261,
+            "soldier": 1264,
             "demoman": 593,
-            "last_updated": "2024-11-05T17:15:13.370458"
+            "last_updated": "2024-11-17T21:33:54.394618"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19692,9 +22656,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 370,
+            "soldier": 373,
             "demoman": 183,
-            "last_updated": "2024-11-05T17:15:13.358459"
+            "last_updated": "2024-11-17T21:33:54.366617"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19723,9 +22691,13 @@ const maps_json = [
             "demoman": "NqsHmvxOWuE"
         },
         "completion_info": {
-            "soldier": 2405,
-            "demoman": 1918,
-            "last_updated": "2024-11-05T17:15:14.651928"
+            "soldier": 2420,
+            "demoman": 1925,
+            "last_updated": "2024-11-17T21:33:55.915472"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19754,9 +22726,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 635,
-            "demoman": 547,
-            "last_updated": "2024-11-05T17:15:14.628925"
+            "soldier": 639,
+            "demoman": 549,
+            "last_updated": "2024-11-17T21:33:55.761885"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19787,9 +22763,16 @@ const maps_json = [
             "demoman": "CSTCcVB6my0"
         },
         "completion_info": {
-            "soldier": 308,
-            "demoman": 404,
-            "last_updated": "2024-11-05T17:15:14.629930"
+            "soldier": 309,
+            "demoman": 405,
+            "last_updated": "2024-11-17T21:33:55.800884"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank",
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -19819,9 +22802,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1566,
-            "demoman": 893,
-            "last_updated": "2024-11-05T17:15:14.630928"
+            "soldier": 1575,
+            "demoman": 895,
+            "last_updated": "2024-11-17T21:33:55.911473"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19852,9 +22839,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 666,
-            "demoman": 552,
-            "last_updated": "2024-11-05T17:15:14.636927"
+            "soldier": 668,
+            "demoman": 556,
+            "last_updated": "2024-11-17T21:33:55.912472"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19885,9 +22876,13 @@ const maps_json = [
             "demoman": "1HRHqu9m7Wk"
         },
         "completion_info": {
-            "soldier": 3520,
-            "demoman": 796,
-            "last_updated": "2024-11-05T17:15:14.646927"
+            "soldier": 3526,
+            "demoman": 798,
+            "last_updated": "2024-11-17T21:33:55.879893"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -19920,9 +22915,18 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1214,
-            "demoman": 659,
-            "last_updated": "2024-11-05T17:15:14.646927"
+            "soldier": 1216,
+            "demoman": 660,
+            "last_updated": "2024-11-17T21:33:55.838883"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical",
+                "Strafe"
+            ],
+            "demoman": [
+                "Strafe"
+            ]
         }
     },
     {
@@ -19956,9 +22960,18 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 382,
+            "soldier": 383,
             "demoman": 395,
-            "last_updated": "2024-11-05T17:15:14.635927"
+            "last_updated": "2024-11-17T21:33:55.758882"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical",
+                "Strafe"
+            ],
+            "demoman": [
+                "Strafe"
+            ]
         }
     },
     {
@@ -19989,9 +23002,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1324,
-            "demoman": 581,
-            "last_updated": "2024-11-05T17:15:16.010637"
+            "soldier": 1330,
+            "demoman": 584,
+            "last_updated": "2024-11-17T21:33:57.587626"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20028,9 +23045,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 956,
-            "demoman": 628,
-            "last_updated": "2024-11-05T17:15:15.995637"
+            "soldier": 963,
+            "demoman": 629,
+            "last_updated": "2024-11-17T21:33:57.767620"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20061,9 +23082,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 167,
+            "soldier": 170,
             "demoman": 442,
-            "last_updated": "2024-11-05T17:15:15.998637"
+            "last_updated": "2024-11-17T21:33:57.333513"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -20094,9 +23121,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 667,
-            "demoman": 477,
-            "last_updated": "2024-11-05T17:15:15.994637"
+            "soldier": 673,
+            "demoman": 478,
+            "last_updated": "2024-11-17T21:33:57.621624"
+        },
+        "class_tech": {
+            "soldier": [
+                "Sync"
+            ],
+            "demoman": []
         }
     },
     {
@@ -20127,9 +23160,17 @@ const maps_json = [
             "demoman": "EspALAU4gyI"
         },
         "completion_info": {
-            "soldier": 544,
-            "demoman": 398,
-            "last_updated": "2024-11-05T17:15:16.002637"
+            "soldier": 545,
+            "demoman": 399,
+            "last_updated": "2024-11-17T21:33:57.558626"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -20159,8 +23200,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 289,
-            "demoman": 533,
-            "last_updated": "2024-11-05T17:15:16.006636"
+            "demoman": 536,
+            "last_updated": "2024-11-17T21:33:57.325517"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20193,9 +23238,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3757,
-            "demoman": 1203,
-            "last_updated": "2024-11-05T17:15:16.023636"
+            "soldier": 3775,
+            "demoman": 1207,
+            "last_updated": "2024-11-17T21:33:57.900622"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20228,9 +23277,15 @@ const maps_json = [
             "demoman": "7mJ5km0rdQQ"
         },
         "completion_info": {
-            "soldier": 586,
+            "soldier": 591,
             "demoman": 23,
-            "last_updated": "2024-11-05T17:15:16.000637"
+            "last_updated": "2024-11-17T21:33:57.344628"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -20262,9 +23317,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5516,
-            "demoman": 2023,
-            "last_updated": "2024-11-05T17:15:17.366537"
+            "soldier": 5528,
+            "demoman": 2025,
+            "last_updated": "2024-11-17T21:34:00.180131"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20296,9 +23355,13 @@ const maps_json = [
             "demoman": "FGjpf1E6sjc"
         },
         "completion_info": {
-            "soldier": 5031,
-            "demoman": 2390,
-            "last_updated": "2024-11-05T17:15:17.365538"
+            "soldier": 5039,
+            "demoman": 2393,
+            "last_updated": "2024-11-17T21:34:00.289631"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20327,9 +23390,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3332,
-            "demoman": 1875,
-            "last_updated": "2024-11-05T17:15:17.340537"
+            "soldier": 3345,
+            "demoman": 1879,
+            "last_updated": "2024-11-17T21:33:59.907376"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20358,9 +23425,13 @@ const maps_json = [
             "demoman": "_ngf9RGVRWI"
         },
         "completion_info": {
-            "soldier": 1179,
-            "demoman": 505,
-            "last_updated": "2024-11-05T17:15:17.340537"
+            "soldier": 1185,
+            "demoman": 507,
+            "last_updated": "2024-11-17T21:34:00.409637"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20394,9 +23465,13 @@ const maps_json = [
             "demoman": "hiWL0BWGSak"
         },
         "completion_info": {
-            "soldier": 1661,
-            "demoman": 723,
-            "last_updated": "2024-11-05T17:15:17.323959"
+            "soldier": 1668,
+            "demoman": 726,
+            "last_updated": "2024-11-17T21:34:00.249632"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20427,9 +23502,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3343,
-            "demoman": 1566,
-            "last_updated": "2024-11-05T17:15:17.365538"
+            "soldier": 3357,
+            "demoman": 1572,
+            "last_updated": "2024-11-17T21:34:00.595574"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20459,9 +23538,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4465,
+            "soldier": 4477,
             "demoman": 1686,
-            "last_updated": "2024-11-05T17:15:17.366537"
+            "last_updated": "2024-11-17T21:34:00.066235"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20495,7 +23578,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 101,
             "demoman": 261,
-            "last_updated": "2024-11-05T17:15:17.327958"
+            "last_updated": "2024-11-17T21:34:00.170128"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -20526,9 +23615,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 549,
-            "demoman": 241,
-            "last_updated": "2024-11-05T17:15:18.616482"
+            "soldier": 551,
+            "demoman": 242,
+            "last_updated": "2024-11-17T21:34:01.485171"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -20561,9 +23658,13 @@ const maps_json = [
             "demoman": "l9BgNtXMGGU"
         },
         "completion_info": {
-            "soldier": 1200,
-            "demoman": 707,
-            "last_updated": "2024-11-05T17:15:18.634480"
+            "soldier": 1205,
+            "demoman": 710,
+            "last_updated": "2024-11-17T21:34:01.579675"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20592,9 +23693,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 928,
+            "soldier": 934,
             "demoman": 590,
-            "last_updated": "2024-11-05T17:15:18.618483"
+            "last_updated": "2024-11-17T21:34:01.588674"
+        },
+        "class_tech": {
+            "soldier": [
+                "Edgebug"
+            ],
+            "demoman": [
+                "Edgebug"
+            ]
         }
     },
     {
@@ -20623,9 +23732,15 @@ const maps_json = [
             "demoman": "gZJnh0X8iYQ"
         },
         "completion_info": {
-            "soldier": 1720,
-            "demoman": 393,
-            "last_updated": "2024-11-05T17:15:18.622481"
+            "soldier": 1727,
+            "demoman": 395,
+            "last_updated": "2024-11-17T21:34:01.603741"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -20655,8 +23770,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 738,
-            "demoman": 392,
-            "last_updated": "2024-11-05T17:15:18.632481"
+            "demoman": 393,
+            "last_updated": "2024-11-17T21:34:01.494171"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -20697,7 +23818,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 869,
             "demoman": 254,
-            "last_updated": "2024-11-05T17:15:18.633481"
+            "last_updated": "2024-11-17T21:34:01.587675"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20728,9 +23853,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 903,
-            "demoman": 619,
-            "last_updated": "2024-11-05T17:15:18.633481"
+            "soldier": 905,
+            "demoman": 620,
+            "last_updated": "2024-11-17T21:34:01.650740"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20762,8 +23891,17 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 79,
-            "demoman": 155,
-            "last_updated": "2024-11-05T17:15:18.621481"
+            "demoman": 156,
+            "last_updated": "2024-11-17T21:34:01.436171"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Bounce"
+            ],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -20792,9 +23930,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 815,
+            "soldier": 818,
             "demoman": 313,
-            "last_updated": "2024-11-05T17:15:19.919002"
+            "last_updated": "2024-11-17T21:34:03.057612"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20823,9 +23965,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 925,
+            "soldier": 926,
             "demoman": 537,
-            "last_updated": "2024-11-05T17:15:19.920003"
+            "last_updated": "2024-11-17T21:34:03.077616"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Gimmick"
+            ]
         }
     },
     {
@@ -20854,9 +24004,15 @@ const maps_json = [
             "demoman": "rif9KJ0SE0g"
         },
         "completion_info": {
-            "soldier": 723,
-            "demoman": 462,
-            "last_updated": "2024-11-05T17:15:19.906003"
+            "soldier": 730,
+            "demoman": 463,
+            "last_updated": "2024-11-17T21:34:03.123624"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -20885,9 +24041,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 726,
+            "soldier": 728,
             "demoman": 353,
-            "last_updated": "2024-11-05T17:15:19.901007"
+            "last_updated": "2024-11-17T21:34:03.123624"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -20921,9 +24083,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2243,
+            "soldier": 2249,
             "demoman": 1020,
-            "last_updated": "2024-11-05T17:15:19.918002"
+            "last_updated": "2024-11-17T21:34:03.179621"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20952,9 +24118,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1143,
-            "demoman": 932,
-            "last_updated": "2024-11-05T17:15:19.918002"
+            "soldier": 1161,
+            "demoman": 935,
+            "last_updated": "2024-11-17T21:34:03.114619"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -20983,9 +24153,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 410,
-            "demoman": 334,
-            "last_updated": "2024-11-05T17:15:19.919002"
+            "soldier": 414,
+            "demoman": 337,
+            "last_updated": "2024-11-17T21:34:03.066610"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21018,8 +24192,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 239,
-            "demoman": 874,
-            "last_updated": "2024-11-05T17:15:19.909003"
+            "demoman": 875,
+            "last_updated": "2024-11-17T21:34:03.163622"
+        },
+        "class_tech": {
+            "soldier": [
+                "Hole"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -21049,9 +24231,17 @@ const maps_json = [
             "demoman": "MYfN0hAuy7o"
         },
         "completion_info": {
-            "soldier": 101,
-            "demoman": 930,
-            "last_updated": "2024-11-05T17:15:21.193794"
+            "soldier": 103,
+            "demoman": 932,
+            "last_updated": "2024-11-17T21:34:04.730571"
+        },
+        "class_tech": {
+            "soldier": [
+                "Hole"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -21090,8 +24280,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 113,
-            "demoman": 223,
-            "last_updated": "2024-11-05T17:15:21.186794"
+            "demoman": 224,
+            "last_updated": "2024-11-17T21:34:04.635154"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -21122,9 +24320,16 @@ const maps_json = [
             "demoman": "YdomGI45Cpk"
         },
         "completion_info": {
-            "soldier": 1555,
+            "soldier": 1559,
             "demoman": 153,
-            "last_updated": "2024-11-05T17:15:21.203793"
+            "last_updated": "2024-11-17T21:34:04.680152"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Vert",
+                "Airpogo"
+            ]
         }
     },
     {
@@ -21155,9 +24360,17 @@ const maps_json = [
             "demoman": "4SHN9PpuNME"
         },
         "completion_info": {
-            "soldier": 435,
-            "demoman": 332,
-            "last_updated": "2024-11-05T17:15:21.193794"
+            "soldier": 437,
+            "demoman": 333,
+            "last_updated": "2024-11-17T21:34:04.583690"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -21186,9 +24399,17 @@ const maps_json = [
             "demoman": "xvNvaJk40GY"
         },
         "completion_info": {
-            "soldier": 397,
+            "soldier": 398,
             "demoman": 163,
-            "last_updated": "2024-11-05T17:15:21.203793"
+            "last_updated": "2024-11-17T21:34:04.688152"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -21217,9 +24438,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 668,
-            "demoman": 492,
-            "last_updated": "2024-11-05T17:15:21.190794"
+            "soldier": 671,
+            "demoman": 493,
+            "last_updated": "2024-11-17T21:34:04.652154"
+        },
+        "class_tech": {
+            "soldier": [
+                "Strafe",
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -21255,9 +24483,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 517,
-            "demoman": 274,
-            "last_updated": "2024-11-05T17:15:21.202796"
+            "soldier": 518,
+            "demoman": 275,
+            "last_updated": "2024-11-17T21:34:04.676152"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": [
+                "Jank"
+            ]
         }
     },
     {
@@ -21289,9 +24525,13 @@ const maps_json = [
             "demoman": "l2C_L7rCtTU"
         },
         "completion_info": {
-            "soldier": 1683,
-            "demoman": 1255,
-            "last_updated": "2024-11-05T17:15:21.209796"
+            "soldier": 1691,
+            "demoman": 1258,
+            "last_updated": "2024-11-17T21:34:04.735570"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21320,9 +24560,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1744,
-            "demoman": 1323,
-            "last_updated": "2024-11-05T17:15:22.493250"
+            "soldier": 1747,
+            "demoman": 1324,
+            "last_updated": "2024-11-17T21:34:06.361757"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21351,9 +24595,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 951,
+            "soldier": 954,
             "demoman": 713,
-            "last_updated": "2024-11-05T17:15:22.476247"
+            "last_updated": "2024-11-17T21:34:06.320751"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21384,9 +24632,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 242,
-            "demoman": 528,
-            "last_updated": "2024-11-05T17:15:22.494250"
+            "soldier": 243,
+            "demoman": 531,
+            "last_updated": "2024-11-17T21:34:06.257747"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": []
         }
     },
     {
@@ -21415,9 +24669,17 @@ const maps_json = [
             "demoman": "JKcxwHo5--s"
         },
         "completion_info": {
-            "soldier": 515,
-            "demoman": 250,
-            "last_updated": "2024-11-05T17:15:22.495252"
+            "soldier": 517,
+            "demoman": 253,
+            "last_updated": "2024-11-17T21:34:06.340758"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -21452,9 +24714,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3420,
-            "demoman": 1510,
-            "last_updated": "2024-11-05T17:15:22.500064"
+            "soldier": 3440,
+            "demoman": 1515,
+            "last_updated": "2024-11-17T21:34:06.414757"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21485,9 +24751,13 @@ const maps_json = [
             "demoman": "ULufYX8ELrs"
         },
         "completion_info": {
-            "soldier": 698,
-            "demoman": 491,
-            "last_updated": "2024-11-05T17:15:22.492250"
+            "soldier": 699,
+            "demoman": 492,
+            "last_updated": "2024-11-17T21:34:06.276746"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21521,9 +24791,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1406,
-            "demoman": 458,
-            "last_updated": "2024-11-05T17:15:22.492250"
+            "soldier": 1410,
+            "demoman": 459,
+            "last_updated": "2024-11-17T21:34:06.361757"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21558,7 +24832,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 78,
             "demoman": 71,
-            "last_updated": "2024-11-05T17:15:22.494250"
+            "last_updated": "2024-11-17T21:34:06.287746"
+        },
+        "class_tech": {
+            "soldier": [
+                "Airstrike"
+            ],
+            "demoman": []
         }
     },
     {
@@ -21590,9 +24870,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 495,
-            "demoman": 347,
-            "last_updated": "2024-11-05T17:15:23.780795"
+            "soldier": 499,
+            "demoman": 349,
+            "last_updated": "2024-11-17T21:34:07.758147"
+        },
+        "class_tech": {
+            "soldier": [
+                "Airstrike"
+            ],
+            "demoman": []
         }
     },
     {
@@ -21622,9 +24908,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1680,
+            "soldier": 1682,
             "demoman": 793,
-            "last_updated": "2024-11-05T17:15:23.779793"
+            "last_updated": "2024-11-17T21:34:07.819666"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21654,9 +24944,13 @@ const maps_json = [
             "demoman": "9XdPfJVaNS4"
         },
         "completion_info": {
-            "soldier": 769,
+            "soldier": 771,
             "demoman": 358,
-            "last_updated": "2024-11-05T17:15:23.778794"
+            "last_updated": "2024-11-17T21:34:07.798666"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21699,9 +24993,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 312,
+            "soldier": 315,
             "demoman": 148,
-            "last_updated": "2024-11-05T17:15:23.762312"
+            "last_updated": "2024-11-17T21:34:07.740146"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -21732,9 +25032,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1312,
-            "demoman": 475,
-            "last_updated": "2024-11-05T17:15:23.778794"
+            "soldier": 1320,
+            "demoman": 478,
+            "last_updated": "2024-11-17T21:34:07.839665"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21765,9 +25069,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 9058,
-            "demoman": 2873,
-            "last_updated": "2024-11-05T17:15:23.823791"
+            "soldier": 9073,
+            "demoman": 2874,
+            "last_updated": "2024-11-17T21:34:07.969663"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21798,9 +25106,18 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 670,
-            "demoman": 251,
-            "last_updated": "2024-11-05T17:15:23.779793"
+            "soldier": 674,
+            "demoman": 253,
+            "last_updated": "2024-11-17T21:34:07.840667"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Jank"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -21833,8 +25150,17 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 184,
-            "demoman": 215,
-            "last_updated": "2024-11-05T17:15:23.780795"
+            "demoman": 216,
+            "last_updated": "2024-11-17T21:34:07.736321"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Jank"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -21870,9 +25196,13 @@ const maps_json = [
             "demoman": "9G7TvUvnCnQ"
         },
         "completion_info": {
-            "soldier": 454,
-            "demoman": 647,
-            "last_updated": "2024-11-05T17:15:25.044310"
+            "soldier": 455,
+            "demoman": 649,
+            "last_updated": "2024-11-17T21:34:09.333675"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21903,9 +25233,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2653,
-            "demoman": 817,
-            "last_updated": "2024-11-05T17:15:25.060309"
+            "soldier": 2668,
+            "demoman": 822,
+            "last_updated": "2024-11-17T21:34:09.499331"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -21936,9 +25274,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 967,
-            "demoman": 642,
-            "last_updated": "2024-11-05T17:15:25.049310"
+            "soldier": 968,
+            "demoman": 643,
+            "last_updated": "2024-11-17T21:34:09.427331"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -21969,9 +25311,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1120,
+            "soldier": 1125,
             "demoman": 968,
-            "last_updated": "2024-11-05T17:15:25.045309"
+            "last_updated": "2024-11-17T21:34:09.462330"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22009,9 +25355,17 @@ const maps_json = [
             "demoman": "dTBWxDbzooo"
         },
         "completion_info": {
-            "soldier": 139,
-            "demoman": 176,
-            "last_updated": "2024-11-05T17:15:25.042311"
+            "soldier": 140,
+            "demoman": 179,
+            "last_updated": "2024-11-17T21:34:09.284950"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -22040,9 +25394,16 @@ const maps_json = [
             "demoman": "MgMfOBz15n4"
         },
         "completion_info": {
-            "soldier": 706,
-            "demoman": 340,
-            "last_updated": "2024-11-05T17:15:25.058309"
+            "soldier": 709,
+            "demoman": 341,
+            "last_updated": "2024-11-17T21:34:09.333675"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo",
+                "Pogo"
+            ]
         }
     },
     {
@@ -22073,9 +25434,13 @@ const maps_json = [
             "demoman": "ZNRbxgt_FwY"
         },
         "completion_info": {
-            "soldier": 866,
-            "demoman": 460,
-            "last_updated": "2024-11-05T17:15:25.059309"
+            "soldier": 867,
+            "demoman": 462,
+            "last_updated": "2024-11-17T21:34:09.380677"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22106,9 +25471,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 327,
-            "demoman": 337,
-            "last_updated": "2024-11-05T17:15:25.059309"
+            "soldier": 334,
+            "demoman": 340,
+            "last_updated": "2024-11-17T21:34:09.326675"
+        },
+        "class_tech": {
+            "soldier": [
+                "Sync"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -22138,9 +25511,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 948,
-            "demoman": 625,
-            "last_updated": "2024-11-05T17:15:26.337687"
+            "soldier": 952,
+            "demoman": 627,
+            "last_updated": "2024-11-17T21:34:10.847067"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22169,9 +25546,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 274,
-            "demoman": 571,
-            "last_updated": "2024-11-05T17:15:26.351258"
+            "soldier": 275,
+            "demoman": 574,
+            "last_updated": "2024-11-17T21:34:10.818063"
+        },
+        "class_tech": {
+            "soldier": [
+                "Ctap",
+                "Sync"
+            ],
+            "demoman": []
         }
     },
     {
@@ -22200,9 +25584,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 879,
-            "demoman": 768,
-            "last_updated": "2024-11-05T17:15:26.350258"
+            "soldier": 883,
+            "demoman": 770,
+            "last_updated": "2024-11-17T21:34:10.838067"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -22233,9 +25623,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1204,
+            "soldier": 1205,
             "demoman": 737,
-            "last_updated": "2024-11-05T17:15:26.336687"
+            "last_updated": "2024-11-17T21:34:10.839067"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22272,9 +25666,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 557,
+            "soldier": 564,
             "demoman": 480,
-            "last_updated": "2024-11-05T17:15:26.333423"
+            "last_updated": "2024-11-17T21:34:10.853067"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22405,9 +25803,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 317,
+            "soldier": 319,
             "demoman": 138,
-            "last_updated": "2024-11-05T17:15:26.336687"
+            "last_updated": "2024-11-17T21:34:10.864070"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22438,9 +25840,17 @@ const maps_json = [
             "demoman": "MYEHhkpgj3Y"
         },
         "completion_info": {
-            "soldier": 299,
-            "demoman": 291,
-            "last_updated": "2024-11-05T17:15:26.333423"
+            "soldier": 302,
+            "demoman": 292,
+            "last_updated": "2024-11-17T21:34:10.863067"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -22474,9 +25884,13 @@ const maps_json = [
             "demoman": "tby9PD7_teg"
         },
         "completion_info": {
-            "soldier": 935,
-            "demoman": 759,
-            "last_updated": "2024-11-05T17:15:26.350258"
+            "soldier": 936,
+            "demoman": 760,
+            "last_updated": "2024-11-17T21:34:10.869781"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22510,9 +25924,13 @@ const maps_json = [
             "demoman": "mytZOlCaitE"
         },
         "completion_info": {
-            "soldier": 952,
+            "soldier": 956,
             "demoman": 246,
-            "last_updated": "2024-11-05T17:15:27.622717"
+            "last_updated": "2024-11-17T21:34:12.378123"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22545,7 +25963,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 505,
             "demoman": 327,
-            "last_updated": "2024-11-05T17:15:27.622717"
+            "last_updated": "2024-11-17T21:34:12.372124"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -22629,9 +26053,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 742,
+            "soldier": 744,
             "demoman": 402,
-            "last_updated": "2024-11-05T17:15:27.614717"
+            "last_updated": "2024-11-17T21:34:12.381122"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22664,8 +26092,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 1522,
-            "demoman": 484,
-            "last_updated": "2024-11-05T17:15:27.634717"
+            "demoman": 485,
+            "last_updated": "2024-11-17T21:34:12.399635"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22699,9 +26131,18 @@ const maps_json = [
             "demoman": "Cj2ULd4Xlgk"
         },
         "completion_info": {
-            "soldier": 22,
+            "soldier": 23,
             "demoman": 3,
-            "last_updated": "2024-11-05T17:15:27.632718"
+            "last_updated": "2024-11-17T21:34:12.395637"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Hardpogo",
+                "Jank"
+            ]
         }
     },
     {
@@ -22732,9 +26173,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1474,
-            "demoman": 734,
-            "last_updated": "2024-11-05T17:15:27.633718"
+            "soldier": 1482,
+            "demoman": 736,
+            "last_updated": "2024-11-17T21:34:12.439141"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22763,9 +26208,17 @@ const maps_json = [
             "demoman": "fbCz6BygysI"
         },
         "completion_info": {
-            "soldier": 299,
-            "demoman": 219,
-            "last_updated": "2024-11-05T17:15:27.631717"
+            "soldier": 300,
+            "demoman": 220,
+            "last_updated": "2024-11-17T21:34:12.407634"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -22796,9 +26249,15 @@ const maps_json = [
             "demoman": "34x6HB05rXk"
         },
         "completion_info": {
-            "soldier": 1357,
+            "soldier": 1362,
             "demoman": 128,
-            "last_updated": "2024-11-05T17:15:27.632718"
+            "last_updated": "2024-11-17T21:34:12.428635"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Downair"
+            ]
         }
     },
     {
@@ -22827,9 +26286,13 @@ const maps_json = [
             "demoman": "7Jln9qZHgeI"
         },
         "completion_info": {
-            "soldier": 1481,
-            "demoman": 981,
-            "last_updated": "2024-11-05T17:15:28.923069"
+            "soldier": 1497,
+            "demoman": 989,
+            "last_updated": "2024-11-17T21:34:13.953512"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22860,9 +26323,17 @@ const maps_json = [
             "demoman": "2sDxmRB-njc"
         },
         "completion_info": {
-            "soldier": 349,
-            "demoman": 705,
-            "last_updated": "2024-11-05T17:15:28.925074"
+            "soldier": 354,
+            "demoman": 707,
+            "last_updated": "2024-11-17T21:34:13.884989"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -22892,8 +26363,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 499,
-            "demoman": 180,
-            "last_updated": "2024-11-05T17:15:28.907682"
+            "demoman": 181,
+            "last_updated": "2024-11-17T21:34:13.861988"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": []
         }
     },
     {
@@ -22924,9 +26401,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1000,
-            "demoman": 724,
-            "last_updated": "2024-11-05T17:15:28.911069"
+            "soldier": 1001,
+            "demoman": 725,
+            "last_updated": "2024-11-17T21:34:13.892542"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22958,9 +26439,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 798,
-            "demoman": 775,
-            "last_updated": "2024-11-05T17:15:28.906677"
+            "soldier": 799,
+            "demoman": 776,
+            "last_updated": "2024-11-17T21:34:13.899513"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -22991,9 +26476,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3809,
-            "demoman": 1881,
-            "last_updated": "2024-11-05T17:15:28.950361"
+            "soldier": 3831,
+            "demoman": 1892,
+            "last_updated": "2024-11-17T21:34:13.985511"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23029,9 +26518,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1163,
-            "demoman": 382,
-            "last_updated": "2024-11-05T17:15:28.924067"
+            "soldier": 1167,
+            "demoman": 384,
+            "last_updated": "2024-11-17T21:34:13.954511"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23067,9 +26560,13 @@ const maps_json = [
             "demoman": "EhG8jmTco_4"
         },
         "completion_info": {
-            "soldier": 1407,
-            "demoman": 416,
-            "last_updated": "2024-11-05T17:15:28.934068"
+            "soldier": 1410,
+            "demoman": 420,
+            "last_updated": "2024-11-17T21:34:13.954511"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23100,9 +26597,15 @@ const maps_json = [
             "demoman": "zHpl-cGoqzE"
         },
         "completion_info": {
-            "soldier": 501,
-            "demoman": 322,
-            "last_updated": "2024-11-05T17:15:30.213716"
+            "soldier": 502,
+            "demoman": 323,
+            "last_updated": "2024-11-17T21:34:15.363286"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -23133,9 +26636,15 @@ const maps_json = [
             "demoman": "eQbp1uF_PkU"
         },
         "completion_info": {
-            "soldier": 970,
-            "demoman": 317,
-            "last_updated": "2024-11-05T17:15:30.199716"
+            "soldier": 971,
+            "demoman": 318,
+            "last_updated": "2024-11-17T21:34:15.392572"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "3pre"
+            ]
         }
     },
     {
@@ -23168,9 +26677,15 @@ const maps_json = [
             "demoman": "6piDsgqe_rc"
         },
         "completion_info": {
-            "soldier": 352,
-            "demoman": 469,
-            "last_updated": "2024-11-05T17:15:30.213716"
+            "soldier": 357,
+            "demoman": 470,
+            "last_updated": "2024-11-17T21:34:15.365021"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank"
+            ],
+            "demoman": []
         }
     },
     {
@@ -23199,9 +26714,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2086,
-            "demoman": 1221,
-            "last_updated": "2024-11-05T17:15:30.217715"
+            "soldier": 2098,
+            "demoman": 1226,
+            "last_updated": "2024-11-17T21:34:15.426132"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23234,9 +26753,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1363,
-            "demoman": 569,
-            "last_updated": "2024-11-05T17:15:30.202714"
+            "soldier": 1364,
+            "demoman": 570,
+            "last_updated": "2024-11-17T21:34:15.412538"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23268,8 +26791,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 66,
-            "demoman": 202,
-            "last_updated": "2024-11-05T17:15:30.196714"
+            "demoman": 206,
+            "last_updated": "2024-11-17T21:34:15.399536"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Hardpogo"
+            ]
         }
     },
     {
@@ -23301,9 +26832,15 @@ const maps_json = [
             "demoman": "VQsNIf1Gb3o"
         },
         "completion_info": {
-            "soldier": 628,
-            "demoman": 513,
-            "last_updated": "2024-11-05T17:15:30.195710"
+            "soldier": 629,
+            "demoman": 515,
+            "last_updated": "2024-11-17T21:34:15.382020"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -23334,9 +26871,13 @@ const maps_json = [
             "demoman": "uxxMrfbZ_bU"
         },
         "completion_info": {
-            "soldier": 954,
-            "demoman": 483,
-            "last_updated": "2024-11-05T17:15:30.203716"
+            "soldier": 959,
+            "demoman": 486,
+            "last_updated": "2024-11-17T21:34:15.415129"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23365,9 +26906,13 @@ const maps_json = [
             "demoman": "Xdy9pKujGvo"
         },
         "completion_info": {
-            "soldier": 2402,
-            "demoman": 1374,
-            "last_updated": "2024-11-05T17:15:31.494500"
+            "soldier": 2405,
+            "demoman": 1375,
+            "last_updated": "2024-11-17T21:34:17.090344"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23399,9 +26944,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2886,
+            "soldier": 2892,
             "demoman": 1610,
-            "last_updated": "2024-11-05T17:15:31.505503"
+            "last_updated": "2024-11-17T21:34:17.121344"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23430,9 +26979,13 @@ const maps_json = [
             "demoman": "ki00NLur1XM"
         },
         "completion_info": {
-            "soldier": 720,
-            "demoman": 827,
-            "last_updated": "2024-11-05T17:15:31.488500"
+            "soldier": 721,
+            "demoman": 828,
+            "last_updated": "2024-11-17T21:34:17.029839"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23464,9 +27017,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1588,
-            "demoman": 995,
-            "last_updated": "2024-11-05T17:15:31.511502"
+            "soldier": 1590,
+            "demoman": 996,
+            "last_updated": "2024-11-17T21:34:17.120344"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23496,8 +27053,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 880,
-            "demoman": 610,
-            "last_updated": "2024-11-05T17:15:31.495501"
+            "demoman": 611,
+            "last_updated": "2024-11-17T21:34:17.035348"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23530,7 +27091,15 @@ const maps_json = [
         "completion_info": {
             "soldier": 490,
             "demoman": 376,
-            "last_updated": "2024-11-05T17:15:31.505503"
+            "last_updated": "2024-11-17T21:34:17.121344"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -23560,9 +27129,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 940,
-            "demoman": 581,
-            "last_updated": "2024-11-05T17:15:31.504500"
+            "soldier": 942,
+            "demoman": 582,
+            "last_updated": "2024-11-17T21:34:17.070344"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23603,9 +27176,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 747,
-            "demoman": 482,
-            "last_updated": "2024-11-05T17:15:31.506501"
+            "soldier": 753,
+            "demoman": 487,
+            "last_updated": "2024-11-17T21:34:17.125343"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23635,9 +27212,13 @@ const maps_json = [
             "demoman": "2O3Tt3Lcusg"
         },
         "completion_info": {
-            "soldier": 408,
+            "soldier": 409,
             "demoman": 306,
-            "last_updated": "2024-11-05T17:15:32.789612"
+            "last_updated": "2024-11-17T21:34:18.520681"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23670,7 +27251,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 1081,
             "demoman": 734,
-            "last_updated": "2024-11-05T17:15:32.790618"
+            "last_updated": "2024-11-17T21:34:18.578074"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23699,9 +27284,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2146,
-            "demoman": 1074,
-            "last_updated": "2024-11-05T17:15:32.814617"
+            "soldier": 2149,
+            "demoman": 1076,
+            "last_updated": "2024-11-17T21:34:18.579066"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23733,9 +27322,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2165,
+            "soldier": 2167,
             "demoman": 683,
-            "last_updated": "2024-11-05T17:15:32.806617"
+            "last_updated": "2024-11-17T21:34:18.580067"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23766,9 +27359,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2214,
-            "demoman": 772,
-            "last_updated": "2024-11-05T17:15:32.807617"
+            "soldier": 2216,
+            "demoman": 773,
+            "last_updated": "2024-11-17T21:34:18.579066"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23797,9 +27394,13 @@ const maps_json = [
             "demoman": "2qxWG-jzZL8"
         },
         "completion_info": {
-            "soldier": 936,
+            "soldier": 937,
             "demoman": 530,
-            "last_updated": "2024-11-05T17:15:32.792616"
+            "last_updated": "2024-11-17T21:34:18.525682"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23835,7 +27436,17 @@ const maps_json = [
         "completion_info": {
             "soldier": 41,
             "demoman": 48,
-            "last_updated": "2024-11-05T17:15:32.797624"
+            "last_updated": "2024-11-17T21:34:18.494679"
+        },
+        "class_tech": {
+            "soldier": [
+                "Strafe",
+                "Jank"
+            ],
+            "demoman": [
+                "Strafe",
+                "Jank"
+            ]
         }
     },
     {
@@ -23866,9 +27477,16 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 566,
-            "demoman": 236,
-            "last_updated": "2024-11-05T17:15:32.796616"
+            "soldier": 580,
+            "demoman": 239,
+            "last_updated": "2024-11-17T21:34:18.513684"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot",
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -23899,9 +27517,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1636,
+            "soldier": 1639,
             "demoman": 691,
-            "last_updated": "2024-11-05T17:15:34.135723"
+            "last_updated": "2024-11-17T21:34:19.962094"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23935,9 +27557,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 798,
-            "demoman": 397,
-            "last_updated": "2024-11-05T17:15:34.081235"
+            "soldier": 805,
+            "demoman": 398,
+            "last_updated": "2024-11-17T21:34:19.940095"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -23969,9 +27595,13 @@ const maps_json = [
             "demoman": "fs4sPrAxMSk"
         },
         "completion_info": {
-            "soldier": 1151,
-            "demoman": 688,
-            "last_updated": "2024-11-05T17:15:34.135723"
+            "soldier": 1156,
+            "demoman": 689,
+            "last_updated": "2024-11-17T21:34:19.963094"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24005,7 +27635,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 105,
             "demoman": 245,
-            "last_updated": "2024-11-05T17:15:34.076232"
+            "last_updated": "2024-11-17T21:34:19.964094"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -24034,9 +27670,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1534,
-            "demoman": 619,
-            "last_updated": "2024-11-05T17:15:34.115236"
+            "soldier": 1548,
+            "demoman": 621,
+            "last_updated": "2024-11-17T21:34:20.001093"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallshot"
+            ],
+            "demoman": []
         }
     },
     {
@@ -24069,8 +27711,16 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 495,
-            "demoman": 181,
-            "last_updated": "2024-11-05T17:15:34.081235"
+            "demoman": 182,
+            "last_updated": "2024-11-17T21:34:19.963094"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -24099,9 +27749,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2572,
-            "demoman": 1023,
-            "last_updated": "2024-11-05T17:15:34.136727"
+            "soldier": 2588,
+            "demoman": 1025,
+            "last_updated": "2024-11-17T21:34:19.985093"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jurf"
+            ],
+            "demoman": [
+                "Jurf"
+            ]
         }
     },
     {
@@ -24133,8 +27791,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 1003,
-            "demoman": 495,
-            "last_updated": "2024-11-05T17:15:34.135234"
+            "demoman": 499,
+            "last_updated": "2024-11-17T21:34:19.988092"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24165,9 +27827,17 @@ const maps_json = [
             "demoman": "vnCEavoacqI"
         },
         "completion_info": {
-            "soldier": 1650,
-            "demoman": 400,
-            "last_updated": "2024-11-05T17:15:35.421573"
+            "soldier": 1657,
+            "demoman": 403,
+            "last_updated": "2024-11-17T21:34:21.500044"
+        },
+        "class_tech": {
+            "soldier": [
+                "Strafe"
+            ],
+            "demoman": [
+                "Vert"
+            ]
         }
     },
     {
@@ -24204,9 +27874,17 @@ const maps_json = [
             "demoman": "7hBYrBhesAI"
         },
         "completion_info": {
-            "soldier": 179,
-            "demoman": 49,
-            "last_updated": "2024-11-05T17:15:35.421573"
+            "soldier": 180,
+            "demoman": 50,
+            "last_updated": "2024-11-17T21:34:21.464049"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Vert"
+            ]
         }
     },
     {
@@ -24241,8 +27919,12 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 643,
-            "demoman": 220,
-            "last_updated": "2024-11-05T17:15:35.425573"
+            "demoman": 221,
+            "last_updated": "2024-11-17T21:34:21.481045"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24271,9 +27953,13 @@ const maps_json = [
             "demoman": "ie65hpFtwTo"
         },
         "completion_info": {
-            "soldier": 1978,
+            "soldier": 1986,
             "demoman": 966,
-            "last_updated": "2024-11-05T17:15:35.420573"
+            "last_updated": "2024-11-17T21:34:21.538043"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24305,7 +27991,16 @@ const maps_json = [
         "completion_info": {
             "soldier": 76,
             "demoman": 114,
-            "last_updated": "2024-11-05T17:15:35.404573"
+            "last_updated": "2024-11-17T21:34:21.463535"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Airpogo",
+                "Pogo"
+            ]
         }
     },
     {
@@ -24334,9 +28029,17 @@ const maps_json = [
             "demoman": "UrNIdQHRFw4"
         },
         "completion_info": {
-            "soldier": 672,
+            "soldier": 673,
             "demoman": 46,
-            "last_updated": "2024-11-05T17:15:35.401718"
+            "last_updated": "2024-11-17T21:34:21.500044"
+        },
+        "class_tech": {
+            "soldier": [
+                "Gimmick"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -24365,9 +28068,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 4239,
+            "soldier": 4242,
             "demoman": 1802,
-            "last_updated": "2024-11-05T17:15:35.427574"
+            "last_updated": "2024-11-17T21:34:21.569042"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24410,9 +28117,13 @@ const maps_json = [
             "demoman": "zFHEBX5hEFY"
         },
         "completion_info": {
-            "soldier": 639,
+            "soldier": 640,
             "demoman": 481,
-            "last_updated": "2024-11-05T17:15:35.419573"
+            "last_updated": "2024-11-17T21:34:21.537043"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24441,9 +28152,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 753,
-            "demoman": 713,
-            "last_updated": "2024-11-05T17:15:36.704595"
+            "soldier": 758,
+            "demoman": 718,
+            "last_updated": "2024-11-17T21:34:23.233203"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24472,9 +28187,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1735,
-            "demoman": 540,
-            "last_updated": "2024-11-05T17:15:36.704595"
+            "soldier": 1752,
+            "demoman": 546,
+            "last_updated": "2024-11-17T21:34:23.324202"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24503,9 +28222,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1485,
-            "demoman": 722,
-            "last_updated": "2024-11-05T17:15:36.692798"
+            "soldier": 1490,
+            "demoman": 723,
+            "last_updated": "2024-11-17T21:34:23.257202"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -24539,9 +28264,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 109,
+            "soldier": 110,
             "demoman": 226,
-            "last_updated": "2024-11-05T17:15:36.687805"
+            "last_updated": "2024-11-17T21:34:23.213203"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -24575,9 +28306,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1146,
-            "demoman": 480,
-            "last_updated": "2024-11-05T17:15:36.703593"
+            "soldier": 1148,
+            "demoman": 481,
+            "last_updated": "2024-11-17T21:34:23.278202"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24608,9 +28343,17 @@ const maps_json = [
             "demoman": "kVa5hPZxgXQ"
         },
         "completion_info": {
-            "soldier": 407,
+            "soldier": 410,
             "demoman": 188,
-            "last_updated": "2024-11-05T17:15:36.705593"
+            "last_updated": "2024-11-17T21:34:23.222203"
+        },
+        "class_tech": {
+            "soldier": [
+                "Edgebug"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -24641,9 +28384,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1876,
+            "soldier": 1878,
             "demoman": 772,
-            "last_updated": "2024-11-05T17:15:36.706593"
+            "last_updated": "2024-11-17T21:34:23.278202"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24677,9 +28424,16 @@ const maps_json = [
             "demoman": "CY61-LPApBE"
         },
         "completion_info": {
-            "soldier": 131,
+            "soldier": 132,
             "demoman": 432,
-            "last_updated": "2024-11-05T17:15:36.706593"
+            "last_updated": "2024-11-17T21:34:23.232202"
+        },
+        "class_tech": {
+            "soldier": [
+                "Rand Bounce",
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -24712,7 +28466,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 473,
             "demoman": 253,
-            "last_updated": "2024-11-05T17:15:38.039114"
+            "last_updated": "2024-11-17T21:34:24.682425"
+        },
+        "class_tech": {
+            "soldier": [
+                "Technical"
+            ],
+            "demoman": []
         }
     },
     {
@@ -24746,9 +28506,18 @@ const maps_json = [
             "demoman": "7NPMCTpl2lc"
         },
         "completion_info": {
-            "soldier": 416,
-            "demoman": 315,
-            "last_updated": "2024-11-05T17:15:38.043113"
+            "soldier": 418,
+            "demoman": 317,
+            "last_updated": "2024-11-17T21:34:24.682425"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Lim Ammo",
+                "Airpogo"
+            ]
         }
     },
     {
@@ -24783,7 +28552,17 @@ const maps_json = [
         "completion_info": {
             "soldier": 59,
             "demoman": 12,
-            "last_updated": "2024-11-05T17:15:38.056115"
+            "last_updated": "2024-11-17T21:34:24.661422"
+        },
+        "class_tech": {
+            "soldier": [
+                "Jank",
+                "Wallpogo"
+            ],
+            "demoman": [
+                "Hardpogo",
+                "Jank"
+            ]
         }
     },
     {
@@ -24812,9 +28591,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1248,
-            "demoman": 635,
-            "last_updated": "2024-11-05T17:15:38.046115"
+            "soldier": 1281,
+            "demoman": 654,
+            "last_updated": "2024-11-17T21:34:24.730421"
+        },
+        "class_tech": {
+            "soldier": [
+                "Phase"
+            ],
+            "demoman": []
         }
     },
     {
@@ -24845,9 +28630,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 571,
-            "demoman": 544,
-            "last_updated": "2024-11-05T17:15:38.056115"
+            "soldier": 572,
+            "demoman": 545,
+            "last_updated": "2024-11-17T21:34:24.700426"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24879,8 +28668,14 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 203,
-            "demoman": 523,
-            "last_updated": "2024-11-05T17:15:38.041113"
+            "demoman": 526,
+            "last_updated": "2024-11-17T21:34:24.713422"
+        },
+        "class_tech": {
+            "soldier": [
+                "Hole"
+            ],
+            "demoman": []
         }
     },
     {
@@ -24911,9 +28706,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1198,
-            "demoman": 683,
-            "last_updated": "2024-11-05T17:15:38.057115"
+            "soldier": 1201,
+            "demoman": 684,
+            "last_updated": "2024-11-17T21:34:24.701424"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24943,9 +28742,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2004,
+            "soldier": 2006,
             "demoman": 669,
-            "last_updated": "2024-11-05T17:15:38.057115"
+            "last_updated": "2024-11-17T21:34:24.749420"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -24986,7 +28789,13 @@ const maps_json = [
         "completion_info": {
             "soldier": 147,
             "demoman": 143,
-            "last_updated": "2024-11-05T17:15:39.328070"
+            "last_updated": "2024-11-17T21:34:26.198945"
+        },
+        "class_tech": {
+            "soldier": [
+                "Prefire"
+            ],
+            "demoman": []
         }
     },
     {
@@ -25015,9 +28824,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1712,
-            "demoman": 736,
-            "last_updated": "2024-11-05T17:15:39.339069"
+            "soldier": 1721,
+            "demoman": 737,
+            "last_updated": "2024-11-17T21:34:26.177945"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25050,9 +28863,13 @@ const maps_json = [
             "demoman": "IFhdxByItpo"
         },
         "completion_info": {
-            "soldier": 383,
+            "soldier": 384,
             "demoman": 256,
-            "last_updated": "2024-11-05T17:15:39.322067"
+            "last_updated": "2024-11-17T21:34:26.141949"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25083,9 +28900,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 454,
-            "demoman": 363,
-            "last_updated": "2024-11-05T17:15:39.340069"
+            "soldier": 460,
+            "demoman": 364,
+            "last_updated": "2024-11-17T21:34:26.134948"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25115,9 +28936,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1281,
-            "demoman": 1057,
-            "last_updated": "2024-11-05T17:15:39.340069"
+            "soldier": 1287,
+            "demoman": 1060,
+            "last_updated": "2024-11-17T21:34:26.179946"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25148,9 +28973,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1368,
+            "soldier": 1371,
             "demoman": 608,
-            "last_updated": "2024-11-05T17:15:39.345068"
+            "last_updated": "2024-11-17T21:34:26.177945"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25183,9 +29012,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 3928,
-            "demoman": 1796,
-            "last_updated": "2024-11-05T17:15:39.357068"
+            "soldier": 3944,
+            "demoman": 1797,
+            "last_updated": "2024-11-17T21:34:26.220944"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25216,9 +29049,16 @@ const maps_json = [
             "demoman": "9eJIcrrBfcc"
         },
         "completion_info": {
-            "soldier": 1201,
+            "soldier": 1203,
             "demoman": 122,
-            "last_updated": "2024-11-05T17:15:39.339069"
+            "last_updated": "2024-11-17T21:34:26.199947"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": [
+                "Phase",
+                "Airpogo"
+            ]
         }
     },
     {
@@ -25247,9 +29087,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 720,
-            "demoman": 426,
-            "last_updated": "2024-11-05T17:15:40.638048"
+            "soldier": 724,
+            "demoman": 428,
+            "last_updated": "2024-11-17T21:34:27.606236"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25281,8 +29125,17 @@ const maps_json = [
         },
         "completion_info": {
             "soldier": 254,
-            "demoman": 221,
-            "last_updated": "2024-11-05T17:15:40.639049"
+            "demoman": 223,
+            "last_updated": "2024-11-17T21:34:27.597242"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo",
+                "Bounce"
+            ],
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -25313,9 +29166,15 @@ const maps_json = [
             "demoman": "ojAnIjDmrfM"
         },
         "completion_info": {
-            "soldier": 734,
-            "demoman": 950,
-            "last_updated": "2024-11-05T17:15:40.612057"
+            "soldier": 736,
+            "demoman": 953,
+            "last_updated": "2024-11-17T21:34:27.622236"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -25344,9 +29203,15 @@ const maps_json = [
             "demoman": "dOFQ1j1T-aU"
         },
         "completion_info": {
-            "soldier": 652,
-            "demoman": 488,
-            "last_updated": "2024-11-05T17:15:40.637049"
+            "soldier": 653,
+            "demoman": 489,
+            "last_updated": "2024-11-17T21:34:27.628887"
+        },
+        "class_tech": {
+            "soldier": [
+                "Wallpogo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -25378,7 +29243,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 323,
             "demoman": 263,
-            "last_updated": "2024-11-05T17:15:40.608045"
+            "last_updated": "2024-11-17T21:34:27.623884"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25409,9 +29278,17 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 347,
-            "demoman": 193,
-            "last_updated": "2024-11-05T17:15:40.639049"
+            "soldier": 348,
+            "demoman": 194,
+            "last_updated": "2024-11-17T21:34:27.617236"
+        },
+        "class_tech": {
+            "soldier": [
+                "Pogo"
+            ],
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -25440,9 +29317,17 @@ const maps_json = [
             "demoman": "5fLBgf7svAg"
         },
         "completion_info": {
-            "soldier": 550,
+            "soldier": 551,
             "demoman": 93,
-            "last_updated": "2024-11-05T17:15:40.638048"
+            "last_updated": "2024-11-17T21:34:27.626889"
+        },
+        "class_tech": {
+            "soldier": [
+                "Hole"
+            ],
+            "demoman": [
+                "Vert"
+            ]
         }
     },
     {
@@ -25471,9 +29356,13 @@ const maps_json = [
             "demoman": "i_RD9IhQ41U"
         },
         "completion_info": {
-            "soldier": 768,
-            "demoman": 422,
-            "last_updated": "2024-11-05T17:15:40.640049"
+            "soldier": 773,
+            "demoman": 424,
+            "last_updated": "2024-11-17T21:34:27.618240"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25505,9 +29394,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 486,
+            "soldier": 489,
             "demoman": 318,
-            "last_updated": "2024-11-05T17:15:41.887246"
+            "last_updated": "2024-11-17T21:34:29.119907"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25540,9 +29433,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 2158,
-            "demoman": 1101,
-            "last_updated": "2024-11-05T17:15:41.914246"
+            "soldier": 2169,
+            "demoman": 1107,
+            "last_updated": "2024-11-17T21:34:29.153907"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25578,9 +29475,13 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 577,
-            "demoman": 365,
-            "last_updated": "2024-11-05T17:15:41.903246"
+            "soldier": 578,
+            "demoman": 366,
+            "last_updated": "2024-11-17T21:34:29.120907"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25610,9 +29511,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 5168,
-            "demoman": 1289,
-            "last_updated": "2024-11-05T17:15:41.918246"
+            "soldier": 5175,
+            "demoman": 1291,
+            "last_updated": "2024-11-17T21:34:29.208415"
+        },
+        "class_tech": {
+            "soldier": [
+                "Lim Ammo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -25643,9 +29550,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1741,
-            "demoman": 376,
-            "last_updated": "2024-11-05T17:15:41.903246"
+            "soldier": 1746,
+            "demoman": 378,
+            "last_updated": "2024-11-17T21:34:29.156906"
+        },
+        "class_tech": {
+            "soldier": [
+                "Lim Ammo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -25674,9 +29587,15 @@ const maps_json = [
             "demoman": null
         },
         "completion_info": {
-            "soldier": 1928,
-            "demoman": 1135,
-            "last_updated": "2024-11-05T17:15:41.905251"
+            "soldier": 1932,
+            "demoman": 1136,
+            "last_updated": "2024-11-17T21:34:29.167906"
+        },
+        "class_tech": {
+            "soldier": [
+                "Lim Ammo"
+            ],
+            "demoman": []
         }
     },
     {
@@ -25707,7 +29626,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 19,
             "demoman": 238,
-            "last_updated": "2024-11-05T17:15:41.904247"
+            "last_updated": "2024-11-17T21:34:29.118908"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     },
     {
@@ -25738,7 +29661,11 @@ const maps_json = [
         "completion_info": {
             "soldier": 626,
             "demoman": 310,
-            "last_updated": "2024-11-05T17:15:41.904247"
+            "last_updated": "2024-11-17T21:34:29.145907"
+        },
+        "class_tech": {
+            "soldier": [],
+            "demoman": []
         }
     }
 ]
