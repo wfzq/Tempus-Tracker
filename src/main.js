@@ -42,8 +42,38 @@ function getDefaultFilters() {
     };
 }
 
+async function setSplashScreen() {
+    const splashText = document.getElementById('splash')
+
+    // Determine font
+    if (Math.random() > 0.5) {
+        splashText.classList.add('minecraft');
+    } else {
+        splashText.classList.add('terraria');
+    }
+
+    // Determine Message
+    const getMessage = async () => {
+        try {
+            const response = await fetch('../src/data/splash.txt');
+            const data = await response.text();
+
+            // Split into lines and filter out empty lines
+            const lines = data.split('\n').filter(line => line.trim() !== '');
+            // Pick a random line
+            return lines[Math.floor(Math.random() * lines.length)];
+        } catch (error) {
+            console.error('Error getting splash text:', error);
+            return '';
+        }
+    };
+    const message = await getMessage();
+    splashText.innerHTML = message;
+}
+
 // DOM Loaded
 document.addEventListener('DOMContentLoaded', async function () {
+    setSplashScreen();
     maps_loadAll();
     display_mapCount(maps_json);
     mapFilters = getDefaultFilters();
@@ -63,7 +93,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 const headerOptions = document.querySelectorAll('.header-option');
 document.querySelectorAll('.header-option').forEach(option => {
     // Exclude discord button
-    if (option.id == 'discord-container') {return;}
+    if (option.id == 'discord-container') { return; }
 
     option.addEventListener('click', () => {
         // Remove the 'header-selected' class from all options
