@@ -2506,7 +2506,8 @@
         },
         "class_tech": {
             "soldier": [
-                "Wallpogo"
+                "Wallpogo",
+                "Technical"
             ],
             "demoman": [
                 "Pogo"
@@ -2547,7 +2548,8 @@
         },
         "class_tech": {
             "soldier": [
-                "Wallpogo"
+                "Wallpogo",
+                "Technical"
             ],
             "demoman": [
                 "Pogo"
@@ -7248,9 +7250,7 @@
             "last_updated": "2024-11-17T21:32:40.303776"
         },
         "class_tech": {
-            "soldier": [
-                "Wallpogo"
-            ],
+            "soldier": [],
             "demoman": [
                 "Airpogo"
             ]
@@ -16703,7 +16703,8 @@
         },
         "class_tech": {
             "soldier": [
-                "Wallpogo"
+                "Wallpogo",
+                "Technical"
             ],
             "demoman": [
                 "Airpogo"
@@ -16867,7 +16868,8 @@
         "class_tech": {
             "soldier": [
                 "Phase",
-                "Wallpogo"
+                "Wallpogo",
+                "Technical"
             ],
             "demoman": [
                 "Phase"
@@ -19709,7 +19711,8 @@
         },
         "class_tech": {
             "soldier": [
-                "Wallpogo"
+                "Wallpogo",
+                "Technical"
             ],
             "demoman": []
         }
@@ -24285,7 +24288,8 @@
         },
         "class_tech": {
             "soldier": [
-                "Wallpogo"
+                "Wallpogo",
+                "Technical"
             ],
             "demoman": [
                 "Pogo"
@@ -26796,7 +26800,8 @@
         },
         "class_tech": {
             "soldier": [
-                "Wallpogo"
+                "Wallpogo",
+                "Technical"
             ],
             "demoman": [
                 "Hardpogo"

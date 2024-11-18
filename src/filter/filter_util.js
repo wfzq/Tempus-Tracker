@@ -1,25 +1,27 @@
 // Filters HTML elements
-var resetButton = document.getElementById('reset-btn');
-var sliderS = document.getElementById('toggle-s-slider');
-var r1s = document.getElementById('r1-s');
-var r2s = document.getElementById('r2-s');
-var toggleMix = document.getElementById('toggle-mix');
-var sliderD = document.getElementById('toggle-d-slider');
-var r1d = document.getElementById('r1-d')
-var r2d = document.getElementById('r2-d')
-var sliderB = document.getElementById('toggle-b-slider');
+const resetButton = document.getElementById('reset-btn');
+const sliderS = document.getElementById('toggle-s-slider');
+const r1s = document.getElementById('r1-s');
+const r2s = document.getElementById('r2-s');
+const toggleMix = document.getElementById('toggle-mix');
+const sliderD = document.getElementById('toggle-d-slider');
+const r1d = document.getElementById('r1-d')
+const r2d = document.getElementById('r2-d')
+const sliderB = document.getElementById('toggle-b-slider');
 var r1b // Loaded in function filters_reset
 var r2b // Loaded in function filters_reset
-var toggleLinear = document.getElementById('toggle-linear');
-var toggleCourse = document.getElementById('toggle-course');
-var toggleSoldierIntended = document.getElementById('toggle-soldier');
-var toggleDemomanIntended = document.getElementById('toggle-demoman');
-var selectAuthor = document.getElementById('author-select');
-var selectAuthorAmount = document.getElementById('author-amount-select');
-var completionsClass = document.getElementById('completions-class-select');
-var completionsMin = document.getElementById('min-completions');
-var completionsMax = document.getElementById('max-completions');
-var sortMapsSelect = document.getElementById('sort-select');
+const toggleLinear = document.getElementById('toggle-linear');
+const toggleCourse = document.getElementById('toggle-course');
+const toggleSoldierIntended = document.getElementById('toggle-soldier');
+const toggleDemomanIntended = document.getElementById('toggle-demoman');
+const techBox_S = document.getElementById('tech-select-s');
+const techBox_D = document.getElementById('tech-select-d');
+const selectAuthor = document.getElementById('author-select');
+const selectAuthorAmount = document.getElementById('author-amount-select');
+const completionsClass = document.getElementById('completions-class-select');
+const completionsMin = document.getElementById('min-completions');
+const completionsMax = document.getElementById('max-completions');
+const sortMapsSelect = document.getElementById('sort-select');
 
 function populate_sortByAuthor(authors) {
     const select = document.getElementById('author-select');
@@ -86,6 +88,54 @@ function populate_sortByAuthorCount(authors) {
         option.value = amount;
         option.textContent = `${amount} (${authors[amount]})`;
         select.appendChild(option);
+    }
+}
+
+function populate_tech() {
+    let tech = getTechniques();
+
+    // Mixed gets green
+    {
+        const option = document.createElement('option');
+        option.value = tech.O[0];
+        option.textContent = tech.O[0];
+
+        option.style.backgroundColor = 'lightgreen';
+
+        techBox_S.appendChild(option);
+        techBox_D.appendChild(option.cloneNode(true));
+    }
+
+    // S 
+    for (const technique of tech.S) {
+        const option = document.createElement('option');
+        option.value = technique;
+        option.textContent = technique;
+
+        option.style.backgroundColor = 'lightblue';
+
+        techBox_S.appendChild(option);
+    }
+
+    // D 
+    for (const technique of tech.D) {
+        const option = document.createElement('option');
+        option.value = technique;
+        option.textContent = technique;
+
+        option.style.backgroundColor = '#FF7F7F';
+
+        techBox_D.appendChild(option);
+    }
+
+    // O 
+    for (const technique of tech.O.slice(1)) {
+        const option = document.createElement('option');
+        option.value = technique;
+        option.textContent = technique;
+
+        techBox_S.appendChild(option);
+        techBox_D.appendChild(option.cloneNode(true));
     }
 }
 
@@ -209,6 +259,10 @@ function filters_reset() {
     toggleSoldierIntended.classList.add('button-on');
     toggleDemomanIntended.classList.remove('button-off');
     toggleDemomanIntended.classList.add('button-on');
+
+    /* Tech */
+    techBox_S.value = "none";
+    techBox_D.value = "none";
 
     /* Author */
     selectAuthor.value = "__all__";

@@ -18,6 +18,13 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+img {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    user-drag: none;
+}
+
 #main-container {
     background-color: #282b30;
     display: flex;
@@ -92,6 +99,7 @@ header {
 }
 
 #golly {
+    transform-origin: center; 
     z-index: 2;
     position: relative;
     top: 2px;
@@ -128,7 +136,7 @@ header {
 }
 
 #splash {
-    text-wrap-mode:wrap;
+    text-wrap-mode: wrap;
     text-align: center;
     color: rgb(255, 255, 0);
     animation: pulse 0.7s infinite cubic-bezier(.17, .67, .83, .67);

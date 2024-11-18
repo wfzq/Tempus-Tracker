@@ -161,6 +161,22 @@
                             onclick="filters_button_intended_demoman(this)">Demoman</button>
                     </div>
 
+                    <!-- Map Technique -->
+                    <div id="filter-by-tech">
+                        <div class="class-tech" id="class-tech-s">
+                            <label class="tech-select" for="tech-select-s">S Tech</label>
+                            <select class="tech-select" id="tech-select-s" onchange="filters_combo_soldierTech(this.value)">
+                                <option value="none">None</option>
+                            </select>
+                        </div>
+                        <div class="class-tech">
+                            <label class="tech-select" for="tech-select-d">D Tech</label>
+                            <select class="tech-select" id="tech-select-d" onchange="filters_combo_demomanTech(this.value)">
+                                <option value="none">None</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <!--Filter by Author-->
                     <div id="filter-by-author">
                         <div id="author-select-container">

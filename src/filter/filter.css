@@ -98,11 +98,11 @@ input[type="range"]::-moz-range-thumb {
 }
 
 input[type="range"]:hover::-webkit-slider-thumb {
-    background: #5466a7;
+    background: #4c5c96;
 }
 
 input[type="range"]:hover::-moz-range-thumb {
-    background: #5466a7;
+    background: #4c5c96;
 }
 
 button {
@@ -146,7 +146,7 @@ button {
 }
 
 .range-tip {
-    font-size: 15px;
+    font-size: 12pt;
     transition: 0.05s;
     color: #7289dac4;
     position: absolute;
@@ -157,6 +157,8 @@ button {
 }
 
 #r2-tip {
+    z-index: 9;
+    background-color: #1e2124;
     right: 0;
 }
 
@@ -196,6 +198,23 @@ button {
     padding-bottom: 0;
 }
 
+#class-tech-s {
+    margin-bottom: 10px;
+}
+
+.class-tech {
+    display: flex;
+    flex-direction: row;
+
+    label {
+        flex: 3;
+    }
+
+    select {
+        width: 185px;
+    }
+}
+
 #filter-by-author {
     div {
         display: flex;
@@ -207,13 +226,12 @@ button {
         padding-bottom: 10px;
     }
 
-    * {
+    label {
         flex: 3;
     }
 
-    #author-select, #author-amount-select {
-        flex: 6;
-        width: 100%;
+    select {
+        width: 185px;
     }
 }
 

@@ -30,6 +30,11 @@ function getDefaultFilters() {
         "soldier": true,
         "demoman": true,
 
+        "tech": {
+            "soldier": "none",
+            "demoman": "none"
+        },
+
         "authors": {
             "author-select": "__all__",
             "author-amount-select": "__all__",
@@ -40,6 +45,14 @@ function getDefaultFilters() {
             "max": NaN,
         }
     };
+}
+
+function getTechniques() {
+    return {
+        "O": ["Mixed", "Pogo", "Gimmick", "Phase", "Strafe", "Jank", "Jurf", "Edgebug", "Wallbug", "Texturebug", "Hole", "Lim Ammo", "Technical", "Bounce", "Buttons"],
+        "S": ["Wallpogo", "Wallshot", "Sync", "Prefire", "Rand Bounce", "Airstrike", "Speedshot", "Ctap"],
+        "D": ["3pre", "Hardpogo", "Airpogo", "Downair", "Vert"]
+    }
 }
 
 async function setSplashScreen() {
@@ -81,6 +94,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     populate_sortByAuthor(authorsList);
     populate_sortByAuthorCount(map_authors_count);
     populate_sortByBonus(mostBonuses);
+    populate_tech();
 
     document.querySelectorAll('.r1, .r2').forEach((element) => {
         element.addEventListener('input', function () {

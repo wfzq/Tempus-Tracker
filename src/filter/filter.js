@@ -99,6 +99,20 @@ function filters_button_intended_demoman(button) {
     display_mapCount(maps_filtered);
 }
 
+function filters_combo_soldierTech(type) {
+    mapFilters.tech.soldier = type;
+
+    maps_filtered = filterMaps(maps_json);
+    display_mapCount(maps_filtered);
+}
+
+function filters_combo_demomanTech(type) {
+    mapFilters.tech.demoman = type;
+
+    maps_filtered = filterMaps(maps_json);
+    display_mapCount(maps_filtered);
+}
+
 function filters_combo_author(author) {
     mapFilters.authors["author-select"] = author;
 
