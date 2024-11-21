@@ -4,16 +4,6 @@ function addMapElement(map) {
     mapElement.className = `map-list-item`;
     mapElement.id = map.name;
 
-
-    /**
-     * 
-     * 
-     * TODO: 
-     * 
-     * Assign map thumbnail resolutions 
-     * from desired up as available!!!
-     * 
-     */
     // Assign thumbnail, if available
     let thumbnail_url = `src/data/thumbnails/${map.name.toLowerCase()}.jpg`;
     let thumbnail = new Image();
@@ -39,6 +29,21 @@ function addMapElement(map) {
     let mapHeader = document.createElement("div");
     mapHeader.className = `map-header`;
     headerLink.appendChild(mapHeader);
+
+    let mapTypeContainer = document.createElement("div");
+    mapTypeContainer.className = 'map-type-container';
+    mapHeader.appendChild(mapTypeContainer)
+
+    if (!map.zone_counts.linear) {
+        let mapTypeIcon = document.createElement("i");
+        mapTypeIcon.className = 'fa fa-flag-o';
+        mapTypeContainer.appendChild(mapTypeIcon)
+
+        let mapTypeCourses = document.createElement("p");
+        mapTypeCourses.className = 'map-type-course';
+        mapTypeCourses.textContent = map.zone_counts.course;
+        mapTypeContainer.appendChild(mapTypeCourses)
+    }
 
     let mapName = document.createElement("p");
     mapName.className = 'map-name';
@@ -114,14 +119,38 @@ function addMapElement(map) {
     bonusCount.textContent = map.zone_counts.bonus ?? 0;
     bonusesContainer.appendChild(bonusCount);
 
+    let mapTechContainer = document.createElement('div');
+    mapTechContainer.classList = 'map-tech-container';
+    mapMain.appendChild(mapTechContainer);
+
+    let soldierTech = document.createElement('p');
+    soldierTech.classList = 'map-tech-soldier';
+    soldierTech.style = "background-color: #ADD8E630"
+    soldierTech.textContent = map.class_tech.soldier.join(' • ');
+    mapTechContainer.appendChild(soldierTech);
+
+    let demomanTech = document.createElement('p');
+    demomanTech.classList = 'map-tech-demoman';
+    demomanTech.style = "background-color: #FF7F7F30"
+    demomanTech.textContent = map.class_tech.demoman.join('  •  ');
+    mapTechContainer.appendChild(demomanTech);
+
     // Authors
     let mapAuthors = document.createElement('div');
-    mapAuthors.classList = 'map-authors';
+    mapAuthors.classList = 'map-authors-container';
+    mapMain.appendChild(mapAuthors);
+
+    let mapAuthorsBackground = document.createElement('div');
+    mapAuthorsBackground.classList = 'map-authors-background';
+    mapAuthors.appendChild(mapAuthorsBackground);
+
+    let mapAuthorsText = document.createElement('p');
+    mapAuthorsText.classList = 'map-authors';
     let authorsCount = map.authors.length;
-    mapAuthors.textContent = authorsCount > 4 ?
+    mapAuthorsText.textContent = authorsCount > 4 ?
         `By ${authorsCount} Authors: ${map.authors.map(author => author.name).join('  •  ')}` :
         `By ${map.authors.map(author => author.name).join('  •  ')}`;
-    mapMain.appendChild(mapAuthors);
+    mapAuthors.appendChild(mapAuthorsText);
 
     document.getElementById("maps-container").appendChild(mapElement);
 }
