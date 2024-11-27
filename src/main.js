@@ -1,11 +1,12 @@
 const MIN_TIER = 0;
 const MAX_TIER = 6;
-var maps_filtered = [...maps_json];
+var maps_json;
+var maps_filtered;
 var authorsList = {};
 var map_authors_count = {};
 var mostBonuses = 0;
 var mapFilters = {};
-var mascots = 3;
+var mascots = 5;
 var currentMascot = 0;
 
 function getDefaultFilters() {
@@ -89,6 +90,11 @@ async function setSplashScreen() {
 // DOM Loaded
 document.addEventListener('DOMContentLoaded', async function () {
     setSplashScreen();
+
+    const response = await fetch('../src/data/maps_db/maps_merged.json');
+    maps_json = await response.json();
+    maps_filtered = maps_json;
+    
     maps_loadAll();
     display_mapCount(maps_json);
     mapFilters = getDefaultFilters();
@@ -147,6 +153,10 @@ async function playSound(sound) {
             const hl = new Audio("../src/data/sounds/hl1scream.mp3");
             hl.play();
             break;
+        case "me":
+            const ta = new Audio("../src/data/sounds/offToVisitYourMother.mp3");
+            ta.play();
+            break;
         default:
             break;
     }
@@ -175,8 +185,8 @@ mascot.addEventListener('click', () => {
             // Remove background
             logoBackground.style.setProperty('--background-image', 'none');
 
-            const tempusText = document.getElementById('tempus');
-            const trackerText = document.getElementById('tracker');
+            /* const tempusText = document.getElementById('tempus');
+            const trackerText = document.getElementById('tracker'); */
             mascot.className = '';
 
             let mascotRoll;
@@ -211,6 +221,7 @@ mascot.addEventListener('click', () => {
                     logoBackground.style.backgroundSize = "cover";
                     logoBackground.style.backgroundPosition = "center";
                     break;
+                // Half life
                 case 4:
                     playSound("half_life");
                     mascot.classList.add('half-life');
@@ -218,6 +229,16 @@ mascot.addEventListener('click', () => {
                     logoBackground.style.backgroundSize = "cover";
                     logoBackground.style.backgroundPosition = "center";
                     logoBackground.style.backgroundRepeat = "no-repeat";
+                    break;
+                // Me
+                case 5:
+                    playSound("me");
+                    mascot.classList.add('me');
+                    logoBackground.style.backgroundImage = "url('../src/data/ico/hesfuckingcringe.png')";
+                    logoBackground.backgroundSize = "auto";
+                    logoBackground.backgroundPosition = "top left";
+                    logoBackground.style.backgroundRepeat = "repeat";
+                    break;
             }
             currentMascot = mascotRoll;
         }

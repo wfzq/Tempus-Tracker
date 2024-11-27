@@ -1,4 +1,4 @@
-const maps_json = [
+[
     {
         "name": "conc_concept",
         "intended_class": "4",

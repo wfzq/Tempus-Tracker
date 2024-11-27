@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="src/maps/maps.css">
     <link rel="stylesheet" type="text/css" href="src/search/search.css">
     <link rel="stylesheet" type="text/css" href="src/main.css">
-    <script defer src="src/data/maps_db/maps_merged.js"></script>
+
     <!-- <script defer src="src/API/tempus-api.js"></script> -->
     <script defer src="src/filter/filter.js"></script>
     <script defer src="src/filter/filter_logic.js"></script>
@@ -165,13 +165,15 @@
                         <h3>Technique</h3>
                         <div class="class-tech" id="class-tech-s">
                             <label class="tech-select" for="tech-select-s">Soldier</label>
-                            <select class="tech-select" id="tech-select-s" onchange="filters_combo_soldierTech(this.value)">
+                            <select class="tech-select" id="tech-select-s"
+                                onchange="filters_combo_soldierTech(this.value)">
                                 <option value="none">None</option>
                             </select>
                         </div>
                         <div class="class-tech">
                             <label class="tech-select" for="tech-select-d">Demoman</label>
-                            <select class="tech-select" id="tech-select-d" onchange="filters_combo_demomanTech(this.value)">
+                            <select class="tech-select" id="tech-select-d"
+                                onchange="filters_combo_demomanTech(this.value)">
                                 <option value="none">None</option>
                             </select>
                         </div>

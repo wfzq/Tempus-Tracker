@@ -181,6 +181,10 @@ header {
     background-image: url(../src/data/ico/science.png);
 }
 
+.me {
+    background-image: url(../src/data/ico/x64dbg.png);
+}
+
 .logo-text {
     color: whitesmoke;
     font-size: clamp(4px, 100pt, 10vw);
