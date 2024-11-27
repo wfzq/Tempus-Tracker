@@ -22,7 +22,6 @@ img {
     -webkit-user-drag: none;
     -moz-user-drag: none;
     -ms-user-drag: none;
-    user-drag: none;
 }
 
 #main-container {
@@ -55,6 +54,7 @@ header {
     height: 200px;
     user-select: none;
     z-index: 1;
+    --background-image: url(../src/data/ico/background.jpg);
 }
 
 #logo-container::before {
@@ -64,7 +64,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../src/data/ico/background.jpg);
+    background-image: var(--background-image);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.05;
@@ -77,6 +77,7 @@ header {
     position: relative;
     width: 100px;
     height: 100px;
+    border: none;
 }
 
 @keyframes spin {
@@ -89,6 +90,50 @@ header {
     }
 }
 
+@keyframes fast-slow-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(720deg);
+    }
+
+    100% {
+        transform: rotate(1080deg);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce-change {
+    0%, 100% {
+        transform: scale(1.2) rotateY(0deg) skewX(0deg);
+    }
+
+    25% {
+        transform: scale(1.1, 0.9) rotateY(45deg) skewX(-10deg);
+    }
+
+    50% {
+        transform: scale(1, 1) rotateY(90deg) skewX(0deg);
+    }
+
+    75% {
+        transform: scale(0.9, 1.1) rotateY(45deg) skewX(10deg);
+    }
+}
+
 #tf-logo {
     z-index: 1;
     opacity: .6;
@@ -98,14 +143,42 @@ header {
     height: auto;
 }
 
-#golly {
-    transform-origin: center; 
-    z-index: 2;
-    position: relative;
-    top: 2px;
-    left: 7px;
-    width: 120px;
-    height: auto;
+#mascot {
+    z-index: 9;
+    position: absolute;
+    transform-origin: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.golly {
+    top: 5px;
+    left: 5px;
+    background-image: url(../src/data/ico/golly.png);
+}
+
+.demoman {
+    background-image: url(../src/data/ico/mascot-demoman.png);
+}
+
+.soldier {
+    background-image: url(../src/data/ico/mascot-soldier.png);
+}
+
+.fox {
+    top: -15px;
+    left: 0px;
+    width: 120px !important;
+    height: 120px !important;
+    background-image: url(../src/data/ico/mascot-fox.png);
+}
+
+.half-life {
+    background-image: url(../src/data/ico/science.png);
 }
 
 .logo-text {
@@ -139,6 +212,7 @@ header {
     text-wrap-mode: wrap;
     text-align: center;
     color: rgb(255, 255, 0);
+    -webkit-text-fill-color: rgb(255, 255, 0);
     animation: pulse 0.7s infinite cubic-bezier(.17, .67, .83, .67);
 }
 

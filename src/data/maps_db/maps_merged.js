@@ -267,7 +267,9 @@ const maps_json = [
             "soldier": [
                 "Wallpogo"
             ],
-            "demoman": []
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -940,7 +942,9 @@ const maps_json = [
             "last_updated": "2024-11-17T21:31:55.041241"
         },
         "class_tech": {
-            "soldier": [],
+            "soldier": [
+                "Lim Ammo"
+            ],
             "demoman": [
                 "Lim Ammo",
                 "Pogo"
@@ -1065,7 +1069,8 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Prefire"
+                "Prefire",
+                "Sync"
             ],
             "demoman": []
         }
@@ -1474,9 +1479,12 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Technical"
+                "Technical",
+                "Wallshot"
             ],
-            "demoman": []
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -1665,7 +1673,9 @@ const maps_json = [
             "last_updated": "2024-11-17T21:32:08.178617"
         },
         "class_tech": {
-            "soldier": [],
+            "soldier": [
+                "Hole"
+            ],
             "demoman": [
                 "Hardpogo"
             ]
@@ -1860,7 +1870,9 @@ const maps_json = [
                 "Bounce",
                 "Jank"
             ],
-            "demoman": []
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -1977,7 +1989,9 @@ const maps_json = [
             "soldier": [
                 "Pogo"
             ],
-            "demoman": []
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -2161,7 +2175,9 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Wallpogo"
+                "Wallpogo",
+                "Texturebug",
+                "Bounce"
             ],
             "demoman": [
                 "Pogo"
@@ -2352,7 +2368,8 @@ const maps_json = [
                 "Wallpogo"
             ],
             "demoman": [
-                "Pogo"
+                "Pogo",
+                "Lim Ammo"
             ]
         }
     },
@@ -2462,7 +2479,8 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Lim Ammo"
+                "Lim Ammo",
+                "Jank"
             ],
             "demoman": [
                 "Lim Ammo",
@@ -2708,9 +2726,7 @@ const maps_json = [
             "soldier": [
                 "Wallpogo"
             ],
-            "demoman": [
-                "Airpogo"
-            ]
+            "demoman": []
         }
     },
     {
@@ -4158,7 +4174,8 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Jank"
+                "Jank",
+                "Technical"
             ],
             "demoman": []
         }
@@ -4922,7 +4939,8 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Gimmick"
+                "Gimmick",
+                "Strafe"
             ],
             "demoman": []
         }
@@ -4995,7 +5013,9 @@ const maps_json = [
             "last_updated": "2024-11-17T21:32:30.305120"
         },
         "class_tech": {
-            "soldier": [],
+            "soldier": [
+                "Hole"
+            ],
             "demoman": [
                 "Hardpogo"
             ]
@@ -5402,7 +5422,8 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Jank"
+                "Jank",
+                "Hole"
             ],
             "demoman": []
         }
@@ -6360,9 +6381,7 @@ const maps_json = [
             "last_updated": "2024-11-17T21:32:35.100258"
         },
         "class_tech": {
-            "soldier": [
-                "Jank"
-            ],
+            "soldier": [],
             "demoman": []
         }
     },
@@ -6980,9 +6999,7 @@ const maps_json = [
             "last_updated": "2024-11-17T21:32:38.968067"
         },
         "class_tech": {
-            "soldier": [
-                "Jurf"
-            ],
+            "soldier": [],
             "demoman": []
         }
     },
@@ -7169,9 +7186,12 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Jank"
+                "Jank",
+                "Hole"
             ],
-            "demoman": []
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -7289,7 +7309,10 @@ const maps_json = [
             "last_updated": "2024-11-17T21:32:40.303776"
         },
         "class_tech": {
-            "soldier": [],
+            "soldier": [
+                "Wallpogo",
+                "Bounce"
+            ],
             "demoman": [
                 "Pogo"
             ]
@@ -7720,7 +7743,8 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Pogo"
+                "Pogo",
+                "Wallpogo"
             ],
             "demoman": [
                 "Pogo"
@@ -7876,7 +7900,9 @@ const maps_json = [
                 "Phase",
                 "Wallpogo"
             ],
-            "demoman": []
+            "demoman": [
+                "Pogo"
+            ]
         }
     },
     {
@@ -7954,7 +7980,8 @@ const maps_json = [
         "class_tech": {
             "soldier": [
                 "Wallbug",
-                "Bounce"
+                "Bounce",
+                "Hole"
             ],
             "demoman": [
                 "Jank"
@@ -8124,7 +8151,8 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Gimmick"
+                "Gimmick",
+                "Lim Ammo"
             ],
             "demoman": [
                 "Gimmick"
@@ -8283,7 +8311,9 @@ const maps_json = [
             "last_updated": "2024-11-17T21:32:44.816221"
         },
         "class_tech": {
-            "soldier": [],
+            "soldier": [
+                "Hole"
+            ],
             "demoman": [
                 "Airpogo"
             ]
@@ -8324,9 +8354,12 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Gimmick"
+                "Gimmick",
+                "Strafe"
             ],
-            "demoman": []
+            "demoman": [
+                "Airpogo"
+            ]
         }
     },
     {
@@ -8366,9 +8399,7 @@ const maps_json = [
             "soldier": [
                 "Wallpogo"
             ],
-            "demoman": [
-                "Pogo"
-            ]
+            "demoman": []
         }
     },
     {
@@ -8769,7 +8800,9 @@ const maps_json = [
             "soldier": [
                 "Edgebug"
             ],
-            "demoman": []
+            "demoman": [
+                "3pre"
+            ]
         }
     },
     {
@@ -9310,7 +9343,8 @@ const maps_json = [
                 "Gimmick"
             ],
             "demoman": [
-                "Phase"
+                "Phase",
+                "Pogo"
             ]
         }
     },
@@ -9473,7 +9507,9 @@ const maps_json = [
             "last_updated": "2024-11-17T21:32:52.342726"
         },
         "class_tech": {
-            "soldier": [],
+            "soldier": [
+                "Sync"
+            ],
             "demoman": [
                 "Airpogo"
             ]
@@ -9515,9 +9551,12 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Jank"
+                "Jank",
+                "Lim Ammo"
             ],
-            "demoman": []
+            "demoman": [
+                "Jank"
+            ]
         }
     },
     {
@@ -24840,7 +24879,8 @@ const maps_json = [
         },
         "class_tech": {
             "soldier": [
-                "Airstrike"
+                "Airstrike",
+                "Prefire"
             ],
             "demoman": []
         }
