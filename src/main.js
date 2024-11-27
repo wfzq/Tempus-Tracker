@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 const headerOptions = document.querySelectorAll('.header-option');
 document.querySelectorAll('.header-option').forEach(option => {
     // Exclude discord button
-    if (option.id == 'discord-container') { return; }
+    if (option.id == 'discord-container' || option.id == 'report') { return; }
 
     option.addEventListener('click', () => {
         // Remove the 'header-selected' class from all options
