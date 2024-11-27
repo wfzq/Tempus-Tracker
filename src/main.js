@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     const response = await fetch('../src/data/maps_db/maps_merged.json');
     maps_json = await response.json();
     maps_filtered = maps_json;
-    
+
     maps_loadAll();
     display_mapCount(maps_json);
     mapFilters = getDefaultFilters();
@@ -160,8 +160,6 @@ async function playSound(sound) {
         default:
             break;
     }
-    const audio = new Audio(path);
-    audio.play();
 }
 
 // Logo
@@ -185,8 +183,10 @@ mascot.addEventListener('click', () => {
             // Remove background
             logoBackground.style.setProperty('--background-image', 'none');
 
-            /* const tempusText = document.getElementById('tempus');
-            const trackerText = document.getElementById('tracker'); */
+            const tempusText = document.getElementById('tempus');
+            const trackerText = document.getElementById('tracker');
+            tempusText.style = "color: white;";
+            trackerText.style = "color: white;";
             mascot.className = '';
 
             let mascotRoll;
@@ -235,9 +235,12 @@ mascot.addEventListener('click', () => {
                     playSound("me");
                     mascot.classList.add('me');
                     logoBackground.style.backgroundImage = "url('../src/data/ico/hesfuckingcringe.png')";
-                    logoBackground.backgroundSize = "auto";
-                    logoBackground.backgroundPosition = "top left";
-                    logoBackground.style.backgroundRepeat = "repeat";
+                    logoBackground.style.backgroundSize = "25% 50%";
+                    logoBackground.style.backgroundPosition = "left";
+                    logoBackground.style.backgroundRepeat = "no-repeat";
+
+                    tempusText.style = "color: transparent; background-clip: text; animation: rainbow 4s linear infinite;";
+                    trackerText.style = "color: transparent; background-clip: text; animation: rainbow 4s linear infinite;";
                     break;
             }
             currentMascot = mascotRoll;
