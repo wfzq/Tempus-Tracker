@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     setSplashScreen();
 
     // Get maps
-    const response = await fetch('/src/data/maps_db/maps_merged.json');
+    const response = await fetch('src/data/maps_db/maps_merged.json');
     maps_json = await response.json();
     maps_filtered = maps_json;
 

@@ -13,7 +13,7 @@ async function setSplashScreen() {
     // Determine Message
     const getMessage = async () => {
         try {
-            const response = await fetch('/src/data/splash.txt');
+            const response = await fetch('src/data/splash.txt');
             const data = await response.text();
 
             // Split into lines and filter out empty lines
@@ -48,31 +48,31 @@ document.querySelectorAll('.header-option').forEach(option => {
 async function playSound(sound) {
     switch (sound) {
         case "click":
-            const clickAudio = new Audio("/src/data/sounds/medal_click.wav");
+            const clickAudio = new Audio("src/data/sounds/medal_click.wav");
             clickAudio.play();
             break;
         case "click_rare":
-            const rareClickAudio = new Audio("/src/data/sounds/medal_click_rare.wav");
+            const rareClickAudio = new Audio("src/data/sounds/medal_click_rare.wav");
             rareClickAudio.play();
             break;
         case "soldier":
-            const sa = new Audio("/src/data/sounds/soldier_laughevil02.mp3");
+            const sa = new Audio("src/data/sounds/soldier_laughevil02.mp3");
             sa.play();
             break;
         case "demoman":
-            const da = new Audio("/src/data/sounds/demoman_laughevil02.mp3");
+            const da = new Audio("src/data/sounds/demoman_laughevil02.mp3");
             da.play();
             break;
         case "fox":
-            const fa = new Audio("/src/data/sounds/oneandonly.mp3");
+            const fa = new Audio("src/data/sounds/oneandonly.mp3");
             fa.play();
             break;
         case "half_life":
-            const hl = new Audio("/src/data/sounds/hl1scream.mp3");
+            const hl = new Audio("src/data/sounds/hl1scream.mp3");
             hl.play();
             break;
         case "me":
-            const ta = new Audio("/src/data/sounds/offToVisitYourMother.mp3");
+            const ta = new Audio("src/data/sounds/offToVisitYourMother.mp3");
             ta.play();
             break;
         default:
@@ -113,7 +113,7 @@ mascot.addEventListener('mousedown', () => {
                 case 1:
                     playSound("demoman");
                     mascot.classList.add('demoman');
-                    logoBackground.style.backgroundImage = "url('/src/data/thumbnails/jump_mireal2_final.jpg')";
+                    logoBackground.style.backgroundImage = "url('src/data/thumbnails/jump_mireal2_final.jpg')";
                     logoBackground.style.backgroundSize = "cover";
                     logoBackground.style.backgroundPosition = "center";
                     break;
@@ -122,7 +122,7 @@ mascot.addEventListener('mousedown', () => {
                 case 2:
                     playSound("soldier");
                     mascot.classList.add('soldier');
-                    logoBackground.style.backgroundImage = "url('/src/data/thumbnails/jump_ionizer_tpn4.jpg')";
+                    logoBackground.style.backgroundImage = "url('src/data/thumbnails/jump_ionizer_tpn4.jpg')";
                     logoBackground.style.backgroundSize = "cover";
                     logoBackground.style.backgroundPosition = "center";
                     break;
@@ -131,7 +131,7 @@ mascot.addEventListener('mousedown', () => {
                 case 3:
                     playSound("fox");
                     mascot.classList.add('fox');
-                    logoBackground.style.backgroundImage = "url('/src/data/ico/fox-background.jpg')";
+                    logoBackground.style.backgroundImage = "url('src/data/ico/fox-background.jpg')";
                     logoBackground.style.backgroundSize = "cover";
                     logoBackground.style.backgroundPosition = "center";
                     break;
@@ -139,7 +139,7 @@ mascot.addEventListener('mousedown', () => {
                 case 4:
                     playSound("half_life");
                     mascot.classList.add('half-life');
-                    logoBackground.style.backgroundImage = "url('/src/data/ico/hl1office.jpg')";
+                    logoBackground.style.backgroundImage = "url('src/data/ico/hl1office.jpg')";
                     logoBackground.style.backgroundSize = "cover";
                     logoBackground.style.backgroundPosition = "center";
                     logoBackground.style.backgroundRepeat = "no-repeat";
@@ -148,7 +148,7 @@ mascot.addEventListener('mousedown', () => {
                 case 5:
                     playSound("me");
                     mascot.classList.add('me');
-                    logoBackground.style.backgroundImage = "url('/src/data/ico/hesfuckingcringe.png')";
+                    logoBackground.style.backgroundImage = "url('src/data/ico/hesfuckingcringe.png')";
                     logoBackground.style.backgroundSize = "25% 50%";
                     logoBackground.style.backgroundPosition = "left";
                     logoBackground.style.backgroundRepeat = "no-repeat";
