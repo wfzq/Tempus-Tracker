@@ -9,19 +9,25 @@
 
     <link rel="icon" href="src/data/ico/tt.png" type="image/x-icon">
     <link rel="stylesheet" href="src/data/fonts/font-awesome-4.5.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.9.0/css/flag-icon.min.css">
 
     <link rel="stylesheet" type="text/css" href="src/main.css">
+    <link rel="stylesheet" type="text/css" href="src/header/header.css">
     <link rel="stylesheet" type="text/css" href="src/filter/filter.css">
     <link rel="stylesheet" type="text/css" href="src/maps/maps.css">
     <link rel="stylesheet" type="text/css" href="src/search/search.css">
     <link rel="stylesheet" type="text/css" href="src/main.css">
+    <link rel="stylesheet" type="text/css" href="src/nav/servers.css">
 
-    <!-- <script defer src="src/API/tempus-api.js"></script> -->
+    <script defer src="src/API/tempus-api.js"></script>
+    <script defer src="src/header/header.js"></script>
     <script defer src="src/filter/filter.js"></script>
     <script defer src="src/filter/filter_logic.js"></script>
     <script defer src="src/filter/filter_util.js"></script>
     <script defer src="src/maps/maps.js"></script>
     <script defer src="src/search/search.js"></script>
+    <script defer src="src/constants.js"></script>
+    <script defer src="src/nav/servers.js"></script>
     <script defer src="src/main.js"></script>
 
     <title>Tempus Tracker</title>
@@ -51,14 +57,15 @@
                     Discord
                     <img id="discord-icon" src="src/data/ico/discord.png">
                 </a>
-                <div class="header-option header-selected" id="maps">
+                <button class="header-option header-selected" id="maps" onclick="show_maps()">
                     <i class="fa fa-globe"></i>&nbsp;
                     Maps
-                </div>
-                <div class="header-option" id="servers">
+                </button>
+                <div class="header-option" id="servers" onclick="show_servers()">
                     <i class="fa fa-server"></i>&nbsp;
                     Servers
                 </div>
+                <!-- 
                 <div class="header-option" id="users">
                     <i class="fa fa-user"></i>&nbsp;
                     My Times
@@ -66,7 +73,8 @@
                 <div class="header-option" id="help">
                     <i class="fa fa-question-circle"></i>&nbsp;
                     Help
-                </div>
+                </div> 
+                -->
                 <a class="header-option" id="report" href="https://forms.gle/mSmAro4ka8ZPUtv19" target="_blank">
                     <i class="fa fa-exclamation-circle"></i>&nbsp;
                     Report
@@ -74,12 +82,32 @@
             </div>
         </header>
 
-        <div id="about-full">
-
-        </div>
-
         <div id="main-container">
-            <div id="filters-container">
+            <!-- SERVERS -->
+            <div id="server-filters-container" class="filters-container hidden">
+                <h3 for="server-player-select">Max Players:</h3>
+                <div id="server-player-container">
+                    <button id="players-none" class="button-on">0</button>
+                    <button id="players-mid" class="button-on">3</button>
+                    <button id="players-high" class="button-on">5</button>
+                </div>
+                <h3>Region:</h3>
+                <div id="region-container">
+                    <button id='central europe' class="region-button button-on">Central Europe</button>
+                    <button id='north america' class="region-button button-on">North America</button>
+                    <button id='south america' class="region-button button-on">South America</button>
+                    <button id='asia' class="region-button button-on">Asia</button>
+                    <button id='oceania' class="region-button button-on">Oceania</button>
+                    <button id='middle east' class="region-button button-on">Middle East</button>
+                    <button id='africa' class="region-button button-on">Africa</button>
+                    <button id='eurasia' class="region-button button-on">Eurasia</button>
+                </div>
+            </div>
+
+            <div id="server-container" class="hidden"></div>
+
+            <!-- MAPS -->
+            <div id="maps-filters-container" class="filters-container">
                 <div id="search-container">
                     <input autocomplete="off" spellcheck="false" placeholder="Search..." type="text" id="search-input">
                     <span id="clear-btn">&#x2715;</span>

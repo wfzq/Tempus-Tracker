@@ -1,0 +1,319 @@
+header {
+    overflow: hidden;
+    position: relative;
+    background: #282b30;
+    width: 100%;
+}
+
+#logo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    background: #1e2124;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% - 20px);
+    height: 200px;
+    user-select: none;
+    z-index: 1;
+    --background-image: url(../data/ico/background.jpg);
+}
+
+#logo-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.05;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fast-slow-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(720deg);
+    }
+
+    100% {
+        transform: rotate(1080deg);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce-change {
+    0%, 100% {
+        transform: scale(1.2) rotateY(0deg) skewX(0deg);
+    }
+
+    25% {
+        transform: scale(1.1, 0.9) rotateY(45deg) skewX(-10deg);
+    }
+
+    50% {
+        transform: scale(1, 1) rotateY(90deg) skewX(0deg);
+    }
+
+    75% {
+        transform: scale(0.9, 1.1) rotateY(45deg) skewX(10deg);
+    }
+}
+
+@keyframes rainbow {
+    100%, 0% {
+        color: rgb(255, 0, 0);
+    }
+
+    8% {
+        color: rgb(255, 127, 0);
+    }
+
+    16% {
+        color: rgb(255, 255, 0);
+    }
+
+    25% {
+        color: rgb(127, 255, 0);
+    }
+
+    33% {
+        color: rgb(0, 255, 0);
+    }
+
+    41% {
+        color: rgb(0, 255, 127);
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+    }
+
+    58% {
+        color: rgb(0, 127, 255);
+    }
+
+    66% {
+        color: rgb(0, 0, 255);
+    }
+
+    75% {
+        color: rgb(127, 0, 255);
+    }
+
+    83% {
+        color: rgb(255, 0, 255);
+    }
+
+    91% {
+        color: rgb(255, 0, 127);
+    }
+}
+
+#tf-logo {
+    z-index: 1;
+    opacity: .6;
+    animation: spin 15s linear infinite;
+    position: absolute;
+    width: 150%;
+    height: auto;
+}
+
+#mascot {
+    z-index: 9;
+    position: absolute;
+    transform-origin: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.golly {
+    top: 5px;
+    left: 5px;
+    background-image: url(../data/ico/golly.png);
+}
+
+.demoman {
+    background-image: url(../data/ico/mascot-demoman.png);
+}
+
+.soldier {
+    background-image: url(../data/ico/mascot-soldier.png);
+}
+
+.fox {
+    top: -15px;
+    left: 0px;
+    width: 120px !important;
+    height: 120px !important;
+    background-image: url(../data/ico/mascot-fox.png);
+}
+
+.half-life {
+    background-image: url(../data/ico/science.png);
+}
+
+.me {
+    background-image: url(../data/ico/x64dbg.png);
+}
+
+.logo-text {
+    color: whitesmoke;
+    font-size: clamp(4px, 100pt, 10vw);
+    max-width: fit-content;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+#splash-container {
+    position: absolute;
+    width: 285px;
+    z-index: 99;
+    rotate: -20deg;
+    left: 60%;
+    top: 60%;
+}
+
+#splash {
+    text-wrap-mode: wrap;
+    text-align: center;
+    color: rgb(255, 255, 0);
+    -webkit-text-fill-color: rgb(255, 255, 0);
+    animation: pulse 0.7s infinite cubic-bezier(.17, .67, .83, .67);
+}
+
+.terraria {
+    font-family: 'Andy', Helvetica, Arial, sans-serif;
+    font-size: 28pt;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+
+.minecraft {
+    font-family: 'Minecraftia-Regular', Helvetica, Arial, sans-serif;
+    font-size: 17pt;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+#tempus {
+    transform: translateX(-25px);
+}
+
+#tracker {
+    position: relative;
+    transform: translateX(25px);
+}
+
+#by-amuria {
+    position: absolute;
+    top: 82%;
+    left: 6.5%;
+    color: #CF7336;
+    font-size: clamp(4px, 28pt, 100vw);
+    font-style: italic;
+}
+
+#header-menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    background: #1e2124;
+    width: calc(100% - 20px);
+    margin: 5px 10px 0px 10px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.header-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 0.90);
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.header-selected {
+    color: rgba(255, 255, 255, 1);
+    background-color: #15171a;
+}
+
+.header-option:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: #15171a;
+}
+
+#discord-container {
+    margin-right: 10px;
+    height: 38px;
+    width: 280px;
+    justify-content: center;
+    color: white;
+    border: 1px outset #7289da;
+}
+
+#discord-icon {
+    width: 30px;
+    height: auto;
+    padding-left: 5px;
+}

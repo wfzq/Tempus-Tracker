@@ -1,28 +1,3 @@
-// Filters HTML elements
-const resetButton = document.getElementById('reset-btn');
-const sliderS = document.getElementById('toggle-s-slider');
-const r1s = document.getElementById('r1-s');
-const r2s = document.getElementById('r2-s');
-const toggleMix = document.getElementById('toggle-mix');
-const sliderD = document.getElementById('toggle-d-slider');
-const r1d = document.getElementById('r1-d')
-const r2d = document.getElementById('r2-d')
-const sliderB = document.getElementById('toggle-b-slider');
-var r1b // Loaded in function filters_reset
-var r2b // Loaded in function filters_reset
-const toggleLinear = document.getElementById('toggle-linear');
-const toggleCourse = document.getElementById('toggle-course');
-const toggleSoldierIntended = document.getElementById('toggle-soldier');
-const toggleDemomanIntended = document.getElementById('toggle-demoman');
-const techBox_S = document.getElementById('tech-select-s');
-const techBox_D = document.getElementById('tech-select-d');
-const selectAuthor = document.getElementById('author-select');
-const selectAuthorAmount = document.getElementById('author-amount-select');
-const completionsClass = document.getElementById('completions-class-select');
-const completionsMin = document.getElementById('min-completions');
-const completionsMax = document.getElementById('max-completions');
-const sortMapsSelect = document.getElementById('sort-select');
-
 function populate_sortByAuthor(authors) {
     const select = document.getElementById('author-select');
 
