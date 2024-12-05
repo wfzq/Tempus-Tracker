@@ -6,20 +6,28 @@
     <meta name="google-site-verification" content="FBr-cp1Ciy81Q9X-nzCqPU9Qor9J_78z0JgwUTwJNjA" />
     <meta name="description"
         content="Tempus Tracker is a jump map browser for all maps hosted by the Tempus Jump Network servers for Team Fortress 2. Made by Amuria, also going by Mutra on Discord" />
+
     <link rel="icon" href="src/data/ico/tt.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/data/fonts/font-awesome-4.5.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.9.0/css/flag-icon.min.css">
 
     <link rel="stylesheet" type="text/css" href="src/main.css">
+    <link rel="stylesheet" type="text/css" href="src/header/header.css">
     <link rel="stylesheet" type="text/css" href="src/filter/filter.css">
     <link rel="stylesheet" type="text/css" href="src/maps/maps.css">
     <link rel="stylesheet" type="text/css" href="src/search/search.css">
     <link rel="stylesheet" type="text/css" href="src/main.css">
-    <script defer src="src/data/maps_db/maps_merged.js"></script>
-    <!-- <script defer src="src/API/tempus-api.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="src/nav/servers.css">
+
+    <script defer src="src/API/tempus-api.js"></script>
+    <script defer src="src/header/header.js"></script>
     <script defer src="src/filter/filter.js"></script>
     <script defer src="src/filter/filter_logic.js"></script>
     <script defer src="src/filter/filter_util.js"></script>
     <script defer src="src/maps/maps.js"></script>
     <script defer src="src/search/search.js"></script>
+    <script defer src="src/constants.js"></script>
+    <script defer src="src/nav/servers.js"></script>
     <script defer src="src/main.js"></script>
 
     <title>Tempus Tracker</title>
@@ -31,106 +39,75 @@
             <div id="logo-container">
                 <div class="logo-text" id="tempus">Tempus</div>
                 <div id="logo">
-                    <img src="src/data/ico/golly.png" id="golly">
+                    <div id="mascot" class="golly"></div>
                     <img src="src/data/ico/header_tf.png" id="tf-logo">
                 </div>
                 <div class="logo-text" id="tracker">
                     Tracker
+                    <div id="splash-container">
+                        <p id="splash">
+                        </p>
+                    </div>
                     <div class="logo-text" id="by-amuria">By Amuria</div>
                 </div>
             </div>
-            <a id="discord-container" href="https://discord.gg/3UmVMYkagx" target="_blank">
-                <p>Discord Server</p>
-                <img id="discord-icon" src="src/data/ico/discord.png">
-            </a>
-            <div id="alert">
-                <p id="message">
-                    Want to contribute thumbnails, help provide useful map information or have a question? Click here!
-                </p>
-                <div id="qa-content">
-                    <p>
-                        What is this?
-                    </p>
-                    <p class="answer">
-                        A map browser, meant to help you decide what to play next or simply to check if the mapper you
-                        hate has ever made a good map (he hasn't).
-                        Because the tempus website wont even fucking let you sort by soldier and demo difficulty at the
-                        same time so good luck using anything else
-                    </p>
-                    <p>
-                        How can I get involved?
-                    </p>
-                    <p class="answer">
-                        Join the discord. I'm looking for quality thumbnails to fill in the missing maps as well as
-                        rats with far too much map knowledge. I hope to mark maps by techniques, such as wallshots or
-                        airpogo; have a map score showing how good a map is according to the community (so you
-                        know not to play shit like jump_cavern as soldier) as well
-                        as transition into a T10 system by using staple maps and averaging the opinion of the best
-                        jumpers.
-                    </p>
-                    <p>
-                        How can I contribute thumbnails?
-                    </p>
-                    <p class="answer">
-                        Join the discord and submit your work into the correct channel. There you will also find the
-                        requirements and a guide. Alternatively, if you're on the savvy end, you can submit a pull
-                        request on
-                        github directly as long as they conform to the aforementioned standards
-                    </p>
-                    <p class="answer-inner">
-                        Here are some examples of quality thumbnails:
-                        <a target="_blank"
-                            href="/Tempus-Tracker/src/data/thumbnails/jump_4dakids_final.jpg">4dakids</a>,
-                        <a target="_blank" href="/Tempus-Tracker/src/data/thumbnails/jump_beef.jpg">beef</a>,
-                        <a target="_blank"
-                            href="/Tempus-Tracker/src/data/thumbnails/jump_bouncerific_v2.jpg">bouncerific</a>
-                    </p>
-                    <p class="answer-inner">
-                        Here are some examples of dogshit thumbnails:
-                        <a href="/Tempus-Tracker/src/data/thumbnails/jump_BAQu_a2.jpg">BAQu</a>,
-                        <a href="/Tempus-Tracker/src/data/thumbnails/jump_allstars_fix.jpg">allstars</a>,
-                        <a href="/Tempus-Tracker/src/data/thumbnails/jump_auga_final.jpg">auga</a>
-                    </p>
-                    <p>
-                        How can I find out which maps are missing thumbnails?
-                    </p>
-                    <p class="answer">
-                        Press F12, go to the console and look at the map names that pop up with a 404 next to their
-                        names. An alternative, and less ghetto, approach is to
-                        <a href="https://docs.google.com/spreadsheets/d/15DCTCF1qGzN15Rj24jny6-FajObOFtT99lgcfsygs9I">
-                            look at this google docs list.
-                        </a> which will hopefully be updated as thumbnails appear
-                    </p>
-                    <p>
-                        How can I help filling out map information?
-                    </p>
-                    <p class="answer">
-                        Join the discord and I will put up a link where you can go and vote when it's ready. This stuff
-                        is more complicated than it looks
-                    </p>
-                    <p>
-                        What will Tempus Tracker look like when it's finished?
-                    </p>
-                    <p class="answer">
-                        I have plans to make player profiles that show which maps players have completed, which
-                        techniques they enjoy playing, their average place in map leaderboards, map recommendations,
-                        etc. But given that this is a side project and the tempus API is absolute dogshit
-                        held together with twigs and bits of string it's a dice roll if these updates
-                        will come to light. Currently though, everything is nicely self contained
-                        in a local database with no calls being made to the API for the aforementioned reasons!
-                    </p>
-                    <p>
-                        How do you get completion data?
-                    </p>
-                    <p class="answer">
-                        Database is updated manually from a bot about once a week. I've managed to trim the FUCK out of
-                        the requests so the response packets are about 0.15kb in size per map!
-                    </p>
+
+            <div id="header-menu">
+                <a class="header-option" id="discord-container" href="https://discord.gg/3UmVMYkagx" target="_blank">
+                    Discord
+                    <img id="discord-icon" src="src/data/ico/discord.png">
+                </a>
+                <button class="header-option header-selected" id="maps" onclick="show_maps()">
+                    <i class="fa fa-globe"></i>&nbsp;
+                    Maps
+                </button>
+                <div class="header-option" id="servers" onclick="show_servers()">
+                    <i class="fa fa-server"></i>&nbsp;
+                    Servers
                 </div>
+                <!-- 
+                <div class="header-option" id="users">
+                    <i class="fa fa-user"></i>&nbsp;
+                    My Times
+                </div>
+                <div class="header-option" id="help">
+                    <i class="fa fa-question-circle"></i>&nbsp;
+                    Help
+                </div> 
+                -->
+                <a class="header-option" id="report" href="https://forms.gle/mSmAro4ka8ZPUtv19" target="_blank">
+                    <i class="fa fa-exclamation-circle"></i>&nbsp;
+                    Report
+                </a>
             </div>
         </header>
+
         <div id="main-container">
-            <div id="filters-container">
+            <!-- SERVERS -->
+            <div id="server-filters-container" class="filters-container hidden">
+                <h3 for="server-player-select">Max Players:</h3>
+                <div id="server-player-container">
+                    <button id="players-none" class="button-on">0</button>
+                    <button id="players-mid" class="button-on">3</button>
+                    <button id="players-high" class="button-on">5</button>
+                </div>
+                <h3>Region:</h3>
+                <div id="region-container">
+                    <button id='central europe' class="region-button button-on">Central Europe</button>
+                    <button id='north america' class="region-button button-on">North America</button>
+                    <button id='south america' class="region-button button-on">South America</button>
+                    <button id='asia' class="region-button button-on">Asia</button>
+                    <button id='oceania' class="region-button button-on">Oceania</button>
+                    <button id='middle east' class="region-button button-on">Middle East</button>
+                    <button id='africa' class="region-button button-on">Africa</button>
+                    <button id='eurasia' class="region-button button-on">Eurasia</button>
+                </div>
+            </div>
+
+            <div id="server-container" class="hidden"></div>
+
+            <!-- MAPS -->
+            <div id="maps-filters-container" class="filters-container">
                 <div id="search-container">
                     <input autocomplete="off" spellcheck="false" placeholder="Search..." type="text" id="search-input">
                     <span id="clear-btn">&#x2715;</span>
@@ -138,7 +115,10 @@
                 </div>
                 <div id="filter-by">
                     <div id="range-sliders">
-                        <h3>Difficulty Range</h3>
+                        <h3>
+                            <button class="hidden" id="reset-btn" onclick="reset_filters_prompt()"></button>
+                            Difficulty Range
+                        </h3>
 
                         <div class="range-slider" id="range-slider-s">
                             <button class="toggle-slider button-on" id="toggle-s-slider"
@@ -212,6 +192,25 @@
                             onclick="filters_button_intended_demoman(this)">Demoman</button>
                     </div>
 
+                    <!-- Map Technique -->
+                    <div id="filter-by-tech">
+                        <h3>Technique</h3>
+                        <div class="class-tech" id="class-tech-s">
+                            <label class="tech-select" for="tech-select-s">Soldier</label>
+                            <select class="tech-select" id="tech-select-s"
+                                onchange="filters_combo_soldierTech(this.value)">
+                                <option value="none">None</option>
+                            </select>
+                        </div>
+                        <div class="class-tech">
+                            <label class="tech-select" for="tech-select-d">Demoman</label>
+                            <select class="tech-select" id="tech-select-d"
+                                onchange="filters_combo_demomanTech(this.value)">
+                                <option value="none">None</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <!--Filter by Author-->
                     <div id="filter-by-author">
                         <div id="author-select-container">
@@ -269,6 +268,36 @@
             </div>
         </div>
     </main>
+    <footer>
+        <div id="footer-message">
+            <h1 id="thank-you">Thank you!</h1>
+            <p id="thank-you-text">
+                To everybody who helped by contributing, sharing the tool, giving feedback, and interacting with the
+                project
+            </p>
+
+            <h1 id="contributors">❤️ Contributors ❤️</h1>
+            <div id="contributor-container">
+                <p class="creditors" id="thumbnails-contributors">
+                    <span>Mur</span>
+                    <span>Boshy</span>
+                    <span>Vavlie</span>
+                    <span>Else</span>
+                    <span>Heladess</span>
+                </p>
+                <p class="creditors" id="info-contributors">
+                    <span>Vice</span>
+                    <span>Sgt. Bytheway</span>
+                    <span>Newbi</span>
+                    <span>Jacka</span>
+                    <span>J</span>
+                </p>
+            </div>
+            <p id="extra">
+                * Thumbnails were also used from the Jump-Academy and Tempus websites
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>

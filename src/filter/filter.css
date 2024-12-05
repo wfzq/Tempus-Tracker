@@ -1,13 +1,14 @@
-#filters-container {
-    min-width: 250px;
-    width: 10%;
+.filters-container {
+    min-width: 280px;
+    width: 280px;
     position: sticky;
     top: 10px;
-    padding-left: 1%;
-    padding-right: 1%;
-    height: calc(100vh - 20px);
+    padding: 12px 12px 12px 12px;
+    height: calc(100vh - 42px);
+
     background-color: #1e2124;
     color: white;
+
     border-radius: 5px;
     user-select: none;
     font-weight: bold;
@@ -96,6 +97,14 @@ input[type="range"]::-moz-range-thumb {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
+input[type="range"]:hover::-webkit-slider-thumb {
+    background: #4c5c96;
+}
+
+input[type="range"]:hover::-moz-range-thumb {
+    background: #4c5c96;
+}
+
 button {
     border-radius: 3px;
 }
@@ -110,15 +119,26 @@ button {
     background: #1e2124;
     color: #7289da;
     position: absolute;
-    border-radius: 50px;
+    border-radius: 10px;
     z-index: 9;
     cursor: pointer;
     border: 0;
-    top: 110px; /* HEIGHT TO TOP IS A MAGIC NUMBER!! */
+
+    /* HEIGHT TO TOP IS A MAGIC NUMBER!! */
+    top: 115px;
+    left: 9px;
     height: 20px;
-    width: 33px;
-    font-size: 12px;
+    width: 40px;
+
+    font-size: 10pt;
     font-style: italic;
+
+    transition: background 0.5s ease, font-size 0.1s ease-in-out;
+}
+
+#toggle-mix:hover {
+    background: #36393e;
+    font-size: 12pt;
 }
 
 .range-tip-container {
@@ -126,7 +146,7 @@ button {
 }
 
 .range-tip {
-    font-size: 15px;
+    font-size: 12pt;
     transition: 0.05s;
     color: #7289dac4;
     position: absolute;
@@ -137,7 +157,27 @@ button {
 }
 
 #r2-tip {
+    z-index: 9;
+    background-color: #1e2124;
     right: 0;
+}
+
+#reset-btn {
+    background: url(../data/ico/reset-button.svg);
+    background-size: contain;
+    border: none;
+    position: absolute;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+#reset-btn:hover {
+    transform: rotate(-200deg);
+    opacity: 1;
 }
 
 #map-type-toggle, #map-intended-toggle {
@@ -158,6 +198,23 @@ button {
     padding-bottom: 0;
 }
 
+#class-tech-s {
+    margin-bottom: 10px;
+}
+
+.class-tech {
+    display: flex;
+    flex-direction: row;
+
+    label {
+        flex: 3;
+    }
+
+    select {
+        width: 185px;
+    }
+}
+
 #filter-by-author {
     div {
         display: flex;
@@ -169,13 +226,12 @@ button {
         padding-bottom: 10px;
     }
 
-    * {
+    label {
         flex: 3;
     }
 
-    #author-select, #author-amount-select {
-        flex: 6;
-        width: 100%;
+    select {
+        width: 185px;
     }
 }
 

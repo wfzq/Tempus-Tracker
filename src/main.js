@@ -1,64 +1,32 @@
-const MIN_TIER = 0;
-const MAX_TIER = 6;
-var maps_filtered = [...maps_json];
+var maps_json;
+var maps_filtered;
 var authorsList = {};
 var map_authors_count = {};
-var mostBonuses = 0;
 var mapFilters = {};
+var mostBonuses = 0;
 
-function getDefaultFilters() {
-    return {
-        "difficultyMix": true,
-        "sliderS": {
-            "toggle": true,
-            "min": MIN_TIER,
-            "max": MAX_TIER
-        },
-        "sliderD": {
-            "toggle": true,
-            "min": MIN_TIER,
-            "max": MAX_TIER
-        },
-        "sliderB": {
-            "toggle": true,
-            "min": 0,
-            "max": mostBonuses
-        },
-
-        "linear": true,
-        "course": true,
-        "soldier": true,
-        "demoman": true,
-
-        "authors": {
-            "author-select": "__all__",
-            "author-amount-select": "__all__",
-        },
-        "completions": {
-            "select": "either",
-            "min": NaN,
-            "max": NaN,
-        }
-    };
-}
-
-// DOM Loaded
 document.addEventListener('DOMContentLoaded', async function () {
+    setSplashScreen();
+
+    // Get maps
+    const response = await fetch('../src/data/maps_db/maps_merged.json');
+    maps_json = await response.json();
+    maps_filtered = maps_json;
+
+    // Set maps
     maps_loadAll();
     display_mapCount(maps_json);
     mapFilters = getDefaultFilters();
 
+    // Set Filters
     populate_sortByAuthor(authorsList);
     populate_sortByAuthorCount(map_authors_count);
     populate_sortByBonus(mostBonuses);
+    populate_tech();
 
     document.querySelectorAll('.r1, .r2').forEach((element) => {
         element.addEventListener('input', function () {
             visual_rangeInput_update(element);
         });
     });
-});
-
-document.getElementById("message").addEventListener("click", function () {
-    document.getElementById("alert").classList.toggle("expanded");
 });

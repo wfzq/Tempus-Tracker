@@ -66,6 +66,54 @@ function populate_sortByAuthorCount(authors) {
     }
 }
 
+function populate_tech() {
+    let tech = getTechniques();
+
+    // Mixed gets green
+    {
+        const option = document.createElement('option');
+        option.value = tech.O[0];
+        option.textContent = tech.O[0];
+
+        option.style.backgroundColor = 'lightgreen';
+
+        techBox_S.appendChild(option);
+        techBox_D.appendChild(option.cloneNode(true));
+    }
+
+    // S 
+    for (const technique of tech.S) {
+        const option = document.createElement('option');
+        option.value = technique;
+        option.textContent = technique;
+
+        option.style.backgroundColor = 'lightblue';
+
+        techBox_S.appendChild(option);
+    }
+
+    // D 
+    for (const technique of tech.D) {
+        const option = document.createElement('option');
+        option.value = technique;
+        option.textContent = technique;
+
+        option.style.backgroundColor = '#FF7F7F';
+
+        techBox_D.appendChild(option);
+    }
+
+    // O 
+    for (const technique of tech.O.slice(1)) {
+        const option = document.createElement('option');
+        option.value = technique;
+        option.textContent = technique;
+
+        techBox_S.appendChild(option);
+        techBox_D.appendChild(option.cloneNode(true));
+    }
+}
+
 function button_toggle(button) {
     if (button.classList.contains('button-on')) {
         button.classList.remove('button-on');
@@ -125,4 +173,81 @@ function visual_rangeInput_update(slider) {
 function display_mapCount() {
     const mapCount = document.getElementById('map-count');
     mapCount.textContent = `${Object.keys(maps_filtered).length}`;
+}
+
+function reset_filters_prompt() {
+    const user_confirm = confirm("Are you sure you want to revert filter settings?")
+    if (user_confirm) {
+        filters_reset()
+    }
+}
+
+function filters_reset() {
+    resetButton.classList.add('hidden')
+
+    // Runtime load
+    r1b = document.getElementById('r1-b')
+    r2b = document.getElementById('r2-b')
+
+    // Reset maps
+    mapFilters = getDefaultFilters();
+    maps_filtered = maps_json;
+    maps_showFromList(maps_filtered);
+    filters_combo_sort();
+    display_mapCount();
+
+    // Reset Controls
+    /* Soldier Difficulty */
+    sliderS.classList.remove('button-off');
+    sliderS.classList.add('button-on');
+    r1s.value = MIN_TIER;
+    visual_rangeInput_update(r1s);
+    r2s.value = MAX_TIER;
+    visual_rangeInput_update(r2s);
+
+    /* and|or */
+    toggleMix.innerHTML = "and";
+
+    /* Demoman Difficulty */
+    sliderD.classList.remove('button-off');
+    sliderD.classList.add('button-on');
+    r1d.value = MIN_TIER;
+    visual_rangeInput_update(r1d);
+    r2d.value = MAX_TIER;
+    visual_rangeInput_update(r2d);
+
+    /* Bonuses */
+    sliderB.classList.remove('button-off');
+    sliderB.classList.add('button-on');
+    r1b.value = 0;
+    visual_rangeInput_update(r1b);
+    r2b.value = mostBonuses;
+    visual_rangeInput_update(r2b);
+
+    /* Map Type */
+    toggleLinear.classList.remove('button-off');
+    toggleLinear.classList.add('button-on');
+    toggleCourse.classList.remove('button-off');
+    toggleCourse.classList.add('button-on');
+
+    toggleSoldierIntended.classList.remove('button-off');
+    toggleSoldierIntended.classList.add('button-on');
+    toggleDemomanIntended.classList.remove('button-off');
+    toggleDemomanIntended.classList.add('button-on');
+
+    /* Tech */
+    techBox_S.value = "none";
+    techBox_D.value = "none";
+
+    /* Author */
+    selectAuthor.value = "__all__";
+    selectAuthorAmount.value = "__all__";
+
+    /* Completions */
+    completionsClass.value = "either";
+    completionsMin.value = null;
+    completionsMax.value = null;
+
+    /* Sort by */
+    sortMapsSelect.value = "name";
 }

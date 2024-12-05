@@ -56,13 +56,14 @@ def rename_thumbnails(db, thumbnail_path):
                             print(f"{i}. {match}")
 
                         choice = input(
-                            f"'r' to rename, Enter to skip: ")
+                            "'r' to rename, Enter to skip: ")
 
                         if choice.isdigit() and 1 <= int(choice) <= len(matches):
                             selected_name = matches[int(choice) - 1]
-                            rename_file(thumbnail_path, filename, selected_name)
+                            rename_file(thumbnail_path,
+                                        filename, selected_name)
                         elif choice == 'r':
-                            choice = input(f"new name: ")
+                            choice = input("new name: ")
                             rename_file(thumbnail_path, filename, choice)
                         else:
                             print(f"Skipped renaming for '{filename}'")

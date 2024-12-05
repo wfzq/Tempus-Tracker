@@ -47,6 +47,26 @@ function filterMapBy_intended(map) {
     )
 }
 
+function filterMapBy_sTech(map) {
+    const selectedTech = mapFilters.tech.soldier;
+    
+    if (selectedTech == "Mixed") {
+        return map.class_tech.soldier.length == 0;
+    } else {
+        return map.class_tech.soldier.includes(selectedTech);
+    }
+}
+
+function filterMapBy_dTech(map) {
+    const selectedTech = mapFilters.tech.demoman;
+    
+    if (selectedTech == "Mixed") {
+        return map.class_tech.demoman.length == 0;
+    } else {
+        return map.class_tech.demoman.includes(selectedTech);
+    }
+}
+
 function filterMapBy_authorName(map) {
     const selectedAuthor = mapFilters.authors["author-select"];
     return map.authors.some(author =>
@@ -218,6 +238,17 @@ function reduceFilterFunctions(currentFilters) {
                 }
                 break;
 
+            case 'ST': /* Soldier Tech */
+                if (mapFilters.tech.soldier == "none") {
+                    currentFilters.delete(key);
+                }
+                break;
+
+            case 'DT': /* Soldier Tech */
+                if (mapFilters.tech.demoman == "none") {
+                    currentFilters.delete(key);
+                }
+                break;
             default:
                 console.error("reduceFilterFunctions(): Unknown key");
                 break;
@@ -227,18 +258,22 @@ function reduceFilterFunctions(currentFilters) {
 }
 
 /** Functions Index:
+ *  - ST - Soldier Tech
+ *  - DT - Demoman Tech
+ *  - IN - INtended
+ *  - LC - Linear Course
+ *  - AC - Author Count
+ *  - AN - Author Name
+ *  - CO - COmpletions
  *  - B  - Bonus
  *  - S  - Soldier
  *  - D  - Demoman
- *  - LC - Linear Course
- *  - IN - INtended
- *  - AN - Author Name
- *  - AC - Author Count
- *  - CO - COmpletions
  */
 function filterMaps(mapList, excludeFiltersByKey = []) {
     let filters = new Map([
         // ORDER OF FUNCTIONS MATTERS!!
+        ['ST', (map) => filterMapBy_sTech(map)],
+        ['DT', (map) => filterMapBy_dTech(map)],
         ['IN', (map) => filterMapBy_intended(map)],
         ['LC', (map) => filterMapBy_linearCourse(map)],
         ['AC', (map) => filterMapBy_authorCount(map)],
@@ -254,6 +289,13 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
         filters.delete(key);
     });
     reduceFilterFunctions(filters);
+
+    // Show reset button if filters are applied
+    if (filters.size) {
+        resetButton.classList.remove('hidden')
+    } else {
+        resetButton.classList.add('hidden')
+    }
 
     /**
      *  This code is hacky bullshit for running OR when applicable
