@@ -118,6 +118,10 @@ async function API_zoneRecordPlayerByMapName(mapName, zoneType, zoneIndex, playe
     return fetch(`${url}/maps/name/${mapName}/zones/typeindex/${zoneType}/${zoneIndex}/records/player/${playerId}/${playerClass}`)
         .then(response => {
             if (!response.ok) {
+                if (response.status === 404) {
+                    // Handle 404 error specifically
+                    return { error: 'Not Found', status: 404 };
+                }
                 throw new Error(`${response.status}`);
             }
             return response.json();
