@@ -232,14 +232,15 @@ const countryToCode = {
     "Vietnam": "vn",
     "Yemen": "ye",
     "Zambia": "zm",
-    "Zimbabwe": "zw"
+    "Zimbabwe": "zw",
+    "Hong Kong": "hk"
 };
 
 const countryGroups = {
     "central europe": ["at", "be", "ch", "cz", "de", "fi", "fr", "gb", "hu", "ie", "it", "lu", "nl", "pl", "se"],
     "north america": ["ca", "us", "mx"],
     "south america": ["ar", "bo", "br", "cl", "co", "ec", "gy", "pe", "py", "sr", "uy", "ve"],
-    "asia": ["af", "am", "az", "bd", "bh", "bn", "bt", "cn", "ge", "id", "in", "ir", "iq", "il", "jp", "jo", "kz", "kh", "kp", "kr", "kw", "kg", "la", "lb", "lk", "mm", "mn", "my", "np", "om", "ph", "pk", "qa", "sg", "sy", "th", "tj", "tl", "tm", "tw", "uz", "vn", "ye"],
+    "asia": ["af", "am", "az", "bd", "bh", "bn", "bt", "cn", "ge", "hk", "id", "in", "ir", "iq", "il", "jp", "jo", "kz", "kh", "kp", "kr", "kw", "kg", "la", "lb", "lk", "mm", "mn", "my", "np", "om", "ph", "pk", "qa", "sg", "sy", "th", "tj", "tl", "tm", "tw", "uz", "vn", "ye"],
     "oceania": ["au", "fj", "ki", "mh", "fm", "nr", "nz", "pw", "pg", "ws", "sb", "to", "tv", "vu"],
     "middle east": ["ae", "bh", "cy", "eg", "il", "iq", "jo", "kw", "lb", "om", "ps", "qa", "sa", "sy", "tr", "ye"],
     "africa": ["dz", "ao", "bj", "bw", "bf", "bi", "cv", "cm", "cf", "td", "km", "cg", "cd", "dj", "eg", "gq", "er", "sz", "et", "ga", "gm", "gh", "gn", "gw", "ci", "ke", "ls", "lr", "ly", "mg", "mw", "ml", "mr", "mu", "ma", "mz", "na", "ne", "ng", "rw", "st", "sn", "sc", "sl", "so", "za", "ss", "sd", "tz", "tg", "tn", "ug", "zm", "zw"],
