@@ -12,6 +12,18 @@ function filterMapBy_difficultyRange(map, classInt) {
     return difficulty >= min && difficulty <= max;
 }
 
+function filterMapBy_ratingRange(map, classInt) {
+    const sliderType = classInt == 3 ? "ratingS" : "ratingD";
+    const min = mapFilters[sliderType].min;
+    const max = mapFilters[sliderType].max;
+    const difficulty = map.rating_info[classInt];
+    return difficulty >= min && difficulty <= max;
+}
+
+function filterMapBy_ratingRangeOR(map) {
+    return filterMapBy_ratingRange(map, 3) || filterMapBy_ratingRange(map, 4);
+}
+
 function filterMapBy_difficultyRangeOR(map) {
     return filterMapBy_difficultyRange(map, 3) || filterMapBy_difficultyRange(map, 4);
 }
@@ -49,7 +61,7 @@ function filterMapBy_intended(map) {
 
 function filterMapBy_sTech(map) {
     const selectedTech = mapFilters.tech.soldier;
-    
+
     if (selectedTech == "Mixed") {
         return map.class_tech.soldier.length == 0;
     } else {
@@ -59,7 +71,7 @@ function filterMapBy_sTech(map) {
 
 function filterMapBy_dTech(map) {
     const selectedTech = mapFilters.tech.demoman;
-    
+
     if (selectedTech == "Mixed") {
         return map.class_tech.demoman.length == 0;
     } else {
@@ -177,11 +189,33 @@ function reduceFilterFunctions(currentFilters) {
                 }
                 break;
 
+            case 'SR': /* Rating Soldier */
+                if (!mapFilters.ratingS.toggle ||
+                    (
+                        mapFilters.ratingS.min === defaultSettings.ratingS.min &&
+                        mapFilters.ratingS.max === defaultSettings.ratingS.max
+                    )
+                ) {
+                    currentFilters.delete(key);
+                }
+                break;
+
             case 'D': /* Difficulty Demoman */
                 if (!mapFilters.sliderD.toggle ||
                     (
                         mapFilters.sliderD.min === defaultSettings.sliderD.min &&
                         mapFilters.sliderD.max === defaultSettings.sliderD.max
+                    )
+                ) {
+                    currentFilters.delete(key);
+                }
+                break;
+
+            case 'DR': /* Rating Demo */
+                if (!mapFilters.ratingD.toggle ||
+                    (
+                        mapFilters.ratingD.min === defaultSettings.ratingD.min &&
+                        mapFilters.ratingD.max === defaultSettings.ratingD.max
                     )
                 ) {
                     currentFilters.delete(key);
@@ -280,6 +314,8 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
         ['AN', (map) => filterMapBy_authorName(map)],
         ['CO', (map) => filterMapBy_completions(map)],
         ['B', (map) => filterMapBy_bonusRange(map)],
+        ['SR', (map) => filterMapBy_ratingRange(map, '3')],
+        ['DR', (map) => filterMapBy_ratingRange(map, '4')],
         ['S', (map) => filterMapBy_difficultyRange(map, '3')],
         ['D', (map) => filterMapBy_difficultyRange(map, '4')]
     ]);
@@ -308,6 +344,12 @@ function filterMaps(mapList, excludeFiltersByKey = []) {
         //  which is how OR searching should work.  
         filters.delete('S');
         filters.delete('D');
+
+        if (filters.has('SR') && filters.has('DR'))
+            filters.set('SRDR', (map) => filterMapBy_ratingRangeOR(map));
+
+        filters.delete('SR');
+        filters.delete('DR');
     }
 
     return mapList.filter(map => {

@@ -1,13 +1,15 @@
 const mascots = 5;
 const MIN_TIER = 0;
-const MAX_TIER = 6;
+const MAX_TIER = 10;
+const MIN_RATING = 1;
+const MAX_RATING = 4;
 
 // Header Elements
 const mascot = document.getElementById('mascot');
 const logo = document.getElementById('tf-logo');
 const logoBackground = document.getElementById('logo-container');
 
-// Main Elements
+// Container Elements
 const server_container = document.getElementById('server-container');
 const map_filters_container = document.getElementById('maps-filters-container');
 const server_filters_container = document.getElementById('server-filters-container');
@@ -15,16 +17,38 @@ const maps_container = document.getElementById('maps-container');
 
 // Filter Elements
 const resetButton = document.getElementById('reset-btn');
+
 const sliderS = document.getElementById('toggle-s-slider');
 const r1s = document.getElementById('r1-s');
 const r2s = document.getElementById('r2-s');
-const toggleMix = document.getElementById('toggle-mix');
+const r1stip = document.getElementById('r1-s-tip');
+const r2stip = document.getElementById('r2-s-tip');
+
+const ratingS = document.getElementById('toggle-s-slider-rating');
+const r1sr = document.getElementById('r1-s-r');
+const r2sr = document.getElementById('r2-s-r');
+const r1srangetip = document.getElementById('r1-s-range-tip');
+const r2srangetip = document.getElementById('r2-s-range-tip');
+
 const sliderD = document.getElementById('toggle-d-slider');
 const r1d = document.getElementById('r1-d')
 const r2d = document.getElementById('r2-d')
+const r1dtip = document.getElementById('r1-d-tip');
+const r2dtip = document.getElementById('r2-d-tip');
+
+const ratingD = document.getElementById('toggle-d-slider-rating');
+const r1dr = document.getElementById('r1-d-r');
+const r2dr = document.getElementById('r2-d-r');
+const r1drangetip = document.getElementById('r1-d-range-tip');
+const r2drangetip = document.getElementById('r2-d-range-tip');
+
 const sliderB = document.getElementById('toggle-b-slider');
 var r1b // Loaded in function filters_reset
 var r2b // Loaded in function filters_reset
+const r1btip = document.getElementById('r1-b-tip');
+const r2btip = document.getElementById('r2-b-tip');
+
+const toggleMix = document.getElementById('toggle-mix');
 const toggleLinear = document.getElementById('toggle-linear');
 const toggleCourse = document.getElementById('toggle-course');
 const toggleSoldierIntended = document.getElementById('toggle-soldier');
@@ -37,6 +61,7 @@ const completionsClass = document.getElementById('completions-class-select');
 const completionsMin = document.getElementById('min-completions');
 const completionsMax = document.getElementById('max-completions');
 const sortMapsSelect = document.getElementById('sort-select');
+
 const countryToCode = {
     "Afghanistan": "af",
     "Albania": "al",
@@ -255,10 +280,20 @@ function getDefaultFilters() {
             "min": MIN_TIER,
             "max": MAX_TIER
         },
+        "ratingS": {
+            "toggle": true,
+            "min": MIN_RATING,
+            "max": MAX_RATING
+        },
         "sliderD": {
             "toggle": true,
             "min": MIN_TIER,
             "max": MAX_TIER
+        },
+        "ratingD": {
+            "toggle": true,
+            "min": MIN_RATING,
+            "max": MAX_RATING
         },
         "sliderB": {
             "toggle": true,

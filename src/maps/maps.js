@@ -74,14 +74,14 @@ function addMapElement(map) {
 
     let soldierDifficulty = document.createElement("p");
     soldierDifficulty.className = 'map-soldier-difficulty';
-    soldierDifficulty.textContent = map.tier_info['3'];
+    soldierDifficulty.textContent = `T${map.tier_info['3']} / R${map.rating_info['3']}`;
     soldierContainer.appendChild(soldierDifficulty);
-
+    
     let soldierCompletions = document.createElement("p");
     soldierCompletions.className = 'map-soldier-completions';
     soldierCompletions.textContent = `( ${map.completion_info['soldier']} )`;
     soldierContainer.appendChild(soldierCompletions);
-
+    
     // Demoman Map Info
     let demomanContainer = document.createElement("div");
     demomanContainer.className = 'map-demoman-container';
@@ -95,7 +95,7 @@ function addMapElement(map) {
 
     let demomanDifficulty = document.createElement("p");
     demomanDifficulty.className = 'map-demoman-difficulty';
-    demomanDifficulty.textContent = map.tier_info['4'];;
+    demomanDifficulty.textContent = `T${map.tier_info['4']} / R${map.rating_info['4']}`;
     demomanContainer.appendChild(demomanDifficulty);
 
     let demomanCompletions = document.createElement("p");

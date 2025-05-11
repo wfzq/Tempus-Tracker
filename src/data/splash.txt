@@ -40,7 +40,7 @@ Now with additional stuff!
 Go grind a T6
 Look! A rainbow!
 Wall Dough
-std:cout << "Hey"
+std::cout << "Hey"
 Tight, like a vice
 Oh, bytheway
 what a newbi
@@ -51,3 +51,15 @@ KJRawr >:)
 lol
 Click on golly!!!
 Grüezi, Jacka
+Spaghetti inside!
+Hosted in a basement
+More maps added
+Made with jumpmilk™
+It's pogo o’clock
+80085
+come MGE
+Jump 'til it breaks
+What made the milk mad?
+Fresh from the oven
+Now better!
+Tracker? Never met 'er

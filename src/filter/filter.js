@@ -4,14 +4,21 @@ function filters_slider_toggle(button) {
     // Determine slider
     const buttonVal = button.innerText;
     const slider = (() => {
-        if (buttonVal == 'S')
-            return "sliderS";
-
-        else if (buttonVal == 'D')
-            return "sliderD";
-
-        else   /*buttonVal == 'B'*/
-            return "sliderB";
+        switch (buttonVal) {
+            case 'S':
+                return "sliderS";
+            case 'D':
+                return "sliderD";
+            case 'B':
+                return "sliderB";
+            case 'Sr':
+                return "ratingS";
+            case 'Dr':
+                return "ratingD";
+            default:
+                console.error("Invalid button value");
+                return null;
+        }
     })();
 
     mapFilters[slider].toggle = !mapFilters[slider].toggle;
@@ -31,25 +38,42 @@ function filters_difficulty_mix(button) {
 function filters_slider_range(classInt) {
     // Determine slider
     let slider;
-    let letter;
-    if (classInt == 3) {
-        slider = "sliderS";
-        letter = 's';
-    }
-    else if (classInt == 4) {
-        slider = "sliderD";
-        letter = 'd';
-    }
-    else  /*classInt == 5*/ {
-        slider = "sliderB";
-        letter = 'b';
+    let min
+    let max
+    switch (classInt) {
+        case 3:
+            slider = "sliderS";
+            min = parseInt(document.getElementById(`r1-s`).value);
+            max = parseInt(document.getElementById(`r2-s`).value);
+            break;
+        case 4:
+            slider = "sliderD";
+            min = parseInt(document.getElementById(`r1-d`).value);
+            max = parseInt(document.getElementById(`r2-d`).value);
+            break;
+        case 5:
+            slider = "sliderB";
+            min = parseInt(document.getElementById(`r1-b`).value);
+            max = parseInt(document.getElementById(`r2-b`).value);
+            break;
+        case 33:
+            slider = "ratingS"
+            min = parseInt(document.getElementById(`r1-s-r`).value);
+            max = parseInt(document.getElementById(`r2-s-r`).value);
+            break;
+        case 44:
+            slider = "ratingD"
+            min = parseInt(document.getElementById(`r1-d-r`).value);
+            max = parseInt(document.getElementById(`r2-d-r`).value);
+            break;
+        default:
+            console.error("Slider range error, check HTML");
+            return;
     }
 
     // Access slider contents
     const cacheMin = mapFilters[slider].min;
     const cacheMax = mapFilters[slider].max;
-    let min = parseInt(document.getElementById(`r1-${letter}`).value);
-    let max = parseInt(document.getElementById(`r2-${letter}`).value);
     if (min > max) {
         let t = min;
         min = max;
@@ -159,8 +183,8 @@ function filters_combo_sort(filterValue) {
         case 'oldest':
             ordered_maps = sortBy_oldestId([...maps_json]);
             break;
-        case 'newest':
-            ordered_maps = sortBy_newestId([...maps_json]);
+        case 'name':
+            ordered_maps = [...maps_json];
             break;
         case 'completions_most_s':
             ordered_maps = sortBy_mostCompletions([...maps_json], map_getSoldierCompletions);
@@ -181,8 +205,13 @@ function filters_combo_sort(filterValue) {
             ordered_maps = sortBy_leastCompletions([...maps_json], map_getBothCompletions);
             break;
         default:
-            ordered_maps = [...maps_json];
-            
+            ordered_maps = sortBy_newestId([...maps_json]);
+
+            // Don't show reset button if no filters are applied
+            if (JSON.stringify(mapFilters) === JSON.stringify(getDefaultFilters())) {
+                resetButton.classList.add('hidden');
+            }
+
             // Avoid tripping restart code
             reorderMapElements(ordered_maps);
             return;

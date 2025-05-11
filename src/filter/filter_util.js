@@ -1,3 +1,30 @@
+function populate_mapTiers() {
+    r1stip.innerHTML = MIN_TIER;
+    r2stip.innerHTML = MAX_TIER;
+
+    r1s.min = MIN_TIER;
+    r1s.max = MAX_TIER;
+    r1s.value = MIN_TIER;
+
+    r1srangetip.innerHTML = MIN_RATING;
+    r2srangetip.innerHTML = MAX_RATING;
+    r1drangetip.innerHTML = MIN_RATING;
+    r2drangetip.innerHTML = MAX_RATING;
+
+    r2s.min = MIN_TIER;
+    r2s.max = MAX_TIER;
+    r2s.value = MAX_TIER;
+
+    r1dtip.innerHTML = MIN_TIER;
+    r2dtip.innerHTML = MAX_TIER;
+    r1d.min = MIN_TIER;
+    r1d.max = MAX_TIER;
+    r1d.value = MIN_TIER;
+    r2d.min = MIN_TIER;
+    r2d.max = MAX_TIER;
+    r2d.value = MAX_TIER;
+}
+
 function populate_sortByAuthor(authors) {
     const select = document.getElementById('author-select');
 
@@ -54,6 +81,9 @@ function populate_sortByBonus(mostBonuses) {
         filters_slider_range(5);
     };
     sliderContainer.appendChild(maxRange);
+
+    r1btip.innerHTML = 0;
+    r2btip.innerHTML = mostBonuses;
 }
 
 function populate_sortByAuthorCount(authors) {
@@ -149,10 +179,11 @@ function visual_rangeInput_update(slider) {
     const rangeSlider = slider.closest('.slider-container');
     let r1 = parseInt(rangeSlider.querySelector('.r1').value);
     let r2 = parseInt(rangeSlider.querySelector('.r2').value);
-    let r1tip = rangeSlider.querySelector("#r1-tip");
-    let r2tip = rangeSlider.querySelector("#r2-tip");
+    let r1tip = rangeSlider.querySelector(".r1-tip");
+    let r2tip = rangeSlider.querySelector(".r2-tip");
     const rangeMax = slider.getAttribute('max');
     const range = rangeSlider.querySelector(".slider-progress");
+    const rp = 90;
 
     if (r1 > r2) {
         let t = r1;
@@ -160,14 +191,26 @@ function visual_rangeInput_update(slider) {
         r2 = t;
     }
 
-    r1tip.textContent = r1;
-    r2tip.textContent = r2;
+    if (r1tip.classList.contains('range')) {
+        r1tip.textContent = r1;
+        r2tip.textContent = r2;
 
-    range.style.left = (r1 / rangeMax) * 100 + "%";
-    range.style.right = 100 - (r2 / rangeMax) * 100 + "%";
+        range.style.left = ((r1 - 1) / (rangeMax - 1)) * 100 + "%";
+        range.style.right = 100 - ((r2 - 1) / (rangeMax - 1)) * 100 + "%";
 
-    r1tip.style.left = (r1 / rangeMax) * 93 + "%";
-    r2tip.style.right = 93 - (r2 / rangeMax) * 93 + "%";
+        r1tip.style.left = ((r1 - 1) / (rangeMax - 1)) * rp + "%";
+        r2tip.style.right = rp - ((r2 - 1) / (rangeMax - 1)) * rp + "%";
+    }
+    else {
+        r1tip.textContent = r1;
+        r2tip.textContent = r2;
+
+        range.style.left = (r1 / rangeMax) * 100 + "%";
+        range.style.right = 100 - (r2 / rangeMax) * 100 + "%";
+
+        r1tip.style.left = (r1 / rangeMax) * 94 + "%";
+        r2tip.style.right = 94 - (r2 / rangeMax) * 94 + "%";
+    }
 }
 
 function display_mapCount() {
@@ -205,6 +248,14 @@ function filters_reset() {
     r2s.value = MAX_TIER;
     visual_rangeInput_update(r2s);
 
+    /* Soldier Rating */
+    ratingS.classList.remove('button-off');
+    ratingS.classList.add('button-on');
+    r1sr.value = MIN_RATING;
+    visual_rangeInput_update(r1sr);
+    r2sr.value = MAX_RATING;
+    visual_rangeInput_update(r2sr);
+
     /* and|or */
     toggleMix.innerHTML = "and";
 
@@ -215,6 +266,14 @@ function filters_reset() {
     visual_rangeInput_update(r1d);
     r2d.value = MAX_TIER;
     visual_rangeInput_update(r2d);
+
+    /* Demoman Rating */
+    ratingD.classList.remove('button-off');
+    ratingD.classList.add('button-on');
+    r1dr.value = MIN_RATING;
+    visual_rangeInput_update(r1dr);
+    r2dr.value = MAX_RATING;
+    visual_rangeInput_update(r2dr);
 
     /* Bonuses */
     sliderB.classList.remove('button-off');
@@ -249,5 +308,5 @@ function filters_reset() {
     completionsMax.value = null;
 
     /* Sort by */
-    sortMapsSelect.value = "name";
+    sortMapsSelect.value = "newest";
 }
