@@ -20866,7 +20866,7 @@
       "soldier": null,
       "demoman": null
     },
-    "intended_class": null,
+    "intended_class": "4",
     "completion_info": {
       "soldier": 134,
       "demoman": 86,
@@ -28796,7 +28796,7 @@
       "soldier": null,
       "demoman": null
     },
-    "intended_class": null,
+    "intended_class": "4",
     "completion_info": {
       "soldier": 207,
       "demoman": 102,
