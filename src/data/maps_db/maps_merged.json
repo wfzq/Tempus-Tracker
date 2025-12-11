@@ -16933,10 +16933,7 @@
       "last_updated": "2025-12-11T03:01:30.486704"
     },
     "class_tech": {
-      "soldier": [
-        "Wallshot",
-        "Strafe"
-      ],
+      "soldier": [],
       "demoman": []
     }
   },
@@ -24783,10 +24780,7 @@
       "last_updated": "2025-12-11T03:04:32.556193"
     },
     "class_tech": {
-      "soldier": [
-        "Wallshot",
-        "Strafe"
-      ],
+      "soldier": [],
       "demoman": []
     }
   },
