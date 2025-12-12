@@ -119,10 +119,10 @@ def fill_map_info(m):
     while True:
         intended_class = input(">> ").lower()
 
-        if intended_class == 's' or '3':
+        if intended_class == 's' or intended_class == '3':
             intended_class = 3
             break
-        elif intended_class == 'd' or '4':
+        elif intended_class == 'd' or intended_class == '4':
             intended_class = 4
             break
         elif intended_class == '':
@@ -137,6 +137,9 @@ def fill_map_info(m):
     s_array = [item.strip().capitalize() for item in s_input.split(",")]
 
     for i, item in enumerate(s_array):
+        if s_input == '':
+            break
+        
         if item not in O_tech and item not in S_tech:
             resolved = False
             while not resolved:
@@ -173,6 +176,8 @@ def fill_map_info(m):
     s_array = [item.strip().capitalize() for item in s_input.split(",")]
 
     for i, item in enumerate(s_array):
+        if s_input == '':
+            break
         if item not in O_tech and item not in D_tech:
             resolved = False
             while not resolved:
@@ -467,13 +472,14 @@ def log_completions_to_sheet(maps_json):
 if __name__ == "__main__":
     if BACKUP_CURRENT_FILE: 
         make_backup(MAPS_JSON_URL)
-    
+
     maps_json = open_maps_merged()
-   
+
     if CHECK_FOR_NEW_MAPS:
         maps_json = update_maps(maps_json)
-
+   
     update_map_completions(maps_json, CONTINUE_FROM_MAP)
+    
     clean_legacy_files()
 
     if LOG_TO_SHEET:
