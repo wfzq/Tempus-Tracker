@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="google-site-verification" content="FBr-cp1Ciy81Q9X-nzCqPU9Qor9J_78z0JgwUTwJNjA" />
+    <meta name="description"
+        content="Tempus Tracker is a jump map browser for all maps hosted by the Tempus Jump Network servers for Team Fortress 2. Made by Amuria, also going by Mutra on Discord" />
+    <link rel="icon" href="src/data/ico/tt.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/data/fonts/font-awesome-4.5.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.9.0/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="src/main.css">
+    <link rel="stylesheet" type="text/css" href="src/header/header.css">
+    <link rel="stylesheet" type="text/css" href="src/filter/filter.css">
+    <link rel="stylesheet" type="text/css" href="src/maps/maps.css">
+    <link rel="stylesheet" type="text/css" href="src/search/search.css">
+    <link rel="stylesheet" type="text/css" href="src/main.css">
+    <link rel="stylesheet" type="text/css" href="src/nav/servers.css">
+
+    <script defer src="src/API/tempus-api.js"></script>
+    <script defer src="src/header/header.js"></script>
+    <script defer src="src/filter/filter.js"></script>
+    <script defer src="src/filter/filter_logic.js"></script>
+    <script defer src="src/filter/filter_util.js"></script>
+    <script defer src="src/maps/maps.js"></script>
+    <script defer src="src/search/search.js"></script>
+    <script defer src="src/constants.js"></script>
+    <script defer src="src/nav/servers.js"></script>
+    <script defer src="src/main.js"></script>
+
+    <title>Tempus Tracker</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="logo-container">
+                <div class="logo-text" id="tempus">Tempus</div>
+                <div id="logo">
+                    <div id="mascot" class="golly"></div>
+                    <img src="src/data/ico/header_tf.png" id="tf-logo">
+                </div>
+                <div class="logo-text" id="tracker">
+                    Tracker
+                    <div id="splash-container">
+                        <p id="splash">
+                        </p>
+                    </div>
+                    <div class="logo-text" id="by-amuria">By Amuria</div>
+                </div>
+            </div>
+
+            <div id="header-menu">
+                <a class="header-option" id="discord-container" href="https://discord.gg/3UmVMYkagx" target="_blank">
+                    Discord
+                    <img id="discord-icon" src="src/data/ico/discord.png">
+                </a>
+                <button class="header-option header-selected" id="maps" onclick="show_maps()">
+                    <i class="fa fa-globe"></i>&nbsp;
+                    Maps
+                </button>
+                <div class="header-option" id="servers" onclick="show_servers()">
+                    <i class="fa fa-server"></i>&nbsp;
+                    Servers
+                </div>
+                <!-- 
+                <div class="header-option" id="users">
+                    <i class="fa fa-user"></i>&nbsp;
+                    My Times
+                </div>
+                <div class="header-option" id="help">
+                    <i class="fa fa-question-circle"></i>&nbsp;
+                    Help
+                </div> 
+                -->
+                <a class="header-option" id="report" href="https://forms.gle/mSmAro4ka8ZPUtv19" target="_blank">
+                    <i class="fa fa-exclamation-circle"></i>&nbsp;
+                    Report
+                </a>
+            </div>
+        </header>
+
+        <div id="main-container">
+            <!-- SERVERS -->
+            <div id="server-filters-container" class="filters-container hidden">
+                <h3 for="server-player-select">Max Players:</h3>
+                <div id="server-player-container">
+                    <button id="players-none" class="button-on">0</button>
+                    <button id="players-mid" class="button-on">3</button>
+                    <button id="players-high" class="button-on">5</button>
+                </div>
+                <h3>Region:</h3>
+                <div id="region-container">
+                    <button id='central europe' class="region-button button-on">Central Europe</button>
+                    <button id='north america' class="region-button button-on">North America</button>
+                    <button id='south america' class="region-button button-on">South America</button>
+                    <button id='asia' class="region-button button-on">Asia</button>
+                    <button id='oceania' class="region-button button-on">Oceania</button>
+                    <button id='middle east' class="region-button button-on">Middle East</button>
+                    <button id='africa' class="region-button button-on">Africa</button>
+                    <button id='eurasia' class="region-button button-on">Eurasia</button>
+                </div>
+            </div>
+
+            <div id="server-container" class="hidden"></div>
+
+            <!-- MAPS -->
+            <div id="maps-filters-container" class="filters-container">
+                <div id="search-container">
+                    <input autocomplete="off" spellcheck="false" placeholder="Search..." type="text" id="search-input">
+                    <span id="clear-btn">&#x2715;</span>
+                    <ul id="search-results"></ul>
+                </div>
+                <div id="filter-by">
+                    <div id="ranges-container">
+                        <h3>
+                            <button class="hidden" id="reset-btn" onclick="reset_filters_prompt()"></button>
+                            Ranges
+                        </h3>
+
+                        <!--Soldier Slider-->
+                        <div class="range-slider-assembly" id="range-slider-assembly-s">
+
+                            <button class="toggle-slider button-on" id="toggle-s-slider"
+                                onclick="filters_slider_toggle(this)">S</button>
+
+                            <div class="slider-container" id="slider-container-s">
+                                <div class="slider-full">
+                                    <div class="slider-progress"></div>
+                                </div>
+                                <div class="range-tip-container">
+                                    <div class="range-tip r1-tip" id="r1-s-tip"></div>
+                                    <div class="range-tip r2-tip" id="r2-s-tip"></div>
+                                </div>
+                                <input type="range" class="r1" id="r1-s" step="1" value="0" min="0" max="10"
+                                    onchange="filters_slider_range(3)">
+                                <input type="range" class="r2" id="r2-s" step="1" value="10" min="0" max="10"
+                                    onchange="filters_slider_range(3)">
+                            </div>
+
+                        </div>
+
+                        <!--Soldier Rating Slider-->
+                        <div class="range-slider-assembly" id="range-slider-assembly-s-rating">
+
+                            <button class="toggle-slider button-on" id="toggle-s-slider-rating"
+                                onclick="filters_slider_toggle(this)">Sr</button>
+
+                            <div class="slider-container" id="slider-container-s-rating">
+
+                                <div class="slider-full">
+                                    <div class="slider-progress"></div>
+                                </div>
+                                <div class="range-tip-container">
+                                    <div class="range-tip r1-tip range" id="r1-s-range-tip"></div>
+                                    <div class="range-tip r2-tip range" id="r2-s-range-tip"></div>
+                                </div>
+                                <input type="range" class="r1" id="r1-s-r" step="1" value="1" min="1" max="4"
+                                    onchange="filters_slider_range(33)">
+                                <input type="range" class="r2" id="r2-s-r" step="1" value="4" min="1" max="4"
+                                    onchange="filters_slider_range(33)">
+
+                            </div>
+
+                        </div>
+
+                        <!--Mix Button-->
+                        <button id="toggle-mix" onclick="filters_difficulty_mix(this)">and</button>
+
+                        <!--Demoman Slider-->
+                        <div class="range-slider-assembly" id="range-slider-assembly-d">
+
+                            <button class="toggle-slider button-on" id="toggle-d-slider"
+                                onclick="filters_slider_toggle(this)">D</button>
+
+
+                            <div class="slider-container" id="slider-container-d">
+
+                                <div class="slider-full">
+                                    <div class="slider-progress"></div>
+                                </div>
+                                <div class="range-tip-container">
+                                    <div class="range-tip r1-tip" id="r1-d-tip"></div>
+                                    <div class="range-tip r2-tip" id="r2-d-tip"></div>
+                                </div>
+                                <input type="range" class="r1" id="r1-d" step="1" value="0" min="0" max="10"
+                                    onchange="filters_slider_range(4)">
+                                <input type="range" class="r2" id="r2-d" step="1" value="10" min="0" max="10"
+                                    onchange="filters_slider_range(4)">
+
+                            </div>
+
+                        </div>
+
+                        <!--Demoman Rating Slider-->
+                        <div class="range-slider-assembly" id="range-slider-assembly-d-rating">
+
+                            <button class="toggle-slider button-on" id="toggle-d-slider-rating"
+                                onclick="filters_slider_toggle(this)">Dr</button>
+
+                            <div class="slider-container" id="slider-container-d-rating">
+
+                                <div class="slider-full">
+                                    <div class="slider-progress"></div>
+                                </div>
+                                <div class="range-tip-container">
+                                    <div class="range-tip r1-tip range" id="r1-d-range-tip"></div>
+                                    <div class="range-tip r2-tip range" id="r2-d-range-tip"></div>
+                                </div>
+                                <input type="range" class="r1" id="r1-d-r" step="1" value="1" min="1" max="4"
+                                    onchange="filters_slider_range(44)">
+                                <input type="range" class="r2" id="r2-d-r" step="1" value="4" min="1" max="4"
+                                    onchange="filters_slider_range(44)">
+
+                            </div>
+
+                        </div>
+
+                        <!--Bonus Slider-->
+                        <div class=" range-slider-assembly" id="range-slider-assembly-b">
+
+                            <button class="toggle-slider button-on" id="toggle-b-slider"
+                                onclick="filters_slider_toggle(this)">B</button>
+
+                            <div class="slider-container" id="slider-container-b">
+
+                                <div class="slider-full">
+                                    <div class="slider-progress"></div>
+                                </div>
+
+                                <div class="range-tip-container">
+                                    <div class="range-tip r1-tip" id="r1-b-tip"></div>
+                                    <div class="range-tip r2-tip" id="r2-b-tip"></div>
+                                </div>
+
+                                <!--Populate On Runtime-->
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--Course/Linear-->
+                    <div id="map-type-toggle">
+                        <p>Map Type</p>
+                        <button id="toggle-linear" class="button-on"
+                            onclick="filters_button_type_linear(this)">Linear</button>
+                        <button id="toggle-course" class="button-on"
+                            onclick="filters_button_type_course(this)">Course</button>
+                    </div>
+
+                    <!--Soldier/Demoman Intended-->
+                    <div id="map-intended-toggle">
+                        <p>Intended</p>
+                        <button id="toggle-soldier" class="button-on"
+                            onclick="filters_button_intended_soldier(this)">Soldier</button>
+                        <button id="toggle-demoman" class="button-on"
+                            onclick="filters_button_intended_demoman(this)">Demoman</button>
+                    </div>
+
+                    <!-- Map Technique -->
+                    <div id="filter-by-tech">
+                        <h3>Technique</h3>
+                        <div class="class-tech" id="class-tech-s">
+                            <label class="tech-select" for="tech-select-s">Soldier</label>
+                            <select class="tech-select" id="tech-select-s"
+                                onchange="filters_combo_soldierTech(this.value)">
+                                <option value="none">None</option>
+                            </select>
+                        </div>
+                        <div class="class-tech">
+                            <label class="tech-select" for="tech-select-d">Demoman</label>
+                            <select class="tech-select" id="tech-select-d"
+                                onchange="filters_combo_demomanTech(this.value)">
+                                <option value="none">None</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Filter by Author-->
+                    <div id="filter-by-author">
+                        <div id="author-select-container">
+                            <label for="author-select">Author</label>
+                            <select id="author-select" onchange="filters_combo_author(this.value)">
+                                <option value="__all__">All Authors</option>
+                            </select>
+                        </div>
+                        <div id="author-amount-container">
+                            <label for="author-amount-select">Count</label>
+                            <select id="author-amount-select" onchange="filters_combo_author_count(this.value)">
+                                <option value="__all__">Any</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="filter-by-completions-container">
+                        <p>Completions by Class</p>
+                        <div id="filter-by-completions">
+                            <!--Select Class-->
+                            <select id="completions-class-select"
+                                onchange="filters_combo_completions_classes(this.value)">
+                                <option value="either">Either</option>
+                                <option value="both">Both</option>
+                                <option value="soldier">Soldier</option>
+                                <option value="demoman">Demoman</option>
+                            </select>
+                            <!--Min/Max-->
+                            <input type="number" id="min-completions" min="0" step="250" placeholder="min"
+                                onchange="filters_input_completions_min(this.value)">
+                            <input type="number" id="max-completions" min="0" step="250" placeholder="max"
+                                onchange="filters_input_completions_max(this.value)">
+                        </div>
+                    </div>
+                    <!--Sort by-->
+                    <div id="sort-select-container">
+                        <label for="sort-select">Sort by</label>
+                        <select id="sort-select" onchange="filters_combo_sort(this.value)">
+                            <option value="newest">Newest</option>
+                            <option value="name">Name</option>
+                            <option value="oldest">Oldest</option>
+                            <option value="completions_most_s">Soldier Completions (+)</option>
+                            <option value="completions_least_s">Soldier Completions (-)</option>
+                            <option value="completions_most_d">Demoman Completions (+)</option>
+                            <option value="completions_least_d">Demoman Completions (-)</option>
+                            <option value="completions_most_o">Combined Completions (+)</option>
+                            <option value="completions_least_o">Combined Completions (-)</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="map-count"></div>
+            </div>
+
+            <div id="maps-container">
+                <!--Populate at runtime-->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-message">
+            <h1 id="thank-you">Thank you!</h1>
+            <p id="thank-you-text">
+                To everybody who helped by contributing, sharing the tool, giving feedback, and interacting with the
+                project
+            </p>
+
+            <h1 id="contributors">❤️ Contributors ❤️</h1>
+            <div id="contributor-container">
+                <p class="creditors" id="thumbnails-contributors">
+                    <span>Mur</span>
+                    <span>Boshy</span>
+                    <span>Vavlie</span>
+                    <span>Else</span>
+                    <span>Heladess</span>
+                </p>
+                <p class="creditors" id="info-contributors">
+                    <span>Vice</span>
+                    <span>Sgt. Bytheway</span>
+                    <span>Newbi</span>
+                    <span>Jacka</span>
+                    <span>J</span>
+                </p>
+            </div>
+            <p id="extra">
+                * Thumbnails were also used from the Jump-Academy and Tempus websites
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

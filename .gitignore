@@ -1,0 +1,73 @@
+# ===== OS files =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== IDE / Editor files =====
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# ===== Logs =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Environment / secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Dependency directories =====
+node_modules/
+vendor/
+bower_components/
+
+# ===== Build / output =====
+dist/
+build/
+out/
+target/
+coverage/
+
+# ===== Temporary files =====
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# ===== Caches =====
+.cache/
+.npm/
+.yarn/
+.pnpm-store/
+.eslintcache
+
+# ===== Runtime data =====
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ===== Misc =====
+*.lock
+*.tar
+*.zip
+*.gz
+*.rar
